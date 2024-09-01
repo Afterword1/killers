@@ -3,24 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Data Generator</title>
+    <title>Web App</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            margin: 20px;
+            margin-top: 50px;
+        }
+        img {
+            max-width: 300px;
+            height: auto;
+            margin-top: 20px;
         }
         #result {
             margin-top: 20px;
-            font-size: 1.2em;
+            font-size: 24px;
         }
     </style>
 </head>
 <body>
-    <h1>Random Data Generator</h1>
-    <button id="generateButton">Generate Random Data</button>
-    <div id="result">Press the button to generate random data.</div>
 
-    <script src="script.js"></script>
+    <h1>Random Element Picker</h1>
+    <input type="text" id="result" placeholder="Click the button to see the result" readonly>
+    <br>
+    <img id="image" src="" alt="Random Image">
+    <br>
+    <button onclick="fetchData()">Get Random Element</button>
+
+    <script>
+        function fetchData() {
+            fetch('data.json')
+                .then(response => response.json())
+                .then(data => {
+                    const elements = data.elements;
+                    const randomIndex = Math.floor(Math.random() * elements.length);
+                    const selectedElement = elements[randomIndex];
+                    
+                    // Update the text field with the name of the element
+                    document.getElementById('result').value = selectedElement.name;
+
+                    // Update the image source with the corresponding image
+                    document.getElementById('image').src = `pikt/${selectedElement.image}`;
+                })
+                .catch(error => console.error('Error:', error));
+        }
+    </script>
+
 </body>
 </html>

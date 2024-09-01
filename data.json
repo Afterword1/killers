@@ -18,7 +18,6 @@
                 "Addon 3 for Killer 2"
             ]
         }
-        // Add more killers as needed
     ],
     "perks": [
         "Perk 1",
@@ -31,6 +30,5 @@
         "Perk 8",
         "Perk 9",
         "Perk 10"
-        // Add more perks as needed
     ]
 }

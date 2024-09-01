@@ -3,17 +3,17 @@
         {
             "id": 1,
             "name": "Element 1",
-            "image": "image1.jpg"
+            "image": "34.jpg"
         },
         {
             "id": 2,
             "name": "Element 2",
-            "image": "image2.jpg"
+            "image": "35.jpg"
         },
         {
             "id": 3,
             "name": "Element 3",
-            "image": "image3.jpg"
+            "image": "36.jpg"
         }
     ]
 }

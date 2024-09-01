@@ -1,5 +1,36 @@
 {
-    "name": "John Doe",
-    "age": 30,
-    "city": "New York"
+    "killers": [
+        {
+            "id": 1,
+            "name": "Killer 1",
+            "addons": [
+                "Addon 1 for Killer 1",
+                "Addon 2 for Killer 1",
+                "Addon 3 for Killer 1"
+            ]
+        },
+        {
+            "id": 2,
+            "name": "Killer 2",
+            "addons": [
+                "Addon 1 for Killer 2",
+                "Addon 2 for Killer 2",
+                "Addon 3 for Killer 2"
+            ]
+        }
+        // Add more killers as needed
+    ],
+    "perks": [
+        "Perk 1",
+        "Perk 2",
+        "Perk 3",
+        "Perk 4",
+        "Perk 5",
+        "Perk 6",
+        "Perk 7",
+        "Perk 8",
+        "Perk 9",
+        "Perk 10"
+        // Add more perks as needed
+    ]
 }

@@ -1,18 +1,11 @@
 document.addEventListener('DOMContentLoaded', function() {
-    console.log("JavaScript loaded"); // Проверка загрузки скрипта
+    console.log("JavaScript loaded");
 
-    // Получение элементов из HTML
     const resultDiv = document.getElementById('result');
     const generateButton = document.getElementById('generateButton');
 
-    console.log(resultDiv, generateButton); // Проверка получения элементов
+    console.log(resultDiv, generateButton);
 
-    // Функция для получения случайного элемента из массива
-    function getRandomItem(arr) {
-        return arr[Math.floor(Math.random() * arr.length)];
-    }
-
-    // Загрузка данных из JSON файла
     fetch('data.json')
         .then(response => {
             if (!response.ok) {
@@ -21,39 +14,36 @@ document.addEventListener('DOMContentLoaded', function() {
             return response.json();
         })
         .then(data => {
-            console.log(data); // Проверка загруженных данных
+            console.log(data);
 
-            // Обработчик клика по кнопке
+            function getRandomItem(arr) {
+                return arr[Math.floor(Math.random() * arr.length)];
+            }
+
             generateButton.addEventListener('click', () => {
-                console.log("Button clicked"); // Проверка клика
+                console.log("Button clicked");
 
-                // Выбор случайного убийцы
                 const randomKiller = getRandomItem(data.killers);
-                
-                // Выбор двух случайных добавок для выбранного убийцы
                 const randomAddons = [];
                 for (let i = 0; i < 2; i++) {
                     randomAddons.push(getRandomItem(randomKiller.addons));
                 }
-
-                // Выбор четырех случайных перков
                 const randomPerks = [];
                 for (let i = 0; i < 4; i++) {
                     randomPerks.push(getRandomItem(data.perks));
                 }
 
-                // Формирование и отображение результата
                 const output = `
                     Random Killer: ${randomKiller.name}
                     Addons: ${randomAddons.join(', ')}
                     Perks: ${randomPerks.join(', ')}
                 `;
 
-                resultDiv.textContent = output; // Отображение результата
+                resultDiv.textContent = output;
             });
         })
         .catch(error => {
             console.error('There was a problem with the fetch operation:', error);
-            resultDiv.textContent = 'Failed to load data.'; // Сообщение об ошибке
+            resultDiv.textContent = 'Failed to load data.';
         });
 });

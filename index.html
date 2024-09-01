@@ -3,30 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мини-апп</title>
-    <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin-top: 50px;
-        }
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-        }
-    </style>
+    <title>JSON Integration</title>
 </head>
 <body>
-    <h1>Генератор случайных чисел</h1>
-    <p>Нажмите на кнопку, чтобы сгенерировать случайное число:</p>
-    <button onclick="generateRandomNumber()">Сгенерировать</button>
-    <p id="result"></p>
+    <h1>JSON Data Example</h1>
+    <pre id="jsonData"></pre> <!-- Placeholder to display JSON data -->
 
-    <script>
-        function generateRandomNumber() {
-            var randomNumber = Math.floor(Math.random() * 101);
-            document.getElementById("result").textContent = "Случайное число: " + randomNumber;
-        }
-    </script>
+    <script src="script.js"></script> <!-- Link to external JavaScript file -->
 </body>
 </html>

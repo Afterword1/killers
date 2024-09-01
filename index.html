@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мини-апп</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin-top: 50px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Генератор случайных чисел</h1>
+    <p>Нажмите на кнопку, чтобы сгенерировать случайное число:</p>
+    <button onclick="generateRandomNumber()">Сгенерировать</button>
+    <p id="result"></p>
+
+    <script>
+        function generateRandomNumber() {
+            var randomNumber = Math.floor(Math.random() * 101);
+            document.getElementById("result").textContent = "Случайное число: " + randomNumber;
+        }
+    </script>
+</body>
+</html>

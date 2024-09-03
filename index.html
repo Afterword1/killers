@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Random Element Picker</title>
+    <title>Image Loader</title>
     <style>
         body {
             margin: 0;
@@ -35,7 +35,6 @@
             width: 300px;
             height: 300px;
             margin-top: 20px;
-            /* Контейнер для изображения */
         }
         .image-container img {
             width: 100%;
@@ -52,8 +51,6 @@
             border-radius: 5px;
             cursor: pointer;
             transition: background-color 0.3s;
-            z-index: 1;
-            position: relative;
         }
         button:hover {
             background-color: #0056b3;
@@ -66,30 +63,31 @@
     <div class="image-container">
         <img src="" alt="Random Image" id="random-image">
     </div>
-    <button onclick="fetchData()">Get Random Element</button>
+    <button onclick="loadImage()">Get Random Image</button>
 
     <script>
-        function fetchData() {
+        function loadImage() {
             const imageElement = document.getElementById('random-image');
+            const resultElement = document.getElementById('result');
 
-            // Загружаем данные из JSON
-            fetch('data.json')
-                .then(response => response.json())
-                .then(data => {
-                    const elements = data.elements;
-                    const randomIndex = Math.floor(Math.random() * elements.length);
-                    const selectedElement = elements[randomIndex];
-                    
-                    // Обновляем поле с результатом
-                    document.getElementById('result').value = selectedElement.name;
+            // Пример данных, можно заменить на fetch() для загрузки с сервера
+            const elements = [
+                { name: 'Element 1', image: 'image1.jpg' },
+                { name: 'Element 2', image: 'image2.jpg' },
+                { name: 'Element 3', image: 'image3.jpg' }
+            ];
 
-                    // Меняем изображение
-                    imageElement.src = `pikt/${selectedElement.image}`;
+            const randomIndex = Math.floor(Math.random() * elements.length);
+            const selectedElement = elements[randomIndex];
 
-                    // Показываем изображение после его загрузки
-                    imageElement.style.display = 'block';
-                })
-                .catch(error => console.error('Error:', error));
+            // Обновляем поле с результатом
+            resultElement.value = selectedElement.name;
+
+            // Обновляем изображение
+            imageElement.src = selectedElement.image;
+
+            // Показываем изображение после его загрузки
+            imageElement.style.display = 'block';
         }
     </script>
 

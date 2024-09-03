@@ -18,7 +18,6 @@
             justify-content: center;
             align-items: center;
             color: white;
-            perspective: 1000px;
         }
         #result {
             margin-top: 20px;
@@ -32,28 +31,15 @@
             max-width: 300px;
             text-align: center;
         }
-        .flip-container {
+        .image-container {
             width: 300px;
             height: 300px;
             margin-top: 20px;
-            position: relative;
-            transform-style: preserve-3d;
-            transition: transform 1s;
             display: none;
         }
-        .flip-container img {
+        .image-container img {
             width: 100%;
             height: 100%;
-            backface-visibility: hidden;
-            position: absolute;
-            top: 0;
-            left: 0;
-        }
-        .flip-container .back {
-            transform: rotateY(180deg);
-        }
-        .flipped {
-            transform: rotateY(180deg);
         }
         button {
             margin-top: 20px;
@@ -76,44 +62,34 @@
 <body>
 
     <input type="text" id="result" placeholder="Click the button to see the result" readonly>
-    <div class="flip-container" id="flip-container">
-        <div class="flip" id="flip">
-            <img src="" alt="Random Image" class="front">
-            <img src="" alt="Random Image" class="back">
-        </div>
+    <div class="image-container" id="image-container">
+        <img src="" alt="Random Image" id="random-image">
     </div>
     <button onclick="fetchData()">Get Random Element</button>
 
     <script>
         function fetchData() {
-            const flipContainer = document.getElementById('flip-container');
-            const flipElement = document.getElementById('flip');
-            const frontImage = flipElement.querySelector('.front');
-            const backImage = flipElement.querySelector('.back');
+            const imageContainer = document.getElementById('image-container');
+            const imageElement = document.getElementById('random-image');
 
-            // Показать контейнер с изображением
-            flipContainer.style.display = 'block';
+            // Показываем контейнер с изображением
+            imageContainer.style.display = 'block';
 
-            // Меняем изображение на середине анимации (после 0.5 секунд)
-            setTimeout(() => {
-                fetch('data.json')
-                    .then(response => response.json())
-                    .then(data => {
-                        const elements = data.elements;
-                        const randomIndex = Math.floor(Math.random() * elements.length);
-                        const selectedElement = elements[randomIndex];
-                        
-                        // Обновляем поле с результатом
-                        document.getElementById('result').value = selectedElement.name;
+            // Загружаем данные из JSON
+            fetch('data.json')
+                .then(response => response.json())
+                .then(data => {
+                    const elements = data.elements;
+                    const randomIndex = Math.floor(Math.random() * elements.length);
+                    const selectedElement = elements[randomIndex];
+                    
+                    // Обновляем поле с результатом
+                    document.getElementById('result').value = selectedElement.name;
 
-                        // Меняем изображение на новой стороне
-                        backImage.src = `pikt/${selectedElement.image}`;
-
-                        // Запускаем анимацию переворота
-                        flipElement.classList.add('flipped');
-                    })
-                    .catch(error => console.error('Error:', error));
-            }, 500);
+                    // Меняем изображение
+                    imageElement.src = `pikt/${selectedElement.image}`;
+                })
+                .catch(error => console.error('Error:', error));
         }
     </script>
 

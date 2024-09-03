@@ -3,31 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web App</title>
+    <title>Random Element Picker</title>
     <style>
         body {
+            margin: 0;
+            padding: 0;
             font-family: Arial, sans-serif;
             text-align: center;
-            margin-top: 50px;
+            height: 100vh;
+            background: url('your-background-image.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        #result {
+            margin-top: 20px;
+            font-size: 24px;
+            background-color: rgba(255, 255, 255, 0.8);
+            color: #000;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            width: 80%;
+            max-width: 300px;
+            text-align: center;
         }
         img {
             max-width: 300px;
             height: auto;
             margin-top: 20px;
+            border-radius: 10px;
         }
-        #result {
+        button {
             margin-top: 20px;
-            font-size: 24px;
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
 <body>
 
-    <h1>Random Element Picker</h1>
     <input type="text" id="result" placeholder="Click the button to see the result" readonly>
-    <br>
     <img id="image" src="" alt="Random Image">
-    <br>
     <button onclick="fetchData()">Get Random Element</button>
 
     <script>
@@ -39,10 +68,10 @@
                     const randomIndex = Math.floor(Math.random() * elements.length);
                     const selectedElement = elements[randomIndex];
                     
-                    // Update the text field with the name of the element
+                    // Обновляем поле с результатом
                     document.getElementById('result').value = selectedElement.name;
 
-                    // Update the image source with the corresponding image
+                    // Обновляем изображение
                     document.getElementById('image').src = `pikt/${selectedElement.image}`;
                 })
                 .catch(error => console.error('Error:', error));

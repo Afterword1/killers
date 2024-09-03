@@ -35,11 +35,12 @@
             width: 300px;
             height: 300px;
             margin-top: 20px;
-            display: none;
+            /* Контейнер для изображения */
         }
         .image-container img {
             width: 100%;
             height: 100%;
+            display: none; /* Скрываем изображение до загрузки */
         }
         button {
             margin-top: 20px;
@@ -62,18 +63,14 @@
 <body>
 
     <input type="text" id="result" placeholder="Click the button to see the result" readonly>
-    <div class="image-container" id="image-container">
+    <div class="image-container">
         <img src="" alt="Random Image" id="random-image">
     </div>
     <button onclick="fetchData()">Get Random Element</button>
 
     <script>
         function fetchData() {
-            const imageContainer = document.getElementById('image-container');
             const imageElement = document.getElementById('random-image');
-
-            // Показываем контейнер с изображением
-            imageContainer.style.display = 'block';
 
             // Загружаем данные из JSON
             fetch('data.json')
@@ -88,6 +85,9 @@
 
                     // Меняем изображение
                     imageElement.src = `pikt/${selectedElement.image}`;
+
+                    // Показываем изображение после его загрузки
+                    imageElement.style.display = 'block';
                 })
                 .catch(error => console.error('Error:', error));
         }

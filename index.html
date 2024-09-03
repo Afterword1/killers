@@ -39,7 +39,7 @@
             position: relative;
             transform-style: preserve-3d;
             transition: transform 1s;
-            display: none; /* Скрываем контейнер до нажатия кнопки */
+            display: none;
         }
         .flip-container img {
             width: 100%;
@@ -65,7 +65,7 @@
             border-radius: 5px;
             cursor: pointer;
             transition: background-color 0.3s;
-            z-index: 1; /* Кнопка всегда сверху */
+            z-index: 1;
             position: relative;
         }
         button:hover {
@@ -94,9 +94,6 @@
             // Показать контейнер с изображением
             flipContainer.style.display = 'block';
 
-            // Начинаем анимацию переворота
-            flipElement.classList.add('flipped');
-
             // Меняем изображение на середине анимации (после 0.5 секунд)
             setTimeout(() => {
                 fetch('data.json')
@@ -111,15 +108,12 @@
 
                         // Меняем изображение на новой стороне
                         backImage.src = `pikt/${selectedElement.image}`;
+
+                        // Запускаем анимацию переворота
+                        flipElement.classList.add('flipped');
                     })
                     .catch(error => console.error('Error:', error));
             }, 500);
-
-            // Сбрасываем анимацию после завершения
-            setTimeout(() => {
-                frontImage.src = backImage.src;
-                flipElement.classList.remove('flipped');
-            }, 1000); // Полная длительность анимации (1 секунда)
         }
     </script>
 

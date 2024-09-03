@@ -39,7 +39,6 @@
             position: relative;
             transform-style: preserve-3d;
             transition: transform 1s;
-            display: none; /* Скрываем контейнер до нажатия кнопки */
         }
         .flip-container img {
             width: 100%;
@@ -76,26 +75,23 @@
 <body>
 
     <input type="text" id="result" placeholder="Click the button to see the result" readonly>
-    <div class="flip-container" id="flip-container">
-        <div class="flip" id="flip">
-            <img src="" alt="Random Image" class="front">
-            <img src="" alt="Random Image" class="back">
-        </div>
+    <div class="flip-container" id="flip-container" style="display: none;">
+        <img src="" alt="Random Image" class="front">
+        <img src="" alt="Random Image" class="back">
     </div>
     <button onclick="fetchData()">Get Random Element</button>
 
     <script>
         function fetchData() {
             const flipContainer = document.getElementById('flip-container');
-            const flipElement = document.getElementById('flip');
-            const frontImage = flipElement.querySelector('.front');
-            const backImage = flipElement.querySelector('.back');
+            const frontImage = flipContainer.querySelector('.front');
+            const backImage = flipContainer.querySelector('.back');
 
             // Показать контейнер с изображением
             flipContainer.style.display = 'block';
 
-            // Начинаем анимацию переворота
-            flipElement.classList.add('flipped');
+            // Запускаем анимацию переворота
+            flipContainer.classList.add('flipped');
 
             // Меняем изображение на середине анимации (после 0.5 секунд)
             setTimeout(() => {
@@ -118,7 +114,7 @@
             // Сбрасываем анимацию после завершения
             setTimeout(() => {
                 frontImage.src = backImage.src;
-                flipElement.classList.remove('flipped');
+                flipContainer.classList.remove('flipped');
             }, 1000); // Полная длительность анимации (1 секунда)
         }
     </script>

@@ -36,6 +36,10 @@
             height: auto;
             margin-top: 20px;
             border-radius: 10px;
+            transition: transform 1s;
+        }
+        .rotate {
+            transform: rotateY(180deg);
         }
         button {
             margin-top: 20px;
@@ -61,20 +65,31 @@
 
     <script>
         function fetchData() {
-            fetch('data.json')
-                .then(response => response.json())
-                .then(data => {
-                    const elements = data.elements;
-                    const randomIndex = Math.floor(Math.random() * elements.length);
-                    const selectedElement = elements[randomIndex];
-                    
-                    // Обновляем поле с результатом
-                    document.getElementById('result').value = selectedElement.name;
+            const imageElement = document.getElementById('image');
 
-                    // Обновляем изображение
-                    document.getElementById('image').src = `pikt/${selectedElement.image}`;
-                })
-                .catch(error => console.error('Error:', error));
+            // Добавляем класс для вращения
+            imageElement.classList.add('rotate');
+
+            // Ждем завершения анимации и меняем изображение
+            setTimeout(() => {
+                fetch('data.json')
+                    .then(response => response.json())
+                    .then(data => {
+                        const elements = data.elements;
+                        const randomIndex = Math.floor(Math.random() * elements.length);
+                        const selectedElement = elements[randomIndex];
+                        
+                        // Обновляем поле с результатом
+                        document.getElementById('result').value = selectedElement.name;
+
+                        // Обновляем изображение
+                        imageElement.src = `pikt/${selectedElement.image}`;
+
+                        // Убираем класс для вращения после завершения
+                        imageElement.classList.remove('rotate');
+                    })
+                    .catch(error => console.error('Error:', error));
+            }, 1000); // Тайм-аут синхронизирован с продолжительностью анимации
         }
     </script>
 

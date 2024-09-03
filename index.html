@@ -18,6 +18,7 @@
             justify-content: center;
             align-items: center;
             color: white;
+            perspective: 1000px;
         }
         #result {
             margin-top: 20px;
@@ -31,14 +32,28 @@
             max-width: 300px;
             text-align: center;
         }
-        img {
-            max-width: 300px;
+        .flip-container {
+            width: 300px;
             height: auto;
             margin-top: 20px;
-            border-radius: 10px;
-            transition: transform 1s;
         }
-        .rotate {
+        .flip {
+            transition: transform 1s;
+            transform-style: preserve-3d;
+            position: relative;
+        }
+        .flip img {
+            width: 100%;
+            height: auto;
+            backface-visibility: hidden;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .flip .back {
+            transform: rotateY(180deg);
+        }
+        .flipped {
             transform: rotateY(180deg);
         }
         button {
@@ -60,17 +75,24 @@
 <body>
 
     <input type="text" id="result" placeholder="Click the button to see the result" readonly>
-    <img id="image" src="" alt="Random Image">
+    <div class="flip-container">
+        <div class="flip" id="flip">
+            <img src="pikt/placeholder-front.jpg" alt="Random Image" class="front">
+            <img src="pikt/placeholder-back.jpg" alt="Random Image" class="back">
+        </div>
+    </div>
     <button onclick="fetchData()">Get Random Element</button>
 
     <script>
         function fetchData() {
-            const imageElement = document.getElementById('image');
+            const flipElement = document.getElementById('flip');
+            const frontImage = flipElement.querySelector('.front');
+            const backImage = flipElement.querySelector('.back');
 
-            // Добавляем класс для вращения
-            imageElement.classList.add('rotate');
+            // Начинаем анимацию переворота
+            flipElement.classList.add('flipped');
 
-            // Ждем завершения анимации и меняем изображение
+            // После 0.5 секунд, когда изображение "скрыто", меняем его на новое
             setTimeout(() => {
                 fetch('data.json')
                     .then(response => response.json())
@@ -82,14 +104,16 @@
                         // Обновляем поле с результатом
                         document.getElementById('result').value = selectedElement.name;
 
-                        // Обновляем изображение
-                        imageElement.src = `pikt/${selectedElement.image}`;
-
-                        // Убираем класс для вращения после завершения
-                        imageElement.classList.remove('rotate');
+                        // Меняем изображение
+                        frontImage.src = `pikt/${selectedElement.image}`;
                     })
                     .catch(error => console.error('Error:', error));
-            }, 1000); // Тайм-аут синхронизирован с продолжительностью анимации
+            }, 500); // На середине анимации (0.5 секунд)
+
+            // Сбрасываем анимацию после завершения
+            setTimeout(() => {
+                flipElement.classList.remove('flipped');
+            }, 1000); // Полная длительность анимации (1 секунда)
         }
     </script>
 

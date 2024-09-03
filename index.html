@@ -80,8 +80,8 @@
     <input type="text" id="result" placeholder="Click the button to see the result" readonly>
     <div class="image-container">
         <div class="flip-card" id="flip-card">
-            <img src="image1.jpg" alt="Random Image" class="front" id="random-image-front">
-            <img src="image1.jpg" alt="Random Image" class="back" id="random-image-back">
+            <img src="" alt="Random Image" class="front" id="random-image-front">
+            <img src="" alt="Random Image" class="back" id="random-image-back">
         </div>
     </div>
     <button onclick="loadImage()">Get Random Image</button>
@@ -111,10 +111,10 @@
 
             // Меняем изображение в середине анимации
             setTimeout(() => {
-                if (flipCard.classList.contains('flip-active')) {
-                    frontImage.src = backImage.src;
-                    backImage.src = selectedElement.image;
-                }
+                frontImage.src = backImage.src; // Сохраняем текущее изображение как фронт
+                backImage.src = selectedElement.image; // Обновляем заднее изображение
+                frontImage.style.display = 'block';
+                backImage.style.display = 'block';
             }, 500);
 
             // Убираем класс анимации после завершения

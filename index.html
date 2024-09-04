@@ -1,128 +1,189 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image Flipper</title>
+    <title>Фон с изображением</title>
     <style>
-        body {
+        body, html {
             margin: 0;
             padding: 0;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            height: 100vh;
-            background: url('your-background-image.jpg') no-repeat center center fixed;
-            background-size: cover;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            color: white;
-        }
-        #result {
-            margin-top: 20px;
-            font-size: 24px;
-            background-color: rgba(255, 255, 255, 0.8);
-            color: #000;
-            border: none;
-            padding: 10px;
-            border-radius: 5px;
-            width: 80%;
-            max-width: 300px;
-            text-align: center;
-        }
-        .image-container {
-            width: 300px;
-            height: 300px;
-            margin-top: 20px;
-            perspective: 1000px;
-        }
-        .flip-card {
-            width: 100%;
             height: 100%;
+            overflow: hidden;
+        }
+
+        .container {
             position: relative;
-            transform-style: preserve-3d;
-            transform-origin: center right;
-            transition: transform 1s;
-        }
-        .flip-card.flip-active {
-            transform: rotateY(-180deg);
-        }
-        .flip-card img {
-            width: 100%;
+            width: 100vw;
             height: 100%;
-            backface-visibility: hidden;
+        }
+
+        .background-image {
             position: absolute;
             top: 0;
             left: 0;
+            right: 0;
+            width: 100%;
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+            background-position: top center;
         }
-        .flip-card img.back {
-            transform: rotateY(180deg);
+
+        .content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            overflow: hidden;
         }
-        button {
-            margin-top: 20px;
-            padding: 15px 30px;
-            font-size: 18px;
-            background-color: #007BFF;
-            color: white;
-            border: none;
-            border-radius: 5px;
-            cursor: pointer;
-            transition: background-color 0.3s;
+
+        .photo-placeholder,
+        .addon1-placeholder,
+        .addon2-placeholder,
+        .photo-podnoshenie-placeholder,
+        .new-photo1,
+        .new-photo2,
+        .new-photo3,
+        .new-photo4,
+        .non-square-photo,
+        .centered-photo {
+            position: absolute;
         }
-        button:hover {
-            background-color: #0056b3;
+
+        .photo-placeholder {
+            top: 18%;
+            left: 10.3%;
+            width: 8.3%;
+            height: auto;
+        }
+
+        .addon1-placeholder {
+            top: 19.6%;
+            left: 27.3%;
+            width: 6.8%;
+            height: auto;
+        }
+
+        .addon2-placeholder {
+            top: 19.6%;
+            left: 36.6%;
+            width: 6.6%;
+            height: auto;
+        }
+
+        .photo-podnoshenie-placeholder {
+            top: 17.9%;
+            left: 55%;
+            width: 8%;
+            height: auto;
+        }
+
+        .new-photo1 {
+            top: 57.5%;
+            left: 12.7%;
+            width: 8.5%;
+            height: auto;
+        }
+
+        .new-photo2 {
+            top: 57.5%;
+            left: 28.7%;
+            width: 8.5%;
+            height: auto;
+        }
+
+        .new-photo3 {
+            top: 57.5%;
+            left: 44.7%;
+            width: 8.5%;
+            height: auto;
+        }
+
+        .new-photo4 {
+            top: 57.5%;
+            left: 60.7%;
+            width: 8.5%;
+            height: auto;
+        }
+
+        .non-square-photo {
+            top: 5%;
+            left: 75%;
+            width: 25%;
+            height: auto;
+            max-height: 80%;
+        }
+
+        .centered-photo {
+            bottom: 5%;
+            left: 80%;
+            width: 10%;
+            height: auto;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
         }
     </style>
 </head>
 <body>
-
-    <input type="text" id="result" placeholder="Click the button to see the result" readonly>
-    <div class="image-container">
-        <div class="flip-card" id="flip-card">
-            <img src="" alt="Random Image" class="front" id="random-image-front">
-            <img src="" alt="Random Image" class="back" id="random-image-back">
+    <div class="container">
+        <div class="background-image">
+            <img src="main/fon.png" alt="Background Image" id="bg-image">
+            <div class="content">
+                <div class="photo-placeholder">
+                    <img src="main/IconPerks_bond.png" alt="Icon Perks Bond">
+                </div>
+                <div class="addon1-placeholder">
+                    <img src="main/IconPerks_bond.png" alt="Addon 1">
+                </div>
+                <div class="addon2-placeholder">
+                    <img src="main/IconPerks_bond.png" alt="Addon 2">
+                </div>
+                <div class="photo-podnoshenie-placeholder">
+                    <img src="main/IconPerks_bond.png" alt="Photo Podnoshenie">
+                </div>
+                <div class="new-photo1">
+                    <img src="main/IconPerks_bond.png" alt="New Photo 1">
+                </div>
+                <div class="new-photo2">
+                    <img src="main/IconPerks_bond.png" alt="New Photo 2">
+                </div>
+                <div class="new-photo3">
+                    <img src="main/IconPerks_bond.png" alt="New Photo 3">
+                </div>
+                <div class="new-photo4">
+                    <img src="main/IconPerks_bond.png" alt="New Photo 4">
+                </div>
+                <div class="non-square-photo">
+                    <img src="main/DBD_Website_Ch31_Character_Page_Killer_The_Unknown_e603fc0678.png" alt="Non-Square Photo">
+                </div>
+                <div class="centered-photo">
+                    <img src="main/regen.png" alt="Centered Photo">
+                </div>
+            </div>
         </div>
     </div>
-    <button onclick="loadImage()">Get Random Image</button>
 
     <script>
-        function loadImage() {
-            const flipCard = document.getElementById('flip-card');
-            const frontImage = document.getElementById('random-image-front');
-            const backImage = document.getElementById('random-image-back');
-            const resultElement = document.getElementById('result');
+        window.addEventListener('load', function() {
+            const bgImage = document.getElementById('bg-image');
+            const content = document.querySelector('.content');
 
-            // Пример данных, можно заменить на fetch() для загрузки с сервера
-            const elements = [
-                { name: 'Element 1', image: 'image1.jpg' },
-                { name: 'Element 2', image: 'image2.jpg' },
-                { name: 'Element 3', image: 'image3.jpg' }
-            ];
+            // Устанавливаем высоту контента равной высоте изображения
+            content.style.height = `${bgImage.clientHeight}px`;
+        });
 
-            const randomIndex = Math.floor(Math.random() * elements.length);
-            const selectedElement = elements[randomIndex];
+        // Обновление высоты при изменении размера окна
+        window.addEventListener('resize', function() {
+            const bgImage = document.getElementById('bg-image');
+            const content = document.querySelector('.content');
 
-            // Обновляем текст
-            resultElement.value = selectedElement.name;
-
-            // Начинаем анимацию переворота
-            flipCard.classList.add('flip-active');
-
-            // Меняем изображение в середине анимации
-            setTimeout(() => {
-                frontImage.src = backImage.src; // Сохраняем текущее изображение как фронт
-                backImage.src = selectedElement.image; // Обновляем заднее изображение
-                frontImage.style.display = 'block';
-                backImage.style.display = 'block';
-            }, 500);
-
-            // Убираем класс анимации после завершения
-            setTimeout(() => {
-                flipCard.classList.remove('flip-active');
-            }, 1000);
-        }
+            content.style.height = `${bgImage.clientHeight}px`;
+        });
     </script>
-
 </body>
 </html>

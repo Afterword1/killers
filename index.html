@@ -52,73 +52,73 @@
         }
 
         .photo-placeholder {
-            top: 18%;
-            left: 10.3%;
-            width: 8.3%;
+            top: 6%;
+            left: 74%;
+            width: 18%;
             height: auto;
         }
 
         .addon1-placeholder {
-            top: 19.6%;
-            left: 27.3%;
-            width: 6.8%;
+            top: 28.2%;
+            left: 72.3%;
+            width: 8.5%;
             height: auto;
         }
 
         .addon2-placeholder {
-            top: 19.6%;
-            left: 36.6%;
-            width: 6.6%;
+            top: 28.2%;
+            left: 84.3%;
+            width: 8.5%;
             height: auto;
         }
 
         .photo-podnoshenie-placeholder {
-            top: 17.9%;
-            left: 55%;
-            width: 8%;
+            top: 49%;
+            left: 74%;
+            width: 17%;
             height: auto;
         }
 
         .new-photo1 {
-            top: 57.5%;
-            left: 12.7%;
-            width: 8.5%;
+            top: 53%;
+            left: 25.5%;
+            width: 19%;
             height: auto;
         }
 
         .new-photo2 {
-            top: 57.5%;
-            left: 28.7%;
-            width: 8.5%;
+            top: 65.5%;
+            left: 12%;
+            width: 19%;
             height: auto;
         }
 
         .new-photo3 {
-            top: 57.5%;
-            left: 44.7%;
-            width: 8.5%;
+            top: 65.5%;
+            left: 39%;
+            width: 19%;
             height: auto;
         }
 
         .new-photo4 {
-            top: 57.5%;
-            left: 60.7%;
-            width: 8.5%;
+            top: 78%;
+            left: 25.5%;
+            width: 19%;
             height: auto;
         }
 
         .non-square-photo {
-            top: 5%;
-            left: 75%;
-            width: 25%;
+            top: 4%;
+            left: 18%;
+            width: 45%;
             height: auto;
             max-height: 80%;
         }
 
         .centered-photo {
             bottom: 5%;
-            left: 80%;
-            width: 10%;
+            left: 72%;
+            width: 20%;
             height: auto;
         }
 
@@ -127,12 +127,17 @@
             height: auto;
             object-fit: contain;
         }
+
+        .centered-photo img {
+            cursor: pointer; /* Указываем, что элемент кликабелен */
+            z-index: 10; /* Устанавливаем высокий z-index, чтобы не перекрывалось */
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="background-image">
-            <img src="main/fon.png" alt="Background Image" id="bg-image">
+            <img src="main/fon2.png" alt="Background Image" id="bg-image">
             <div class="content">
                 <div class="photo-placeholder">
                     <img src="main/IconPerks_bond.png" alt="Icon Perks Bond">
@@ -184,6 +189,51 @@
 
             content.style.height = `${bgImage.clientHeight}px`;
         });
+
+        // Функция для получения случайного числа от 0 до max (включительно)
+        function getRandomInt(max) {
+            return Math.floor(Math.random() * (max + 1));
+        }
+
+        // Обработчик клика по картинке regen.png
+        document.querySelector('.centered-photo img').addEventListener('click', function() {
+            console.log('Картинка regen нажата'); // Проверка клика
+            
+            // Загружаем killers.json
+            fetch('killers.json')
+                .then(response => {
+                    if (!response.ok) {
+                        throw new Error('Ошибка сети: ' + response.status);
+                    }
+                    return response.json();
+                })
+                .then(data => {
+                    // Проверка длины массива
+                    const killersCount = data.length;
+                    if (killersCount === 0) {
+                        throw new Error('Массив killers пустой');
+                    }
+
+                    // Выбираем случайный элемент
+                    const randomKillerIndex = getRandomInt(killersCount - 1);
+                    const selectedKiller = data[randomKillerIndex];
+
+                    console.log('Выбранный убийца:', selectedKiller); // Лог выбранного убийцы
+
+                    // Обновляем изображение
+                    const nonSquarePhoto = document.querySelector('.non-square-photo img');
+                    if (nonSquarePhoto) {
+                        const newSrc = `killers/${selectedKiller.photo_main}`;
+                        console.log('Обновляем изображение:', newSrc);
+                        nonSquarePhoto.src = newSrc;
+                        nonSquarePhoto.alt = selectedKiller.name_ru;
+                    } else {
+                        console.error('Не удалось найти элемент для обновления изображения');
+                    }
+                })
+                .catch(error => console.error('Ошибка загрузки или обработки killers.json:', error));
+        });
+
     </script>
 </body>
 </html>

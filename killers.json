@@ -11,7 +11,7 @@
         "photo_main": "AK_TR_charPreview.webp",
         "photo_skills": "IconPowers_trap.webp",
         "DLC": 0,
-        "DLC_name": "0",
+        "DLC_name": "0"
       },{
         "number": 1,
         "name_ru": "Призрак",
@@ -23,7 +23,7 @@
         "photo_main": "AK_WR_charPreview.webp",
         "photo_skills": "PowerWraith.NacroixVersion.webp",
         "DLC": 0,
-        "DLC_name": "0",
+        "DLC_name": "0"
       },{
         "number": 3,
         "name_ru": "Деревенщина",
@@ -35,7 +35,7 @@
         "photo_main": "AK_HI_charPreview.webp",
         "photo_skills": "IconPowers_chainsaw.webp",
         "DLC": 0,
-        "DLC_name": "0",
+        "DLC_name": "0"
       },{
         "number": 4,
         "name_ru": "Медсестра",
@@ -47,7 +47,7 @@
         "photo_main": "BK_NU_charPreview.webp",
         "photo_skills": "IconPowers_breath.webp",
         "DLC": 1,
-        "DLC_name": "",
+        "DLC_name": ""
       }
       
     ]

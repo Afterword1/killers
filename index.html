@@ -208,31 +208,37 @@
                     return response.json();
                 })
                 .then(data => {
-                    // Проверка длины массива
-                    const killersCount = data.length;
-                    if (killersCount === 0) {
-                        throw new Error('Массив killers пустой');
+                    // Проверка данных
+                    console.log('Данные из killers.json:', data);
+                    
+                    if (!Array.isArray(data) || data.length === 0) {
+                        throw new Error('Некорректные данные в killers.json');
                     }
-
+        
                     // Выбираем случайный элемент
-                    const randomKillerIndex = getRandomInt(killersCount - 1);
+                    const randomKillerIndex = getRandomInt(data.length - 1);
                     const selectedKiller = data[randomKillerIndex];
-
+        
                     console.log('Выбранный убийца:', selectedKiller); // Лог выбранного убийцы
-
-                    // Обновляем изображение
-                    const nonSquarePhoto = document.querySelector('.non-square-photo img');
-                    if (nonSquarePhoto) {
-                        const newSrc = `killers/${selectedKiller.photo_main}`;
-                        console.log('Обновляем изображение:', newSrc);
-                        nonSquarePhoto.src = newSrc;
-                        nonSquarePhoto.alt = selectedKiller.name_ru;
+        
+                    if (selectedKiller && selectedKiller.photo_main) {
+                        // Обновляем изображение
+                        const nonSquarePhoto = document.querySelector('.non-square-photo img');
+                        if (nonSquarePhoto) {
+                            const newSrc = `killers/${selectedKiller.photo_main}`;
+                            console.log('Обновляем изображение:', newSrc);
+                            nonSquarePhoto.src = newSrc;
+                            nonSquarePhoto.alt = selectedKiller.name_ru;
+                        } else {
+                            console.error('Не удалось найти элемент для обновления изображения');
+                        }
                     } else {
-                        console.error('Не удалось найти элемент для обновления изображения');
+                        console.error('Выбранный убийца не имеет корректного свойства photo_main');
                     }
                 })
                 .catch(error => console.error('Ошибка загрузки или обработки killers.json:', error));
         });
+        
 
     </script>
 </body>

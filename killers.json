@@ -12,7 +12,7 @@
         "photo_skills": "IconPowers_trap.webp",
         "DLC": 0,
         "DLC_name": "0"  
-        // 0 означает, что DLC отсутствует
+        
       }
       ,
       {
@@ -27,7 +27,7 @@
         "photo_skills": "PowerWraith.NacroixVersion.webp",
         "DLC": 0,
         "DLC_name": "0" 
-        // 0 означает, что DLC отсутствует
+        
       }
       ,
       {
@@ -42,7 +42,7 @@
         "photo_skills": "IconPowers_chainsaw.webp",
         "DLC": 0,
         "DLC_name": "0"  
-        // 0 означает, что DLC отсутствует
+        
       }
       ,
       {
@@ -57,7 +57,7 @@
         "photo_skills": "IconPowers_breath.webp",
         "DLC": 1,
         "DLC_name": ""  
-        // 1 означает бесплатное DLC
+        
       }
       
     ]

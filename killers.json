@@ -1,5 +1,4 @@
-{
-    "killers": [
+[
       {
         "number": 0,
         "name_ru": "Охотник",
@@ -48,7 +47,5 @@
         "photo_skills": "IconPowers_breath.webp",
         "DLC": 1,
         "DLC_name": ""
-      }
-      
+      } 
     ]
-  }

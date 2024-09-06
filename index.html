@@ -3,34 +3,194 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Картинка и Убийцы</title>
+    <title>Фон с изображением</title>
     <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .container {
+            position: relative;
+            width: 100vw;
+            height: 100%;
+        }
+
+        .background-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+            background-position: top center;
+        }
+
+        .content {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+            overflow: hidden;
+        }
+
+        .photo-placeholder,
+        .addon1-placeholder,
+        .addon2-placeholder,
+        .photo-podnoshenie-placeholder,
+        .new-photo1,
+        .new-photo2,
+        .new-photo3,
+        .new-photo4,
+        .non-square-photo,
         .centered-photo {
-            text-align: center;
-            margin: 20px;
+            position: absolute;
+        }
+
+        .photo-placeholder {
+            top: 6%;
+            left: 74%;
+            width: 18%;
+            height: auto;
+        }
+
+        .addon1-placeholder {
+            top: 28.2%;
+            left: 72.3%;
+            width: 8.5%;
+            height: auto;
+        }
+
+        .addon2-placeholder {
+            top: 28.2%;
+            left: 84.3%;
+            width: 8.5%;
+            height: auto;
+        }
+
+        .photo-podnoshenie-placeholder {
+            top: 49%;
+            left: 74%;
+            width: 17%;
+            height: auto;
+        }
+
+        .new-photo1 {
+            top: 53%;
+            left: 25.5%;
+            width: 19%;
+            height: auto;
+        }
+
+        .new-photo2 {
+            top: 65.5%;
+            left: 12%;
+            width: 19%;
+            height: auto;
+        }
+
+        .new-photo3 {
+            top: 65.5%;
+            left: 39%;
+            width: 19%;
+            height: auto;
+        }
+
+        .new-photo4 {
+            top: 78%;
+            left: 25.5%;
+            width: 19%;
+            height: auto;
         }
 
         .non-square-photo {
-            text-align: center;
-            margin: 20px;
+            top: 4%;
+            left: 18%;
+            width: 45%;
+            height: auto;
+            max-height: 80%;
         }
 
-        .non-square-photo img {
-            max-width: 100%;
+        .centered-photo {
+            bottom: 5%;
+            left: 72%;
+            width: 20%;
             height: auto;
+        }
+
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+
+        .centered-photo img {
+            cursor: pointer; /* Указываем, что элемент кликабелен */
+            z-index: 10; /* Устанавливаем высокий z-index, чтобы не перекрывалось */
         }
     </style>
 </head>
 <body>
-    <div class="centered-photo">
-        <img src="regen.png" alt="regen" />
-    </div>
-    <div class="non-square-photo">
-        <img src="" alt="Убийца" />
+    <div class="container">
+        <div class="background-image">
+            <img src="main/fon2.png" alt="Background Image" id="bg-image">
+            <div class="content">
+                <div class="photo-placeholder">
+                    <img src="main/IconPerks_bond.png" alt="Icon Perks Bond">
+                </div>
+                <div class="addon1-placeholder">
+                    <img src="main/IconPerks_bond.png" alt="Addon 1">
+                </div>
+                <div class="addon2-placeholder">
+                    <img src="main/IconPerks_bond.png" alt="Addon 2">
+                </div>
+                <div class="photo-podnoshenie-placeholder">
+                    <img src="main/IconPerks_bond.png" alt="Photo Podnoshenie">
+                </div>
+                <div class="new-photo1">
+                    <img src="main/IconPerks_bond.png" alt="New Photo 1">
+                </div>
+                <div class="new-photo2">
+                    <img src="main/IconPerks_bond.png" alt="New Photo 2">
+                </div>
+                <div class="new-photo3">
+                    <img src="main/IconPerks_bond.png" alt="New Photo 3">
+                </div>
+                <div class="new-photo4">
+                    <img src="main/IconPerks_bond.png" alt="New Photo 4">
+                </div>
+                <div class="non-square-photo">
+                    <img src="main/DBD_Website_Ch31_Character_Page_Killer_The_Unknown_e603fc0678.png" alt="Non-Square Photo">
+                </div>
+                <div class="centered-photo">
+                    <img src="main/regen.png" alt="Centered Photo">
+                </div>
+            </div>
+        </div>
     </div>
 
     <script>
-        // Функция для генерации случайного целого числа от 0 до max (включительно)
+        window.addEventListener('load', function() {
+            const bgImage = document.getElementById('bg-image');
+            const content = document.querySelector('.content');
+
+            // Устанавливаем высоту контента равной высоте изображения
+            content.style.height = `${bgImage.clientHeight}px`;
+        });
+
+        // Обновление высоты при изменении размера окна
+        window.addEventListener('resize', function() {
+            const bgImage = document.getElementById('bg-image');
+            const content = document.querySelector('.content');
+
+            content.style.height = `${bgImage.clientHeight}px`;
+        });
+
+        // Функция для получения случайного числа от 0 до max (включительно)
         function getRandomInt(max) {
             return Math.floor(Math.random() * (max + 1));
         }
@@ -38,7 +198,7 @@
         // Обработчик клика по картинке regen.png
         document.querySelector('.centered-photo img').addEventListener('click', function() {
             console.log('Картинка regen нажата'); // Проверка клика
-
+            
             // Загружаем killers.json
             fetch('killers.json')
                 .then(response => {
@@ -49,19 +209,18 @@
                 })
                 .then(data => {
                     // Проверка данных
-                    console.log('Данные из killers.json:', data); // Убедитесь, что данные правильные
-
-                    // Проверка структуры данных
-                    if (!data || !data.killers || !Array.isArray(data.killers) || data.killers.length === 0) {
+                    console.log('Данные из killers.json:', data);
+                    
+                    if (!Array.isArray(data) || data.length === 0) {
                         throw new Error('Некорректные данные в killers.json');
                     }
-
+        
                     // Выбираем случайный элемент
-                    const randomKillerIndex = getRandomInt(data.killers.length - 1);
-                    const selectedKiller = data.killers[randomKillerIndex];
-
+                    const randomKillerIndex = getRandomInt(data.length - 1);
+                    const selectedKiller = data[randomKillerIndex];
+        
                     console.log('Выбранный убийца:', selectedKiller); // Лог выбранного убийцы
-
+        
                     if (selectedKiller && selectedKiller.photo_main) {
                         // Обновляем изображение
                         const nonSquarePhoto = document.querySelector('.non-square-photo img');
@@ -79,6 +238,8 @@
                 })
                 .catch(error => console.error('Ошибка загрузки или обработки killers.json:', error));
         });
+        
+
     </script>
 </body>
 </html>

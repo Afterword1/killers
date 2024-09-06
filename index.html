@@ -49,11 +49,10 @@
                 })
                 .then(data => {
                     // Проверка данных
-                    console.log('Данные из killers.json:', data);
+                    console.log('Данные из killers.json:', data); // Убедитесь, что данные правильные
 
-                    // Предполагаем, что данные находятся под ключом 'killers'
-                    const killersArray = data.killers;
-                    if (!Array.isArray(killersArray) || killersArray.length === 0) {
+                    // Проверка структуры данных
+                    if (!data || !data.killers || !Array.isArray(data.killers) || data.killers.length === 0) {
                         throw new Error('Некорректные данные в killers.json');
                     }
 

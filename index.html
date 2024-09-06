@@ -181,7 +181,7 @@
                     <div class="text-overlay">Killer</div>
                 </div>
                 <div class="centered-photo">
-                    <img src="main/regen.png" alt="Centered Photo" id="centered-photo-img">
+                    <img src="main/regen.png" alt="Centered Photo">
                 </div>
             </div>
         </div>
@@ -191,24 +191,32 @@
         window.addEventListener('load', function() {
             const bgImage = document.getElementById('bg-image');
             const content = document.querySelector('.content');
-
+            const centeredPhoto = document.querySelector('.centered-photo');
+            const textOverlay = document.querySelector('.text-overlay');
+    
             // Устанавливаем высоту контента равной высоте изображения
             content.style.height = `${bgImage.clientHeight}px`;
-
-            // Добавляем обработчик клика на изображение с ID centered-photo-img
-            const centeredPhotoImg = document.getElementById('centered-photo-img');
-            centeredPhotoImg.addEventListener('click', function() {
-                alert('Картинка была нажата!');
+    
+            // Обработчик клика для .centered-photo
+            centeredPhoto.addEventListener('click', function() {
+                fetch('path/to/killers.json') // Замените 'path/to/killers.json' на путь к вашему JSON файлу
+                    .then(response => response.json())
+                    .then(data => {
+                        const numberOfKillers = data.killers.length; // Получаем количество элементов в массиве killers
+                        textOverlay.textContent = `Количество убийц: ${numberOfKillers}`; // Обновляем текстовое поле
+                    })
+                    .catch(error => console.error('Ошибка загрузки JSON:', error));
             });
         });
-
+    
         // Обновление высоты при изменении размера окна
         window.addEventListener('resize', function() {
             const bgImage = document.getElementById('bg-image');
             const content = document.querySelector('.content');
-
+    
             content.style.height = `${bgImage.clientHeight}px`;
         });
     </script>
+    
 </body>
 </html>

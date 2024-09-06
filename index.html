@@ -108,11 +108,24 @@
         }
 
         .non-square-photo {
+            position: relative;
             top: 4%;
             left: 18%;
             width: 45%;
             height: auto;
             max-height: 80%;
+        }
+
+        .text-overlay {
+            position: absolute;
+            bottom: -20px; /* Расстояние от нижнего края картинки до текста */
+            left: 40%;
+            transform: translateX(-50%);
+            font-size: 50px; /* Размер шрифта, можно настроить по вашему усмотрению */
+            color: white; /* Цвет текста */
+            background: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
+            padding: 5px;
+            border-radius: 5px; /* Закругленные углы для фона */
         }
 
         .centered-photo {
@@ -165,9 +178,10 @@
                 </div>
                 <div class="non-square-photo">
                     <img src="main/DBD_Website_Ch31_Character_Page_Killer_The_Unknown_e603fc0678.png" alt="Non-Square Photo">
+                    <div class="text-overlay" id="killer-count">Количество элементов: 0</div>
                 </div>
                 <div class="centered-photo">
-                    <img src="main/regen.png" alt="Centered Photo">
+                    <img src="main/regen.png" alt="Centered Photo" id="centered-photo-img">
                 </div>
             </div>
         </div>
@@ -180,6 +194,21 @@
 
             // Устанавливаем высоту контента равной высоте изображения
             content.style.height = `${bgImage.clientHeight}px`;
+
+            // Добавляем обработчик клика на изображение с ID centered-photo-img
+            const centeredPhotoImg = document.getElementById('centered-photo-img');
+            centeredPhotoImg.addEventListener('click', function() {
+                alert('Картинка была нажата!');
+            });
+
+            // Загрузка JSON-файла и подсчет количества элементов
+            fetch('killers.json')
+                .then(response => response.json())
+                .then(data => {
+                    const numberOfKillers = data.killers.length;
+                    document.getElementById('killer-count').textContent = `Количество элементов: ${numberOfKillers}`;
+                })
+                .catch(error => console.error('Ошибка загрузки JSON:', error));
         });
 
         // Обновление высоты при изменении размера окна
@@ -189,57 +218,6 @@
 
             content.style.height = `${bgImage.clientHeight}px`;
         });
-
-        // Функция для получения случайного числа от 0 до max (включительно)
-        function getRandomInt(max) {
-            return Math.floor(Math.random() * (max + 1));
-        }
-
-        // Обработчик клика по картинке regen.png
-        document.querySelector('.centered-photo img').addEventListener('click', function() {
-            console.log('Картинка regen нажата'); // Проверка клика
-            
-            // Загружаем killers.json
-            fetch('killers.json')
-                .then(response => {
-                    if (!response.ok) {
-                        throw new Error('Ошибка сети: ' + response.status);
-                    }
-                    return response.json();
-                })
-                .then(data => {
-                    // Проверка данных
-                    console.log('Данные из killers.json:', data);
-                    
-                    if (!Array.isArray(data) || data.length === 0) {
-                        throw new Error('Некорректные данные в killers.json');
-                    }
-        
-                    // Выбираем случайный элемент
-                    const randomKillerIndex = getRandomInt(data.length - 1);
-                    const selectedKiller = data[randomKillerIndex];
-        
-                    console.log('Выбранный убийца:', selectedKiller); // Лог выбранного убийцы
-        
-                    if (selectedKiller && selectedKiller.photo_main) {
-                        // Обновляем изображение
-                        const nonSquarePhoto = document.querySelector('.non-square-photo img');
-                        if (nonSquarePhoto) {
-                            const newSrc = `killers/${selectedKiller.photo_main}`;
-                            console.log('Обновляем изображение:', newSrc);
-                            nonSquarePhoto.src = newSrc;
-                            nonSquarePhoto.alt = selectedKiller.name_ru;
-                        } else {
-                            console.error('Не удалось найти элемент для обновления изображения');
-                        }
-                    } else {
-                        console.error('Выбранный убийца не имеет корректного свойства photo_main');
-                    }
-                })
-                .catch(error => console.error('Ошибка загрузки или обработки killers.json:', error));
-        });
-        
-
     </script>
 </body>
 </html>

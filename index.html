@@ -219,8 +219,11 @@
                             // Обновляем изображение в non-square-photo
                             if (randomKiller.photo_main) {
                                 const imagePath = `CharPortraits/${randomKiller.photo_main}`;
+                                nonSquarePhotoImg.src = imagePath;
+                                console.log('randomKiller.photo_main:', imagePath);  // Выводим путь к изображению
                             } else {
                                 nonSquarePhotoImg.src = 'default/image/path.png'; // Путь к изображению по умолчанию
+                                console.log('else: Путь по умолчанию');
                             }
 
                             

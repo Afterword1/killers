@@ -153,7 +153,7 @@
             <img src="main/fon2.png" alt="Background Image" id="bg-image">
             <div class="content">
                 <div class="photo-placeholder">
-                    <img src="main/IconPerks_bond.png" alt="Icon Perks Bond">
+                    <img src="main/IconPerks_bond.png" alt="Icon Perks Bond" id="photo-placeholder-img">
                 </div>
                 <div class="addon1-placeholder">
                     <img src="main/IconPerks_bond.png" alt="Addon 1">
@@ -198,6 +198,7 @@
             const centeredPhoto = document.querySelector('.centered-photo');
             const textOverlay = document.querySelector('.text-overlay');
             const nonSquarePhotoImg = document.getElementById('non-square-photo-img');
+            const photoPlaceholderImg = document.getElementById('photo-placeholder-img');
 
             // Функция для получения случайного элемента
             function getRandomKiller(killers) {
@@ -213,20 +214,29 @@
                         // Проверяем, что в объекте есть ключ 'killers'
                         if (data.killers && data.killers.length > 0) {
                             const randomKiller = getRandomKiller(data.killers);
-                            // Выводим значение ключа 'name_ru' случайного элемента
+                            // Обновляем текстовое описание
                             textOverlay.textContent = randomKiller.name_ru || 'Имя не найдено';
 
                             // Обновляем изображение в non-square-photo
                             if (randomKiller.photo_main) {
                                 const imagePath = `CharPortraits/${randomKiller.photo_main}`;
                                 nonSquarePhotoImg.src = imagePath;
-                                console.log('randomKiller.photo_main:', imagePath);  // Выводим путь к изображению
+                                console.log('randomKiller.photo_main:', imagePath);
                             } else {
                                 nonSquarePhotoImg.src = 'default/image/path.png'; // Путь к изображению по умолчанию
                                 console.log('else: Путь по умолчанию');
                             }
-
                             
+                            // Обновляем изображение в photo-placeholder
+                            if (randomKiller.photo_skills) {
+                                const skillsImagePath = `HelpLoading/${randomKiller.photo_skills}`;
+                                photoPlaceholderImg.src = skillsImagePath;
+                                console.log('randomKiller.photo_skills:', skillsImagePath);
+                            } else {
+                                photoPlaceholderImg.src = 'default/image/path.png'; // Путь к изображению по умолчанию
+                                console.log('else: Путь по умолчанию');
+                            }
+
                         } else {
                             textOverlay.textContent = 'Данные не найдены';
                         }

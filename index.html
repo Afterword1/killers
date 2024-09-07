@@ -16,6 +16,7 @@
             width: 100vw;
             height: auto;
             position: relative;
+            display: none; /* Прячем контейнер до загрузки всех изображений */
         }
 
         .background-image {
@@ -165,7 +166,7 @@
     </style>
 </head>
 <body>
-    <div class="container">
+    <div class="container" id="main-container">
         <div class="background-image">
             <img src="main/fon2.png" alt="Background Image" id="bg-image">
             <div class="content">
@@ -213,12 +214,34 @@
 
     <script>
         window.addEventListener('load', function() {
-            const bgImage = document.getElementById('bg-image');
+            const container = document.getElementById('main-container');
+            const images = document.querySelectorAll('img');
             const content = document.querySelector('.content');
+            const bgImage = document.getElementById('bg-image');
     
-            // Устанавливаем высоту контента равной высоте изображения
-            content.style.height = `${bgImage.clientHeight}px`;
-    
+            // Ждём загрузки всех изображений
+            const imagePromises = Array.from(images).map(img => {
+                return new Promise((resolve, reject) => {
+                    if (img.complete) {
+                        resolve();
+                    } else {
+                        img.onload = resolve;
+                        img.onerror = reject;
+                    }
+                });
+            });
+
+            Promise.all(imagePromises)
+                .then(() => {
+                    // Все изображения загружены
+                    console.log("Все изображения успешно загружены");
+                    content.style.height = `${bgImage.clientHeight}px`;
+                    container.style.display = 'block'; // Показываем контейнер
+                })
+                .catch((error) => {
+                    console.error("Ошибка загрузки изображения:", error);
+                });
+            
             const centeredPhoto = document.querySelector('.centered-photo');
             const textOverlay = document.querySelector('.text-overlay');
             const nonSquarePhotoImg = document.getElementById('non-square-photo-img');
@@ -235,7 +258,6 @@
                 fetch('data/killers.json')  // Замените на фактический путь к вашему JSON
                     .then(response => response.json())
                     .then(data => {
-                        // Проверяем, что в объекте есть ключ 'killers'
                         if (data.killers && data.killers.length > 0) {
                             const randomKiller = getRandomKiller(data.killers);
                             // Обновляем текстовое описание
@@ -245,20 +267,16 @@
                             if (randomKiller.photo_main) {
                                 const imagePath = `StoreBackgrounds/${randomKiller.photo_main}`;
                                 nonSquarePhotoImg.src = imagePath;
-                                console.log('randomKiller.photo_main:', imagePath);
                             } else {
-                                nonSquarePhotoImg.src = 'default/image/path.png'; // Путь к изображению по умолчанию
-                                console.log('else: Путь по умолчанию');
+                                nonSquarePhotoImg.src = 'default/image/path.png';
                             }
                             
                             // Обновляем изображение в photo-placeholder
                             if (randomKiller.photo_skills) {
                                 const skillsImagePath = `HelpLoading/${randomKiller.photo_skills}`;
                                 photoPlaceholderImg.src = skillsImagePath;
-                                console.log('randomKiller.photo_skills:', skillsImagePath);
                             } else {
-                                photoPlaceholderImg.src = 'default/image/path.png'; // Путь к изображению по умолчанию
-                                console.log('else: Путь по умолчанию');
+                                photoPlaceholderImg.src = 'default/image/path.png';
                             }
 
                         } else {
@@ -271,12 +289,11 @@
                     });
             });
         });
-    
+
         // Обновление высоты при изменении размера окна
         window.addEventListener('resize', function() {
             const bgImage = document.getElementById('bg-image');
             const content = document.querySelector('.content');
-    
             content.style.height = `${bgImage.clientHeight}px`;
         });
     </script>

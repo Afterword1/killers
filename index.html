@@ -207,7 +207,7 @@
 
             // Обработчик события для клика по centered-photo
             centeredPhoto.addEventListener('click', function() {
-                fetch('path/to/killers.json')  // Замените на фактический путь к вашему JSON
+                fetch('killers.json')  // Замените на фактический путь к вашему JSON
                     .then(response => response.json())
                     .then(data => {
                         // Проверяем, что в объекте есть ключ 'killers'

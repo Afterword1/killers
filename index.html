@@ -177,7 +177,7 @@
                     <img src="main/IconPerks_bond.png" alt="New Photo 4">
                 </div>
                 <div class="non-square-photo">
-                    <img src="main/DBD_Website_Ch31_Character_Page_Killer_The_Unknown_e603fc0678.png" alt="Non-Square Photo">
+                    <img src="main/DBD_Website_Ch31_Character_Page_Killer_The_Unknown_e603fc0678.png" alt="Non-Square Photo" id="non-square-photo-img">
                     <div class="text-overlay">Killer</div>
                 </div>
                 <div class="centered-photo">
@@ -197,6 +197,7 @@
     
             const centeredPhoto = document.querySelector('.centered-photo');
             const textOverlay = document.querySelector('.text-overlay');
+            const nonSquarePhotoImg = document.getElementById('non-square-photo-img');
 
             // Функция для получения случайного элемента
             function getRandomKiller(killers) {
@@ -206,7 +207,7 @@
 
             // Обработчик события для клика по centered-photo
             centeredPhoto.addEventListener('click', function() {
-                fetch('killers.json')  // Замените на фактический путь к вашему JSON
+                fetch('path/to/killers.json')  // Замените на фактический путь к вашему JSON
                     .then(response => response.json())
                     .then(data => {
                         // Проверяем, что в объекте есть ключ 'killers'
@@ -214,6 +215,13 @@
                             const randomKiller = getRandomKiller(data.killers);
                             // Выводим значение ключа 'name_ru' случайного элемента
                             textOverlay.textContent = randomKiller.name_ru || 'Имя не найдено';
+
+                            // Обновляем изображение в non-square-photo
+                            if (randomKiller.photo_main) {
+                                nonSquarePhotoImg.src = `killers/${randomKiller.photo_main}`;
+                            } else {
+                                nonSquarePhotoImg.src = 'default/image/path.png'; // Путь к изображению по умолчанию
+                            }
                         } else {
                             textOverlay.textContent = 'Данные не найдены';
                         }

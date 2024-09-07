@@ -16,7 +16,7 @@
             width: 100vw;
             height: auto;
             position: relative;
-            display: none; /* Прячем контейнер до загрузки всех изображений */
+            visibility: hidden; /* Прячем контейнер до загрузки всех изображений */
         }
 
         .background-image {
@@ -27,14 +27,13 @@
         }
 
         .content {
-            position: absolute; /* Абсолютное позиционирование, чтобы быть поверх изображения */
+            position: absolute;
             top: 0;
             left: 0;
             right: 0;
             width: 100%;
             height: 100%;
-            pointer-events: auto; /* Чтобы клики проходили сквозь этот контейнер, если нужно */
-        
+            pointer-events: auto;
         }
 
         .photo-placeholder,
@@ -117,14 +116,14 @@
 
         .text-overlay {
             position: absolute;
-            bottom: -20px; /* Расстояние от нижнего края картинки до текста */
+            bottom: -20px;
             left: 40%;
             transform: translateX(-50%);
-            font-size: 50px; /* Размер шрифта, можно настроить по вашему усмотрению */
-            color: white; /* Цвет текста */
-            background: rgba(0, 0, 0, 0.5); /* Полупрозрачный черный фон */
+            font-size: 50px;
+            color: white;
+            background: rgba(0, 0, 0, 0.5);
             padding: 5px;
-            border-radius: 5px; /* Закругленные углы для фона */
+            border-radius: 5px;
         }
 
         .centered-photo {
@@ -140,16 +139,15 @@
         }
 
         .centered-photo img {
-            cursor: pointer; /* Указываем, что элемент кликабелен */
-            z-index: 10; /* Устанавливаем высокий z-index, чтобы не перекрывалось */
+            cursor: pointer;
+            z-index: 10;
         }
 
-        /* Контейнер для чекбоксов */
         .checkbox-container {
-            position: relative; /* Оставляем стандартное позиционирование */
+            position: relative;
             width: 100%;
             padding: 10px 20px;
-            background-color: rgba(0, 0, 0, 0.6); /* Полупрозрачный фон */
+            background-color: rgba(0, 0, 0, 0.6);
             box-sizing: border-box;
             color: white;
             font-size: 16px;
@@ -236,7 +234,7 @@
                     // Все изображения загружены
                     console.log("Все изображения успешно загружены");
                     content.style.height = `${bgImage.clientHeight}px`;
-                    container.style.display = 'block'; // Показываем контейнер
+                    container.style.visibility = 'visible'; // Показываем контейнер
                 })
                 .catch((error) => {
                     console.error("Ошибка загрузки изображения:", error);

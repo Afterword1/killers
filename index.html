@@ -219,11 +219,14 @@
                             // Обновляем изображение в non-square-photo
                             if (randomKiller.photo_main) {
                                 const imagePath = `CharPortraits/${randomKiller.photo_main}`;
-                                nonSquarePhotoImg.src = imagePath;
-                                console.log('randomKiller.photo_main:', imagePath);  // Выводим путь к изображению
                             } else {
                                 nonSquarePhotoImg.src = 'default/image/path.png'; // Путь к изображению по умолчанию
-                                console.log('else: Путь по умолчанию');
+                            }
+
+                            if (randomKiller.photo_skills) {
+                                const imagePath = `CharPortraits/${randomKiller.photo_skills}`;
+                            } else {
+                                nonSquarePhotoImg.src = 'default/image/path.png'; // Путь к изображению по умолчанию
                             }
                         } else {
                             textOverlay.textContent = 'Данные не найдены';

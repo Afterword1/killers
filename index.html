@@ -145,6 +145,27 @@
             cursor: pointer; /* Указываем, что элемент кликабелен */
             z-index: 10; /* Устанавливаем высокий z-index, чтобы не перекрывалось */
         }
+
+        /* Контейнер для чекбоксов */
+        .checkbox-container {
+            position: absolute; /* Абсолютное позиционирование */
+            bottom: 0; /* Прижимаем к нижней части .background-image */
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: rgba(0, 0, 0, 0.6); /* Полупрозрачный фон */
+            box-sizing: border-box;
+            color: white;
+            font-size: 16px;
+        }
+
+        .checkbox-container label {
+            color: white;
+        }    
+
     </style>
 </head>
 <body>
@@ -182,6 +203,11 @@
                 </div>
                 <div class="centered-photo">
                     <img src="main/regen.png" alt="Centered Photo">
+                </div>
+                <div class="checkbox-container">
+                    <label><input type="checkbox" id="empty-addons"> Включить пустые аддоны</label>
+                    <label><input type="checkbox" id="empty-perks"> Включить пустые перки</label>
+                    <label><input type="checkbox" id="empty-offerings"> Включить пустые подношения</label>
                 </div>
             </div>
         </div>

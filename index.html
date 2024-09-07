@@ -223,14 +223,7 @@
                                 nonSquarePhotoImg.src = 'default/image/path.png'; // Путь к изображению по умолчанию
                             }
 
-                            // Обновляем изображения для photo-placeholder
-                            const photoPlaceholderImg = document.querySelector('.photo-placeholder img');
-
-                            if (randomKiller.photo_skills) {
-                                photoPlaceholderImg.src = `CharPortraits/${randomKiller.photo_skills}`;
-                            } else {
-                                photoPlaceholderImg.src = 'default/image/path.png'; // Путь к изображению по умолчанию
-                            }
+                            
                         } else {
                             textOverlay.textContent = 'Данные не найдены';
                         }

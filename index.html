@@ -112,28 +112,6 @@
             width: 50%;
             height: auto;
             max-height: 80%;
-            overflow: hidden;
-        }
-
-        .non-square-photo img {
-            position: absolute;
-            transition: transform 1s ease-in-out, opacity 1s ease-in-out; /* Плавный переход для изображения */
-        }
-
-        /* Стили для анимации */
-        .slide-out-left {
-            transform: translateX(-100%);
-            opacity: 0;
-        }
-
-        .slide-in-right {
-            transform: translateX(100%);
-            opacity: 0;
-        }
-
-        .slide-to-center {
-            transform: translateX(0);
-            opacity: 1;
         }
 
         .text-overlay {
@@ -177,10 +155,11 @@
             justify-content: space-between;
             align-items: center;
         }
+        
 
         .checkbox-container label {
             color: white;
-        }
+        }    
 
     </style>
 </head>
@@ -201,7 +180,7 @@
                 <div class="photo-podnoshenie-placeholder">
                     <img src="main/IconPerks_bond.png" alt="Photo Podnoshenie">
                 </div>
-                <div class="non-square-photo" id="non-square-photo-container">
+                <div class="non-square-photo">
                     <img src="StoreBackgrounds/US_storeBackground.png" alt="Non-Square Photo" id="non-square-photo-img">
                     <div class="text-overlay">Killer</div>
                 </div>
@@ -221,7 +200,7 @@
                 <div class="centered-photo">
                     <img src="main/regen.png" alt="Centered Photo">
                 </div>
-
+                
             </div>
         </div>
         <div class="checkbox-container">
@@ -263,7 +242,6 @@
             
             const centeredPhoto = document.querySelector('.centered-photo');
             const textOverlay = document.querySelector('.text-overlay');
-            const nonSquarePhotoContainer = document.getElementById('non-square-photo-container');
             const nonSquarePhotoImg = document.getElementById('non-square-photo-img');
             const photoPlaceholderImg = document.getElementById('photo-placeholder-img');
 
@@ -283,19 +261,14 @@
                             // Обновляем текстовое описание
                             textOverlay.textContent = randomKiller.name_ru || 'Имя не найдено';
 
-                            // Анимация смены изображений
-                            nonSquarePhotoImg.classList.add('slide-out-left');
-                            setTimeout(() => {
-                                // Меняем изображение через 500ms
-                                nonSquarePhotoImg.src = `StoreBackgrounds/${randomKiller.photo_main || 'default.png'}`;
-                                nonSquarePhotoImg.classList.remove('slide-out-left');
-                                nonSquarePhotoImg.classList.add('slide-in-right');
-                                setTimeout(() => {
-                                    nonSquarePhotoImg.classList.remove('slide-in-right');
-                                    nonSquarePhotoImg.classList.add('slide-to-center');
-                                }, 1000); // Убираем через 1 секунду
-                            }, 500);
-
+                            // Обновляем изображение в non-square-photo
+                            if (randomKiller.photo_main) {
+                                const imagePath = `StoreBackgrounds/${randomKiller.photo_main}`;
+                                nonSquarePhotoImg.src = imagePath;
+                            } else {
+                                nonSquarePhotoImg.src = 'default/image/path.png';
+                            }
+                            
                             // Обновляем изображение в photo-placeholder
                             if (randomKiller.photo_skills) {
                                 const skillsImagePath = `HelpLoading/${randomKiller.photo_skills}`;
@@ -303,6 +276,7 @@
                             } else {
                                 photoPlaceholderImg.src = 'default/image/path.png';
                             }
+
                         } else {
                             textOverlay.textContent = 'Данные не найдены';
                         }
@@ -321,5 +295,6 @@
             content.style.height = `${bgImage.clientHeight}px`;
         });
     </script>
+    
 </body>
 </html>

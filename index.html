@@ -197,17 +197,23 @@
     
             const centeredPhoto = document.querySelector('.centered-photo');
             const textOverlay = document.querySelector('.text-overlay');
-    
+
+            // Функция для получения случайного элемента
+            function getRandomKiller(killers) {
+                const randomIndex = Math.floor(Math.random() * killers.length);
+                return killers[randomIndex];
+            }
+
             // Обработчик события для клика по centered-photo
             centeredPhoto.addEventListener('click', function() {
-                fetch('killers.json')  // Замените на фактический путь к вашему JSON
+                fetch('path/to/killers.json')  // Замените на фактический путь к вашему JSON
                     .then(response => response.json())
                     .then(data => {
                         // Проверяем, что в объекте есть ключ 'killers'
-                        if (data.killers) {
-                            const killersCount = data.killers.length;
-                            // Выводим количество элементов в текстовое поле
-                            textOverlay.textContent = `Количество: ${killersCount}`;
+                        if (data.killers && data.killers.length > 0) {
+                            const randomKiller = getRandomKiller(data.killers);
+                            // Выводим значение ключа 'name_ru' случайного элемента
+                            textOverlay.textContent = randomKiller.name_ru || 'Имя не найдено';
                         } else {
                             textOverlay.textContent = 'Данные не найдены';
                         }

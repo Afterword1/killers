@@ -198,9 +198,24 @@
             const centeredPhoto = document.querySelector('.centered-photo');
             const textOverlay = document.querySelector('.text-overlay');
     
-            // Добавляем обработчик события для изменения текста при нажатии
+            // Обработчик события для клика по centered-photo
             centeredPhoto.addEventListener('click', function() {
-                textOverlay.textContent = 'Updated Text'; // Измените на нужный текст
+                fetch('killers.json')  // Замените на фактический путь к вашему JSON
+                    .then(response => response.json())
+                    .then(data => {
+                        // Проверяем, что в объекте есть ключ 'killers'
+                        if (data.killers) {
+                            const killersCount = data.killers.length;
+                            // Выводим количество элементов в текстовое поле
+                            textOverlay.textContent = `Количество: ${killersCount}`;
+                        } else {
+                            textOverlay.textContent = 'Данные не найдены';
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Ошибка при загрузке JSON:', error);
+                        textOverlay.textContent = 'Ошибка загрузки';
+                    });
             });
         });
     

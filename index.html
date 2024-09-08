@@ -172,10 +172,10 @@
                     <img src="main/IconPerks_bond.png" alt="Icon Perks Bond" id="photo-placeholder-img">
                 </div>
                 <div class="addon1-placeholder">
-                    <img src="main/IconPerks_bond.png" alt="Addon 1">
+                    <img src="main/IconPerks_bond.png" alt="Addon 1" id="photo-addonplaceholder1-img">
                 </div>
                 <div class="addon2-placeholder">
-                    <img src="main/IconPerks_bond.png" alt="Addon 2">
+                    <img src="main/IconPerks_bond.png" alt="Addon 2" id="photo-addonplaceholder1-img">
                 </div>
                 <div class="photo-podnoshenie-placeholder">
                     <img src="main/IconPerks_bond.png" alt="Photo Podnoshenie">
@@ -244,11 +244,24 @@
             const textOverlay = document.querySelector('.text-overlay');
             const nonSquarePhotoImg = document.getElementById('non-square-photo-img');
             const photoPlaceholderImg = document.getElementById('photo-placeholder-img');
+            const photoAddonPlaceholderImg1 = document.getElementById('photo-addonplaceholder1-img');
+            const photoAddonPlaceholderImg2 = document.getElementById('photo-addonplaceholder2-img');
 
             // Функция для получения случайного элемента
             function getRandomKiller(killers) {
                 const randomIndex = Math.floor(Math.random() * killers.length);
                 return killers[randomIndex];
+            }
+
+            // Функция для получения двух случайных разных аддонов
+            function getTwoRandomAddons(addons) {
+                // Если галочка "empty-addons" НЕ установлена
+                if (!emptyAddonsChecked) {
+                    // Удаляем последние два аддона
+                    addons.splice(-2);
+                }
+                const shuffledAddons = [...addons].sort(() => 0.5 - Math.random());
+                return [shuffledAddons[0], shuffledAddons[1]];
             }
 
             // Обработчик события для клика по centered-photo
@@ -276,6 +289,31 @@
                             } else {
                                 photoPlaceholderImg.src = 'default/image/path.png';
                             }
+
+                            // Обновляем изображение в photoAddonPlaceholderImg 1 -2
+                            
+                            // Проверяем, есть ли аддоны у киллера
+                            if (randomKiller.addons && randomKiller.addons.length > 1) {
+                                // Получаем два случайных разных аддона
+                                const randomAddons = getTwoRandomAddons(randomKiller.addons);
+
+                                // Обновляем изображения для аддонов
+                                if (randomAddons[0].photo_addon) {
+                                    const addon1ImagePath = `ItemAddons/${randomAddons[0].photo_addon}`;
+                                    photoAddonPlaceholderImg1.src = addon1ImagePath;
+                                } else {
+                                    photoAddonPlaceholderImg1.src = 'default/image/path.png';
+                                }
+
+                                if (randomAddons[1].photo_addon) {
+                                    const addon2ImagePath = `ItemAddons/${randomAddons[1].photo_addon}`;
+                                    photoAddonPlaceholderImg2.src = addon2ImagePath;
+                                } else {
+                                    photoAddonPlaceholderImg2.src = 'default/image/path.png';
+                                }
+                            } else {
+                                console.log('У киллера недостаточно аддонов для отображения');
+                            }    
 
                         } else {
                             textOverlay.textContent = 'Данные не найдены';

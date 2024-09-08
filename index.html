@@ -37,7 +37,10 @@
         }
 
         .photo-placeholder,
+        .addon00-placeholder,
+        .addon11-placeholder,
         .addon1-placeholder,
+        .addon22-placeholder,
         .addon2-placeholder,
         .photo-podnoshenie-placeholder,
         .new-photo11,
@@ -53,30 +56,49 @@
             position: absolute;
         }
 
+        .addon00-placeholder {
+            top: 3%;
+            left: 71%;
+            width: 24%;
+            height: auto;
+            background-size: contain;
+        }
+
         .photo-placeholder {
             top: 6%;
             left: 74%;
             width: 18%;
             height: auto;
-            background: url('main/1.png') no-repeat center; /* Фон для перка */
             background-size: contain;
         }
 
+        .addon11-placeholder {
+            top: 26.7%;
+            left: 70.8%;
+            width: 11.5%;
+            height: auto;
+            background-size: contain;
+        }
         .addon1-placeholder {
             top: 28.2%;
             left: 72.3%;
             width: 8.5%;
             height: auto;
-            background: url('main/2.png') no-repeat center; /* Фон для перка */
             background-size: contain;
         }
 
+        .addon22-placeholder {
+            top: 26.7%;
+            left: 82.8%;
+            width: 11.5%;
+            height: auto;
+            background-size: contain;
+        }
         .addon2-placeholder {
             top: 28.2%;
             left: 84.3%;
             width: 8.5%;
             height: auto;
-            background: url('main/3.png') no-repeat center; /* Фон для перка */
             background-size: contain;
         }
 
@@ -85,7 +107,6 @@
             left: 74%;
             width: 17%;
             height: auto;
-            background: url('main/4.png') no-repeat center; /* Фон для перка */
             background-size: contain;
         }
 
@@ -203,12 +224,25 @@
         <div class="background-image">
             <img src="main/fon.png" alt="Background Image" id="bg-image">
             <div class="content">
+                
+                <div class="addon00-placeholder">
+                    <img src="main/addon4.png" alt="Addon 00" id="photo-addonplaceholder00-img">
+                </div>                
+                
                 <div class="photo-placeholder">
                     <img src="main/IconPerks_bond.png" alt="Icon Perks Bond" id="photo-placeholder-img">
+                </div>
+                
+                <div class="addon11-placeholder">
+                    <img src="main/addon5.png" alt="Addon 11" id="photo-addonplaceholder11-img">
                 </div>
 
                 <div class="addon1-placeholder">
                     <img src="main/IconPerks_bond.png" alt="Addon 1" id="photo-addonplaceholder1-img">
+                </div>
+
+                <div class="addon22-placeholder">
+                    <img src="main/addon5.png" alt="Addon 22" id="photo-addonplaceholder22-img">
                 </div>
 
                 <div class="addon2-placeholder">
@@ -301,6 +335,8 @@
             const photoPlaceholderImg = document.getElementById('photo-placeholder-img');
             const photoAddonPlaceholderImg1 = document.getElementById('photo-addonplaceholder1-img');
             const photoAddonPlaceholderImg2 = document.getElementById('photo-addonplaceholder2-img');
+            const photoAddonPlaceholderImg11 = document.getElementById('photo-addonplaceholder11-img');
+            const photoAddonPlaceholderImg22 = document.getElementById('photo-addonplaceholder22-img');
 
             // Функция для получения случайного элемента
             function getRandomKiller(killers) {
@@ -356,7 +392,10 @@
                                 if (randomAddons[0].photo_addon) {
                                     const addon1ImagePath = `ItemAddons/${randomAddons[0].photo_addon}`;
                                     photoAddonPlaceholderImg1.src = addon1ImagePath;
-                                    console.log('У киллера недостаточно аддонов для отображения:', randomAddons[0].photo_addon);
+
+                                    //console.log('У киллера недостаточно аддонов для отображения:', randomAddons[0].photo_addon);
+                                    const addon11ImagePath = `ItemAddons/addon${randomAddons[0].rang_addon}$.png`;
+                                    photoAddonPlaceholderImg11.src = addon11ImagePath;
 
                                 } else {
                                     photoAddonPlaceholderImg1.src = 'default/image/path.png';
@@ -365,8 +404,9 @@
                                 if (randomAddons[1].photo_addon) {
                                     const addon2ImagePath = `ItemAddons/${randomAddons[1].photo_addon}`;
                                     photoAddonPlaceholderImg2.src = addon2ImagePath;
-                                    console.log('У киллера недостаточно аддонов для отображения:', randomAddons[1].photo_addon);
-
+                                    //console.log('У киллера недостаточно аддонов для отображения:', randomAddons[1].photo_addon);
+                                    const addon22ImagePath = `ItemAddons/addon${randomAddons[1].rang_addon}$.png`;
+                                    photoAddonPlaceholderImg22.src = addon22ImagePath;
                                 } else {
                                     photoAddonPlaceholderImg2.src = 'default/image/path.png';
                                 }

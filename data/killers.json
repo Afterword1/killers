@@ -258,7 +258,7 @@
             "name_addon_en":"\"Windstorm\" - White",
             "description_addon_ru":"Символ Охувэ-Онмнеа, олицетворяющий ярость, нарисован белой краской на колоколе. Увеличивает скорость передвижения Призрака в невидимости на 7%",
             "description_addon_en":"The Ohuwe-Onmnea symbol, representing a howling storm, is stamped in white ink on the body of the Bell. Increases your Movement Speed by +7 % when Cloaked.",
-            "photo_addon":"Trap/iconAddon_whiteWindstorm.png",
+            "photo_addon":"Wraith/iconAddon_whiteWindstorm.png",
             "rang_addon":2
           },{
             "id":27,

@@ -301,6 +301,8 @@
                                 if (randomAddons[0].photo_addon) {
                                     const addon1ImagePath = `ItemAddons/${randomAddons[0].photo_addon}`;
                                     photoAddonPlaceholderImg1.src = addon1ImagePath;
+                                    console.log('У киллера недостаточно аддонов для отображения:', randomAddons[0].photo_addon);
+
                                 } else {
                                     photoAddonPlaceholderImg1.src = 'default/image/path.png';
                                 }
@@ -308,6 +310,8 @@
                                 if (randomAddons[1].photo_addon) {
                                     const addon2ImagePath = `ItemAddons/${randomAddons[1].photo_addon}`;
                                     photoAddonPlaceholderImg2.src = addon2ImagePath;
+                                    console.log('У киллера недостаточно аддонов для отображения:', randomAddons[1].photo_addon);
+
                                 } else {
                                     photoAddonPlaceholderImg2.src = 'default/image/path.png';
                                 }

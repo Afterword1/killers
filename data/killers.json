@@ -282,7 +282,7 @@
             "name_addon_en":"\"Blink\" - White",
             "description_addon_ru":"Символ Кратин, олицетворяющий скорость, нарисован белой краской на колоколе. Увеличивает скорость перехода в невидимость на 60%.",
             "description_addon_en":"The Kratin symbol, representing quick passing, is stamped in white ink on the body of the Bell. Reduces the Cloaking time by -60 %.",
-            "photo_addon":"Trap/iconAddon_whiteBlink.png",
+            "photo_addon":"Wraith/iconAddon_whiteBlink.png",
             "rang_addon":2
           },{
             "id":30,

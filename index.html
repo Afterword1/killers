@@ -254,7 +254,7 @@
             }
 
             // Функция для получения двух случайных разных аддонов
-            function getTwoRandomAddons(addons) {
+            function getTwoRandomAddons(addons, emptyAddonsChecked) {
                 // Если галочка "empty-addons" НЕ установлена
                 if (!emptyAddonsChecked) {
                     // Удаляем последние два аддона
@@ -295,7 +295,7 @@
                             // Проверяем, есть ли аддоны у киллера
                             if (randomKiller.addons && randomKiller.addons.length > 1) {
                                 // Получаем два случайных разных аддона
-                                const randomAddons = getTwoRandomAddons(randomKiller.addons);
+                                const randomAddons = getTwoRandomAddons(randomKiller.addons, document.getElementById('empty-addons').checked);
 
                                 // Обновляем изображения для аддонов
                                 if (randomAddons[0].photo_addon) {

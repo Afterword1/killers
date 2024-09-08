@@ -15,36 +15,180 @@
         "addons":[
           {
             "id":0,
-            "name_addon_ru":"",
-            "name_addon_en":"",
-            "description_addon_ru":"",
-            "description_addon_en":"",
-            "photo_addon":"",
+            "name_addon_ru":"Радужный камень",
+            "name_addon_en":"Iridescent Stone",
+            "description_addon_ru":"Капканы, заточенные этим переливающимся камнем, будто становятся живыми. Каждые 30 сек. один случайно выбранный закрытый медвежий капкан раскрывается сам по себе.",
+            "description_addon_en":"Bear Traps sharpened with the sickly gleaming stone seem to gain a life of their own. Automatically resets and arms a random disarmed Bear Trap every 30 seconds.",
+            "photo_addon":"Trap/iconAddon_diamondStone.png",
+            "rang_addon":0
+          },{
+            "id":1,
+            "name_addon_ru":"Кровавая пружина",
+            "name_addon_en":"Bloody Coil",
+            "description_addon_ru":"Липкая и скользкая, эта мрачная жидкость делает пружины ловушек еще опаснее. Когда медвежий капкан обезврежен здоровым выжившим, кровавые пружины взымают плату за это действие, и выживший становится раненым.",
+            "description_addon_en":"Part sticky, part slippery, this grim liquid makes handling the Bear Traps spring more dangerous. When a healthy Survivor disarms a Bear Trap, the Bloody Coil exacts its price, putting the Survivor into the Injured State.",
+            "photo_addon":"Trap/iconAddon_bloodyCoil.png",
             "rang_addon":0
           },{
             "id":2,
-            "name_addon_ru":"",
-            "name_addon_en":"",
-            "description_addon_ru":"",
-            "description_addon_en":"",
-            "photo_addon":"",
-            "rang_addon":0
+            "name_addon_ru":"Охотничий мешок",
+            "name_addon_en":"Trapper Sack",
+            "description_addon_ru":"Грубо сшитый кожаный мешок, подходит для переноса небольших предметов. Все медвежьи капканы несутся вами в начале матча, а не появляются на карте Медвежьи капканы нельзя подобрать",
+            "description_addon_en":"A crude leather sack suitable for foraging. Causes all Bear Traps to be carried in your inventory at the beginning of the Trial. You can no longer pick up any placed Bear Traps, only reset them.",
+            "photo_addon":"Trap/iconAddon_trapperSack.png",
+            "rang_addon":1
           },{
             "id":3,
-            "name_addon_ru":"",
-            "name_addon_en":"",
-            "description_addon_ru":"",
-            "description_addon_en":"",
-            "photo_addon":"",
-            "rang_addon":0
+            "name_addon_ru":"Натяжная пружина",
+            "name_addon_en":"Tension Spring",
+            "description_addon_ru":"Туго скрученная пружина, которая встает на место после растяжения. Медвежий капкан сбрасывается через 2 сек., после того как из него сбежит выживший",
+            "description_addon_en":"A high tension spring that snaps back into place after being stretched. Automatically resets the Bear Trap 2 seconds after a Survivor escaped from it.",
+            "photo_addon":"Trap/iconAddon_tensionSpring.png",
+            "rang_addon":1
           },{
             "id":4,
-            "name_addon_ru":"",
-            "name_addon_en":"",
-            "description_addon_ru":"",
-            "description_addon_en":"",
-            "photo_addon":"",
-            "rang_addon":0
+            "name_addon_ru":"Маслянистая пружина",
+            "name_addon_en":"Oily Coil",
+            "description_addon_ru":"Промасленная пружина оставляет отметины на руках тех, кто что-то делал с капканом При взведении медвежьего капкана показывает на 5 сек. ауру последнего обезвредившего его выжившего.",
+            "description_addon_en":"A clear oil that makes handling the Bear Trap's spring more hazardous. Resetting a Bear Trap reveals the Aura IconHelp auras of the last Survivor to have disarmed it for 5 seconds.",
+            "photo_addon":"Trap/iconAddon_oilyCoil.png",
+            "rang_addon":1
+          },{
+            "id":5,
+            "name_addon_ru":"Точильный камень",
+            "name_addon_en":"Honing Stone",
+            "description_addon_ru":"Этот камень затачивает зубцы медвежьего капкана. Острые как бритва зубья наносят глубокие раны, в результате чего жертва теряет кровь с огромной скоростью. Пойманная жертва остается при смерти, а не просто раненой, если освободится из капкана самостоятельно.",
+            "description_addon_en":"When used with the Bear Trap, the stone sharpens its blades. The razor-sharp blades inflict deep wounds aimed at bleeding the victim as fast as possible. Survivors caught in a Bear Trap, who free themselves, are inflicted with the Dying State IconHelp dying.",
+            "photo_addon":"Trap/iconAddon_honingStone.png",
+            "rang_addon":1
+          },{
+            "id":6,
+            "name_addon_ru":"Охотничья сумка",
+            "name_addon_en":"Trapper Bag",
+            "description_addon_ru":"Кожаный поясной мешок. Большой и прочный, отлично подходит для транспортировки охотничьего снаряжения. Вы начинаете матч с 1 дополнительным медвежьим капканом. Позволяет носить с собой 1 дополнительный медвежий капкан.",
+            "description_addon_en":"A cured leather waist bag. Large and sturdy to transport hunting equipment. Increases the number of carried Bear Traps by +1.",
+            "photo_addon":"Trap/iconAddon_trapperBag.png",
+            "rang_addon":3
+          },{
+            "id":7,
+            "name_addon_ru":"Смоляная бутылка",
+            "name_addon_en":"Tar Bottle",
+            "description_addon_ru":"Черное липкое вещество, похожее на деготь. При нанесении на медвежьи капканы делает их значительно менее заметными. Затемняет появляющиеся медвежьи капканы",
+            "description_addon_en":"A black, matte and sticky substance that when applied to Bear Traps, makes them far less noticeable. Darkens the Bear Trap.",
+            "photo_addon":"Trap/iconAddon_tarBottle.png",
+            "rang_addon":3
+          },{
+            "id":8,
+            "name_addon_ru":"Дополнительная пружина",
+            "name_addon_en":"Secondary Coil",
+            "description_addon_ru":"Дополнительная пружина, сохраняющая функциональность медвежьего капкана после износа основной пружины. Увеличивает время обезвреживания медвежьих капканов на 50%.",
+            "description_addon_en":"A secondary coil keeps the Bear Trap functional in times when the primary coil becomes unusable. Increases the Disarm time of the Bear Trap by +50 %.",
+            "photo_addon":"Trap/iconAddon_secondaryCoil.png",
+            "rang_addon":3
+          },{
+            "id":9,
+            "name_addon_ru":"Ржавые челюсти",
+            "name_addon_en":"Rusted Jaws",
+            "description_addon_ru":"Эти челюсти медвежьего капкана покрыты коркой ржавчины, что делает травмы особенно трудноизлечимыми. Попавшиеся в медвежий капкан выжившие получают эффект \"Травма\" на 70 сек. \"Травма\" увеличивает время лечения на 25% и действует в течение указанного срока или до полного исцеления",
+            "description_addon_en":"These Bear Trap jaws are covered with crusty and volatile rust spots, making injuries particularly difficult to heal. Survivors injured by a Bear Trap suffer from the Mangled IconStatusEffects mangled Status Effect for 70 seconds.",
+            "photo_addon":"Trap/iconAddon_rustedJaws.png",
+            "rang_addon":3
+          },{
+            "id":10,
+            "name_addon_ru":"Крепежные инструменты",
+            "name_addon_en":"Fastening Tools",
+            "description_addon_ru":"Специализированный набор инструментов для быстрой установки медвежьих капканов и повышения их эффективности. Увеличивает скорость установки медвежьих капканов на 50%. Увеличивает время, требуемое для спасения выжившего или на попытку побега из медвежьего капкана, на 25%.",
+            "description_addon_en":"A specialised set of tools used to fasten Bear Traps to ensure their effectiveness. Increases the Rescue and Escape times from the Bear Trap by +25 %. Increases the Setting speed of the Bear Trap by +50 %.",
+            "photo_addon":"Trap/iconAddon_fasteningTools.png",
+            "rang_addon":3
+          },{
+            "id":11,
+            "name_addon_ru":"Кусок воска",
+            "name_addon_en":"Wax Brick",
+            "description_addon_ru":"Кусок воска используется для снижения трения и плавного движения механических деталей. Увеличивает время для побега или спасения выжившего из медвежьего капкана на 33%",
+            "description_addon_en":"A block of wax used to lower friction and facilitate movement in mechanical parts. Increases the Rescue and Escape times of the Bear Trap by +33 %.",
+            "photo_addon":"Trap/iconAddon_waxBrick.png",
+            "rang_addon":4
+          },{
+            "id":12,
+            "name_addon_ru":"Зазубренные челюсти",
+            "name_addon_en":"Serrated Jaws",
+            "description_addon_ru":"Эти челюсти медвежьих капканов похожи на пилу и наносят ужасные рваные раны при срабатывании. Попавшиеся в медвежий капкан выжившие получают эффект \"Кровотечение\" до тех пор, пока не вылечатся. \"Кровотечение\" увеличивает следы крови от раненых выживших",
+            "description_addon_en":"These replacement trap jaws have saw-like blades, causing awful open wounds when they snap. Survivors injured by a Bear Trap suffer from the Haemorrhage IconStatusEffects bleeding Status Effect until fully healed.",
+            "photo_addon":"Trap/iconAddon_serratedJaws.png",
+            "rang_addon":4
+          },{
+            "id":13,
+            "name_addon_ru":"Удлиненная челюсть",
+            "name_addon_en":"Lengthened Jaws",
+            "description_addon_ru":"Челюсть с длинными зубами, которые вгрызаются в плоть сильнее, чем зубья обычного медвежьего капкана. При побеге из медвежьих капканов выжившие получают эффект \"Глубокая рана\" С \"Глубокой раной\" выживший окажется при смерти, если его не подлатают, пока не истекло время.",
+            "description_addon_en":"Jaws with long teeth that dig further into the flesh than a conventional Bear Traps. Survivors who escape from Bear Traps suffer from the Deep Wound IconStatusEffects deepWound Status Effect.",
+            "photo_addon":"Trap/iconAddon_lengthenedJaws.png",
+            "rang_addon":4
+          },{
+            "id":14,
+            "name_addon_ru":"Кофейная гуща",
+            "name_addon_en":"Coffee Grounds",
+            "description_addon_ru":"Ржавая банка с влажной кофеной гущей. Дает еще 5% эффекта \"Спешка\" на 5 сек. после установки медвежьего капкана. \"Спешка\" увеличивает скорость передвижения убийцы",
+            "description_addon_en":"An old rusted can containing damp coffee grounds. Increases the strength of the Haste IconStatusEffects haste Status Effect after setting a Bear Trap by +5 % .",
+            "photo_addon":"Trap/iconAddon_coffeeGrinds.png",
+            "rang_addon":4
+          },{
+            "id":15,
+            "name_addon_ru":"Комплект из 4-х спиральных пружин",
+            "name_addon_en":"4-Coil Spring Kit",
+            "description_addon_ru":"Ремкомплект для установки в медвежьи капканы четырех пружин вместо двух, в результате чего возрастает их сила. Увеличивает время, требуемое выжившим на обезвреживание медвежьих капканов, на 33%.",
+            "description_addon_en":"A replacement kit for Bear Traps which changes the usual dual spring system to four coil springs, adding a great amount of strength to the Bear Traps hold. Increases the Disarm time of the Bear Trap by +33 %.",
+            "photo_addon":"Trap/iconAddon_coilsKit4.png",
+            "rang_addon":4
+          },{
+            "id":16,
+            "name_addon_ru":"Охотничьи перчатки",
+            "name_addon_en":"Trapper Gloves",
+            "description_addon_ru":"Защитные кожаные перчатки. Увеличивают скорость установки медвежьих капканов на 30%.",
+            "description_addon_en":"Protective padded leather gloves. Increases the Setting speed of the Bear Trap by +30 %.",
+            "photo_addon":"Trap/iconAddon_trapperGloves.png",
+            "rang_addon":5
+          },{
+            "id":17,
+            "name_addon_ru":"Мягкие челюсти",
+            "name_addon_en":"Padded Jaws",
+            "description_addon_ru":"Задача этих капканов - обезвредить, а не ранить. Медвежьи капканы не причиняют вреда пойманным выжившим. Использование этого дополнения устраняет эффект от \"Ржавых челюстей\" и \"Зазубренных челюстей\". Количество очков за попадание выживших в капканы увеличено на 100%",
+            "description_addon_en":"These padded jaws are meant to restrain, not to wound. Bear Traps immobilise Survivors without damaging them. Grants 100 % bonus Bloodpoints IconCurrency bloodpoints for trapping Survivors.",
+            "photo_addon":"Trap/iconAddon_paddedJaws.png",
+            "rang_addon":5
+          },{
+            "id":18,
+            "name_addon_ru":"Самодельный бандаж",
+            "name_addon_en":"Makeshift Wrap",
+            "description_addon_ru":"Потертый бандаж из плотной дубленой кожи животного. Медвежьи капканы Охотника не срабатывают на нем самом Медвежьи капканы обезвреживаются, когда Охотник в них наступает",
+            "description_addon_en":"A scratched and worn brace made of thick, cured animal skin. You are no longer caught in your own Bear Traps, they are automatically disarmed instead.",
+            "photo_addon":"Trap/iconAddon_makeshiftWrap.png",
+            "rang_addon":5
+          },{
+            "id":19,
+            "name_addon_ru":"Медвежий жир",
+            "name_addon_en":"Bear Oil",
+            "description_addon_ru":"Топленый животный жир, которым можно смазывать скрипящие сочленения медвежьего капкана. Установка медвежьего капкана проходит бесшумно",
+            "description_addon_en":"Melted animal fat that can lubricate the Bear Traps squeaky joints. Setting a Bear Trap is silent.",
+            "photo_addon":"Trap/iconAddon_bearOil.png",
+            "rang_addon":5
+          },{
+            "id":10000,
+            "name_addon_ru":"Пусто",
+            "name_addon_en":"Empty",
+            "description_addon_ru":"Пусто",
+            "description_addon_en":"Empty",
+            "photo_addon":"empty.png",
+            "rang_addon":5
+          },{
+            "id":10000,
+            "name_addon_ru":"Пусто",
+            "name_addon_en":"Empty",
+            "description_addon_ru":"Пусто",
+            "description_addon_en":"Empty",
+            "photo_addon":"empty.png",
+            "rang_addon":5
           }
         ]
       },{
@@ -55,47 +199,191 @@
         "skills_description_ru": "Тяжелый чугунный колокол, обладающий древней силой. У звонящего в него есть возможность прогуляться по миру духов.\n\nПЛАЧУЩИЙ КОЛОКОЛ\nУдерживайте кнопку силы, чтобы замаскироваться. Снова зажмите кнопку силы в замаскированном состоянии, чтобы снять маскировку; при появлении ваша скорость возрастет на 1 сек. Звук плачущего колокола слышен на расстоянии 24 м.\n\nМаскировка\nЗамаскированный Призрак передвигается быстрее, становится почти невидимым и получает эффект \"Незаметность\". Будучи замаскированным, Призрак не может атаковать, но способен взаимодействовать с предметами окружения. На ярком свету Призрак автоматически теряет маскировку.",
         "skills_en": "тест",
         "skills_description_en": "тест",
-        "photo_main": "storeBackground_WR.png",
+        "photo_main": "K02_TheWraith_Portrait.png",
         "photo_skills": "iconHelpLoading_wraith.png",
         "DLC": 0,
         "DLC_name": "0",
         "addons":[
           {
-            "id":0,
-            "name_addon_ru":"",
-            "name_addon_en":"",
-            "description_addon_ru":"",
-            "description_addon_en":"",
-            "photo_addon":"",
+            "id":20,
+            "name_addon_ru":"Обмотанный язычок",
+            "name_addon_en":"Coxcombed Clapper",
+            "description_addon_ru":"Веревка для приглушения звука со зловещей аурой, обвязанная вокруг язычка колокола и закрепленная особым узлом. Плачущий колокол становится совершенно беззвучным",
+            "description_addon_en":"A simple coxcomb knotted rope wrapped around the bell clapper to muffle its sound. A malevolent Aura emanates from it. Silences the Wailing Bell.",
+            "photo_addon":"Wraith/iconAddon_coxcombedClapper.png",
             "rang_addon":0
           },{
-            "id":2,
-            "name_addon_ru":"",
-            "name_addon_en":"",
-            "description_addon_ru":"",
-            "description_addon_en":"",
-            "photo_addon":"",
+            "id":21,
+            "name_addon_ru":"\"Всевидящий\" - дух",
+            "name_addon_en":"\"All Seeing\" - Spirit",
+            "description_addon_ru":"Символ Кра-Фрабай, олицетворяющий наблюдающую за нами Сущность, отпечатан белой краской на колоколе. Открывает способность чтения ауры. В режиме невидимости вы можете определять степень починки генераторов по яркости их ауры.",
+            "description_addon_en":"The Kra-Frabai symbol, representing the Entity watching over us, ominously glows on the head of the Bell. Unlocks hidden potential in your Aura-reading ability: Reveals the Repair progression of Generators IconHelpLoading generators via the intensity of their Aura IconHelp auras when Cloaked.",
+            "photo_addon":"Wraith/iconAddon_spiritAllSeeing.png",
             "rang_addon":0
           },{
-            "id":3,
-            "name_addon_ru":"",
-            "name_addon_en":"",
-            "description_addon_ru":"",
-            "description_addon_en":"",
-            "photo_addon":"",
-            "rang_addon":0
+            "id":22,
+            "name_addon_ru":"\"Ураган\" - кровь",
+            "name_addon_en":"\"Windstorm\" - Blood",
+            "description_addon_ru":"Символ Охувэ-Онмнеа, олицетворяющий сильный шторм, отпечатан кровью на колоколе. Увеличивает скорость движения Призрака в невидимости на 9%.",
+            "description_addon_en":"The Ohuwe-Onmnea symbol, representing a howling storm, is stamped in blood on the body of the Bell. Increases your Movement Speed by +9 % when Cloaked.",
+            "photo_addon":"Wraith/iconAddon_bloodWindstorm.png",
+            "rang_addon":1
           },{
-            "id":4,
-            "name_addon_ru":"",
-            "name_addon_en":"",
-            "description_addon_ru":"",
-            "description_addon_en":"",
-            "photo_addon":"",
-            "rang_addon":0
+            "id":23,
+            "name_addon_ru":"\"Стремительная охота\" - кровь",
+            "name_addon_en":"\"Swift Hunt\" - Blood",
+            "description_addon_ru":"Символ Кунтин-Такко, олицетворяющий быстрое выслеживание жертвы, отпечатан кровью на навершии колокола. Увеличивает скорость выхода из невидимости на 12%.",
+            "description_addon_en":"The Kuntin-Takkho symbol, representing a rapid descent on a prey, is stamped in blood on the body of the Bell. Reduces the Uncloaking time by -12 %.",
+            "photo_addon":"Wraith/iconAddon_bloodSwiftHunt.png",
+            "rang_addon":1
+          },{
+            "id":24,
+            "name_addon_ru":"\"Танец теней\" - кровь",
+            "name_addon_en":"\"Shadow Dance\" - Blood",
+            "description_addon_ru":"Символ Онмене-Вивуфо, олицетворяющий темную синергию, отпечатан кровью на колоколе. В режиме невидимости повышает скорость прыжков через окна, поломки досок, стен и генераторов на 60%.",
+            "description_addon_en":"The Yiwarick symbol, representing dark synergy, is stamped in blood on the body of the Bell. Increases the Action speeds for breaking Breakable Walls IconHelp breakableWall and Pallets IconHelp pullDown , damaging Generators IconHelpLoading generators , and vaulting Windows IconHelp window by +60 % when Cloaked.",
+            "photo_addon":"Wraith/iconAddon_bloodShadowDance.png",
+            "rang_addon":1
+          },{
+            "id":25,
+            "name_addon_ru":"\"Всевидящий\" - кровь",
+            "name_addon_en":"\"All Seeing\" - Blood",
+            "description_addon_ru":"Символ Кра-Фрабай, олицетворяющий наблюдающую за нами Сущность, отпечатан кровью на колоколе. Открывает способность чтения ауры. В режиме невидимости позволяет видеть ауры выживших в радиусе 8 м от вас.",
+            "description_addon_en":"The Kra-Frabai symbol, representing the Entity watching over us, is stamped in blood on the head of the Bell. Unlocks hidden potential in your Aura-reading ability: The Auras IconHelp auras of Survivors are revealed to you within 8 metres of your location when Cloaked.",
+            "photo_addon":"Wraith/iconAddon_bloodKraFabai.png",
+            "rang_addon":1
+          },{
+            "id":26,
+            "name_addon_ru":"\"Ураган\" - белая краска",
+            "name_addon_en":"\"Windstorm\" - White",
+            "description_addon_ru":"Символ Охувэ-Онмнеа, олицетворяющий ярость, нарисован белой краской на колоколе. Увеличивает скорость передвижения Призрака в невидимости на 7%",
+            "description_addon_en":"The Ohuwe-Onmnea symbol, representing a howling storm, is stamped in white ink on the body of the Bell. Increases your Movement Speed by +7 % when Cloaked.",
+            "photo_addon":"Trap/iconAddon_whiteWindstorm.png",
+            "rang_addon":2
+          },{
+            "id":27,
+            "name_addon_ru":"\"Стремительная охота\" - белая краска",
+            "name_addon_en":"\"Swift Hunt\" - White",
+            "description_addon_ru":"Символ Кунтин-Такко, олицетворяющий быстрое выслеживание жертвы, нарисован белой краской на колоколе. Увеличивает скорость выхода из невидимости на 10%.",
+            "description_addon_en":"The Kuntin-Takkho symbol, representing a rapid descent on a prey, is stamped in white ink on the body of the Bell. Reduces the Uncloaking time by -10 %.",
+            "photo_addon":"Wraith/iconAddon_whiteKuntinTakkho.png",
+            "rang_addon":2
+          },{
+            "id":28,
+            "name_addon_ru":"\"Танец теней\" - белая краска",
+            "name_addon_en":"\"Shadow Dance\" - White",
+            "description_addon_ru":"Символ Онмене-Вивуфо, олицетворяющий темную синергию, нарисован белой краской на колоколе. В режиме невидимости повышает скорость прыжков через окна, поломки досок и генераторов на 40%.",
+            "description_addon_en":"The Yiwarick symbol, representing dark synergy, is stamped in white ink on the body of the Bell. Increases the Action speeds for breaking Breakable Walls IconHelp breakableWall and Pallets IconHelp pullDown , damaging Generators IconHelpLoading generators , and vaulting Windows IconHelp window by +40 % while Cloaked.",
+            "photo_addon":"Wraith/iconAddon_whiteShadowDance.png",
+            "rang_addon":2
+          },{
+            "id":29,
+            "name_addon_ru":"\"Скачок\" - белая краска",
+            "name_addon_en":"\"Blink\" - White",
+            "description_addon_ru":"Символ Кратин, олицетворяющий скорость, нарисован белой краской на колоколе. Увеличивает скорость перехода в невидимость на 60%.",
+            "description_addon_en":"The Kratin symbol, representing quick passing, is stamped in white ink on the body of the Bell. Reduces the Cloaking time by -60 %.",
+            "photo_addon":"Trap/iconAddon_whiteBlink.png",
+            "rang_addon":2
+          },{
+            "id":30,
+            "name_addon_ru":"\"Слепой воин\" - белая краска",
+            "name_addon_en":"\"Blind Warrior\" - White",
+            "description_addon_ru":"Символ Байкра-Кеуг, олицетворяющий свирепость, нарисован грязью на колоколе. Внезапные атаки по выжившим сразу после выхода из невидимости заставляют их страдать от эффектов Травма и Кровотечение на 70 сек. \"Кровотечение\" уменьшает прогресс лечения, когда выжившего не лечат, и увеличивает кровавый след за ранеными выжившими. Действует в течение указанного срока или до полного исцеления. \"Травма\" увеличивает время лечения на 25% и действует в течение указанного срока или до полного исцеления.",
+            "description_addon_en":"The Baikra-Kaeug symbol, representing ferocity, is stamped in white ink on the body of the Bell. Survivors hit with a Surprise Attack suffer from the Haemorrhage IconStatusEffects bleeding and Mangled IconStatusEffects mangled Status Effects for 70 seconds.",
+            "photo_addon":"Wraith/iconAddon_whiteBlindWarrior.png",
+            "rang_addon":2
+          },{
+            "id":31,
+            "name_addon_ru":"Костяной язычок колокола",
+            "name_addon_en":"Bone Clapper",
+            "description_addon_ru":"Язычок колокола, изготовленный из полированной кости. Из-за него Плачущий Колокол звучит крайне странно и путает противника. Выжившие больше не смогут определить расстояние до Плачущего Колокола и понять, с какой стороны он звучит.",
+            "description_addon_en":"A Bell clapper made from a highly polished piece of bone. Causes the sounds of the Wailing Bell to echo and warp chaotically. Survivors are unable to discern the distance and direction of the Wailing Bell.",
+            "photo_addon":"Wraith/iconAddon_boneClapper.png",
+            "rang_addon":3
+          },{
+            "id":32,
+            "name_addon_ru":"\"Ураган\" - грязь",
+            "name_addon_en":"\"Windstorm\" - Mud",
+            "description_addon_ru":"Символ Охувэ-Онмнеа, олицетворяющий зазывающую бурю, нарисован грязью на колоколе. Увеличивает скорость передвижения Призрака в невидимости на 5%",
+            "description_addon_en":"The Ohuwe-Onmnea symbol, representing a howling storm, is finger-drawn in mud on the body of the Bell. Increases your Movement Speed by +5 % when Cloaked.",
+            "photo_addon":"Wraith/iconAddon_mudWindstorm.png",
+            "rang_addon":3
+          },{
+            "id":33,
+            "name_addon_ru":"\"Стремительная охота\" - грязь",
+            "name_addon_en":"\"Swift Hunt\" - Mud",
+            "description_addon_ru":"Символ Кунтин-Такко, олицетворяющий быстрое выслеживание жертвы, нарисован грязью на колоколе. Увеличивает скорость выхода из невидимости на 8%.",
+            "description_addon_en":"The Kuntin-Takkho symbol, representing a rapid descent on a prey, is finger-drawn in mud on the body of the Bell. Reduces the Uncloaking time by -8 %.",
+            "photo_addon":"Wraith/iconAddon_mudSwiftHunt.png",
+            "rang_addon":3
+          },{
+            "id":34,
+            "name_addon_ru":"\"Скачок\" - грязь",
+            "name_addon_en":"\"Blink\" - Mud",
+            "description_addon_ru":"Символ Кратин, олицетворяющий скорость, нарисован грязью на колоколе. Увеличивает скорость перехода в невидимость на 40%.",
+            "description_addon_en":"The Kratin symbol, representing quick passing, is finger-drawn in mud on the body of the Bell. Reduces the Cloaking time by -40 %.",
+            "photo_addon":"Wraith/iconAddon_mudBlink.png",
+            "rang_addon":3
+          },{
+            "id":35,
+            "name_addon_ru":"\"Слепой воин\" - грязь",
+            "name_addon_en":"\"Blind Warrior\" - Mud",
+            "description_addon_ru":"Символ Байкра-Кеуг, олицетворяющий свирепость, нарисован грязью на колоколе. Внезапные атаки по выжившим сразу после выхода из невидимости накладывают на них \"Слепоту\" на 60 сек. \"Слепота\" не дает выжившим читать ауры.",
+            "description_addon_en":"The Baikra-Kaeug symbol, representing ferocity, is finger-drawn in mud on the body of the Bell. Survivors hit with a Surprise Attack suffer from the Blindness IconStatusEffects vision Status Effect for 60 seconds.",
+            "photo_addon":"Wraith/iconAddon_mudBaikraKaeug.png",
+            "rang_addon":3
+          },{
+            "id":36,
+            "name_addon_ru":"\"Змей\" - сажа",
+            "name_addon_en":"\"The Serpent\" - Soot",
+            "description_addon_ru":"Символ Оас-Нек, олицетворяющий коварство, нарисован сажей на колоколе. Призрак полностью выйдет из невидимости, когда будет ломать доски и генераторы (в режиме невидимости).",
+            "description_addon_en":"The Laokeye symbol, representing cunning, is finger-drawn out of soot on the body of the Bell. Breaking Breakable Walls IconHelp breakableWall or Pallets IconHelp pullDown by any means, or performing the Damage Generator Action on incomplete Generators IconHelpLoading generators , will cause you to automatically uncloak.",
+            "photo_addon":"Wraith/iconAddon_sootTheSerpent.png",
+            "rang_addon":4
+          },{
+            "id":37,
+            "name_addon_ru":"\"Ищейка\" - сажа",
+            "name_addon_en":"\"The Hound\" - Soot",
+            "description_addon_ru":"Символ Воннуг, олицетворяющий бесподобного следопыта, нарисован сажей на колоколе. В невидимости свежие кровавые следы становятся ярче, чем обычно.",
+            "description_addon_en":"The Wonnug symbol, representing a peerless tracker, is finger-drawn out of soot on the body of the Bell. When Cloaked, Pools of Blood IconStatusEffects bleeding IconStatusEffects bleeding appear to you in bright red.",
+            "photo_addon":"Wraith/iconAddon_sootTheHound.png",
+            "rang_addon":4
+          },{
+            "id":38,
+            "name_addon_ru":"\"Гоуст Фейс\" - сажа",
+            "name_addon_en":"\"The Ghost\" - Soot",
+            "description_addon_ru":"Символ Кугвемуу, олицетворяющий мир духов, нарисован сажей на колоколе. После выхода из невидимости радиус террора и красное свечение Призрака остаются подавленными в течение 6 секунд.",
+            "description_addon_en":"The Khugwemuu symbol, representing the Spirit World, is finger-drawn out of soot on the body of the Bell. Your Terror Radius IconHelp terrorRadius and Red Stain are suppressed for another 6 seconds after uncloaking.",
+            "photo_addon":"Wraith/iconAddon_sootTheGhost.png",
+            "rang_addon":4
+          },{
+            "id":39,
+            "name_addon_ru":"\"Зверь\" - сажа",
+            "name_addon_en":"\"The Beast\" - Soot",
+            "description_addon_ru":"Символ Кунгферру, олицетворяющий мир страха, нарисован сажей на колоколе. Радиус террора Призрака больше не подавляется в режиме невидимости. Вы получаете на 100% больше Очков Крови за выслеживание и внезапные нападения на выживших.",
+            "description_addon_en":"The Kunwulju symbol, representing the Realm of Fear, is finger-drawn out of soot on the body of the Bell. Your Terror Radius IconHelp terrorRadius is no longer suppressed when Cloaked. Grants +100 % bonus Bloodpoints for Stalking and Surprise Attack Score Events.",
+            "photo_addon":"Wraith/iconAddon_sootTheBeast.png",
+            "rang_addon":4
+          },{
+            "id":10000,
+            "name_addon_ru":"Пусто",
+            "name_addon_en":"Empty",
+            "description_addon_ru":"Пусто",
+            "description_addon_en":"Empty",
+            "photo_addon":"empty.png",
+            "rang_addon":5
+          },{
+            "id":10000,
+            "name_addon_ru":"Пусто",
+            "name_addon_en":"Empty",
+            "description_addon_ru":"Пусто",
+            "description_addon_en":"Empty",
+            "photo_addon":"empty.png",
+            "rang_addon":5
           }
         ]
       },{
-        "number": 3,
+        "number": 2,
         "name_ru": "Деревенщина",
         "name_en": "The Hillbilly",
         "skills_ru": "Бензопила",
@@ -108,41 +396,185 @@
         "DLC_name": "0",
         "addons":[
           {
-            "id":0,
-            "name_addon_ru":"",
-            "name_addon_en":"",
-            "description_addon_ru":"",
-            "description_addon_en":"",
-            "photo_addon":"",
+            "id":40,
+            "name_addon_ru":"Калиброванный карбюратор",
+            "name_addon_en":"Tuned Carburettor",
+            "description_addon_ru":"Хоть этот карбюратор и покрыт толстым слоем грязи и масла, он прекрасно настроен. Ускоряет завод бензопилы на 20%. Снижает базовую скорость передвижения до 4.4 м/с.",
+            "description_addon_en":"Despite being caked in dirt and oil, this carburettor has been well adjusted. Increases the Charge speed of the Chainsaw by +20 %. Reduces your Movement speed to 4.4 m/s.",
+            "photo_addon":"Hillbilly/iconAddon_tunedCarburetor.png",
             "rang_addon":0
           },{
-            "id":2,
-            "name_addon_ru":"",
-            "name_addon_en":"",
-            "description_addon_ru":"",
-            "description_addon_en":"",
-            "photo_addon":"",
+            "id":41,
+            "name_addon_ru":"Радужные метки",
+            "name_addon_en":"Iridescent Engravings",
+            "description_addon_ru":"На бензопиле нацарапана темная тварь, обитающая в Тумане. Укрепляет решимость владельца. Ускоряет передвижение при рывке с бензопилой на 20%. Замедляет завод бензопилы на 12%.",
+            "description_addon_en":"Engravings found on the Chainsaw body representing the dark beast that lives in The Fog. Fills the user with determination. Increases your Movement speed during a Chainsaw Sprint by +20 %. Increases the Charge time of the Chainsaw by +12 %.",
+            "photo_addon":"Hillbilly/iconAddon_iridescentEngravings.png",
             "rang_addon":0
           },{
-            "id":3,
-            "name_addon_ru":"",
-            "name_addon_en":"",
-            "description_addon_ru":"",
-            "description_addon_en":"",
-            "photo_addon":"",
-            "rang_addon":0
+            "id":42,
+            "name_addon_ru":"Облегченные цепи",
+            "name_addon_en":"Low Pro Chains",
+            "description_addon_ru":"С новыми цепями бензопила становится легче, что позволяет лучше ее контролировать. Рывок с бензопилой продолжается, когда вы ломаете доски или стены. При ранении бензопилой в течение 5 сек. после поломки доски или стены выжившие теряют одно состояние здоровья.",
+            "description_addon_en":"Light chains that decrease the weight of the Chainsaw, allowing for greater manoeuvrability. Allows you to continue the Chainsaw Sprint after breaking a Pallet IconHelp pullDown or Breakable Wall IconHelp breakableWall with the Chainsaw. Survivors hit with the Chainsaw within 5 seconds of breaking a Pallet or a Breakable Wall are only damaged for a single Health State IconStatusEffects healing .",
+            "photo_addon":"Hillbilly/iconAddon_lowProChains.png",
+            "rang_addon":1
           },{
-            "id":4,
-            "name_addon_ru":"",
-            "name_addon_en":"",
-            "description_addon_ru":"",
-            "description_addon_en":"",
-            "photo_addon":"",
-            "rang_addon":0
+            "id":43,
+            "name_addon_ru":"Винт натяжного колеса",
+            "name_addon_en":"High-Speed Idler Screw",
+            "description_addon_ru":"Ослабленный винт увеличивает мощность бензопилы. Увеличивает время до начала опустошения шкалы перегрузки на 30%",
+            "description_addon_en":"A loosened screw will bring more power to the Chainsaw Increases the Decay delay for the Overdrive Meter by +30 %.",
+            "photo_addon":"Hillbilly/iconAddon_highSpeedIdlerScrew.png",
+            "rang_addon":1
+          },{
+            "id":44,
+            "name_addon_ru":"Грязные тапочки",
+            "name_addon_en":"Filthy Slippers",
+            "description_addon_ru":"Максу иногда не удавалось услышать шаги своей матери. После 2 сек. рывка с бензопилой дает эффект \"Незаметность\" до окончания рывка. \"Незаметность\" скрывает ауру, радиус террора и красное свечение убийцы.",
+            "description_addon_en":"Max sometimes struggled to hear his mother's footfalls. Gain the Undetectable IconStatusEffects undetectable Status Effect until you stop sprinting after maintaining a Chainsaw Sprint for at least 2 seconds.",
+            "photo_addon":"Hillbilly/iconAddon_filthySlippers.png",
+            "rang_addon":1
+          },{
+            "id":45,
+            "name_addon_ru":"Превосходный глушитель",
+            "name_addon_en":"Apex Muffler",
+            "description_addon_ru":"Мастерски сделанный глушитель для бензопилы, которому все прочие и в подметки не годятся. Выжившие не слышат звуки бензопилы за пределами радиуса террора.",
+            "description_addon_en":"A masterfully crafted chainsaw muffler that outperforms all others. Silences the Chainsaw for all Survivors outside of the Terror Radius IconHelp terrorRadius .",
+            "photo_addon":"Hillbilly/iconAddon_apexMuffler.png",
+            "rang_addon":1
+          },{
+            "id":46,
+            "name_addon_ru":"Смесь Томпсонов",
+            "name_addon_en":"The Thompsons' Mix",
+            "description_addon_ru":"Особое масло, приготовленное семьей для своих механизмов. Ускоряет восстановление после удара бензопилой на 10%. Эффект не действует в состоянии перегрузки.",
+            "description_addon_en":"A special oily substance used in the lubrication of all machinery concocted by the Thompsons themselves. Reduces the Cool-down time after using the Chainsaw by -10 %, when not in Overdrive.",
+            "photo_addon":"Hillbilly/iconAddon_theThompsonsMix.png",
+            "rang_addon":2
+          },{
+            "id":47,
+            "name_addon_ru":"Движок с перебоями",
+            "name_addon_en":"Ragged Engine",
+            "description_addon_ru":"Кто-то скажет, что ее бы не грех откалибровать. Макс считает, что и так сойдет. Замедляет опустошение шкалы перегрузки, когда вы не используете бензопилу, на 30%",
+            "description_addon_en":"Some would say it needs a tune-up. Max would say it is tuned-up. Reduces the Dissipation speed of the Overdrive Meter when not using the Chainsaw by -30 %.",
+            "photo_addon":"Hillbilly/iconAddon_raggedEngine.png",
+            "rang_addon":2
+          },{
+            "id":48,
+            "name_addon_ru":"Цепи с низкой отдачей",
+            "name_addon_en":"Low Kickback Chains",
+            "description_addon_ru":"Специальная цепь, снижающая вероятность отдачи. Ускоряет восстановление после столкновения бензопилы с объектами на 15%.",
+            "description_addon_en":"A specialised chain that reduces the likelihood of kickback. Reduces the Cool-down time after hitting an obstacle during a Chainsaw Sprint by -15 %.",
+            "photo_addon":"Hillbilly/iconAddon_lowKickbackChains.png",
+            "rang_addon":2
+          },{
+            "id":49,
+            "name_addon_ru":"Списанный фильтр",
+            "name_addon_en":"Discarded Air Filter",
+            "description_addon_ru":"Пыльный и треснувший, этот фильтр все равно работает лучше стандартных моделей. Увеличивает время до начала опустошения шкалы перегрузки на 20%.",
+            "description_addon_en":"A cracked and dusty filter. It still manages to work better than the stock model. Increases the Decay delay for the Overdrive Meter by +20 %.",
+            "photo_addon":"Hillbilly/iconAddon_discardedAirFilter.png",
+            "rang_addon":2
+          },{
+            "id":50,
+            "name_addon_ru":"Грязные цепи",
+            "name_addon_en":"Begrimed Chains",
+            "description_addon_ru":"Мерзкая, но почему-то знакомая цепь, покрытая какой-то неприятной субстанцией. Выжившие, получившие удар бензопилой, страдают от эффектов \"Травма\" и \"Кровотечение\" в течение 70 сек. \"Травма\" увеличивает время лечения на 25% и действует в течение указанного срока или до полного исцеления. \"Кровотечение\" уменьшает прогресс лечения, когда выжившего не лечат, и увеличивает кровавый след за ранеными выжившими. Действует в течение указанного срока или до полного исцеления.",
+            "description_addon_en":"A foul yet oddly familiar chain, coated with something unpleasant. Survivors hit with the Chainsaw suffer from the Haemorrhage IconStatusEffects bleeding and Mangled IconStatusEffects mangled Status Effects for 70 seconds.",
+            "photo_addon":"Hillbilly/iconAddon_chainsBloody.png",
+            "rang_addon":2
+          },{
+            "id":51,
+            "name_addon_ru":"Теплоизолирующий корпус",
+            "name_addon_en":"Thermal Casing",
+            "description_addon_ru":"Толстый корпус позволяет контролировать расход энергии. Уменьшает скорость опустошения шкалы перегрузки, когда вы не используете бензопилу, на 20%",
+            "description_addon_en":"A thicker case that allows the user to control the conservation of energy. Reduces the Dissipation speed of the Overdrive Meter when not using the Chainsaw by -20 %.",
+            "photo_addon":"Hillbilly/iconAddon_thermalCasing.png",
+            "rang_addon":3
+          },{
+            "id":52,
+            "name_addon_ru":"Сапоги с шипами",
+            "name_addon_en":"Spiked Boots",
+            "description_addon_ru":"Ботинки с пристегнутыми металлическими нашлепками, которые не дают подошвам скользить по грязи. Увеличивают скорость поворота при рывке с бензопилой на 45%.",
+            "description_addon_en":"Boots with strapped-on pieces of metal which burrow into mud for more stability and control with each step. Increases the Turn speed during the Chainsaw Sprint by +45 %.",
+            "photo_addon":"Hillbilly/iconAddon_spikedBoots.png",
+            "rang_addon":3
+          },{
+            "id":53,
+            "name_addon_ru":"Моторное масло неизвестной марки",
+            "name_addon_en":"Off-Brand Motor Oil",
+            "description_addon_ru":"Недорогое масло, подходящее для смазки шумных цепей. Увеличивает накапливание перегрузки на 15%.",
+            "description_addon_en":"Affordable oil that can be used to lubricate noisy chains. Increases the Charge rate of the Overdrive Meter by +15 %.",
+            "photo_addon":"Hillbilly/iconAddon_offBrandMotorOil.png",
+            "rang_addon":3
+          },{
+            "id":54,
+            "name_addon_ru":"Смазанный дроссель",
+            "name_addon_en":"Greased Throttle",
+            "description_addon_ru":"Смазанный спуск, с которым бензопила возвращается к работе одним нажатием пальца. Ускоряет восстановление после попадания бензопилой на 5%[2]. Эффект не действует в состоянии перегрузки.",
+            "description_addon_en":"A lubricated trigger. One twitch of the finger brings the Chainsaw back to life. Reduces the Cool-down time after using the Chainsaw by -5 %, when not in Overdrive.",
+            "photo_addon":"Hillbilly/iconAddon_greasedThrottle.png",
+            "rang_addon":3
+          },{
+            "id":55,
+            "name_addon_ru":"Забитый воздухозаборник",
+            "name_addon_en":"Clogged Intake",
+            "description_addon_ru":"Изменяя поток воздуха, можно изменить мощность пилы. Увеличивают продолжительность перегрузки на 15%.",
+            "description_addon_en":"Modifying the airflow is key to modifying the Chainsaw's power. Extends the duration of Overdrive by +15 %.",
+            "photo_addon":"Hillbilly/iconAddon_cloggedIntake.png",
+            "rang_addon":3
+          },{
+            "id":56,
+            "name_addon_ru":"Ботинки с железными мысками",
+            "name_addon_en":"Steel Toe Boots",
+            "description_addon_ru":"Ботинки с укрепленными мысками для защиты от ударов. Ускоряют восстановление после столкновения бензопилы с объектами на 10%.",
+            "description_addon_en":"Boots with a reinforced toe that offer protection from impact. Reduces the Cool-down time after hitting an obstacle during a Chainsaw Sprint by -10 %.",
+            "photo_addon":"Hillbilly/iconAddon_steelToeBoots.png",
+            "rang_addon":4
+          },{
+            "id":57,
+            "name_addon_ru":"Папины ботинки",
+            "name_addon_en":"Dad's Boots",
+            "description_addon_ru":"Пара добротных ботинок, снятых с трупа Макса Томпсона-старшего. Увеличивают скорость поворота во время рывка с бензопилой на 30%.",
+            "description_addon_en":"A pair of trusty boots, pulled from the corpse of Max Thompson Senior. Increases the Turn speed during a Chainsaw Sprint by +30 %.",
+            "photo_addon":"Hillbilly/iconAddon_dadsBoots.png",
+            "rang_addon":4
+          },{
+            "id":58,
+            "name_addon_ru":"Треснувший сжимной насос",
+            "name_addon_en":"Cracked Primer Bulb",
+            "description_addon_ru":"Кнопка, удаляющая воздух из топливопровода. Машину нужно кормить. При ранении бензопилой выжившие теряют один уровень здоровья. Увеличивает накапливание перегрузки на 15%.",
+            "description_addon_en":"A button that clears air from the fuel lines. This machine needs to be fed. Increases the Charge rate of the Overdrive Meter by +15 %. Survivors hit with the Chainsaw are only damaged for a single Health State IconStatusEffects healing .",
+            "photo_addon":"Hillbilly/iconAddon_crackedPrimerBulb.png",
+            "rang_addon":4
+          },{
+            "id":59,
+            "name_addon_ru":"Противовес",
+            "name_addon_en":"Counterweight",
+            "description_addon_ru":"Добавляет к основанию груз, повышающий стабильность. Уменьшает первоначальную скорость поворота при рывке с бензопилой на 70%.",
+            "description_addon_en":"Adds weight to the base, for stability. Reduces the initial Turn rate of the Chainsaw during a Chainsaw Sprint by -70 %.",
+            "photo_addon":"Hillbilly/iconAddon_counterweight.png",
+            "rang_addon":4
+          },{
+            "id":10000,
+            "name_addon_ru":"Пусто",
+            "name_addon_en":"Empty",
+            "description_addon_ru":"Пусто",
+            "description_addon_en":"Empty",
+            "photo_addon":"empty.png",
+            "rang_addon":5
+          },{
+            "id":10000,
+            "name_addon_ru":"Пусто",
+            "name_addon_en":"Empty",
+            "description_addon_ru":"Пусто",
+            "description_addon_en":"Empty",
+            "photo_addon":"empty.png",
+            "rang_addon":5
           }
         ]
       },{
-        "number": 4,
+        "number": 3,
         "name_ru": "Медсестра",
         "name_en": "The Nurse",
         "skills_ru": "Последний вздох Спенсера",
@@ -155,37 +587,181 @@
         "DLC_name": "",
         "addons":[
           {
-            "id":0,
-            "name_addon_ru":"",
-            "name_addon_en":"",
-            "description_addon_ru":"",
-            "description_addon_en":"",
-            "photo_addon":"",
+            "id":60,
+            "name_addon_ru":"Порванная закладка",
+            "name_addon_en":"Torn Bookmark",
+            "description_addon_ru":"Белый и до сих пор чистый кусок тесьмы. Когда-то крепился к священной книге и считался символом спора. Добавляет 1 заряд скачка. Увеличивает время восстановления скачка на 30%",
+            "description_addon_en":"A white and pristine piece of ribbon once attached to a sacred book. Serves as the symbol of a dispute. Increases the number of available Power Tokens by +1. Extends the Power Recharge duration to 130 %.",
+            "photo_addon":"Nurse/iconAddon_tornBookmark.png",
             "rang_addon":0
           },{
-            "id":2,
-            "name_addon_ru":"",
-            "name_addon_en":"",
-            "description_addon_ru":"",
-            "description_addon_en":"",
-            "photo_addon":"",
+            "id":61,
+            "name_addon_ru":"Спичечный коробок",
+            "name_addon_en":"Matchbox",
+            "description_addon_ru":"Спичечный коробок, в который сложили странную коллекцию всевозможных пуговиц. Напоминает владельцу об одном жутком месте. У владельца всего 1 скачок. Повышает базовую скорость передвижения Медсестры до 4.4 м/c",
+            "description_addon_en":"A matchbox containing an odd collection of mismatched buttons. Serves as a reminder of a horrible place. Increases your Movement speed to 4.4 m/s for the entire Trial. Restricts your Power to just 1 Blink. This cannot be altered by other Add-ons.",
+            "photo_addon":"Nurse/iconAddon_matchBox.png",
             "rang_addon":0
           },{
-            "id":3,
-            "name_addon_ru":"",
-            "name_addon_en":"",
-            "description_addon_ru":"",
-            "description_addon_en":"",
-            "photo_addon":"",
-            "rang_addon":0
+            "id":62,
+            "name_addon_ru":"Последний вздох Кавана",
+            "name_addon_en":"Kavanagh's Last Breath",
+            "description_addon_ru":"Сильный последний вздох, украденный у Харви Кавана, санитара психбольницы \"Кротус Пренн\". Напряженно пульсирует в руках Медсестры. При истощении любые выжившие в радиусе 8 м от Медсестры на 60 сек. получают \"Слепоту\"",
+            "description_addon_en":"A powerful last breath snatched from the asylum orderly Harvey Kavanagh, also known as the \"Fat Orderly\". In the hands of The Nurse, it wobbles with intensity. When succumbing to Fatigue, all Survivors within 8 metres of your location suffer from the Blindness IconStatusEffects vision Status Effect for 60 seconds.",
+            "photo_addon":"Nurse/iconAddon_kavanaghsLastBreath.png",
+            "rang_addon":1
           },{
-            "id":4,
-            "name_addon_ru":"",
-            "name_addon_en":"",
-            "description_addon_ru":"",
-            "description_addon_en":"",
-            "photo_addon":"",
-            "rang_addon":0
+            "id":63,
+            "name_addon_ru":"Последний вздох Дженнер",
+            "name_addon_en":"Jenner's Last Breath",
+            "description_addon_ru":"Сильный последний вздох, украденный у Мэри Дженнер, пациентки психиатрической лечебницы \"Кротус Пренн\". Судорожно трепещет в руках Медсестры. Как только Медсестра использует все скачки, позволяет ей мгновенно вернуться в изначальное место после скачка нажатием кнопки активной способности. Необходимо использовать прежде, чем начнет действовать истощение. Когда Медсестра вернется на изначальную позицию, все заряды скачка будут восстановлены.",
+            "description_addon_en":"A powerful last breath snatched from the asylum patient Mary Jenner, also known as the \"Anxious Girl\". In the hands of The Nurse, it trembles with intensity. After exhausting all of your Blinks, but before succumbing to Fatigue, press the Active Ability button to immediately Blink back to your starting location. Recharges your Power by +1 Charge.",
+            "photo_addon":"Nurse/iconAddon_jennersLastBreath.png",
+            "rang_addon":1
+          },{
+            "id":64,
+            "name_addon_ru":"Последний вздох Кемпбелла",
+            "name_addon_en":"Campbell's Last Breath",
+            "description_addon_ru":"Сильный последний вздох, вырванный у отца Кэмпбелла, священника психиатрической больницы \"Кротус Пренн\". В руках Медсестры он напряженно хрипит. После полностью заряженного скачка Медсестра тут же делает еще один полностью заряженный скачок в сторону, в которую смотрит. Работает, если у Медсестры есть заряд для скачка.",
+            "description_addon_en":"A powerful last breath snatched from the asylum priest Father Campbell. In the hand of The Nurse, it crackles with intensity. Reappearing from a fully charged Blink, you automatically Blink at full charge in the direction you are facing. This requires that you have at least 1 Charge left after the initial Blink.",
+            "photo_addon":"Nurse/iconAddon_campbellsLastBreath.png",
+            "rang_addon":1
+          },{
+            "id":65,
+            "name_addon_ru":"Последний вздох \"Плохиша\"",
+            "name_addon_en":"\"Bad Man's\" Last Breath",
+            "description_addon_ru":"Сильный последний вздох, отнятый у Плохиша - пациента психиатрической лечебницы \"Кротус Пренн\". Неудержимо мечется в руках Медсестры. Успешная атака выжившего скачком дает Медсестре эффект \"Незаметность\" на 25 сек. Может сработать только раз в 45 сек.",
+            "description_addon_en":"A powerful last breath snatched from the asylum patient known as the \"Bad Man\". In the hands of The Nurse, it jolts with intensity. Hitting Survivors with a Special Attack grants the Undetectable IconStatusEffects undetectable Status Effect for 25 seconds. \"Bad Man's\" Last Breath\" has a cool-down of 45 seconds.",
+            "photo_addon":"Nurse/iconAddon_badMansLastBreath.png",
+            "rang_addon":1
+          },{
+            "id":66,
+            "name_addon_ru":"Судорожный вздох",
+            "name_addon_en":"Spasmodic Breath",
+            "description_addon_ru":"Судорожное и трепетное дыхание, отнятое у Плохиша. Оно агрессивно бьется и дергается от прикосновения Медсестры. Успешная атака выжившего скачком не дает снова сделать скачок, но повышает скорость передвижения Медсестры до 4.6 м/с на 60 сек.",
+            "description_addon_en":"The twitchy and tremulous breath stolen from the \"Bad Man\". Aggressively pulses and jumps at The Nurse's touch. Hitting a Survivor with a Special Attack causes the following effects for 60 seconds: Increases your Movement speed to 4.6 m/s. Disables your Power.",
+            "photo_addon":"Nurse/iconAddon_spasmodicBreath.png",
+            "rang_addon":2
+          },{
+            "id":67,
+            "name_addon_ru":"Тяжелая одышка",
+            "name_addon_en":"Heavy Panting",
+            "description_addon_ru":"Медленное и сиплое дыхание, украденное у жирного санитара. Слабо колеблется от прикосновения Медсестры. Увеличивает продолжительность выпада после двух и более скачков на 30%.",
+            "description_addon_en":"The slow and bulging breath stolen from Harvey Kavanagh, the asylum's \"Fat Orderly\". Dimly oscillates at The Nurse's touch. Extends the Lunge duration of Special Attacks to 130 %, which increases your Attack range by +30 %. This effect only applies after the second or third Blink.",
+            "photo_addon":"Nurse/iconAddon_heavyPanting.png",
+            "rang_addon":2
+          },{
+            "id":68,
+            "name_addon_ru":"Тихий хрип",
+            "name_addon_en":"Fragile Wheeze",
+            "description_addon_ru":"Свистящее и хриплое дыхание, украденное у отца Кэмпбелла. Тихо завивается и закручивается при прикосновении Медсестры. Скачок вызывает эффект \"Травма\" на 70 сек. \"Травма\" увеличивает время лечения на 25% и действует в течение указанного срока или до полного исцеления.",
+            "description_addon_en":"The whistling and rattling breath stolen from Father Campbell. Silently curves and bends at The Nurse's touch. Survivors hit with a Special Attack suffer from the Mangled IconStatusEffects mangled Status Effect for 70 seconds.",
+            "photo_addon":"Nurse/iconAddon_fragileWheeze.png",
+            "rang_addon":2
+          },{
+            "id":69,
+            "name_addon_ru":"Атактическое дыхание",
+            "name_addon_en":"Ataxic Respiration",
+            "description_addon_ru":"Неровное и угасающее дыхание мальчика с кататоническим синдромом. Обычно спокойное, в руках Медсестры оно тревожно учащается. Снижает базовое время истощения после скачка на 7%.",
+            "description_addon_en":"The irregular and deteriorating breath collected from the asylum patient known as the \"Catatonic Boy\". Normally stable and calm, it becomes incredibly agitated at The Nurse's touch. Reduces the duration of Fatigue by -7 %.",
+            "photo_addon":"Nurse/iconAddon_ataxicRespiration.png",
+            "rang_addon":2
+          },{
+            "id":70,
+            "name_addon_ru":"Тревожный вздох",
+            "name_addon_en":"Anxious Gasp",
+            "description_addon_ru":"Вздох удивления, забранный у беспокойной девочки, которая нравилась Медсестре. Живо дергается при ее прикосновении. Совершая скачок сквозь выжившего, вы заставляете его вскрикнуть и получаете 200 очков крови в категории \"Хитрость\" за испуг.",
+            "description_addon_en":"The gasp of surprise collected from the asylum patient Mary Jenner, also known as the \"Anxious Girl\" that The Nurse was fond of. Twitches vigorously at The Nurse's touch. Coming within 1 metre of Survivors while teleporting causes them to scream and reveal their location. Grants 200 Bloodpoints in the Deviousness DailyRitualIcon deviousness Category.",
+            "photo_addon":"Nurse/iconAddon_anxiousGasp.png",
+            "rang_addon":2
+          },{
+            "id":71,
+            "name_addon_ru":"Карманные часы",
+            "name_addon_en":"Pocket Watch",
+            "description_addon_ru":"Обгоревшие и разбитые карманные часы с бренчащими внутри деталями. Забраны с тела медсестры Морис. Увеличивают время до наступления истощения после скачка у Медсестры на 20%.",
+            "description_addon_en":"A charred and broken pocket watch with rattling pieces. Taken from Nurse Moris' body. Increases the duration of the Chain Blink Window by +0.2 seconds.",
+            "photo_addon":"Nurse/iconAddon_pocketWatch.png",
+            "rang_addon":3
+          },{
+            "id":72,
+            "name_addon_ru":"Потертый браслет",
+            "name_addon_en":"Dull Bracelet",
+            "description_addon_ru":"Возможно, это грошовое украшение кому-то было дорого. Снято с тела беспокойной девушки. Снижает максимальную дальность скачка на 20%. Повышает количество очков крови, получаемых за точные скачки, на 100%.",
+            "description_addon_en":"A worthless piece of jewellery that might have an important significance to someone. Taken from the \"Anxious Girl's\" body. Grants +100 % bonus Bloodpoints for Precise Blink Score Events. Reduces the maximum range of the Blink by -20 %.",
+            "photo_addon":"Nurse/iconAddon_dullBracelet.png",
+            "rang_addon":3
+          },{
+            "id":73,
+            "name_addon_ru":"Темный веревочный пояс",
+            "name_addon_en":"Dark Cincture",
+            "description_addon_ru":"Черная веревка, служившая поясом в скорбные времена. Взята с тела отца Кэмпбелла. Увеличивает скорость передвижения после скачка до последующего истощения на 30%.",
+            "description_addon_en":"A black rope used as a belt in times of mourning. Taken from Father Campbell's body. Increases your Movement speed during the Chain Blink Window by +30 %.",
+            "photo_addon":"Nurse/iconAddon_darkCincture.png",
+            "rang_addon":3
+          },{
+            "id":74,
+            "name_addon_ru":"Сокровище мальчика-кататоника",
+            "name_addon_en":"Catatonic Boy's Treasure",
+            "description_addon_ru":"Эта сосновая шишка отчего-то успокаивала пациента, и тот переставал нервно дергаться. Забрана с тела мальчика с кататоническим синдромом. Снижает дополнительное истощение после цепочки скачков на 65%.",
+            "description_addon_en":"A pine-cone which unexpectedly calmed a patient's repetitive movement. Taken from the \"Catatonic Boy's\" body. Reduces the additional Fatigue applied by Chain Blinks by -65 %.",
+            "photo_addon":"Nurse/iconAddon_catatonicTreasure.png",
+            "rang_addon":3
+          },{
+            "id":75,
+            "name_addon_ru":"Памятный сувенир плохиша",
+            "name_addon_en":"Bad Man Keepsake",
+            "description_addon_ru":"Гнилой коренной зуб, вырванный из холодной руки мертвого \"Плохиша\". Успешная атака-скачок на 60 сек. показывает вам ауру выживших, когда те лечатся сами или с чьей-то помощью и находятся в пределах 28 м.",
+            "description_addon_en":"A rotten molar ripped from the \"Cataontic Boy's\" cold dead hand. Normally stable and calm, it becomes incredibly agitated at The Nurse's touch. Survivors hit with a Special Attack have their Auras IconHelp auras revealed to you, if they are healing or being healed within 28 metres of your location for 60 seconds.",
+            "photo_addon":"Nurse/iconAddon_badManKeepsake.png",
+            "rang_addon":3
+          },{
+            "id":76,
+            "name_addon_ru":"Деревянная лошадь",
+            "name_addon_en":"Wooden Horse",
+            "description_addon_ru":"Бесцветная резная игрушка из дешевого дерева, формой напоминающая лошадку. Когда-то она была символом глубокой связи между пациентом-кататоником и медсестрой. Снижает дополнительное истощение после неудачных атак скачком на 50%.",
+            "description_addon_en":"An unpainted toy carved out of cheap wood to resemble a horse. Once the symbol of a deep connection between a catatonic patient and his nurse. Reduces the additional Fatigue applied by missed Special Attacks by -0.5 seconds.",
+            "photo_addon":"Nurse/iconAddon_woodenHorse.png",
+            "rang_addon":4
+          },{
+            "id":77,
+            "name_addon_ru":"Белый гребень от паразитов",
+            "name_addon_en":"White Nit Comb",
+            "description_addon_ru":"Гребень для вычесывания вшей, взятый из клиники. Некогда служил символом тесной связи между тревожной пациенткой и медсестрой. Снижает дальность атак с выпадом после скачка на 50%. Увеличивает количество очков крови, получаемых за атаки скачком, на 100%.",
+            "description_addon_en":"A parasitic nit comb taken from the clinic. Once the symbol of a deep connection between an anxious patient and her nurse. Grants +100 % bonus Bloodpoints for Blink Attack Score Events. Reduces the Lunge duration of Special Attacks by -0.15 seconds, which reduces your Attack range by -50 %.",
+            "photo_addon":"Nurse/iconAddon_whiteNitComb.png",
+            "rang_addon":4
+          },{
+            "id":78,
+            "name_addon_ru":"Клетчатая фланель",
+            "name_addon_en":"Plaid Flannel",
+            "description_addon_ru":"Оторванный кусок красно-черной клетчатой фланели. Клочок ткани наделяет Медсестру губительной концентрацией. Позволяет Медсестре видеть, в каком месте она окажется после скачка.",
+            "description_addon_en":"A torn piece of red and black plaid flannel. The scrap of fabric imbues The Nurse with devastating focus. Unlocks the ability to see the Landing zone of the Blink.",
+            "photo_addon":"Nurse/iconAddon_plaidFlannel.png",
+            "rang_addon":4
+          },{
+            "id":79,
+            "name_addon_ru":"Металлическая ложка",
+            "name_addon_en":"Metal Spoon",
+            "description_addon_ru":"Тусклая, местами ржавая и запачканная металлическая ложка. Изъята у Плохиша, пациента из палаты №202. После успешного попадания скачком по выжившему громкость его стонов повышается на 50% на 60 сек.",
+            "description_addon_en":"A dull, partially rusted and stained metallic spoon. Confiscated from Room 202's patient, the \"Bad Man\". Survivors hit by a Special Attack have the volume of their Grunts of Pain increased by +50 % for the next 60 seconds.",
+            "photo_addon":"Nurse/iconAddon_metalSpoon.png",
+            "rang_addon":4
+          },{
+            "id":10000,
+            "name_addon_ru":"Пусто",
+            "name_addon_en":"Empty",
+            "description_addon_ru":"Пусто",
+            "description_addon_en":"Empty",
+            "photo_addon":"empty.png",
+            "rang_addon":5
+          },{
+            "id":10000,
+            "name_addon_ru":"Пусто",
+            "name_addon_en":"Empty",
+            "description_addon_ru":"Пусто",
+            "description_addon_en":"Empty",
+            "photo_addon":"empty.png",
+            "rang_addon":5
           }
         ]
       } 

@@ -68,7 +68,7 @@
             "description_addon_ru":"Кожаный поясной мешок. Большой и прочный, отлично подходит для транспортировки охотничьего снаряжения. Вы начинаете матч с 1 дополнительным медвежьим капканом. Позволяет носить с собой 1 дополнительный медвежий капкан.",
             "description_addon_en":"A cured leather waist bag. Large and sturdy to transport hunting equipment. Increases the number of carried Bear Traps by +1.",
             "photo_addon":"Trap/iconAddon_trapperBag.png",
-            "rang_addon":3
+            "rang_addon":2
           },{
             "id":7,
             "name_addon_ru":"Смоляная бутылка",
@@ -76,7 +76,7 @@
             "description_addon_ru":"Черное липкое вещество, похожее на деготь. При нанесении на медвежьи капканы делает их значительно менее заметными. Затемняет появляющиеся медвежьи капканы",
             "description_addon_en":"A black, matte and sticky substance that when applied to Bear Traps, makes them far less noticeable. Darkens the Bear Trap.",
             "photo_addon":"Trap/iconAddon_tarBottle.png",
-            "rang_addon":3
+            "rang_addon":2
           },{
             "id":8,
             "name_addon_ru":"Дополнительная пружина",
@@ -84,7 +84,7 @@
             "description_addon_ru":"Дополнительная пружина, сохраняющая функциональность медвежьего капкана после износа основной пружины. Увеличивает время обезвреживания медвежьих капканов на 50%.",
             "description_addon_en":"A secondary coil keeps the Bear Trap functional in times when the primary coil becomes unusable. Increases the Disarm time of the Bear Trap by +50 %.",
             "photo_addon":"Trap/iconAddon_secondaryCoil.png",
-            "rang_addon":3
+            "rang_addon":2
           },{
             "id":9,
             "name_addon_ru":"Ржавые челюсти",
@@ -92,7 +92,7 @@
             "description_addon_ru":"Эти челюсти медвежьего капкана покрыты коркой ржавчины, что делает травмы особенно трудноизлечимыми. Попавшиеся в медвежий капкан выжившие получают эффект \"Травма\" на 70 сек. \"Травма\" увеличивает время лечения на 25% и действует в течение указанного срока или до полного исцеления",
             "description_addon_en":"These Bear Trap jaws are covered with crusty and volatile rust spots, making injuries particularly difficult to heal. Survivors injured by a Bear Trap suffer from the Mangled IconStatusEffects mangled Status Effect for 70 seconds.",
             "photo_addon":"Trap/iconAddon_rustedJaws.png",
-            "rang_addon":3
+            "rang_addon":2
           },{
             "id":10,
             "name_addon_ru":"Крепежные инструменты",
@@ -100,7 +100,7 @@
             "description_addon_ru":"Специализированный набор инструментов для быстрой установки медвежьих капканов и повышения их эффективности. Увеличивает скорость установки медвежьих капканов на 50%. Увеличивает время, требуемое для спасения выжившего или на попытку побега из медвежьего капкана, на 25%.",
             "description_addon_en":"A specialised set of tools used to fasten Bear Traps to ensure their effectiveness. Increases the Rescue and Escape times from the Bear Trap by +25 %. Increases the Setting speed of the Bear Trap by +50 %.",
             "photo_addon":"Trap/iconAddon_fasteningTools.png",
-            "rang_addon":3
+            "rang_addon":2
           },{
             "id":11,
             "name_addon_ru":"Кусок воска",
@@ -108,7 +108,7 @@
             "description_addon_ru":"Кусок воска используется для снижения трения и плавного движения механических деталей. Увеличивает время для побега или спасения выжившего из медвежьего капкана на 33%",
             "description_addon_en":"A block of wax used to lower friction and facilitate movement in mechanical parts. Increases the Rescue and Escape times of the Bear Trap by +33 %.",
             "photo_addon":"Trap/iconAddon_waxBrick.png",
-            "rang_addon":4
+            "rang_addon":3
           },{
             "id":12,
             "name_addon_ru":"Зазубренные челюсти",
@@ -116,7 +116,7 @@
             "description_addon_ru":"Эти челюсти медвежьих капканов похожи на пилу и наносят ужасные рваные раны при срабатывании. Попавшиеся в медвежий капкан выжившие получают эффект \"Кровотечение\" до тех пор, пока не вылечатся. \"Кровотечение\" увеличивает следы крови от раненых выживших",
             "description_addon_en":"These replacement trap jaws have saw-like blades, causing awful open wounds when they snap. Survivors injured by a Bear Trap suffer from the Haemorrhage IconStatusEffects bleeding Status Effect until fully healed.",
             "photo_addon":"Trap/iconAddon_serratedJaws.png",
-            "rang_addon":4
+            "rang_addon":3
           },{
             "id":13,
             "name_addon_ru":"Удлиненная челюсть",
@@ -124,7 +124,7 @@
             "description_addon_ru":"Челюсть с длинными зубами, которые вгрызаются в плоть сильнее, чем зубья обычного медвежьего капкана. При побеге из медвежьих капканов выжившие получают эффект \"Глубокая рана\" С \"Глубокой раной\" выживший окажется при смерти, если его не подлатают, пока не истекло время.",
             "description_addon_en":"Jaws with long teeth that dig further into the flesh than a conventional Bear Traps. Survivors who escape from Bear Traps suffer from the Deep Wound IconStatusEffects deepWound Status Effect.",
             "photo_addon":"Trap/iconAddon_lengthenedJaws.png",
-            "rang_addon":4
+            "rang_addon":3
           },{
             "id":14,
             "name_addon_ru":"Кофейная гуща",
@@ -132,7 +132,7 @@
             "description_addon_ru":"Ржавая банка с влажной кофеной гущей. Дает еще 5% эффекта \"Спешка\" на 5 сек. после установки медвежьего капкана. \"Спешка\" увеличивает скорость передвижения убийцы",
             "description_addon_en":"An old rusted can containing damp coffee grounds. Increases the strength of the Haste IconStatusEffects haste Status Effect after setting a Bear Trap by +5 % .",
             "photo_addon":"Trap/iconAddon_coffeeGrinds.png",
-            "rang_addon":4
+            "rang_addon":3
           },{
             "id":15,
             "name_addon_ru":"Комплект из 4-х спиральных пружин",
@@ -140,7 +140,7 @@
             "description_addon_ru":"Ремкомплект для установки в медвежьи капканы четырех пружин вместо двух, в результате чего возрастает их сила. Увеличивает время, требуемое выжившим на обезвреживание медвежьих капканов, на 33%.",
             "description_addon_en":"A replacement kit for Bear Traps which changes the usual dual spring system to four coil springs, adding a great amount of strength to the Bear Traps hold. Increases the Disarm time of the Bear Trap by +33 %.",
             "photo_addon":"Trap/iconAddon_coilsKit4.png",
-            "rang_addon":4
+            "rang_addon":3
           },{
             "id":16,
             "name_addon_ru":"Охотничьи перчатки",
@@ -148,7 +148,7 @@
             "description_addon_ru":"Защитные кожаные перчатки. Увеличивают скорость установки медвежьих капканов на 30%.",
             "description_addon_en":"Protective padded leather gloves. Increases the Setting speed of the Bear Trap by +30 %.",
             "photo_addon":"Trap/iconAddon_trapperGloves.png",
-            "rang_addon":5
+            "rang_addon":4
           },{
             "id":17,
             "name_addon_ru":"Мягкие челюсти",
@@ -156,7 +156,7 @@
             "description_addon_ru":"Задача этих капканов - обезвредить, а не ранить. Медвежьи капканы не причиняют вреда пойманным выжившим. Использование этого дополнения устраняет эффект от \"Ржавых челюстей\" и \"Зазубренных челюстей\". Количество очков за попадание выживших в капканы увеличено на 100%",
             "description_addon_en":"These padded jaws are meant to restrain, not to wound. Bear Traps immobilise Survivors without damaging them. Grants 100 % bonus Bloodpoints IconCurrency bloodpoints for trapping Survivors.",
             "photo_addon":"Trap/iconAddon_paddedJaws.png",
-            "rang_addon":5
+            "rang_addon":4
           },{
             "id":18,
             "name_addon_ru":"Самодельный бандаж",
@@ -164,7 +164,7 @@
             "description_addon_ru":"Потертый бандаж из плотной дубленой кожи животного. Медвежьи капканы Охотника не срабатывают на нем самом Медвежьи капканы обезвреживаются, когда Охотник в них наступает",
             "description_addon_en":"A scratched and worn brace made of thick, cured animal skin. You are no longer caught in your own Bear Traps, they are automatically disarmed instead.",
             "photo_addon":"Trap/iconAddon_makeshiftWrap.png",
-            "rang_addon":5
+            "rang_addon":4
           },{
             "id":19,
             "name_addon_ru":"Медвежий жир",
@@ -172,7 +172,7 @@
             "description_addon_ru":"Топленый животный жир, которым можно смазывать скрипящие сочленения медвежьего капкана. Установка медвежьего капкана проходит бесшумно",
             "description_addon_en":"Melted animal fat that can lubricate the Bear Traps squeaky joints. Setting a Bear Trap is silent.",
             "photo_addon":"Trap/iconAddon_bearOil.png",
-            "rang_addon":5
+            "rang_addon":4
           },{
             "id":10000,
             "name_addon_ru":"Пусто",

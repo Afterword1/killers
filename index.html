@@ -454,22 +454,36 @@
                     .then(response => response.json())
                     .then(data => {
                         if (data.Killers_perks && data.Killers_perks.length > 0) {
-                            
-                                // Получаем два случайных разных перка
-                                const randomKillersPerks = getRandomKiller(data.Killers_perks);
-                                const randomPerks = getForRandomPerks(randomKillersPerks, document.getElementById('empty-perks').checked);
+                            const randomPerks = getForRandomPerks(data.Killers_perks, document.getElementById('empty-perks').checked);
 
-                                // Обновляем изображения для перков
-                                if (randomPerks[0].photo_main) {
-                                    const addon1ImagePath = `ItemAddons/${randomPerks[0].photo_main}`;
-                                    photoPerks0.src = addon1ImagePath;
+                            // Обновляем изображения для перков
+                            if (randomPerks[0].photo_main) {
+                                const perk1ImagePath = `ItemAddons/${randomPerks[0].photo_main}`;
+                                photoPerks0.src = perk1ImagePath;
+                            } else {
+                                photoPerks0.src = 'default/image/path.png';
+                            }
 
-                                } else {
-                                    photoAddonPlaceholderImg1.src = 'default/image/path.png';
-                                }
+                            if (randomPerks[1].photo_main) {
+                                const perk2ImagePath = `ItemAddons/${randomPerks[1].photo_main}`;
+                                photoPerks1.src = perk2ImagePath;
+                            } else {
+                                photoPerks1.src = 'default/image/path.png';
+                            }
 
-                                
+                            if (randomPerks[2].photo_main) {
+                                const perk3ImagePath = `ItemAddons/${randomPerks[2].photo_main}`;
+                                photoPerks2.src = perk3ImagePath;
+                            } else {
+                                photoPerks2.src = 'default/image/path.png';
+                            }
 
+                            if (randomPerks[3].photo_main) {
+                                const perk4ImagePath = `ItemAddons/${randomPerks[3].photo_main}`;
+                                photoPerks3.src = perk4ImagePath;
+                            } else {
+                                photoPerks3.src = 'default/image/path.png';
+                            }
                         } else {
                             textOverlay.textContent = 'Данные не найдены';
                         }
@@ -477,7 +491,8 @@
                     .catch(error => {
                         console.error('Ошибка при загрузке JSON:', error);
                         textOverlay.textContent = 'Ошибка загрузки';
-                    });    
+                    });
+    
             });
         });
 

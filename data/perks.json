@@ -1,0 +1,158 @@
+{
+  "Killers_perks": [
+      {
+        "number": 0,
+        "name_ru": "Тихий шорох",
+        "name_en": "Bitter Murmur",
+        "description_ru":"У Вас появляется способность чтения ауры. Каждый раз после полной починки генератора вы будете видеть ауры Выживших в радиусе 16 метров от заведенного генератора в течение 5 секунд. Когда будет полностью заведен последний генератор, ауры всех выживших откроются вам на 5 сек, 7 сек, 10 сек.",
+        "description_en":"Unlocks potential in your Aura-reading ability: Each time a Generator IconHelpLoading generators is completed, the Auras IconHelp auras of all Survivors within 16 metres of that Generator are revealed to you for 5 seconds. Once the last Generator is completed, the Auras of all Survivors are revealed to you for 5/7/10 seconds.",
+        "photo_main":"iconPerks_BitterMurmur.png",
+        "rang":0,
+        "DLS":0
+      },{
+        "number": 1,
+        "name_ru": "Охотник на оленей",
+        "name_en": "Deerstalker",
+        "description_ru":"У вас появляется способность чтения ауры. Вы видите ауры умирающих выживших в радиусе {20 м.28 м.36 м.} от вас.",
+        "description_en":"Unlocks potential in your Aura-reading ability: The Auras IconHelp auras of all Survivors IconHelpLoading survivor in the Dying State IconHelp dying within 20/28/36 metres of your location are revealed to you.",
+        "photo_main":"iconPerks_Deerstalker.png",
+        "rang":0,
+        "DLS":0
+      },{
+        "number": 2,
+        "name_ru": "Сеющий страх",
+        "name_en": "Distressing",
+        "description_ru":"Ваша ужасающая энергетика распространяется на сверхъестественно большие расстояния. Радиус вашего террора увеличивается на {22% 24% 26%}. Вы получаете на 100% больше очков крови за действия в категории хитрость",
+        "description_en":"Your horrifying emanation strikes at a supernaturally long distance. Increases your Terror Radius IconHelp terrorRadius by 22/24/26 % Grants 100 % bonus Bloodpoints IconCurrency bloodpoints for all actions in the Deviousness DailyRitualIcon deviousness Category.",
+        "photo_main":"iconPerks_Distressing.png",
+        "rang":0,
+        "DLS":0
+      },{
+        "number": 3,
+        "name_ru": "Коварство ",
+        "name_en": "Insidious",
+        "description_ru":"Вы научились действовать скрытно. Простояв неподвижно в течение {секунд}, вы получаете эффект \"Незаметность\", который пропадет, если вы совершите действие или начнете двигаться. \"Незаметность\" скрывает ауру, радиус террора и красное свечение убийцы. 4 сек. 3 сек. 2 сек.",
+        "description_en":"Unlocks the stealth ability. Grants the Undetectable IconStatusEffects undetectable Status Effect after standing still for 4/3/2 seconds. This effect lasts until you start moving again.",
+        "photo_main":"iconPerks_Insidious.png",
+        "rang":0,
+        "DLS":0
+      },{
+        "number": 4,
+        "name_ru": "Мертвая хватка",
+        "name_en": "Iron Grasp",
+        "description_ru":"Железная хватка, с которой вы держите выживших, практически лишает их возможности побега. Эффективность сопротивления выживших понижена на 75%. Время высвобождения из вашей хватки увеличивается на {4% 8% 12%}",
+        "description_en":"Your powerful grasp on Survivors causes escapes to be nearly impossible. Whenever you are carrying a Survivor, the following effects apply: Reduces the strength of the Wiggle effects, causing involuntary strafing, by 75 %. Increases the maximum Wiggle duration by 4/8/12 %.",
+        "photo_main":"iconPerks_IronGrasp.png",
+        "rang":0,
+        "DLS":0
+      },{
+        "number": 5,
+        "name_ru": "Чудовищный храм",
+        "name_en": "Scourge Hook: Monstrous Shrine",
+        "description_ru":"Ваша страсть к крюкам в подвале заинтересовала Сущность. В начале матча до 4 случайных крюков становятся секущими. Их ауры выделены белым цветом. Сущность поглощает жертву с секущих крюков на {10% 15% 20%} быстрее, если убийца находится не в радиусе 24 м. Крюки в подвале считаются секущими. ",
+        "description_en":"Your fervent care of the Hooks found in the Basement has aroused The Entity's interest. At the start of the Trial, 4 random Hooks, as well as the 4 Basement Hooks, are changed into Scourge Hooks: The Auras IconHelp auras of Scourge Hooks are revealed to you in white. Whenever a Survivor is hooked onto a Scourge Hook, the following effect applies when you are farther than 24 metres from the hooked Survivor: Accelerates the Sacrifice Process by 10/15/20 %. \"Then you will know that there is no escape. When hanging in the depths, you face the dark one.\"",
+        "photo_main":"iconPerks_MonstrousShrine.png",
+        "rang":0,
+        "DLS":0
+      },{
+        "number": 6,
+        "name_ru": "Порча: никому не скрыться от смерти",
+        "name_en": "Hex: No One Escapes Death",
+        "description_ru":"Порча, черпающая силу в надежде. Тотем порчи наполняет вас силой, когда выжившие в двух шагах от бегства. Как только на ворота будет подано питание, проклятие падет на тусклый тотем, если он остался на карте. Во время действия этого проклятия выжившие получают эффект \"Уязвимость\". Ваша скорость передвижения увеличивается на {2% 3% 4%}. Как только выжившие замечают эффект порчи, они начинают видеть и ауру ее тотема на расстоянии 4м. В течение следующих 30 сек. этот радиус постепенно увеличивается, пока не достигнет 24 м. Порча действует, пока не уничтожен соответствующий тотем. Выживших с эффектом \"Уязвимость\" можно смертельно ранить базовой атакой, даже если они не ранены.",
+        "description_en":"A Hex rooting its power on hope. You are animated by the power of your Hex Totem when the Survivors are on the verge of escaping. Once the Exit Gates IconHelp exitGates are powered, if there is still a Dull Totem IconHelpLoading totem remaining in the environment, Hex: No One Escapes Death activates and lights it: Grants a 2/3/4 % Haste IconStatusEffects haste Status Effect. Causes all Survivors to suffer permanently from the Exposed IconStatusEffects exposed Status Effect. Hex: No One Escapes Death remains inactive if no Dull Totems are available. Once the Status Effect is revealed to Survivors, Hex: No One Escapes Death reveals the Aura IconHelp auras of its Hex Totem to all Survivors within 4 metres and gradually expands that range to 24 metres over the course of 30 seconds. All effects of the Hex Perk persist until its Hex Totem IconHelpLoading totem is cleansed or blessed. \"And the beast became faster and more powerful as if The Entity's shadowy whips were lashing at its back.\"",
+        "photo_main":"iconPerks_NoOneEscapesDeath.png",
+        "rang":0,
+        "DLS":0
+      },{
+        "number": 7,
+        "name_ru": "Небрежный мясник",
+        "name_en": "Sloppy Butcher",
+        "description_ru":"Вы знаете, как заставить их истекать кровью. Нанесенные базовой атакой раны накладывают на выживших эффекты \"Кровотечение\" и \"Травма\" на 90 сек. Ускоряет потерю прогресса лечения из-за \"Кровотечения\" на {15% 20% 25%} \"Кровотечение\" уменьшает прогресс лечения, когда выжившего не лечат, и увеличивает кровавый след за ранеными выжившими. Действует в течение указанного срока или до полного исцеления. \"Травма\" увеличивает время лечения на 25% и действует в течение указанного срока или до полного исцеления.",
+        "description_en":"You know where to hit to make them bleed. Wounds inflicted by Basic Attacks cause Survivors to suffer from the Haemorrhage IconStatusEffects bleeding and Mangled IconStatusEffects mangled Status Effects for 70/80/90 seconds. Increases the Bleeding frequency of injured Survivors by 50/75/100 % for the same duration. Increases the Regression rate at which partial Healing Progression is lost because of Haemorrhage by +25 %. \"It is in its sadistic nature. There is no swift kill as it delights in the obscene spectacle of our agonising suffering.\"",
+        "photo_main":"iconPerks_SloppyButcher.png",
+        "rang":0,
+        "DLS":0
+      },{
+        "number": 8,
+        "name_ru": "Сумеречные шпионы",
+        "name_en": "Spies From The Shadows",
+        "description_ru":"Вороны могут общаться с вами напрямую. В 100% случаев каркающие вороны будут давать вам визуальную подсказку, когда вы находитесь в радиусе {20 м. 28 м. 36 м.}. \"Сумеречным шпионам\" требуется 5 сек. на перезарядку.",
+        "description_en":"Allows the Crows found in the environment to directly communicate with you. Whenever you are within 20/28/36 metres of a Crow IconHelp crows that was startled by a nearby Survivor, you are alerted with a Loud Noise Notification. Spies from the Shadows has a cool-down of 5 seconds between alerts. \"In the shadows they torment, scarring our minds with each scream.\"",
+        "photo_main":"iconPerks_SpiesFromTheShadows.png",
+        "rang":0,
+        "DLS":0
+      },{
+        "number": 9,
+        "name_ru": "Порча: охотничий азарт ",
+        "name_en": "Hex: Thrill of the Hunt",
+        "description_ru":"Порча черпает силу от людской надежды. Ложная надежда выживших будоражит вас и усиливает ваши тотемы. Вы получаете жетон за каждый тусклый и проклятый тотем на карте. За каждый жетон вы получаете на 10% больше очков крови за действия в категории \"Охота\". Действия выживших по очищению и благословению замедляются на {8% 9% 10%} за каждый жетон. Вы получите уведомление, когда выживший начнет очищать тотем порчи.",
+        "description_en":"A Hex rooting its power on hope. The false hope of Survivors fills you with excitement and strengthens your Totems. For each Totem remaining in the environment, Hex: Thrill of the Hunt is granted 1 Token. For each Token, all Survivors suffer from a stack-able 8/9/10 % Action Speed penalty to Cleansing and Blessing Totems, up to a maximum of 40/45/50 %. Grants a stack-able 10 % bonus Bloodpoints IconCurrency bloodpoints for actions in the Hunter DailyRitualIcon hunter Category per Token, up to a maximum of 50 %. All effects of the Hex Perk persist until its Hex Totem IconHelpLoading totem is cleansed or blessed.",
+        "photo_main":"DLC3/iconPerks_ThrillOfTheHunt.png",
+        "rang":0,
+        "DLS":0
+      },{
+        "number": 10,
+        "name_ru": "Безжалостный",
+        "name_en": "Unrelenting",
+        "description_ru":"Вы быстрее оправляетесь после неудачной атаки основным оружием. Время перезарядки после базовой атаки мимо цели снижается на {20% 25% 30%}.",
+        "description_en":"You recuperate faster from missed attacks made with your main weapon. Reduces the Cool-down of missed Basic Attacks by 20/25/30 %.",
+        "photo_main":"iconPerks_Unrelenting.png",
+        "rang":0,
+        "DLS":0
+      },{
+        "number": 11,
+        "name_ru": "Шепоты",
+        "name_en": "Whispers",
+        "description_ru":"Вы начинаете немного понимать, о чем говорит Сущность. Вы периодически слышите ее шепот, находясь в радиусе {48 м. 40 м. 32 м.} от Выжившего. ",
+        "description_en":"You have a rudimentary understanding of The Entity's voice. Whenever at least one Survivor is within 48/40/32 metres of your location, you hear the sporadic whispers of the Entity IconHelp entity . \"It is unclear as to the motivations of The Fog, but it is undeniable that it often takes the beast's side.\" — Unknown, Notebook",
+        "photo_main":"iconPerks_Whispers.png",
+        "rang":0,
+        "DLS":0
+      },{
+        "number": 12,
+        "name_ru": "Разбитые надежды",
+        "name_en": "Shattered Hope",
+        "description_ru":"Чтобы поймать добычу, нужно сначала уничтожить ее надежды. Когда вы тушите дарующий тотем, тотем вместо этого уничтожается. Когда вы уничтожаете дарующий тотем таким способом, ауры всех выживших в пределах радиуса действия тотема показываются вам в течение {6 сек. 7 сек. 8 сек.}. ",
+        "description_en":"To capture your prey, you must first extinguish their hope. Instead of snuffing Boon Totems Atl Hud Icon BoonTotem you destroy them. Destroying a Boon Totem this way reveals the Auras IconHelp auras of all Survivors that were within its range at that moment for 6/7/8 seconds. \"Nothing is permanent here. Nothing except our endless perdition.\" — Unknown, Notebook",
+        "photo_main":"",
+        "rang":0,
+        "DLS":0
+      },{
+        "number": 100000,
+        "name_ru": "Пусто1",
+        "name_en": "Empty",
+        "description_ru":"Пусто",
+        "description_en":"Empty",
+        "photo_main":"ItemAddons/empty.png",
+        "rang":0,
+        "DLS":0
+      },{
+        "number": 100000,
+        "name_ru": "Пусто2",
+        "name_en": "Empty",
+        "description_ru":"Пусто",
+        "description_en":"Empty",
+        "photo_main":"ItemAddons/empty.png",
+        "rang":0,
+        "DLS":0
+      },{
+        "number": 100000,
+        "name_ru": "Пусто3",
+        "name_en": "Empty",
+        "description_ru":"Пусто",
+        "description_en":"Empty",
+        "photo_main":"ItemAddons/empty.png",
+        "rang":0,
+        "DLS":0
+      },{
+        "number": 100000,
+        "name_ru": "Пусто4",
+        "name_en": "Empty",
+        "description_ru":"Пусто",
+        "description_en":"Empty",
+        "photo_main":"ItemAddons/empty.png",
+        "rang":0,
+        "DLS":0
+      }
+    ]
+  }

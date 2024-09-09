@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Фон с изображением</title>
+    <title>Рандомазер DBD</title>
     <style>
         body, html {
             margin: 0;
@@ -43,6 +43,7 @@
         .addon22-placeholder,
         .addon2-placeholder,
         .photo-podnoshenie-placeholder,
+        .photo-podnoshenie-placeholder22,
         .new-photo11,
         .new-photo1,
         .new-photo22,
@@ -106,6 +107,13 @@
             top: 49%;
             left: 74%;
             width: 17%;
+            height: auto;
+            background-size: contain;
+        }
+        .photo-podnoshenie-placeholder22 {
+            top: 46%;
+            left: 71%;
+            width: 23%;
             height: auto;
             background-size: contain;
         }
@@ -249,8 +257,11 @@
                     <img src="ItemAddons/empty2.png" alt="Addon 2" id="photo-addonplaceholder2-img">
                 </div>
 
+                <div class="photo-podnoshenie-placeholder22">
+                    <img src="main/photo-podnoshenie-placeholder.png" alt="Photo Podnoshenie22" id="photo-podnoshenie-placeholder22">
+                </div>
                 <div class="photo-podnoshenie-placeholder">
-                    <img src="ItemAddons/empty2.png" alt="Photo Podnoshenie">
+                    <img src="ItemAddons/empty2.png" alt="Photo Podnoshenie" id="photo-podnoshenie-placeholder">
                 </div>
 
                 <div class="non-square-photo">
@@ -262,28 +273,28 @@
                     <img src="main/1.png" alt="New Photo 11">
                 </div>
                 <div class="new-photo1">
-                    <img src="ItemAddons/empty2.png" alt="New Photo 1">
+                    <img src="ItemAddons/empty2.png" alt="New Photo 1" id="perks-photo-img0">
                 </div>
 
                 <div class="new-photo22">
                     <img src="main/2.png" alt="New Photo 22">
                 </div>
                 <div class="new-photo2">
-                    <img src="ItemAddons/empty2.png" alt="New Photo 2">
+                    <img src="ItemAddons/empty2.png" alt="New Photo 2" id="perks-photo-img1">
                 </div>
 
                 <div class="new-photo33">
                     <img src="main/3.png" alt="New Photo 33">
                 </div>
                 <div class="new-photo3">
-                    <img src="ItemAddons/empty2.png" alt="New Photo 3">
+                    <img src="ItemAddons/empty2.png" alt="New Photo 3" id="perks-photo-img2">
                 </div>
 
                 <div class="new-photo44">
                     <img src="main/4.png" alt="New Photo 44">
                 </div>
                 <div class="new-photo4">
-                    <img src="ItemAddons/empty2.png" alt="New Photo 4">
+                    <img src="ItemAddons/empty2.png" alt="New Photo 4" id="perks-photo-img3">
                 </div>
 
                 <div class="centered-photo">
@@ -337,6 +348,10 @@
             const photoAddonPlaceholderImg2 = document.getElementById('photo-addonplaceholder2-img');
             const photoAddonPlaceholderImg11 = document.getElementById('photo-addonplaceholder11-img');
             const photoAddonPlaceholderImg22 = document.getElementById('photo-addonplaceholder22-img');
+            const photoPerks0 = document.getElementById('perks-photo-img0');
+            const photoPerks1 = document.getElementById('perks-photo-img1');
+            const photoPerks2 = document.getElementById('perks-photo-img2');
+            const photoPerks3 = document.getElementById('perks-photo-img3');
 
             // Функция для получения случайного элемента
             function getRandomKiller(killers) {
@@ -353,6 +368,18 @@
                 }
                 const shuffledAddons = [...addons].sort(() => 0.5 - Math.random());
                 return [shuffledAddons[0], shuffledAddons[1]];
+            }
+
+            
+            // Функция для получения двух случайных разных аддонов
+            function getForRandomPerks(perks, emptyChecked) {
+                // Если галочка "empty-addons" НЕ установлена
+                if (!emptyChecked) {
+                    // Удаляем последние два аддона
+                    perks.splice(-2);
+                }
+                const shuffledAddons = [...perks].sort(() => 0.5 - Math.random());
+                return [shuffledAddons[0], shuffledAddons[1],shuffledAddons[2],shuffledAddons[3]];
             }
 
             // Обработчик события для клика по centered-photo
@@ -422,6 +449,35 @@
                         console.error('Ошибка при загрузке JSON:', error);
                         textOverlay.textContent = 'Ошибка загрузки';
                     });
+                    
+                    fetch('data/perks.json')  // Замените на фактический путь к вашему JSON
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.Killers_perks && data.Killers_perks.length > 0) {
+                            
+                                // Получаем два случайных разных перка
+                                const randomKillersPerks = getRandomKiller(data.Killers_perks);
+                                const randomPerks = getForRandomPerks(randomKillersPerks, document.getElementById('empty-perks').checked);
+
+                                // Обновляем изображения для перков
+                                if (randomPerks[0].photo_main) {
+                                    const addon1ImagePath = `ItemAddons/${randomPerks[0].photo_main}`;
+                                    photoPerks0.src = addon1ImagePath;
+
+                                } else {
+                                    photoAddonPlaceholderImg1.src = 'default/image/path.png';
+                                }
+
+                                
+
+                        } else {
+                            textOverlay.textContent = 'Данные не найдены';
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Ошибка при загрузке JSON:', error);
+                        textOverlay.textContent = 'Ошибка загрузки';
+                    });    
             });
         });
 

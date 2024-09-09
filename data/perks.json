@@ -114,7 +114,7 @@
         "name_en": "Shattered Hope",
         "description_ru":"Чтобы поймать добычу, нужно сначала уничтожить ее надежды. Когда вы тушите дарующий тотем, тотем вместо этого уничтожается. Когда вы уничтожаете дарующий тотем таким способом, ауры всех выживших в пределах радиуса действия тотема показываются вам в течение {6 сек. 7 сек. 8 сек.}. ",
         "description_en":"To capture your prey, you must first extinguish their hope. Instead of snuffing Boon Totems Atl Hud Icon BoonTotem you destroy them. Destroying a Boon Totem this way reveals the Auras IconHelp auras of all Survivors that were within its range at that moment for 6/7/8 seconds. \"Nothing is permanent here. Nothing except our endless perdition.\" — Unknown, Notebook",
-        "photo_main":"",
+        "photo_main":"IconPerks_shatteredHope.png",
         "rang":0,
         "DLS":0
       },{

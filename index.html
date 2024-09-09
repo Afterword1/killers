@@ -385,14 +385,7 @@
             // Обработчик события для клика по centered-photo
             centeredPhoto.addEventListener('click', function() {
                     // Очистка всех изображений перед загрузкой новых
-                    photoAddonPlaceholderImg1.src = 'ItemAddons/empty2.png';
-                    photoAddonPlaceholderImg2.src = 'ItemAddons/empty2.png';
-                    photoPerks0.src = 'ItemAddons/empty2.png';
-                    photoPerks1.src = 'ItemAddons/empty2.png';
-                    photoPerks2.src = 'ItemAddons/empty2.png';
-                    photoPerks3.src = 'ItemAddons/empty2.png';
-                    nonSquarePhotoImg.src = 'ItemAddons/empty2.png';
-                    photoPlaceholderImg.src = 'ItemAddons/empty2.png';
+
 
                 fetch('data/killers.json')  // Замените на фактический путь к вашему JSON
                     .then(response => response.json())

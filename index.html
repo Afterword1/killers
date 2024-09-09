@@ -371,12 +371,12 @@
             }
 
             
-            // Функция для получения двух случайных разных аддонов
+            // Функция для получения четырех случайных разных перков
             function getForRandomPerks(perks, emptyChecked) {
                 // Если галочка "empty-addons" НЕ установлена
                 if (!emptyChecked) {
-                    // Удаляем последние два аддона
-                    perks.splice(-2);
+                    // Удаляем последние 4 перка
+                    perks.splice(-4);
                 }
                 const shuffledAddons = [...perks].sort(() => 0.5 - Math.random());
                 return [shuffledAddons[0], shuffledAddons[1],shuffledAddons[2],shuffledAddons[3]];

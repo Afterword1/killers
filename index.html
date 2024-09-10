@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ru">
 <head>
     <meta charset="UTF-8">
@@ -332,7 +333,7 @@
                 .then(() => {
                     // Все изображения загружены
                     console.log("Все изображения успешно загружены");
-                    content.style.height = ${bgImage.clientHeight}px;
+                    content.style.height = `${bgImage.clientHeight}px`;
                     container.style.visibility = 'visible'; // Показываем контейнер
                 })
                 .catch((error) => {
@@ -370,12 +371,12 @@
             }
 
             
-            // Функция для получения двух случайных разных аддонов
+            // Функция для получения четырех случайных разных перков
             function getForRandomPerks(perks, emptyChecked) {
                 // Если галочка "empty-addons" НЕ установлена
                 if (!emptyChecked) {
-                    // Удаляем последние два аддона
-                    perks.splice(-2);
+                    // Удаляем последние 4 перка
+                    perks.splice(-4);
                 }
                 const shuffledAddons = [...perks].sort(() => 0.5 - Math.random());
                 return [shuffledAddons[0], shuffledAddons[1],shuffledAddons[2],shuffledAddons[3]];
@@ -383,6 +384,9 @@
 
             // Обработчик события для клика по centered-photo
             centeredPhoto.addEventListener('click', function() {
+                    // Очистка всех изображений перед загрузкой новых
+
+
                 fetch('data/killers.json')  // Замените на фактический путь к вашему JSON
                     .then(response => response.json())
                     .then(data => {
@@ -393,7 +397,7 @@
 
                             // Обновляем изображение в non-square-photo
                             if (randomKiller.photo_main) {
-                                const imagePath = StoreBackgrounds/${randomKiller.photo_main};
+                                const imagePath = `StoreBackgrounds/${randomKiller.photo_main}`;
                                 nonSquarePhotoImg.src = imagePath;
                             } else {
                                 nonSquarePhotoImg.src = 'default/image/path.png';
@@ -401,7 +405,7 @@
                             
                             // Обновляем изображение в photo-placeholder
                             if (randomKiller.photo_skills) {
-                                const skillsImagePath = HelpLoading/${randomKiller.photo_skills};
+                                const skillsImagePath = `HelpLoading/${randomKiller.photo_skills}`;
                                 photoPlaceholderImg.src = skillsImagePath;
                             } else {
                                 photoPlaceholderImg.src = 'default/image/path.png';
@@ -416,11 +420,11 @@
 
                                 // Обновляем изображения для аддонов
                                 if (randomAddons[0].photo_addon) {
-                                    const addon1ImagePath = ItemAddons/${randomAddons[0].photo_addon};
+                                    const addon1ImagePath = `ItemAddons/${randomAddons[0].photo_addon}`;
                                     photoAddonPlaceholderImg1.src = addon1ImagePath;
 
                                     //console.log('У киллера недостаточно аддонов для отображения:', randomAddons[0].photo_addon);
-                                    const addon11ImagePath = ItemAddons/addon${randomAddons[0].rang_addon}.png;
+                                    const addon11ImagePath = `ItemAddons/addon${randomAddons[0].rang_addon}.png`;
                                     photoAddonPlaceholderImg11.src = addon11ImagePath;
 
                                 } else {
@@ -428,10 +432,10 @@
                                 }
 
                                 if (randomAddons[1].photo_addon) {
-                                    const addon2ImagePath = ItemAddons/${randomAddons[1].photo_addon};
+                                    const addon2ImagePath = `ItemAddons/${randomAddons[1].photo_addon}`;
                                     photoAddonPlaceholderImg2.src = addon2ImagePath;
                                     //console.log('У киллера недостаточно аддонов для отображения:', randomAddons[1].photo_addon);
-                                    const addon22ImagePath = ItemAddons/addon${randomAddons[1].rang_addon}.png;
+                                    const addon22ImagePath = `ItemAddons/addon${randomAddons[1].rang_addon}.png`;
                                     photoAddonPlaceholderImg22.src = addon22ImagePath;
                                 } else {
                                     photoAddonPlaceholderImg2.src = 'default/image/path.png';
@@ -457,28 +461,28 @@
 
                             // Обновляем изображения для перков
                             if (randomPerks[0].photo_main) {
-                                const perk1ImagePath = `ItemAddons/${randomPerks[0].photo_main}`;
+                                const perk1ImagePath = `Perks/${randomPerks[0].photo_main}`;
                                 photoPerks0.src = perk1ImagePath;
                             } else {
                                 photoPerks0.src = 'default/image/path.png';
                             }
 
                             if (randomPerks[1].photo_main) {
-                                const perk2ImagePath = `ItemAddons/${randomPerks[1].photo_main}`;
+                                const perk2ImagePath = `Perks/${randomPerks[1].photo_main}`;
                                 photoPerks1.src = perk2ImagePath;
                             } else {
                                 photoPerks1.src = 'default/image/path.png';
                             }
 
                             if (randomPerks[2].photo_main) {
-                                const perk3ImagePath = `ItemAddons/${randomPerks[2].photo_main}`;
+                                const perk3ImagePath = `Perks/${randomPerks[2].photo_main}`;
                                 photoPerks2.src = perk3ImagePath;
                             } else {
                                 photoPerks2.src = 'default/image/path.png';
                             }
 
                             if (randomPerks[3].photo_main) {
-                                const perk4ImagePath = `ItemAddons/${randomPerks[3].photo_main}`;
+                                const perk4ImagePath = `Perks/${randomPerks[3].photo_main}`;
                                 photoPerks3.src = perk4ImagePath;
                             } else {
                                 photoPerks3.src = 'default/image/path.png';
@@ -499,7 +503,7 @@
         window.addEventListener('resize', function() {
             const bgImage = document.getElementById('bg-image');
             const content = document.querySelector('.content');
-            content.style.height = ${bgImage.clientHeight}px;
+            content.style.height = `${bgImage.clientHeight}px`;
         });
     </script>
     

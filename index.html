@@ -425,7 +425,8 @@
             // Обработчик события для клика по centered-photo
             centeredPhoto.addEventListener('click', function() {
                     // Очистка всех изображений перед загрузкой новых
-
+                const killerSelect = document.getElementById('killer-select');
+                const selectedKiller = killerSelect.value; // Получаем выбранного киллера
 
                 fetch('data/killers.json')  // Замените на фактический путь к вашему JSON
                     .then(response => response.json())

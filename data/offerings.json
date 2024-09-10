@@ -1,0 +1,87 @@
+{
+  "offerings": [
+      {
+        "number": 0,
+        "name_ru": "Перевязанный конверт",
+        "name_en": "Bound Envelope",
+        "description_ru":"Дарует 25% дополнительных очков крови во всех категориях всем выжившим. Эффект суммируется.",
+        "description_en":"Grants +25 % bonus Bloodpoints in all Scoring Categories to all Survivors. The bonus Bloodpoints IconCurrency bloodpoints are applied after exiting the Trial.",
+        "photo_main":"iconFavors_boundEnvelope.png",
+        "rang":0,
+        "syrv_killer":0
+
+      },{
+        "number": 1,
+        "name_ru": "Запечатанный конверт",
+        "name_en": "Sealed Envelope",
+        "description_ru":"Даёт 25% бонусных очков крови во всех категориях. Личное подношение. Эффект суммируется.",
+        "description_en":"Grants +25 % bonus Bloodpoints in all Scoring Categories. The bonus Bloodpoints IconCurrency bloodpoints are applied after exiting the Trial.",
+        "photo_main":"iconFavors_sealedEnvelope.png",
+        "rang":1,
+        "syrv_killer":0
+      },{
+        "number": 2,
+        "name_ru": "Мешочек с цветками примулы",
+        "name_en": "Primrose Blossom Sachet",
+        "description_ru":"Даёт 50% бонусных очков крови в категории \"Альтруизм\". Личное подношение. Эффект суммируется.",
+        "description_en":"Grants +50 % bonus Bloodpoints in the Altruism DailyRitualIcon altruism Scoring Category. The bonus Bloodpoints IconCurrency bloodpoints are applied after exiting the Trial.",
+        "photo_main":"iconFavors_bogLaurelSachet.png",
+        "rang":2,
+        "syrv_killer":0
+      },{
+        "number": 3,
+        "name_ru": "Свежий цветок примулы",
+        "name_en": "Fresh Primrose Blossom",
+        "description_ru":"Даёт 75% бонусных очков крови в категории \"Альтруизм\". Личное подношение. Эффект суммируется.",
+        "description_en":"Grants +75 % bonus Bloodpoints in the Altruism DailyRitualIcon altruism Scoring Category. The bonus Bloodpoints IconCurrency bloodpoints are applied after exiting the Trial.",
+        "photo_main":"iconFavors_freshPrimroseBlossom.png",
+        "rang":1,
+        "syrv_killer":0
+      },{
+        "number": 4,
+        "name_ru": "Душистый цветок примулы",
+        "name_en": "Fragrant Primrose Blossom",
+        "description_ru":"Даёт 100% бонусных очков крови в категории \"Альтруизм\". Личное подношение. Эффект суммируется.",
+        "description_en":"Grants +100 % bonus Bloodpoints in the Altruism DailyRitualIcon altruism Scoring Category. The bonus Bloodpoints IconCurrency bloodpoints are applied after exiting the Trial.",
+        "photo_main":"iconFavors_fragrantPrimroseBlossom.png",
+        "rang":0,
+        "syrv_killer":0
+      },{
+        "number": 5,
+        "name_ru": "Мешочек с сухими листьями ширицы",
+        "name_en": "Crispleaf Amaranth Sachet",
+        "description_ru":"Даёт 50% бонусных очков крови в категории \"Выживание\". Личное подношение. Эффект суммируется.",
+        "description_en":"Grants +50 % bonus Bloodpoints in the Survival DailyRitualIcon survival Scoring Category. The bonus Bloodpoints IconCurrency bloodpoints are applied after exiting the Trial.",
+        "photo_main":"iconFavors_crispleafAmaranthSachet.png",
+        "rang":2,
+        "syrv_killer":0
+      },{
+        "number": 6,
+        "name_ru": "Свежая ширица",
+        "name_en": "Fresh Crispleaf Amaranth",
+        "description_ru":"Даёт 75% бонусных очков крови в категории \"Выживание\". Личное подношение. Эффект суммируется.",
+        "description_en":"Grants +75 % bonus Bloodpoints in the Survival DailyRitualIcon survival Scoring Category. The bonus Bloodpoints IconCurrency bloodpoints are applied after exiting the Trial.",
+        "photo_main":"iconFavors_freshCrispleafAmaranth.png",
+        "rang":1,
+        "syrv_killer":0
+      },{
+        "number": 7,
+        "name_ru": "Душистый лист ширицы",
+        "name_en": "Fresh Crispleaf Amaranth",
+        "description_ru":"Даёт 100% бонусных очков крови в категории \"Выживание\". Личное подношение. Эффект суммируется.",
+        "description_en":"Grants +100 % bonus Bloodpoints in the Survival DailyRitualIcon survival Scoring Category. The bonus Bloodpoints IconCurrency bloodpoints are applied after exiting the Trial.",
+        "photo_main":"iconFavors_fragrantCrispleafAmaranth.png",
+        "rang":0,
+        "syrv_killer":0
+      },{
+        "number": 100000,
+        "name_ru": "",
+        "name_en": "",
+        "description_ru":"",
+        "description_en":"",
+        "photo_main":"empty.png",
+        "rang":0,
+        "syrv_killer":0
+      }
+    ]
+  }

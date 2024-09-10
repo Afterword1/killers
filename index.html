@@ -323,12 +323,6 @@
             const content = document.querySelector('.content');
             const bgImage = document.getElementById('bg-image');
         
-
-            const newPhoto11 = document.querySelector('.new-photo11 img');
-            const newPhoto22 = document.querySelector('.new-photo22 img');
-            const newPhoto33 = document.querySelector('.new-photo33 img');
-            const newPhoto44 = document.querySelector('.new-photo44 img');
-            
             // Ждём загрузки всех изображений
             const imagePromises = Array.from(images).map(img => {
                 return new Promise((resolve, reject) => {
@@ -408,19 +402,6 @@
             photoPerks1.src = `Perks/${randomPerks[1].photo_main}`;
             photoPerks2.src = `Perks/${randomPerks[2].photo_main}`;
             photoPerks3.src = `Perks/${randomPerks[3].photo_main}`;
-            
-            // Проверка на randomPerks.number == 100000
-            if (randomPerks.number == 100000) {
-                newPhoto11.src = 'main/1.png';
-                newPhoto22.src = 'main/1.png';
-                newPhoto33.src = 'main/1.png';
-                newPhoto44.src = 'main/1.png';
-            } else {
-                newPhoto11.src = 'main/perk1.png';
-                newPhoto22.src = 'main/perk1.png';
-                newPhoto33.src = 'main/perk1.png';
-                newPhoto44.src = 'main/perk1.png';
-            }
         });
     </script>
     

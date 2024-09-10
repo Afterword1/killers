@@ -603,16 +603,9 @@
                             // Обновляем изображения для перков
                             if (randomOfferings[0].photo_main) {
                                 const offerImagePath = `Favors/${randomOfferings[0].photo_main}`;
-                                
-                                if(randomOfferings[0].number == 100000){
-                                    const perk00ImagePath= `Favors/4.png`;
-                                    photoPodnosheniePlaceholder22.src = offerImagePath;
-
-                                }else{
-                                    const perk00ImagePath= `Favors/${offerImagePath[0].rang}.png`;
-                                    photoPodnosheniePlaceholder22.src = perk00ImagePath;
-
-                                }
+                                const perk00ImagePath= `Favors/${offerImagePath[0].rang}.png`;
+   
+                                photoPodnosheniePlaceholder22.src = perk00ImagePath;
                                 photoPodnosheniePlaceholder.src = offerImagePath;
 
                             } else {

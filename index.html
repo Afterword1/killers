@@ -372,6 +372,8 @@
             const photoPerks11 = document.getElementById('perks-photo-img11');
             const photoPerks22 = document.getElementById('perks-photo-img22');
             const photoPerks33 = document.getElementById('perks-photo-img33');
+            const photoPodnosheniePlaceholder = document.getElementById('photo-podnoshenie-placeholder');
+            const photoPodnosheniePlaceholder22 = document.getElementById('photo-podnoshenie-placeholder22');
 
             // Функция для получения случайного элемента
             function getRandomKiller(killers) {
@@ -397,6 +399,17 @@
                 if (!emptyChecked) {
                     // Удаляем последние 4 перка
                     perks.splice(-4);
+                }
+                const shuffledAddons = [...perks].sort(() => 0.5 - Math.random());
+                return [shuffledAddons[0], shuffledAddons[1],shuffledAddons[2],shuffledAddons[3]];
+            }
+
+                        // Функция для получения четырех случайных разных перков
+            function getForRandomOfferings(Offerings, emptyChecked) {
+                // Если галочка "empty-addons" НЕ установлена
+                if (!emptyChecked) {
+                    // Удаляем последние 4 перка
+                    Offerings.splice(-1);
                 }
                 const shuffledAddons = [...perks].sort(() => 0.5 - Math.random());
                 return [shuffledAddons[0], shuffledAddons[1],shuffledAddons[2],shuffledAddons[3]];
@@ -572,6 +585,41 @@
                             } else {
                                 photoPerks3.src = 'default/image/path.png';
                             }
+                        } else {
+                            textOverlay.textContent = 'Данные не найдены';
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Ошибка при загрузке JSON:', error);
+                        textOverlay.textContent = 'Ошибка загрузки';
+                    });
+
+                    fetch('data/offerings.json')  // Замените на фактический путь к вашему JSON
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.offerings && data.offerings.length > 0) {
+                            const randomOfferings = getForRandomOfferings(data.offerings, document.getElementById('empty-offerings').checked);
+
+                            // Обновляем изображения для перков
+                            if (randomOfferings[0].photo_main) {
+                                const offerImagePath = `Favors/${randomOfferings[0].photo_main}`;
+                                
+                                if(randomOfferings[0].number == 100000){
+                                    const perk00ImagePath= `Favors/4.png`;
+                                    photoPodnosheniePlaceholder22.src = offerImagePath;
+
+                                }else{
+                                    const perk00ImagePath= `Favors/${offerImagePath[0].rang}.png`;
+                                    photoPodnosheniePlaceholder22.src = perk00ImagePath;
+
+                                }
+                                photoPodnosheniePlaceholder.src = offerImagePath;
+
+                            } else {
+                                photoPerks0.src = 'default/image/path.png';
+                            }
+
+                           
                         } else {
                             textOverlay.textContent = 'Данные не найдены';
                         }

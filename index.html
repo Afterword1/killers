@@ -431,9 +431,15 @@
                     .then(response => response.json())
                     .then(data => {
                         
+                        let killersList = data.killers;
+
+                        // Если выбран конкретный киллер
+                        if (selectedKiller !== 'all') {
+                            killersList = killersList.filter(killer => killer.name_en === selectedKiller);
+                        }
                         
-                        if (data.killers && data.killers.length > 0) {
-                            const randomKiller = getRandomKiller(data.killers);
+                        if (killersList.length > 0) {
+                            const randomKiller = getRandomKiller(killersList);
                             // Обновляем текстовое описание
                             //textOverlay.textContent = randomKiller.name_ru || 'Имя не найдено';
 

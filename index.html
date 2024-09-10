@@ -270,28 +270,28 @@
                 </div>
                 
                 <div class="new-photo11">
-                    <img src="main/1.png" alt="New Photo 11">
+                    <img src="main/1.png" alt="New Photo 11" id="perks-photo-img00">
                 </div>
                 <div class="new-photo1">
                     <img src="ItemAddons/empty2.png" alt="New Photo 1" id="perks-photo-img0">
                 </div>
 
                 <div class="new-photo22">
-                    <img src="main/2.png" alt="New Photo 22">
+                    <img src="main/2.png" alt="New Photo 22" id="perks-photo-img11">
                 </div>
                 <div class="new-photo2">
                     <img src="ItemAddons/empty2.png" alt="New Photo 2" id="perks-photo-img1">
                 </div>
 
                 <div class="new-photo33">
-                    <img src="main/3.png" alt="New Photo 33">
+                    <img src="main/3.png" alt="New Photo 33" id="perks-photo-img22">
                 </div>
                 <div class="new-photo3">
                     <img src="ItemAddons/empty2.png" alt="New Photo 3" id="perks-photo-img2">
                 </div>
 
                 <div class="new-photo44">
-                    <img src="main/4.png" alt="New Photo 44">
+                    <img src="main/4.png" alt="New Photo 44" id="perks-photo-img33">
                 </div>
                 <div class="new-photo4">
                     <img src="ItemAddons/empty2.png" alt="New Photo 4" id="perks-photo-img3">
@@ -352,6 +352,10 @@
             const photoPerks1 = document.getElementById('perks-photo-img1');
             const photoPerks2 = document.getElementById('perks-photo-img2');
             const photoPerks3 = document.getElementById('perks-photo-img3');
+            const photoPerks00 = document.getElementById('perks-photo-img00');
+            const photoPerks11 = document.getElementById('perks-photo-img11');
+            const photoPerks22 = document.getElementById('perks-photo-img22');
+            const photoPerks33 = document.getElementById('perks-photo-img33');
 
             // Функция для получения случайного элемента
             function getRandomKiller(killers) {
@@ -462,7 +466,15 @@
                             // Обновляем изображения для перков
                             if (randomPerks[0].photo_main) {
                                 const perk1ImagePath = `Perks/${randomPerks[0].photo_main}`;
+                                const perk11ImagePath = null
+                                if(randomPerks[0].number == 100000){
+                                    perk11ImagePath= `perks/1.png`;
+                                }else{
+                                    perk11ImagePath= `perk1.png`;
+                                }
                                 photoPerks0.src = perk1ImagePath;
+                                photoPerks00.src = perk11ImagePath;
+
                             } else {
                                 photoPerks0.src = 'default/image/path.png';
                             }

@@ -466,14 +466,17 @@
                             // Обновляем изображения для перков
                             if (randomPerks[0].photo_main) {
                                 const perk1ImagePath = `Perks/${randomPerks[0].photo_main}`;
-                                const perk11ImagePath = null
+                                
                                 if(randomPerks[0].number == 100000){
-                                    perk11ImagePath= `perks/1.png`;
+                                    const perk11ImagePath= `perks/1.png`;
+                                    photoPerks00.src = perk11ImagePath;
+
                                 }else{
-                                    perk11ImagePath= `perk1.png`;
+                                    const perk11ImagePath= `perk1.png`;
+                                    photoPerks00.src = perk11ImagePath;
+
                                 }
                                 photoPerks0.src = perk1ImagePath;
-                                photoPerks00.src = perk11ImagePath;
 
                             } else {
                                 photoPerks0.src = 'default/image/path.png';

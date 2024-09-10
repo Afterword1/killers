@@ -411,8 +411,8 @@
                     // Удаляем последние 4 перка
                     Offerings.splice(-1);
                 }
-                const shuffledAddons = [...perks].sort(() => 0.5 - Math.random());
-                return [shuffledAddons[0], shuffledAddons[1],shuffledAddons[2],shuffledAddons[3]];
+                const shuffledAddons = [...Offerings].sort(() => 0.5 - Math.random());
+                return [shuffledAddons[0]];
             }
 
             fetch('data/killers.json')  // Замените на фактический путь к вашему JSON

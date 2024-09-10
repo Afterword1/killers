@@ -468,12 +468,12 @@
                                 const perk1ImagePath = `Perks/${randomPerks[0].photo_main}`;
                                 
                                 if(randomPerks[0].number == 100000){
-                                    const perk11ImagePath= `Perks/1.png`;
-                                    photoPerks00.src = perk11ImagePath;
+                                    const perk00ImagePath= `Perks/1.png`;
+                                    photoPerks00.src = perk00ImagePath;
 
                                 }else{
-                                    const perk11ImagePath= `Perks/perk1.png`;
-                                    photoPerks00.src = perk11ImagePath;
+                                    const perk00ImagePath= `Perks/perk1.png`;
+                                    photoPerks00.src = perk00ImagePath;
 
                                 }
                                 photoPerks0.src = perk1ImagePath;
@@ -485,6 +485,14 @@
                             if (randomPerks[1].photo_main) {
                                 const perk2ImagePath = `Perks/${randomPerks[1].photo_main}`;
                                 photoPerks1.src = perk2ImagePath;
+                                if(randomPerks[1].number == 100000){
+                                    const perk00ImagePath= `Perks/1.png`;
+                                    photoPerks11.src = perk00ImagePath;
+
+                                }else{
+                                    const perk00ImagePath= `Perks/perk1.png`;
+                                    photoPerks11.src = perk00ImagePath;
+                                }
                             } else {
                                 photoPerks1.src = 'default/image/path.png';
                             }
@@ -492,6 +500,15 @@
                             if (randomPerks[2].photo_main) {
                                 const perk3ImagePath = `Perks/${randomPerks[2].photo_main}`;
                                 photoPerks2.src = perk3ImagePath;
+                                if(randomPerks[2].number == 100000){
+                                    const perk00ImagePath= `Perks/1.png`;
+                                    photoPerks22.src = perk00ImagePath;
+
+                                }else{
+                                    const perk00ImagePath= `Perks/perk1.png`;
+                                    photoPerks22.src = perk00ImagePath;
+
+                                }
                             } else {
                                 photoPerks2.src = 'default/image/path.png';
                             }
@@ -499,6 +516,14 @@
                             if (randomPerks[3].photo_main) {
                                 const perk4ImagePath = `Perks/${randomPerks[3].photo_main}`;
                                 photoPerks3.src = perk4ImagePath;
+                                if(randomPerks[0].number == 100000){
+                                    const perk00ImagePath= `Perks/1.png`;
+                                    photoPerks33.src = perk00ImagePath;
+
+                                }else{
+                                    const perk00ImagePath= `Perks/perk1.png`;
+                                    photoPerks33.src = perk00ImagePath;
+                                }
                             } else {
                                 photoPerks3.src = 'default/image/path.png';
                             }

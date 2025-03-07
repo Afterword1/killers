@@ -396,6 +396,7 @@
             function getRandomKiller(killers) {
                 const randomIndex = Math.floor(Math.random() * killers.length);
                 killerText = killers[randomIndex].name_ru +" / "
+                console.log(killers[randomIndex].name_ru);
                 return killers[randomIndex];
             }
 
@@ -408,6 +409,7 @@
                 }
                 const shuffledAddons = [...addons].sort(() => 0.5 - Math.random());
                 killerText += shuffledAddons[0].name_addon_ru +" / " + shuffledAddons[1].name_addon_ru;
+                console.log(shuffledAddons[0].name_addon_ru +" / " + shuffledAddons[1].name_addon_ru);
                 return [shuffledAddons[0], shuffledAddons[1]];
             }
 

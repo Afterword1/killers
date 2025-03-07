@@ -478,7 +478,7 @@
                         if (killersList.length > 0) {
                             const randomKiller = getRandomKiller(killersList);
                             // Обновляем текстовое описание
-                            textDown = randomKiller.name_ru;
+                            textDown.textContent += "Киллер:" + randomKiller.name_ru;
 
                             // Обновляем изображение в non-square-photo
                             if (randomKiller.photo_main) {
@@ -512,7 +512,7 @@
                                     const addon11ImagePath = `ItemAddons/addon${randomAddons[0].rang_addon}.png`;
                                     photoAddonPlaceholderImg11.src = addon11ImagePath;
                                     
-                                    textDown += "/ " + randomAddons[0].name_addon_ru;
+                                    textDown.textContent += ". Аддон:" + randomAddons[0].name_addon_ru;
                                 } else {
                                     photoAddonPlaceholderImg1.src = 'default/image/path.png';
                                 }
@@ -524,7 +524,7 @@
                                     const addon22ImagePath = `ItemAddons/addon${randomAddons[1].rang_addon}.png`;
                                     photoAddonPlaceholderImg22.src = addon22ImagePath;
 
-                                    textDown += "/ " + randomAddons[1].name_addon_ru;
+                                    textDown.textContent += ". Аддон:" + randomAddons[1].name_addon_ru;
                                 } else {
                                     photoAddonPlaceholderImg2.src = 'default/image/path.png';
                                 }
@@ -553,12 +553,12 @@
                                 
                                 if(randomPerks[0].number == 100000){
                                     const perk00ImagePath= `Perks/1.png`;
-                                    textDown += "/ " +  perk00ImagePath;
+                                    photoPerks00.src = perk00ImagePath;
 
                                 }else{
                                     const perk00ImagePath= `Perks/perk1.png`;
                                     photoPerks00.src = perk00ImagePath;
-                                    perk1Text = randomPerks[0].name_ru;
+                                    textDown.textContent += ". Перк:" + randomPerks[0].name_ru;
                                 }
                                 photoPerks0.src = perk1ImagePath;
 
@@ -572,7 +572,7 @@
                                 if(randomPerks[1].number == 100000){
                                     const perk00ImagePath= `Perks/1.png`;
                                     photoPerks11.src = perk00ImagePath;
-                                    textDown += "/ " +  randomPerks[1].name_ru;
+                                    textDown.textContent += ". Перк:" + randomPerks[1].name_ru;
                                 }else{
                                     const perk00ImagePath= `Perks/perk1.png`;
                                     photoPerks11.src = perk00ImagePath;
@@ -587,7 +587,7 @@
                                 if(randomPerks[2].number == 100000){
                                     const perk00ImagePath= `Perks/1.png`;
                                     photoPerks22.src = perk00ImagePath;
-                                    textDown += "/ " +   randomPerks[2].name_ru;
+                                    textDown.textContent += ". Перк:" + randomPerks[2].name_ru;
                                 }else{
                                     const perk00ImagePath= `Perks/perk1.png`;
                                     photoPerks22.src = perk00ImagePath;
@@ -603,7 +603,7 @@
                                 if(randomPerks[3].number == 100000){
                                     const perk00ImagePath= `Perks/1.png`;
                                     photoPerks33.src = perk00ImagePath;
-                                    textDown += "/ " +   randomPerks[3].name_ru;
+                                    textDown.textContent += ". Перк:" + randomPerks[3].name_ru;
                                 }else{
                                     const perk00ImagePath= `Perks/perk1.png`;
                                     photoPerks33.src = perk00ImagePath;
@@ -633,7 +633,7 @@
    
                                 photoPodnosheniePlaceholder22.src = perk00ImagePath;
                                 photoPodnosheniePlaceholder.src = offerImagePath;
-                                textDown += "/ " +  randomOfferings[0].name_ru;
+                                textDown.textContent += ". Подношение:" + randomOfferings[0].name_ru+".";
                             } else {
                                 photoPerks0.src = 'default/image/path.png';
                             }

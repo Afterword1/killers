@@ -244,6 +244,22 @@
             font-size: 16px;
             background-color: #000000; /* Цвет фона для текста */
         }
+        .text-down-perks {
+            width: 100%; /* Для выравнивания по ширине */
+            text-align: center; /* Выравнивание текста по центру */
+            padding: 10px;
+            color: #ffffff;
+            font-size: 16px;
+            background-color: #000000; /* Цвет фона для текста */
+        }
+        .text-down-podnohenie {
+            width: 100%; /* Для выравнивания по ширине */
+            text-align: center; /* Выравнивание текста по центру */
+            padding: 10px;
+            color: #ffffff;
+            font-size: 16px;
+            background-color: #000000; /* Цвет фона для текста */
+        }
 
     </style>
 </head>
@@ -336,6 +352,12 @@
         <div class="text-container">
             <div class="text-down"> </div>
         </div>
+        <div class="text-container">
+            <div class=".text-down-perks"> </div>
+        </div>
+        <div class="text-container">
+            <div class="text-down-podnohenie"> </div>
+        </div>
     </div>
 
     <script>
@@ -387,7 +409,8 @@
             const photoPodnosheniePlaceholder = document.getElementById('photo-podnoshenie-placeholder');
             const photoPodnosheniePlaceholder22 = document.getElementById('photo-podnoshenie-placeholder22');
             const textDown = document.querySelector('.text-down');
-            
+            const textDownPerks = document.querySelector('.text-down-perks');
+            const textDownPodnoshenie = document.querySelector('.text-down-podnohenie');
             let killerText = '';
             let perkText = '';
             let PodnoshenieText = '';
@@ -395,7 +418,8 @@
             // Функция для получения случайного элемента
             function getRandomKiller(killers) {
                 const randomIndex = Math.floor(Math.random() * killers.length);
-                killerText += killers[randomIndex].name_ru +" / "
+                killerText += killers[randomIndex].name_ru +" / ";
+                //textDown.textContent = killerText;
                 console.log(killerText);
                 return killers[randomIndex];
             }
@@ -409,6 +433,7 @@
                 }
                 const shuffledAddons = [...addons].sort(() => 0.5 - Math.random());
                 killerText += shuffledAddons[0].name_addon_ru +" / " + shuffledAddons[1].name_addon_ru;
+                textDown.textContent = killerText;
                 console.log(killerText);
                 return [shuffledAddons[0], shuffledAddons[1]];
             }
@@ -462,7 +487,8 @@
                 const killerSelect = document.getElementById('killer-select');
                 const selectedKiller = killerSelect.value; // Получаем выбранного киллера
                 textDown.textContent = '';
-                killerText = '';
+                textDownPerks.textContent = '';
+                textDownPodnoshenie.textContent = '';
 
                 fetch('data/killers.json')  // Замените на фактический путь к вашему JSON
                     .then(response => response.json())
@@ -645,7 +671,7 @@
                         textOverlay.textContent = 'Ошибка загрузки';
                     });
                     
-                    textDown.textContent += killerText;
+                    //textDown.textContent += killerText;
             });
 
         });

@@ -339,43 +339,76 @@
     </div>
 
     <script>
-        window.addEventListener('load', function() {
-            const container = document.getElementById('main-container');
-            const images = document.querySelectorAll('img');
-            const content = document.querySelector('.content');
-            const bgImage = document.getElementById('bg-image');
-    
-            // Ждём загрузки всех изображений
-            const imagePromises = Array.from(images).map(img => {
-                return new Promise((resolve, reject) => {
-                    if (img.complete) {
-                        resolve();
-                    } else {
-                        img.onload = resolve;
-                        img.onerror = reject;
-                    }
-                });
+    window.addEventListener('load', function() {
+        const container = document.getElementById('main-container');
+        const images = document.querySelectorAll('img');
+        const content = document.querySelector('.content');
+        const bgImage = document.getElementById('bg-image');
+        
+        // Ждём загрузки всех изображений
+        const imagePromises = Array.from(images).map(img => {
+            return new Promise((resolve, reject) => {
+                if (img.complete) {
+                    resolve();
+                } else {
+                    img.onload = resolve;
+                    img.onerror = reject;
+                }
+            });
+        });
+
+        Promise.all(imagePromises)
+            .then(() => {
+                // Все изображения загружены
+                console.log("Все изображения успешно загружены");
+                content.style.height = `${bgImage.clientHeight}px`;
+                container.style.visibility = 'visible'; // Показываем контейнер
+            })
+            .catch((error) => {
+                console.error("Ошибка загрузки изображения:", error);
             });
 
-            Promise.all(imagePromises)
-                .then(() => {
-                    // Все изображения загружены
-                    console.log("Все изображения успешно загружены");
-                    content.style.height = `${bgImage.clientHeight}px`;
-                    container.style.visibility = 'visible'; // Показываем контейнер
-                })
-                .catch((error) => {
-                    console.error("Ошибка загрузки изображения:", error);
-                });
-            
-            const centeredPhoto = document.querySelector('.centered-photo');
-            const textOverlay = document.querySelector('.text-overlay');
-            const nonSquarePhotoImg = document.getElementById('non-square-photo-img');
-            const photoPlaceholderImg = document.getElementById('photo-placeholder-img');
-            const photoAddonPlaceholderImg1 = document.getElementById('photo-addonplaceholder1-img');
-            const photoAddonPlaceholderImg2 = document.getElementById('photo-addonplaceholder2-img');
-            const photoAddonPlaceholderImg11 = document.getElementById('photo-addonplaceholder11-img');
-            const photoAddonPlaceholderImg22 = document.getElementById('photo-addonplaceholder22-img');
+        // Загрузка всех JSON файлов при старте
+        const loadJSONFiles = async () => {
+            try {
+                const [killersData, perksData, offeringsData] = await Promise.all([
+                    fetch('data/killers.json').then(response => response.json()),
+                    fetch('data/perks.json').then(response => response.json()),
+                    fetch('data/offerings.json').then(response => response.json())
+                ]);
+
+                // Обрабатываем данные из killers.json
+                if (killersData.killers && killersData.killers.length > 0) {
+                    const killerSelect = document.getElementById('killer-select');
+                    killersData.killers.forEach(killer => {
+                        const option = document.createElement('option');
+                        option.value = killer.name_en;
+                        option.textContent = killer.name_ru;
+                        killerSelect.appendChild(option);
+                    });
+                }
+
+                // Обрабатываем данные из perks.json
+                if (perksData.Killers_perks && perksData.Killers_perks.length > 0) {
+                    const randomPerks = getForRandomPerks(perksData.Killers_perks, document.getElementById('empty-perks').checked);
+                    updatePerkImages(randomPerks);
+                }
+
+                // Обрабатываем данные из offerings.json
+                if (offeringsData.offerings && offeringsData.offerings.length > 0) {
+                    const randomOfferings = getForRandomOfferings(offeringsData.offerings, document.getElementById('empty-offerings').checked);
+                    updateOfferingImages(randomOfferings);
+                }
+            } catch (error) {
+                console.error('Ошибка при загрузке JSON файлов:', error);
+                textOverlay.textContent = 'Ошибка загрузки';
+            }
+        };
+
+        loadJSONFiles(); // Загружаем все JSON файлы
+
+        // Функция для обновления изображений перков
+        function updatePerkImages(randomPerks) {
             const photoPerks0 = document.getElementById('perks-photo-img0');
             const photoPerks1 = document.getElementById('perks-photo-img1');
             const photoPerks2 = document.getElementById('perks-photo-img2');
@@ -384,276 +417,39 @@
             const photoPerks11 = document.getElementById('perks-photo-img11');
             const photoPerks22 = document.getElementById('perks-photo-img22');
             const photoPerks33 = document.getElementById('perks-photo-img33');
+            const textDown = document.querySelector('.text-down');
+            
+            // Перки
+            randomPerks.forEach((perk, index) => {
+                const perkImagePath = perk.photo_main ? `Perks/${perk.photo_main}` : 'default/image/path.png';
+                const perkElement = document.getElementById(`perks-photo-img${index}`);
+                perkElement.src = perkImagePath;
+
+                const perkText = perk.number === 100000 ? '1.png' : 'perk1.png';
+                const perk00Element = document.getElementById(`perks-photo-img${index}0`);
+                perk00Element.src = `Perks/${perkText}`;
+
+                if (perk.name_ru) {
+                    textDown.textContent += `. Перк: ${perk.name_ru}`;
+                }
+            });
+        }
+
+        // Функция для обновления изображений подношений
+        function updateOfferingImages(randomOfferings) {
             const photoPodnosheniePlaceholder = document.getElementById('photo-podnoshenie-placeholder');
             const photoPodnosheniePlaceholder22 = document.getElementById('photo-podnoshenie-placeholder22');
             const textDown = document.querySelector('.text-down');
             
-            let killerText = "Стартовый текст1";
-            let addon1Text = "Стартовый текст2";
-            let addon2Text = "Стартовый текст3";
-            let perk1Text = "Стартовый текст4";
-            let perk2Text = "Стартовый текст5";
-            let perk3Text = "Стартовый текст6";
-            let perk4Text = "Стартовый текст7";
-            let PodnoshenieText = "Стартовый текст8";
+            randomOfferings.forEach(offering => {
+                const offerImagePath = offering.photo_main ? `Favors/${offering.photo_main}` : 'default/image/path.png';
+                const perk00ImagePath = offering.rang ? `Favors/${offering.rang}.png` : 'default/image/path.png';
 
-            // Функция для получения случайного элемента
-            function getRandomKiller(killers) {
-                const randomIndex = Math.floor(Math.random() * killers.length);
-                return killers[randomIndex];
-            }
-
-            // Функция для получения двух случайных разных аддонов
-            function getTwoRandomAddons(addons, emptyAddonsChecked) {
-                // Если галочка "empty-addons" НЕ установлена
-                if (!emptyAddonsChecked) {
-                    // Удаляем последние два аддона
-                    addons.splice(-2);
-                }
-                const shuffledAddons = [...addons].sort(() => 0.5 - Math.random());
-                return [shuffledAddons[0], shuffledAddons[1]];
-            }
-
-            
-            // Функция для получения четырех случайных разных перков
-            function getForRandomPerks(perks, emptyChecked) {
-                // Если галочка "empty-addons" НЕ установлена
-                if (!emptyChecked) {
-                    // Удаляем последние 4 перка
-                    perks.splice(-4);
-                }
-                const shuffledAddons = [...perks].sort(() => 0.5 - Math.random());
-                return [shuffledAddons[0], shuffledAddons[1],shuffledAddons[2],shuffledAddons[3]];
-            }
-
-                        // Функция для получения четырех случайных разных перков
-            function getForRandomOfferings(Offerings, emptyChecked) {
-                // Если галочка "empty-addons" НЕ установлена
-                if (!emptyChecked) {
-                    // Удаляем последние 4 перка
-                    Offerings.splice(-1);
-                }
-                const shuffledAddons = [...Offerings].sort(() => 0.5 - Math.random());
-                return [shuffledAddons[0]];
-            }
-
-            fetch('data/killers.json')  // Замените на фактический путь к вашему JSON
-                .then(response => response.json())
-                .then(data => {
-                    if (data.killers && data.killers.length > 0) {
-                        const killerSelect = document.getElementById('killer-select');
-
-                        // Добавляем всех киллеров в выпадающий список
-                        data.killers.forEach(killer => {
-                            const option = document.createElement('option');
-                            option.value = killer.name_en;  // Используйте уникальное значение, например, имя киллера на английском
-                            option.textContent = killer.name_ru;  // Отображаемое имя киллера на русском
-                            killerSelect.appendChild(option);
-                        });
-                    }
-                })
-                .catch(error => {
-                    console.error('Ошибка при загрузке JSON:', error);
-                });
-
-                
-            // Обработчик события для клика по centered-photo
-            centeredPhoto.addEventListener('click', function() {
-                    // Очистка всех изображений перед загрузкой новых
-                const killerSelect = document.getElementById('killer-select');
-                const selectedKiller = killerSelect.value; // Получаем выбранного киллера
-                textDown.textContent = '';
-
-                fetch('data/killers.json')  // Замените на фактический путь к вашему JSON
-                    .then(response => response.json())
-                    .then(data => {
-                        
-                        let killersList = data.killers;
-
-                        // Если выбран конкретный киллер
-                        if (selectedKiller !== 'all') {
-                            killersList = killersList.filter(killer => killer.name_en === selectedKiller);
-                        }
-                        
-                        if (killersList.length > 0) {
-                            const randomKiller = getRandomKiller(killersList);
-                            // Обновляем текстовое описание
-                            textDown.textContent += "Киллер:" + randomKiller.name_ru;
-
-                            // Обновляем изображение в non-square-photo
-                            if (randomKiller.photo_main) {
-                                const imagePath = `StoreBackgrounds/${randomKiller.photo_main}`;
-                                nonSquarePhotoImg.src = imagePath;
-                            } else {
-                                nonSquarePhotoImg.src = 'default/image/path.png';
-                            }
-                            
-                            // Обновляем изображение в photo-placeholder
-                            if (randomKiller.photo_skills) {
-                                const skillsImagePath = `HelpLoading/${randomKiller.photo_skills}`;
-                                photoPlaceholderImg.src = skillsImagePath;
-                            } else {
-                                photoPlaceholderImg.src = 'default/image/path.png';
-                            }
-
-                            // Обновляем изображение в photoAddonPlaceholderImg 1 -2
-                            
-                            // Проверяем, есть ли аддоны у киллера
-                            if (randomKiller.addons && randomKiller.addons.length > 1) {
-                                // Получаем два случайных разных аддона
-                                const randomAddons = getTwoRandomAddons(randomKiller.addons, document.getElementById('empty-addons').checked);
-
-                                // Обновляем изображения для аддонов
-                                if (randomAddons[0].photo_addon) {
-                                    const addon1ImagePath = `ItemAddons/${randomAddons[0].photo_addon}`;
-                                    photoAddonPlaceholderImg1.src = addon1ImagePath;
-
-                                    //console.log('У киллера недостаточно аддонов для отображения:', randomAddons[0].photo_addon);
-                                    const addon11ImagePath = `ItemAddons/addon${randomAddons[0].rang_addon}.png`;
-                                    photoAddonPlaceholderImg11.src = addon11ImagePath;
-                                    
-                                    textDown.textContent += ". Аддон:" + randomAddons[0].name_addon_ru;
-                                } else {
-                                    photoAddonPlaceholderImg1.src = 'default/image/path.png';
-                                }
-
-                                if (randomAddons[1].photo_addon) {
-                                    const addon2ImagePath = `ItemAddons/${randomAddons[1].photo_addon}`;
-                                    photoAddonPlaceholderImg2.src = addon2ImagePath;
-                                    //console.log('У киллера недостаточно аддонов для отображения:', randomAddons[1].photo_addon);
-                                    const addon22ImagePath = `ItemAddons/addon${randomAddons[1].rang_addon}.png`;
-                                    photoAddonPlaceholderImg22.src = addon22ImagePath;
-
-                                    textDown.textContent += ". Аддон:" + randomAddons[1].name_addon_ru;
-                                } else {
-                                    photoAddonPlaceholderImg2.src = 'default/image/path.png';
-                                }
-                            } else {
-                                console.log('У киллера недостаточно аддонов для отображения');
-                            }    
-
-                        } else {
-                            textOverlay.textContent = 'Данные не найдены';
-                        }
-                    })
-                    .catch(error => {
-                        console.error('Ошибка при загрузке JSON:', error);
-                        textOverlay.textContent = 'Ошибка загрузки';
-                    });
-                    
-                    fetch('data/perks.json')  // Замените на фактический путь к вашему JSON
-                    .then(response => response.json())
-                    .then(data => {
-                        if (data.Killers_perks && data.Killers_perks.length > 0) {
-                            const randomPerks = getForRandomPerks(data.Killers_perks, document.getElementById('empty-perks').checked);
-
-                            // Обновляем изображения для перков
-                            if (randomPerks[0].photo_main) {
-                                const perk1ImagePath = `Perks/${randomPerks[0].photo_main}`;
-                                
-                                if(randomPerks[0].number == 100000){
-                                    const perk00ImagePath= `Perks/1.png`;
-                                    photoPerks00.src = perk00ImagePath;
-
-                                }else{
-                                    const perk00ImagePath= `Perks/perk1.png`;
-                                    photoPerks00.src = perk00ImagePath;
-                                    textDown.textContent += ". Перк:" + randomPerks[0].name_ru;
-                                }
-                                photoPerks0.src = perk1ImagePath;
-
-                            } else {
-                                photoPerks0.src = 'default/image/path.png';
-                            }
-
-                            if (randomPerks[1].photo_main) {
-                                const perk2ImagePath = `Perks/${randomPerks[1].photo_main}`;
-                                photoPerks1.src = perk2ImagePath;
-                                if(randomPerks[1].number == 100000){
-                                    const perk00ImagePath= `Perks/1.png`;
-                                    photoPerks11.src = perk00ImagePath;
-                                    textDown.textContent += ". Перк:" + randomPerks[1].name_ru;
-                                }else{
-                                    const perk00ImagePath= `Perks/perk1.png`;
-                                    photoPerks11.src = perk00ImagePath;
-                                }
-                            } else {
-                                photoPerks1.src = 'default/image/path.png';
-                            }
-
-                            if (randomPerks[2].photo_main) {
-                                const perk3ImagePath = `Perks/${randomPerks[2].photo_main}`;
-                                photoPerks2.src = perk3ImagePath;
-                                if(randomPerks[2].number == 100000){
-                                    const perk00ImagePath= `Perks/1.png`;
-                                    photoPerks22.src = perk00ImagePath;
-                                    textDown.textContent += ". Перк:" + randomPerks[2].name_ru;
-                                }else{
-                                    const perk00ImagePath= `Perks/perk1.png`;
-                                    photoPerks22.src = perk00ImagePath;
-
-                                }
-                            } else {
-                                photoPerks2.src = 'default/image/path.png';
-                            }
-
-                            if (randomPerks[3].photo_main) {
-                                const perk4ImagePath = `Perks/${randomPerks[3].photo_main}`;
-                                photoPerks3.src = perk4ImagePath;
-                                if(randomPerks[3].number == 100000){
-                                    const perk00ImagePath= `Perks/1.png`;
-                                    photoPerks33.src = perk00ImagePath;
-                                    textDown.textContent += ". Перк:" + randomPerks[3].name_ru;
-                                }else{
-                                    const perk00ImagePath= `Perks/perk1.png`;
-                                    photoPerks33.src = perk00ImagePath;
-                                }
-                            } else {
-                                photoPerks3.src = 'default/image/path.png';
-                            }
-                        } else {
-                            textOverlay.textContent = 'Данные не найдены';
-                        }
-                    })
-                    .catch(error => {
-                        console.error('Ошибка при загрузке JSON:', error);
-                        textOverlay.textContent = 'Ошибка загрузки';
-                    });
-
-                    fetch('data/offerings.json')  // Замените на фактический путь к вашему JSON
-                    .then(response => response.json())
-                    .then(data => {
-                        if (data.offerings && data.offerings.length > 0) {
-                            const randomOfferings = getForRandomOfferings(data.offerings, document.getElementById('empty-offerings').checked);
-
-                            // Обновляем изображения для перков
-                            if (randomOfferings[0].photo_main) {
-                                const offerImagePath = `Favors/${randomOfferings[0].photo_main}`;
-                                const perk00ImagePath= `Favors/${randomOfferings[0].rang}.png`;
-   
-                                photoPodnosheniePlaceholder22.src = perk00ImagePath;
-                                photoPodnosheniePlaceholder.src = offerImagePath;
-                                textDown.textContent += ". Подношение:" + randomOfferings[0].name_ru+".";
-                            } else {
-                                photoPerks0.src = 'default/image/path.png';
-                            }
-
-                           
-                        } else {
-                            textOverlay.textContent = 'Данные не найдены';
-                        }
-                    })
-                    .catch(error => {
-                        console.error('Ошибка при загрузке JSON:', error);
-                        textOverlay.textContent = 'Ошибка загрузки';
-                    });
-                    
-                    //textDown.textContent = killerText+ addon1Text + addon2Text + perk1Text + perk2Text + perk3Text + perk4Text + PodnoshenieText;
+                photoPodnosheniePlaceholder.src = offerImagePath;
+                photoPodnosheniePlaceholder22.src = perk00ImagePath;
+                textDown.textContent += `. Подношение: ${offering.name_ru}.`;
             });
-
-        });
-
-        
+        }
 
         // Обновление высоты при изменении размера окна
         window.addEventListener('resize', function() {
@@ -661,7 +457,9 @@
             const content = document.querySelector('.content');
             content.style.height = `${bgImage.clientHeight}px`;
         });
-    </script>
+    });
+</script>
+
     
 </body>
 </html>

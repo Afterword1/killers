@@ -234,7 +234,16 @@
 
         .checkbox-container label {
             color: white;
-        }    
+        }   
+        
+        .text-down {
+            width: 100%; /* Для выравнивания по ширине */
+            text-align: center; /* Выравнивание текста по центру */
+            padding: 10px;
+            color: #ffffff;
+            font-size: 16px;
+            background-color: #000000; /* Цвет фона для текста */
+        }
 
     </style>
 </head>
@@ -324,6 +333,9 @@
                 <option value="all">Все убийцы</option>
             </select>
         </div>
+        <div class="text-container">
+            <div class="text-down"> </div>
+        </div>
     </div>
 
     <script>
@@ -374,6 +386,16 @@
             const photoPerks33 = document.getElementById('perks-photo-img33');
             const photoPodnosheniePlaceholder = document.getElementById('photo-podnoshenie-placeholder');
             const photoPodnosheniePlaceholder22 = document.getElementById('photo-podnoshenie-placeholder22');
+            const textDown = document.querySelector('.text-down');
+            
+            let killerText = "Стартовый текст1";
+            let addon1Text = "Стартовый текст2";
+            let addon2Text = "Стартовый текст3";
+            let perk1Text = "Стартовый текст4";
+            let perk2Text = "Стартовый текст5";
+            let perk3Text = "Стартовый текст6";
+            let perk4Text = "Стартовый текст7";
+            let PodnoshenieText = "Стартовый текст8";
 
             // Функция для получения случайного элемента
             function getRandomKiller(killers) {
@@ -440,6 +462,7 @@
                     // Очистка всех изображений перед загрузкой новых
                 const killerSelect = document.getElementById('killer-select');
                 const selectedKiller = killerSelect.value; // Получаем выбранного киллера
+                textDown.textContent = '';
 
                 fetch('data/killers.json')  // Замените на фактический путь к вашему JSON
                     .then(response => response.json())
@@ -455,7 +478,7 @@
                         if (killersList.length > 0) {
                             const randomKiller = getRandomKiller(killersList);
                             // Обновляем текстовое описание
-                            //textOverlay.textContent = randomKiller.name_ru || 'Имя не найдено';
+                            textDown.textContent += "Киллер:" + randomKiller.name_ru;
 
                             // Обновляем изображение в non-square-photo
                             if (randomKiller.photo_main) {
@@ -488,7 +511,8 @@
                                     //console.log('У киллера недостаточно аддонов для отображения:', randomAddons[0].photo_addon);
                                     const addon11ImagePath = `ItemAddons/addon${randomAddons[0].rang_addon}.png`;
                                     photoAddonPlaceholderImg11.src = addon11ImagePath;
-
+                                    
+                                    textDown.textContent += ". Аддон:" + randomAddons[0].name_addon_ru;
                                 } else {
                                     photoAddonPlaceholderImg1.src = 'default/image/path.png';
                                 }
@@ -499,6 +523,8 @@
                                     //console.log('У киллера недостаточно аддонов для отображения:', randomAddons[1].photo_addon);
                                     const addon22ImagePath = `ItemAddons/addon${randomAddons[1].rang_addon}.png`;
                                     photoAddonPlaceholderImg22.src = addon22ImagePath;
+
+                                    textDown.textContent += ". Аддон:" + randomAddons[1].name_addon_ru;
                                 } else {
                                     photoAddonPlaceholderImg2.src = 'default/image/path.png';
                                 }
@@ -532,7 +558,7 @@
                                 }else{
                                     const perk00ImagePath= `Perks/perk1.png`;
                                     photoPerks00.src = perk00ImagePath;
-
+                                    textDown.textContent += ". Перк:" + randomPerks[0].name_ru;
                                 }
                                 photoPerks0.src = perk1ImagePath;
 
@@ -546,7 +572,7 @@
                                 if(randomPerks[1].number == 100000){
                                     const perk00ImagePath= `Perks/1.png`;
                                     photoPerks11.src = perk00ImagePath;
-
+                                    textDown.textContent += ". Перк:" + randomPerks[1].name_ru;
                                 }else{
                                     const perk00ImagePath= `Perks/perk1.png`;
                                     photoPerks11.src = perk00ImagePath;
@@ -561,7 +587,7 @@
                                 if(randomPerks[2].number == 100000){
                                     const perk00ImagePath= `Perks/1.png`;
                                     photoPerks22.src = perk00ImagePath;
-
+                                    textDown.textContent += ". Перк:" + randomPerks[2].name_ru;
                                 }else{
                                     const perk00ImagePath= `Perks/perk1.png`;
                                     photoPerks22.src = perk00ImagePath;
@@ -577,7 +603,7 @@
                                 if(randomPerks[3].number == 100000){
                                     const perk00ImagePath= `Perks/1.png`;
                                     photoPerks33.src = perk00ImagePath;
-
+                                    textDown.textContent += ". Перк:" + randomPerks[3].name_ru;
                                 }else{
                                     const perk00ImagePath= `Perks/perk1.png`;
                                     photoPerks33.src = perk00ImagePath;
@@ -607,7 +633,7 @@
    
                                 photoPodnosheniePlaceholder22.src = perk00ImagePath;
                                 photoPodnosheniePlaceholder.src = offerImagePath;
-
+                                textDown.textContent += ". Подношение:" + randomOfferings[0].name_ru+".";
                             } else {
                                 photoPerks0.src = 'default/image/path.png';
                             }
@@ -621,9 +647,13 @@
                         console.error('Ошибка при загрузке JSON:', error);
                         textOverlay.textContent = 'Ошибка загрузки';
                     });
-    
+                    
+                    //textDown.textContent = killerText+ addon1Text + addon2Text + perk1Text + perk2Text + perk3Text + perk4Text + PodnoshenieText;
             });
+
         });
+
+        
 
         // Обновление высоты при изменении размера окна
         window.addEventListener('resize', function() {

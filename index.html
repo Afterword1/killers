@@ -244,7 +244,15 @@
             font-size: 16px;
             background-color: #000000; /* Цвет фона для текста */
         }
-        
+                
+        .text-down_perks {
+            width: 100%; /* Для выравнивания по ширине */
+            text-align: center; /* Выравнивание текста по центру */
+            padding: 10px;
+            color: #ffffff;
+            font-size: 16px;
+            background-color: #000000; /* Цвет фона для текста */
+        }
 
     </style>
 </head>
@@ -388,7 +396,8 @@
             const photoPodnosheniePlaceholder = document.getElementById('photo-podnoshenie-placeholder');
             const photoPodnosheniePlaceholder22 = document.getElementById('photo-podnoshenie-placeholder22');
             const textDown = document.querySelector('.text-down');
-            
+            const textDownPerks = document.querySelector('.text-down-perks');
+
             let killerText = '';
             let perkText = '';
             let PodnoshenieText = '';
@@ -423,6 +432,9 @@
                     perks.splice(-4);
                 }
                 const shuffledAddons = [...perks].sort(() => 0.5 - Math.random());
+                perkText = shuffledAddons[0].name_ru + ' / ' + shuffledAddons[1].name_ru + ' / ' +shuffledAddons[2].name_ru + ' / ' + shuffledAddons[3].name_ru + ' / ' ;
+                textDownPerks.textContent += perkText;
+                console.log(textDownPerks);
                 return [shuffledAddons[0], shuffledAddons[1],shuffledAddons[2],shuffledAddons[3]];
             }
 

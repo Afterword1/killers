@@ -388,14 +388,14 @@
             const photoPodnosheniePlaceholder22 = document.getElementById('photo-podnoshenie-placeholder22');
             const textDown = document.querySelector('.text-down');
             
-            let killerText = "Стартовый текст1";
-            let perkText = "Стартовый текст4";
-            let PodnoshenieText = "Стартовый текст8";
+            let killerText = '';
+            let perkText = '';
+            let PodnoshenieText = '';
 
             // Функция для получения случайного элемента
             function getRandomKiller(killers) {
                 const randomIndex = Math.floor(Math.random() * killers.length);
-                killerText = killers[randomIndex].name_ru +" / "
+                killerText += killers[randomIndex].name_ru +" / "
                 console.log(killers[randomIndex].name_ru);
                 return killers[randomIndex];
             }

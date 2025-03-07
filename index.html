@@ -434,7 +434,7 @@
                 const shuffledAddons = [...perks].sort(() => 0.5 - Math.random());
                 perkText = shuffledAddons[0].name_ru + ' / ' + shuffledAddons[1].name_ru + ' / ' +shuffledAddons[2].name_ru + ' / ' + shuffledAddons[3].name_ru + ' / ' ;
                 textDownPerks.textContent += perkText;
-                console.log(textDownPerks);
+                console.log(perkText);
                 return [shuffledAddons[0], shuffledAddons[1],shuffledAddons[2],shuffledAddons[3]];
             }
 

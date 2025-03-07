@@ -397,7 +397,6 @@
             function getRandomKiller(killers) {
                 const randomIndex = Math.floor(Math.random() * killers.length);
                 killerText += killers[randomIndex].name_ru +" / ";
-                console.log(killerText);
                 return killers[randomIndex];
             }
 
@@ -410,6 +409,7 @@
                 }
                 const shuffledAddons = [...addons].sort(() => 0.5 - Math.random());
                 killerText += shuffledAddons[0].name_addon_ru +" / " + shuffledAddons[1].name_addon_ru;
+                textDown.textContent += killerText;
                 console.log(killerText);
                 return [shuffledAddons[0], shuffledAddons[1]];
             }
@@ -646,7 +646,7 @@
                         textOverlay.textContent = 'Ошибка загрузки';
                     });
                     
-                    textDown.textContent += killerText;
+                    
             });
 
         });

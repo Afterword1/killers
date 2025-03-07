@@ -395,7 +395,7 @@
             // Функция для получения случайного элемента
             function getRandomKiller(killers) {
                 const randomIndex = Math.floor(Math.random() * killers.length);
-                killerText = randomIndex.name_ru +" / "
+                killerText = killers[randomIndex].name_ru +" / "
                 return killers[randomIndex];
             }
 

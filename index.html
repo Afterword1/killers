@@ -244,8 +244,8 @@
             font-size: 16px;
             background-color: #000000; /* Цвет фона для текста */
         }
-                
-        .text-down_perks {
+
+        .text-down-perks {
             width: 100%; /* Для выравнивания по ширине */
             text-align: center; /* Выравнивание текста по центру */
             padding: 10px;
@@ -253,6 +253,7 @@
             font-size: 16px;
             background-color: #000000; /* Цвет фона для текста */
         }
+        
 
     </style>
 </head>
@@ -330,6 +331,7 @@
                     <img src="main/regen.png" alt="Centered Photo">
                 </div>
                 
+                
             </div>
         </div>
         <div class="checkbox-container">
@@ -344,6 +346,9 @@
         </div>
         <div class="text-container">
             <div class="text-down"> </div>
+        </div>
+        <div class="text-container">
+            <div class="text-down-perks"> </div>
         </div>
     </div>
 
@@ -398,6 +403,7 @@
             const textDown = document.querySelector('.text-down');
             const textDownPerks = document.querySelector('.text-down-perks');
 
+            
             let killerText = '';
             let perkText = '';
             let PodnoshenieText = '';
@@ -432,7 +438,7 @@
                     perks.splice(-4);
                 }
                 const shuffledAddons = [...perks].sort(() => 0.5 - Math.random());
-                perkText = shuffledAddons[0].name_ru + ' / ' + shuffledAddons[1].name_ru + ' / ' +shuffledAddons[2].name_ru + ' / ' + shuffledAddons[3].name_ru + ' / ' ;
+                perkText += shuffledAddons[0].name_ru +" / " + shuffledAddons[1].name_ru +" / " + shuffledAddons[2].name_ru +" / " + shuffledAddons[3];
                 textDownPerks.textContent += perkText;
                 console.log(perkText);
                 return [shuffledAddons[0], shuffledAddons[1],shuffledAddons[2],shuffledAddons[3]];
@@ -476,6 +482,7 @@
                 const selectedKiller = killerSelect.value; // Получаем выбранного киллера
                 textDown.textContent = '';
                 killerText = '';
+                perkText = '';
 
                 fetch('data/killers.json')  // Замените на фактический путь к вашему JSON
                     .then(response => response.json())

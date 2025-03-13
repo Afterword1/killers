@@ -848,7 +848,7 @@
             "description_addon_ru":"Чай из этих сушеных лепестков облегчает симптомы усталости и перенапряжения. Повышает скорость полета топора на 20%",
             "description_addon_en":"Dried petals that relieve symptoms of fatigue and overexertion when brewed in a tea. Increases the Projectile speed of Hatchets by +20 %.",
             "photo_addon":"DLC5/iconAddon_roseRoot.png",
-            "rang_addon":3
+            "rang_addon":2
           },{
             "id":89,
             "name_addon_ru":"Бабушкин платок",
@@ -856,7 +856,7 @@
             "description_addon_ru":"Чистый и яркий платок, украшенный рисунками цветов. Память о потере малышей наполняет Охотницу яростью и делает её сосредоточенной. Уменьшает время, необходимое для заряда броска топоров, на 12%.",
             "description_addon_en":"A clean and colourful handkerchief adorned with a flower pattern. This memory of a lost little one fills The Huntress with rage and focus. Reduces the Wind-up time of Hatchets by -0.1 seconds.",
             "photo_addon":"DLC5/iconAddon_flowerBabushka.png",
-            "rang_addon":3
+            "rang_addon":2
           },{
             "id":90,
             "name_addon_ru":"Перчатки из оленевой кожи",
@@ -864,7 +864,7 @@
             "description_addon_ru":"Пара кожаных перчаток, которые защищают руки и обеспечивают крепкую хватку. Уменьшают время подбора топоров из шкафчика на 20%.",
             "description_addon_en":"Cured leather gloves that protect the hands and give a sure grip. Reduces the Reload time of Hatchets at Lockers IconHelp lockers to 80 % of its default value.",
             "photo_addon":"DLC5/iconAddon_deerskinGloves.png",
-            "rang_addon":3
+            "rang_addon":2
           },{
             "id":91,
             "name_addon_ru":"Утяжеленный топор",
@@ -872,7 +872,7 @@
             "description_addon_ru":"Топор с необычным балансом для нанесения тяжелых ударов. Требует твердой руки и недюжинной силы. При попадании цель получает эффект \"Обездвиживание\" на 10 сек. При \"Обездвиживании\" выживший не может использовать предметы, лечиться, чинить, ломать, благословлять, очищать или латать",
             "description_addon_en":"An oddly weighted Hatchet head, crafted to deliver a hard blow to its target. It requires a wielder with a strong arm. Survivors hit by Hatchets suffer from the Incapacitated IconStatusEffects incapacitated  Status Effect for 10 seconds.",
             "photo_addon":"DLC5/iconAddon_weightedHead.png",
-            "rang_addon":4
+            "rang_addon":3
           },{
             "id":92,
             "name_addon_ru":"Сияющая брошь",
@@ -880,7 +880,7 @@
             "description_addon_ru":"Медная брошь, потерявшая былой рисунок, но тем не менее до блеска отполированная. Взята с трупа одной особенно трудной добычи. Увеличивает скорость передвижения Охотницы на 5% во время прицеливания или броска топора.",
             "description_addon_en":"A copper pin defaced beyond recognition yet polished to a high sheen. Pillaged from a particularly difficult prey. Increases the Movement speed while winding Hatchets up by +5 %.",
             "photo_addon":"DLC5/iconAddon_shinyPin.png",
-            "rang_addon":4
+            "rang_addon":3
           },{
             "id":93,
             "name_addon_ru":"Дубовое топорище",
@@ -888,7 +888,7 @@
             "description_addon_ru":"Отполированная рукоять позволяет более искусно обращаться с оружием убийства. Уменьшает время между повторными бросками топоров на 20%.",
             "description_addon_en":"A polished haft which allows for a quick and sly manipulation of the deadly tool. Reduces the Cool-down duration between successive Hatchet throws by -20 %.",
             "photo_addon":"DLC5/iconAddon_oakHaft.png",
-            "rang_addon":4
+            "rang_addon":3
           },{
             "id":94,
             "name_addon_ru":"Венок из манника",
@@ -896,7 +896,7 @@
             "description_addon_ru":"Венок, сотканный из травы манника. Память о потере малышей наполняет Охотницу яростью и делает её сосредоточенной. Уменьшает время, необходимое для заряда броска топоров на 8%.",
             "description_addon_en":"A circular decorative braid made from manna grass. This memory of a lost little one fills The Huntress with rage and focus. Reduces the Wind-up time of Hatchets by -8 %.",
             "photo_addon":"DLC5/iconAddon_mannaGrassBraid.png",
-            "rang_addon":4
+            "rang_addon":3
           },{
             "id":95,
             "name_addon_ru":"Кожаная петля",
@@ -904,7 +904,7 @@
             "description_addon_ru":"Эту кожаную петлю можно прикрепить к ремню и использовать для переноса инструментов. Вы начинаете матч с 1 дополнительным топором. Увеличивает максимальное количество носимых одновременно топоров на 1",
             "description_addon_en":"The right tool in the right hands is key to a successful hunt. Successfully hitting a Survivor with a Hatchet grants a +2 % Haste IconStatusEffects haste  Status Effect for 5 seconds.",
             "photo_addon":"DLC5/iconAddon_leatherLoop.png",
-            "rang_addon":4
+            "rang_addon":3
           },{
             "id":96,
             "name_addon_ru":"Пожелтевшая тряпка",
@@ -912,7 +912,7 @@
             "description_addon_ru":"Простой клочок ткани, которым удобно перевязывать лопнувшие волдыри и вытирать лицо. Увеличивает скорость полета топора на 10%.",
             "description_addon_en":"A simple scrap of material to tend to blisters and wipe the puss away. Increases the Projectile speed of Hatchets by +10 %.",
             "photo_addon":"DLC5/iconAddon_yellowedCloth.png",
-            "rang_addon":5
+            "rang_addon":4
           },{
             "id":97,
             "name_addon_ru":"Грубый оселок",
@@ -920,7 +920,7 @@
             "description_addon_ru":"Этот оселок слишком груб для заточи. Поврежденное им лезвие наносит ужасные, рваные раны. При попадании по цели ее вопли боли становятся громче на 50% до полного излечения",
             "description_addon_en":"This stone is too coarse to do any good. A blade damaged by it inflicts awful open wounds. Increases the volume of Grunts of Pain of injured Survivors hit by Hatchets by +50 %.",
             "photo_addon":"DLC5/iconAddon_coarseStone.png",
-            "rang_addon":5
+            "rang_addon":4
           },{
             "id":98,
             "name_addon_ru":"Обмотанная рукоять",
@@ -928,7 +928,7 @@
             "description_addon_ru":"Топорище, плотно обмотанное лейкопластырем. Уменьшает время между повторными бросками топоров на 10%.",
             "description_addon_en":"First-aid bandages securely rolled and attached to the Hatchet's haft. Reduces the Cool-down duration between successive Hatchet throws by -10 %.",
             "photo_addon":"DLC5/iconAddon_bandagedHaft.png",
-            "rang_addon":5
+            "rang_addon":4
           },{
             "id":99,
             "name_addon_ru":"Яд мухомора",
@@ -936,7 +936,7 @@
             "description_addon_ru":"Яд, наносимый на лезвия топоров. Токсин мухомора притупляет разум. После попадания жертва получает эффект \"Слепота\" на 60 сек. \"Слепота\" не дает выжившим видеть ауры",
             "description_addon_en":"A toxin from the Amanita mushroom, applied to the Hatchet's blade. It numbs the mind. Survivors hit by Hatchets suffer from the Blindness IconStatusEffects vision  Status Effect for 60 seconds.",
             "photo_addon":"DLC5/iconAddon_amanitaToxin.png",
-            "rang_addon":5
+            "rang_addon":4
           },{
             "id":10000,
             "name_addon_ru":"Пусто",
@@ -1357,178 +1357,197 @@
           }
         ]
       } ,{
-        "number": 3,
-        "name_ru": "Медсестра",
-        "name_en": "The Nurse",
-        "skills_ru": "Последний вздох Спенсера",
-        "skills_description_ru": "Сильный и яростный последний вздох, вырванный у смотрителя психлечебницы \"Кротус Пренн\" Патрика Спенсера. Направляя его энергию, Медсестра может прыгнуть сквозь мир духов, используя Скачок несколько раз подряд. После этого она сильно устает.\nОткрывает способность Скачка:\n- Добавляет 1 прыжок к цепочке Скачков\n- Атаки после Скачка (но до истощения) становятся особыми\n- После Скачка (но до истощения) Медсестра может хватать выживших и прерывать их действия",
+        "number": 7,
+        "name_ru": "Доктор",
+        "name_en": "The Doctor",
+        "skills_ru": "Искра Картера",
+        "skills_description_ru": "Поражая выживших особыми способностями \"Шоковая терапия\" и \"Статический разряд\", Доктор вызывает у жертв безумие. По мере роста уровня безумия его проявления становятся все более ужасающими.  Безумие I Заставляет выживших однократно вскрикнуть, что выдает их расположение Доктору. Слегка влияет на размещение и направление зон при проверке реакции.  Безумие II Заставляет выживших однократно вскрикнуть и вызывает у них галлюцинации в виде призрачного Доктора. Умеренно влияет на размещение и направление зон при проверке реакции.  Безумие III Заставляет выживших время от времени вскрикивать и вызывает у них галлюцинации в виде призрачного Доктора. Чрезвычайно влияет на размещение и направление зон при проверке реакции. В этом состоянии выжившие не могут лечить, чинить, ломать, открывать, очищать или использовать предметы, пока не выполнят действие \"Прийти в себя\". Когда выживший выполняет действие \"Прийти в себя\" уровень безумия снижается до безумия I.  Особая способность: \"Шоковая терапия\" Удерживайте кнопку силы, чтобы использовать \"Шоковую терапию\" - дальнюю атаку электричеством в области перед собой. У выживших, поражённых \"Шоковой терапией\", повышается уровень безумия; все действия, которые они выполняли в тот момент, тут же прерываются. \"Шоковая терапия\" немедленно устраняет эффект \"Забывчивость\" .  Особая способность: \"Статический разряд\" Удерживайте кнопку активной способности, чтобы использовать \"Статический разряд\" и заставить всех выживших в пределах радиуса террора Доктора закричать и повысить их уровень безумия. \"Статический разряд\" нельзя использовать, пока он не восстановится. \"Статический разряд\" немедленно устраняет эффект \"Забывчивость\"",
         "skills_en": "тест",
         "skills_description_en": "тест",
-        "photo_main": "storeBackground_NR.png",
-        "photo_skills": "iconHelpLoading_nurse.png",
+        "photo_main": "storeBackground_DO.png",
+        "photo_skills": "iconHelpLoading_doctor.png",
         "DLC": 1,
         "DLC_name": "",
         "addons":[
           {
-            "id":60,
-            "name_addon_ru":"Порванная закладка",
-            "name_addon_en":"Torn Bookmark",
-            "description_addon_ru":"Белый и до сих пор чистый кусок тесьмы. Когда-то крепился к священной книге и считался символом спора. Добавляет 1 заряд скачка. Увеличивает время восстановления скачка на 30%",
-            "description_addon_en":"A white and pristine piece of ribbon once attached to a sacred book. Serves as the symbol of a dispute. Increases the number of available Power Tokens by +1. Extends the Power Recharge duration to 130 %.",
-            "photo_addon":"Nurse/iconAddon_tornBookmark.png",
-            "rang_addon":0
-          },{
-            "id":61,
-            "name_addon_ru":"Спичечный коробок",
-            "name_addon_en":"Matchbox",
-            "description_addon_ru":"Спичечный коробок, в который сложили странную коллекцию всевозможных пуговиц. Напоминает владельцу об одном жутком месте. У владельца всего 1 скачок. Повышает базовую скорость передвижения Медсестры до 4.4 м/c",
-            "description_addon_en":"A matchbox containing an odd collection of mismatched buttons. Serves as a reminder of a horrible place. Increases your Movement speed to 4.4 m/s for the entire Trial. Restricts your Power to just 1 Blink. This cannot be altered by other Add-ons.",
-            "photo_addon":"Nurse/iconAddon_matchBox.png",
-            "rang_addon":0
-          },{
-            "id":62,
-            "name_addon_ru":"Последний вздох Кавана",
-            "name_addon_en":"Kavanagh's Last Breath",
-            "description_addon_ru":"Сильный последний вздох, украденный у Харви Кавана, санитара психбольницы \"Кротус Пренн\". Напряженно пульсирует в руках Медсестры. При истощении любые выжившие в радиусе 8 м от Медсестры на 60 сек. получают \"Слепоту\"",
-            "description_addon_en":"A powerful last breath snatched from the asylum orderly Harvey Kavanagh, also known as the \"Fat Orderly\". In the hands of The Nurse, it wobbles with intensity. When succumbing to Fatigue, all Survivors within 8 metres of your location suffer from the Blindness IconStatusEffects vision Status Effect for 60 seconds.",
-            "photo_addon":"Nurse/iconAddon_kavanaghsLastBreath.png",
-            "rang_addon":1
-          },{
-            "id":63,
-            "name_addon_ru":"Последний вздох Дженнер",
-            "name_addon_en":"Jenner's Last Breath",
-            "description_addon_ru":"Сильный последний вздох, украденный у Мэри Дженнер, пациентки психиатрической лечебницы \"Кротус Пренн\". Судорожно трепещет в руках Медсестры. Как только Медсестра использует все скачки, позволяет ей мгновенно вернуться в изначальное место после скачка нажатием кнопки активной способности. Необходимо использовать прежде, чем начнет действовать истощение. Когда Медсестра вернется на изначальную позицию, все заряды скачка будут восстановлены.",
-            "description_addon_en":"A powerful last breath snatched from the asylum patient Mary Jenner, also known as the \"Anxious Girl\". In the hands of The Nurse, it trembles with intensity. After exhausting all of your Blinks, but before succumbing to Fatigue, press the Active Ability button to immediately Blink back to your starting location. Recharges your Power by +1 Charge.",
-            "photo_addon":"Nurse/iconAddon_jennersLastBreath.png",
-            "rang_addon":1
-          },{
-            "id":64,
-            "name_addon_ru":"Последний вздох Кемпбелла",
-            "name_addon_en":"Campbell's Last Breath",
-            "description_addon_ru":"Сильный последний вздох, вырванный у отца Кэмпбелла, священника психиатрической больницы \"Кротус Пренн\". В руках Медсестры он напряженно хрипит. После полностью заряженного скачка Медсестра тут же делает еще один полностью заряженный скачок в сторону, в которую смотрит. Работает, если у Медсестры есть заряд для скачка.",
-            "description_addon_en":"A powerful last breath snatched from the asylum priest Father Campbell. In the hand of The Nurse, it crackles with intensity. Reappearing from a fully charged Blink, you automatically Blink at full charge in the direction you are facing. This requires that you have at least 1 Charge left after the initial Blink.",
-            "photo_addon":"Nurse/iconAddon_campbellsLastBreath.png",
-            "rang_addon":1
-          },{
-            "id":65,
-            "name_addon_ru":"Последний вздох \"Плохиша\"",
-            "name_addon_en":"\"Bad Man's\" Last Breath",
-            "description_addon_ru":"Сильный последний вздох, отнятый у Плохиша - пациента психиатрической лечебницы \"Кротус Пренн\". Неудержимо мечется в руках Медсестры. Успешная атака выжившего скачком дает Медсестре эффект \"Незаметность\" на 25 сек. Может сработать только раз в 45 сек.",
-            "description_addon_en":"A powerful last breath snatched from the asylum patient known as the \"Bad Man\". In the hands of The Nurse, it jolts with intensity. Hitting Survivors with a Special Attack grants the Undetectable IconStatusEffects undetectable Status Effect for 25 seconds. \"Bad Man's\" Last Breath\" has a cool-down of 45 seconds.",
-            "photo_addon":"Nurse/iconAddon_badMansLastBreath.png",
-            "rang_addon":1
-          },{
-            "id":66,
-            "name_addon_ru":"Судорожный вздох",
-            "name_addon_en":"Spasmodic Breath",
-            "description_addon_ru":"Судорожное и трепетное дыхание, отнятое у Плохиша. Оно агрессивно бьется и дергается от прикосновения Медсестры. Успешная атака выжившего скачком не дает снова сделать скачок, но повышает скорость передвижения Медсестры до 4.6 м/с на 60 сек.",
-            "description_addon_en":"The twitchy and tremulous breath stolen from the \"Bad Man\". Aggressively pulses and jumps at The Nurse's touch. Hitting a Survivor with a Special Attack causes the following effects for 60 seconds: Increases your Movement speed to 4.6 m/s. Disables your Power.",
-            "photo_addon":"Nurse/iconAddon_spasmodicBreath.png",
-            "rang_addon":2
-          },{
-            "id":67,
-            "name_addon_ru":"Тяжелая одышка",
-            "name_addon_en":"Heavy Panting",
-            "description_addon_ru":"Медленное и сиплое дыхание, украденное у жирного санитара. Слабо колеблется от прикосновения Медсестры. Увеличивает продолжительность выпада после двух и более скачков на 30%.",
-            "description_addon_en":"The slow and bulging breath stolen from Harvey Kavanagh, the asylum's \"Fat Orderly\". Dimly oscillates at The Nurse's touch. Extends the Lunge duration of Special Attacks to 130 %, which increases your Attack range by +30 %. This effect only applies after the second or third Blink.",
-            "photo_addon":"Nurse/iconAddon_heavyPanting.png",
-            "rang_addon":2
-          },{
-            "id":68,
-            "name_addon_ru":"Тихий хрип",
-            "name_addon_en":"Fragile Wheeze",
-            "description_addon_ru":"Свистящее и хриплое дыхание, украденное у отца Кэмпбелла. Тихо завивается и закручивается при прикосновении Медсестры. Скачок вызывает эффект \"Травма\" на 70 сек. \"Травма\" увеличивает время лечения на 25% и действует в течение указанного срока или до полного исцеления.",
-            "description_addon_en":"The whistling and rattling breath stolen from Father Campbell. Silently curves and bends at The Nurse's touch. Survivors hit with a Special Attack suffer from the Mangled IconStatusEffects mangled Status Effect for 70 seconds.",
-            "photo_addon":"Nurse/iconAddon_fragileWheeze.png",
-            "rang_addon":2
-          },{
-            "id":69,
-            "name_addon_ru":"Атактическое дыхание",
-            "name_addon_en":"Ataxic Respiration",
-            "description_addon_ru":"Неровное и угасающее дыхание мальчика с кататоническим синдромом. Обычно спокойное, в руках Медсестры оно тревожно учащается. Снижает базовое время истощения после скачка на 7%.",
-            "description_addon_en":"The irregular and deteriorating breath collected from the asylum patient known as the \"Catatonic Boy\". Normally stable and calm, it becomes incredibly agitated at The Nurse's touch. Reduces the duration of Fatigue by -7 %.",
-            "photo_addon":"Nurse/iconAddon_ataxicRespiration.png",
-            "rang_addon":2
-          },{
-            "id":70,
-            "name_addon_ru":"Тревожный вздох",
-            "name_addon_en":"Anxious Gasp",
-            "description_addon_ru":"Вздох удивления, забранный у беспокойной девочки, которая нравилась Медсестре. Живо дергается при ее прикосновении. Совершая скачок сквозь выжившего, вы заставляете его вскрикнуть и получаете 200 очков крови в категории \"Хитрость\" за испуг.",
-            "description_addon_en":"The gasp of surprise collected from the asylum patient Mary Jenner, also known as the \"Anxious Girl\" that The Nurse was fond of. Twitches vigorously at The Nurse's touch. Coming within 1 metre of Survivors while teleporting causes them to scream and reveal their location. Grants 200 Bloodpoints in the Deviousness DailyRitualIcon deviousness Category.",
-            "photo_addon":"Nurse/iconAddon_anxiousGasp.png",
-            "rang_addon":2
-          },{
-            "id":71,
-            "name_addon_ru":"Карманные часы",
-            "name_addon_en":"Pocket Watch",
-            "description_addon_ru":"Обгоревшие и разбитые карманные часы с бренчащими внутри деталями. Забраны с тела медсестры Морис. Увеличивают время до наступления истощения после скачка у Медсестры на 20%.",
-            "description_addon_en":"A charred and broken pocket watch with rattling pieces. Taken from Nurse Moris' body. Increases the duration of the Chain Blink Window by +0.2 seconds.",
-            "photo_addon":"Nurse/iconAddon_pocketWatch.png",
-            "rang_addon":3
-          },{
-            "id":72,
-            "name_addon_ru":"Потертый браслет",
-            "name_addon_en":"Dull Bracelet",
-            "description_addon_ru":"Возможно, это грошовое украшение кому-то было дорого. Снято с тела беспокойной девушки. Снижает максимальную дальность скачка на 20%. Повышает количество очков крови, получаемых за точные скачки, на 100%.",
-            "description_addon_en":"A worthless piece of jewellery that might have an important significance to someone. Taken from the \"Anxious Girl's\" body. Grants +100 % bonus Bloodpoints for Precise Blink Score Events. Reduces the maximum range of the Blink by -20 %.",
-            "photo_addon":"Nurse/iconAddon_dullBracelet.png",
-            "rang_addon":3
-          },{
-            "id":73,
-            "name_addon_ru":"Темный веревочный пояс",
-            "name_addon_en":"Dark Cincture",
-            "description_addon_ru":"Черная веревка, служившая поясом в скорбные времена. Взята с тела отца Кэмпбелла. Увеличивает скорость передвижения после скачка до последующего истощения на 30%.",
-            "description_addon_en":"A black rope used as a belt in times of mourning. Taken from Father Campbell's body. Increases your Movement speed during the Chain Blink Window by +30 %.",
-            "photo_addon":"Nurse/iconAddon_darkCincture.png",
-            "rang_addon":3
-          },{
-            "id":74,
-            "name_addon_ru":"Сокровище мальчика-кататоника",
-            "name_addon_en":"Catatonic Boy's Treasure",
-            "description_addon_ru":"Эта сосновая шишка отчего-то успокаивала пациента, и тот переставал нервно дергаться. Забрана с тела мальчика с кататоническим синдромом. Снижает дополнительное истощение после цепочки скачков на 65%.",
-            "description_addon_en":"A pine-cone which unexpectedly calmed a patient's repetitive movement. Taken from the \"Catatonic Boy's\" body. Reduces the additional Fatigue applied by Chain Blinks by -65 %.",
-            "photo_addon":"Nurse/iconAddon_catatonicTreasure.png",
-            "rang_addon":3
-          },{
-            "id":75,
-            "name_addon_ru":"Памятный сувенир плохиша",
-            "name_addon_en":"Bad Man Keepsake",
-            "description_addon_ru":"Гнилой коренной зуб, вырванный из холодной руки мертвого \"Плохиша\". Успешная атака-скачок на 60 сек. показывает вам ауру выживших, когда те лечатся сами или с чьей-то помощью и находятся в пределах 28 м.",
-            "description_addon_en":"A rotten molar ripped from the \"Cataontic Boy's\" cold dead hand. Normally stable and calm, it becomes incredibly agitated at The Nurse's touch. Survivors hit with a Special Attack have their Auras IconHelp auras revealed to you, if they are healing or being healed within 28 metres of your location for 60 seconds.",
-            "photo_addon":"Nurse/iconAddon_badManKeepsake.png",
-            "rang_addon":3
-          },{
-            "id":76,
-            "name_addon_ru":"Деревянная лошадь",
-            "name_addon_en":"Wooden Horse",
-            "description_addon_ru":"Бесцветная резная игрушка из дешевого дерева, формой напоминающая лошадку. Когда-то она была символом глубокой связи между пациентом-кататоником и медсестрой. Снижает дополнительное истощение после неудачных атак скачком на 50%.",
-            "description_addon_en":"An unpainted toy carved out of cheap wood to resemble a horse. Once the symbol of a deep connection between a catatonic patient and his nurse. Reduces the additional Fatigue applied by missed Special Attacks by -0.5 seconds.",
-            "photo_addon":"Nurse/iconAddon_woodenHorse.png",
-            "rang_addon":4
-          },{
-            "id":77,
-            "name_addon_ru":"Белый гребень от паразитов",
-            "name_addon_en":"White Nit Comb",
-            "description_addon_ru":"Гребень для вычесывания вшей, взятый из клиники. Некогда служил символом тесной связи между тревожной пациенткой и медсестрой. Снижает дальность атак с выпадом после скачка на 50%. Увеличивает количество очков крови, получаемых за атаки скачком, на 100%.",
-            "description_addon_en":"A parasitic nit comb taken from the clinic. Once the symbol of a deep connection between an anxious patient and her nurse. Grants +100 % bonus Bloodpoints for Blink Attack Score Events. Reduces the Lunge duration of Special Attacks by -0.15 seconds, which reduces your Attack range by -50 %.",
-            "photo_addon":"Nurse/iconAddon_whiteNitComb.png",
-            "rang_addon":4
-          },{
-            "id":78,
-            "name_addon_ru":"Клетчатая фланель",
-            "name_addon_en":"Plaid Flannel",
-            "description_addon_ru":"Оторванный кусок красно-черной клетчатой фланели. Клочок ткани наделяет Медсестру губительной концентрацией. Позволяет Медсестре видеть, в каком месте она окажется после скачка.",
-            "description_addon_en":"A torn piece of red and black plaid flannel. The scrap of fabric imbues The Nurse with devastating focus. Unlocks the ability to see the Landing zone of the Blink.",
-            "photo_addon":"Nurse/iconAddon_plaidFlannel.png",
-            "rang_addon":4
-          },{
-            "id":79,
-            "name_addon_ru":"Металлическая ложка",
-            "name_addon_en":"Metal Spoon",
-            "description_addon_ru":"Тусклая, местами ржавая и запачканная металлическая ложка. Изъята у Плохиша, пациента из палаты №202. После успешного попадания скачком по выжившему громкость его стонов повышается на 50% на 60 сек.",
-            "description_addon_en":"A dull, partially rusted and stained metallic spoon. Confiscated from Room 202's patient, the \"Bad Man\". Survivors hit by a Special Attack have the volume of their Grunts of Pain increased by +50 % for the next 60 seconds.",
-            "photo_addon":"Nurse/iconAddon_metalSpoon.png",
-            "rang_addon":4
+            "id": 140,
+            "name_addon_ru": "Радужный ферзь",
+            "name_addon_en": "Iridescent Queen",
+            "description_addon_ru": "Шахматная фигура ферзя. Похожа на стеклянную, но на самом деле создана из самого Тумана. Довольно сильно бьет током любого, кто к ней прикоснется.На всех выживших, подвергшихся Шоковой терапии или Статическому разряду, накладывается продолжительный Статический заряд. Статический заряд рассеивается только после срабатывания.Если Шоковая терапия или Статический разряд одновременно поражают нескольких выживших, находящихся не более чем в 4 м друг от друга, Статический заряд на них не накладывается.Когда выживший оказывается в пределах 4 м от другого выжившего со Статическим зарядом, его бьет током; эффекты удара такие же, как у Шоковой терапии. После этого Статический заряд мгновенно рассеивается.Как только мы создадим эффективный метод лечения, можно будет сосредоточиться на подходящих способах его внедрении - Г. Картер",
+            "description_addon_en": "A glass-like queen chess piece moulded from The Fog itself.It cannot be touched without receiving a considerable jolt of electricity.Survivors struck by either theShock Therapy Attackor aStatic Blastacquire a lingeringStatic Charge, unless they are within4 metresof another Survivor:TheStatic Chargeremains with the Survivor until it is discharged.Charged Survivorswho come within4 metresof another Survivor trigger an automaticShock Therapy Attack, shocking both Survivors and automatically discharging any remainingStatic Charges.Once we have established an effective method of treatment, we can focus on its efficient means of delivery. — Herman Carter",
+            "photo_addon": "DLC4/iconAddon_iridescentQueen.png",
+            "rang_addon": 0
+          },
+          {
+            "id": 141,
+            "name_addon_ru": "Радужный король",
+            "name_addon_en": "Iridescent King",
+            "description_addon_ru": "Шахматная фигура короля. Похожа на стеклянную, но на самом деле создана из самого Тумана. Присутствие Сущности внутри нее может сломить даже самый стойкий разум.Выжившие с эффектом Безумие страдают от одного из следующих психических расстройств: Спокойствие, Дисциплина, Порядок или Усмирение.Выжившие слышат в отдалении иллюзорный радиус террора. Эффект проявляется и исчезает при Безумии II и действует постоянно при Безумии IIIВо время погони выжившие видят иллюзорное красное свечение и чувствуют радиус террораДоктора так, будто он находится прямо у них за спиной. При Безумии II эффект действует еще 6 сек. \nпосле окончания погони и действует постоянно при Безумии III.Сломанные доски могут быть заменены иллюзией целых досок. Эффект сохраняется до тех пор,пока выживший не приблизится к ним. Новая иллюзорная доска случайным образом появляется на месте \nодной из сломанных каждые 20 сек.Увеличивает время действия галлюцинаций иллюзорных Докторов на 6 сек.Доктор при этом видит иллюзорное красное свечение, а также ауры иллюзорных Докторов и досок.Вглядываться в мутную гладь радужного стекла - все равно, что погружаться в безумие - заметки без подписи",
+            "description_addon_en": "A glass-like king chess piece moulded from The Fog itself.The Entity's trace reverberating within can break the most powerful minds.Survivors affected byMadnesssuffer simultaneously from theAfflictions of Calm, Discipline, Order, and Restraint:Survivors intermittently hear a distantIllusionary Terror Radius.During a Chase, Survivors perceive anIllusionary Red Stain and Terror Radius, as if you were constantly right behind them.Madness II: This effect lingers for6 secondsafter the Chase ends.Madness III: This effect is constant, regardless of whether the Survivors are being chased or not.Broken Palletsare randomly replaced by dropped or uprightIllusionary Pallets, which persist until approached by Survivors.NewIllusionary Palletsare generated every20 seconds.Increasesthe duration ofIllusionary Doctorsby+6 seconds.You share into your patients'Madnessand can see theIllusionary Doctors, Red Stain, and Pallets.Gazing into the iridescent glass is plunging one's self into madness. — Herman Carter",
+            "photo_addon": "DLC4/iconAddon_iridescentKing.png",
+            "rang_addon": 0
+          },
+          {
+            "id": 142,
+            "name_addon_ru": "Усмирение - заметки Картера",
+            "name_addon_en": "Restraint - Carter's Notes",
+            "description_addon_ru": "Экспериментальная электрошоковая процедура, разработанная в Тумане, крайне жестокая по своей природе. Использует невыносимой силы импульс для создания связи между разумами Доктора и пациента. Известно, что пациент может испытывать страшнейшие галлюцинации в процессе проведения процедуры.Ауры выживших подсвечиваются на3 сек.каждый раз, когда их уровень безумия повышается.Выжившие с эффектом Безумие страдают от психического расстройства Усмирение:Увеличивает время действия галлюцинаций - иллюзорных Докторов на 6 сек.Доктор при этом видит ауры галлюцианций на любом уровне Безумия.Я ВИЖУ ИХОТВРАТИТЕЛЬНЫЕБОЛЕЗНИ - Заметки без подписи",
+            "description_addon_en": "An experimental ECT procedure developed within The Fog, crudely annotated.Uses an unbearable stimulus wavelength to link the patient's and The Doctor's minds.This procedure is known to cause severe cases of hallucinations in the patient.TheAurasof Survivors who have theirMadnessincreased by one Tier are revealed to you for3 seconds.Survivors affected byMadnesssuffer from theAffliction of Restraint:Increasesthe duration ofIllusionary Doctorsby+6 seconds.You share into your patients'Madnessand can see theIllusionary Doctors.I CAN SEE THEIR DISGUSTINGILLNESSES. — unsighned Notes, likely Herman Carter",
+            "photo_addon": "DLC4/iconAddon_restraintCartersNotes.png",
+            "rang_addon": 1
+          },
+          {
+            "id": 143,
+            "name_addon_ru": "Порядок - заметки Картера",
+            "name_addon_en": "Order - Carter's Notes",
+            "description_addon_ru": "Экспериментальная электрошоковая процедура, назначенная самим доктором Германом Картером. Мощный и непрерывный импульс вводит пациента в состояние сильного замешательства и дезориентации.Ускоряет восстановление Статического разряда на 3 сек.Выжившие с эффектом Безумие страдают от психического расстройства Порядок:Сломанные доски могут быть заменены иллюзией целых досок. Эффект сохраняется до тех пор, пока выживший не приблизится к ним.Новая иллюзорная доска случайным образом появляется на месте одной из сломанных каждые 20 сек.Доктор при этом видит ауры иллюзорных досок.Импульс должен бытьпостоянным, на одном уровне. - Г. Картер",
+            "description_addon_en": "An experimental version of the ECT procedure, annotated by Doctor Herman Carter himself.The long, constant stimulus leaves the patient in a state of severe confusion.Reducesthe Cool-down duration ofStatic Blastby-3 seconds.Survivors affected byMadnesssuffer from theAffliction of Order:Broken Palletsare randomly replaced by dropped or uprightIllusionary Pallets, which persist until approached by Survivors.NewIllusionary Palletsare generated every20 seconds.You share into your patients'Madnessand can see theIllusionary Pallets.The stimulus must be kept active at aconvulsivelevel. — Herman Carter",
+            "photo_addon": "DLC4/iconAddon_orderCartersNotes.png",
+            "rang_addon": 1
+          },
+          {
+            "id": 144,
+            "name_addon_ru": "Дисциплина - заметки Картера",
+            "name_addon_en": "Discipline - Carter's Notes",
+            "description_addon_ru": "Электрошоковая процедура проекта Пробуждение, применявшаяся в качестве наказания. Назначалась самим доктором Германом Картером. Невыносимо мощный разряд тока вызывает у пациента беспросветную паранойю.Уменьшает задержку срабатывания Шоковой терапии на 20%.Выжившие с эффектом Безумие страдают от психического расстройства Дисциплина:Безумие II: во время погони выжившие видят иллюзорное красное свечение и чувствуют радиус террора Доктора так, будто он находится прямо у них за спиной. После окончания погони эффект действует еще 6 сек.Безумие III: иллюзорное красное свечение и радиус террора присутствуют все время.При этом Доктор сам видит иллюзорное красное свечение.Во избежание рецидива у особо упертых пациентов всегда используйте максимальный уровень разряда при приручении к дисциплине. - Г. Картер",
+            "description_addon_en": "Project AwakeningECT procedure for disciplinary action, annotated by Doctor Herman Carter himself.The intolerably high voltage leaves the patient in a severe state of paranoia.Reducesthe Detonation delay of theShock Therapy Attackby-0.2 seconds.Survivors affected byMadnesssuffer from theAffliction of Discipline:Madness II: During a Chase, Survivors perceive anIllusionary Red Stain and Terror Radius, as if you were constantly right behind them.This effect lingers for6 secondsafter the Chase ends.Madness III: In any situation, Survivors perceive anIllusionary Red Stain and Terror Radius, as if you were constantly right behind them.You share into your patients'Madnessand can see theIllusionary Red Stain.To avoid relapse from our most tenacious subjects, usemaximumlevels when proceeding with disciplinary actions. — Herman Carter",
+            "photo_addon": "DLC4/iconAddon_diciplineCartersNotes.png",
+            "rang_addon": 1
+          },
+          {
+            "id": 145,
+            "name_addon_ru": "Спокойствие - заметки Картера",
+            "name_addon_en": "Calm - Carter's Notes",
+            "description_addon_ru": "Экспериментальная электрошоковая процедура, назначенная самим доктором Германом Картером.Использует глубоко проникающие волны для облегчения симптомов различных психических заболеваний. \nПодпитываемая искрой Картера, может вызвать у пациента чувство беспокойства и неконтролируемого страха.Увеличиваетрадиус террора на 8 м при готовности Статического разряда.Уменьшаетрадиус террора на 8 м во время перезарядки Статического разряда.Выжившие с эффектом Безумие страдают от психического расстройства Спокойствие:Безумие II: выжившие периодически ощущают отдаленный иллюзорный радиус террора.Безумие III: выжившие постоянно ощущают отдаленный иллюзорный радиус террора.Сильные припадки вызывают кататонию. Но хотя бы на это время я обретаюспокойствие. - Г. Картер",
+            "description_addon_en": "An experimental version of the ECT procedure annotated by Doctor Herman Carter himself.Uses a deep wavelength that soothes various mental illnesses.WithCarter's Sparkas its source, this procedure causes uncontrollable fear and anxiety in the patient.IncreasesyourTerror Radiusby+8 metreswhileStatic Blastis ready to be used.Reducesyour Terror Radius by-8 metreswhileStatic Blastis on cool-down.Survivors affected byMadnesssuffer from theAffliction of Calm:Madness II: Survivors intermittently hear a distantIllusionary Terror Radius.Madness III: Survivors constantly hear a distantIllusionary Terror Radius.Higher quality seizures trigger catatonia. At least it gives mepeacefor the time it lasts. — Herman Carter",
+            "photo_addon": "DLC4/iconAddon_calmCartersNotes.png",
+            "rang_addon": 1
+          },
+          {
+            "id": 146,
+            "name_addon_ru": "Сломанная кассета",
+            "name_addon_en": "Scrapped Tape",
+            "description_addon_ru": "Аудиокассета с проекта Пробуждение. содержащая в основном белый шум. Прослушав ее, Доктор чувствует озарение и пробует альтернативные методы лечения.Шоковая терапия теперь поражает жертв не в конусе, а в кольце с дальностью 8 м, и радиусом 4 м и толщиной 1 м.",
+            "description_addon_en": "A compact cassette fromProject Awakeningcontaining mostly white noise.Opens The Doctor's mind to alternate treatment methods.Reshapes theArea of Effectof theShock Therapy Attackfrom a cone into a hollow ring which is placed8 metresin front ofThe Doctor.The ring has a radius of4 metresa thickness of1 metre.",
+            "photo_addon": "DLC4/iconAddon_scrappedTape.png",
+            "rang_addon": 2
+          },
+          {
+            "id": 147,
+            "name_addon_ru": "Кассета с записью показаний",
+            "name_addon_en": "Interview Tape",
+            "description_addon_ru": "Аудиокассета с проекта Пробуждение, содержащая нетронутые оригинальные показания жертвы. Прослушав ее, Доктор чувствует озарение и пробует альтернативные методы лечения.Особая способность Шоковая терапия теперь поражает жертв не в конусе, а на прямой длиной24 ми шириной2 м.",
+            "description_addon_en": "A compact cassette fromProject Awakeningcontaining an unedited interview of a victim.Opens The Doctor's mind to alternate treatment methods.Reshapes theArea of Effectof theShock Therapy Attackfrom a cone into a narrow beam that is2 metreswide and24 metreslong.",
+            "photo_addon": "DLC4/iconAddon_interviewTape.png",
+            "rang_addon": 2
+          },
+          {
+            "id": 148,
+            "name_addon_ru": "Электрод для мощного импульса",
+            "name_addon_en": "High Stimulus Electrode",
+            "description_addon_ru": "Экспериментальный электрод, способный долго выдерживать мощный разряд.Увеличивает дальность Шоковой терапии на 4 м.",
+            "description_addon_en": "An experimental electrode that can withstand very high charges for a longer period of time.ExtendstheArea of Effectof theShock Therapy Attackby+4 metres.",
+            "photo_addon": "DLC4/iconAddon_highStimulusElectrode.png",
+            "rang_addon": 2
+          },
+          {
+            "id": 149,
+            "name_addon_ru": "Усмирение - класс III",
+            "name_addon_en": "Restraint - Class III",
+            "description_addon_ru": "Экспериментальная электрошоковая процедура, разработанная в Тумане. Использует мощный импульс для создания связи между разумами Докора и пациента. Может вызывать у пациента сильные галлюцинации.Ауры выживших подсвечиваются на2 сек.каждый раз, когда их уровень безумия повышается.Выжившие с эффектом Безумие страдают от психического расстройства Усмирение:Увеличивает время действия галлюцинаций - иллюзорных Докторов на 6 сек.Доктор при этом видит ауры галлюцинаций на любом уровне Безумия.",
+            "description_addon_en": "An experimental ECT procedure developed within The Fog.Uses a high stimulus wavelength to link the patient's and The Doctor's minds.This procedure is known to cause serious cases of hallucinations in the patient.TheAurasof Survivors who have theirMadnessincreased by one Tier are revealed to you for2 seconds.Survivors affected byMadnesssuffer from theAffliction of Restraint:Increasesthe duration ofIllusionary Doctorsby+6 seconds.You share into your patients'Madnessand can see theIllusionary Doctors.",
+            "photo_addon": "DLC4/iconAddon_restraintClassIII.png",
+            "rang_addon": 2
+          },
+          {
+            "id": 150,
+            "name_addon_ru": "Дисциплина - класс III",
+            "name_addon_en": "Discipline - Class III",
+            "description_addon_ru": "Электрошоковая процедура проекта Пробуждение, применявшаяся в качестве наказания. Использует дозированный, но крайне мощный разряд тока. Может вызвать у пациента серьезную паранойю.Уменьшает задержку срабатывания Шоковой терапии на 15%.Выжившие с эффектом Безумие страдают от психического расстройства Дисциплина:Безумие II: во время погони выжившие видят иллюзорное красное свечение и чувствуют радиус террора Доктора так, будто он находится прямо у них за спиной. После окончания погони эффект действует еще 6 сек.Безумие III: иллюзорное красное свечение и радиус террора присутствуют все время.При этом Доктор сам видит иллюзорное красное свечение.Один из главных наших принципов - уважение к пациентам - Мемориальный Институт Лэри",
+            "description_addon_en": "Project AwakeningECT procedure for disciplinary action which uses a fixed dose at very high voltage.Can cause a state of serious paranoia in the patient.Reducesthe Detonation delay of theShock Therapy Attackby-0.15 seconds.Survivors affected byMadnesssuffer from theAffliction of Discipline:Madness II: During a Chase, Survivors perceive anIllusionary Red Stain and Terror Radius, as if you were constantly right behind them.This effect lingers for6 secondsafter the Chase ends.Madness III: In any situation, Survivors perceive anIllusionary Red Stain and Terror Radius, as if you were constantly right behind them.You share into your patients'Madnessand can see theIllusionary Red Stain.Respect of our patients is at the core of our principles. — Léry's Memorial Institute",
+            "photo_addon": "DLC4/iconAddon_diciplineClassIII.png",
+            "rang_addon": 2
+          },
+          {
+            "id": 151,
+            "name_addon_ru": "Отполированный электрод",
+            "name_addon_en": "Polished Electrode",
+            "description_addon_ru": "Практически новое стандартное оборудование для электрошоковых процедур.Увеличивает дальность Шоковой терапии на 3 м.",
+            "description_addon_en": "A like-new standard electrode equipment to conduct electro-convulsive treatments.ExtendstheArea of Effectof theShock Therapy Attackby+3 metres.",
+            "photo_addon": "DLC4/iconAddon_polishedElectrode.png",
+            "rang_addon": 3
+          },
+          {
+            "id": 152,
+            "name_addon_ru": "Усмирение - класс II",
+            "name_addon_en": "Restraint - Class II",
+            "description_addon_ru": "Экспериментальная электрошоковая процедура, разработанная в Тумане. Использует импульс для создания связи между разумами Докора и пациента. Может вызывать у пациента галлюцинации средней тяжести.Ауры выживших подсвечиваются на1 сек.каждый раз, когда их уровень безумия повышается.Выжившие с эффектом Безумие страдают от психического расстройства Усмирение:Увеличивает время действия галлюцинаций - иллюзорных Докторов на 6 сек.Доктор при этом видит ауры галлюцинаций на любом уровне Безумия.",
+            "description_addon_en": "An experimental ECT procedure developed within The Fog.Uses a wavelength that links the patient's and The Doctor's minds.This procedure is known to cause mild cases of hallucination in the patient.TheAurasof Survivors who have theirMadnessincreased by one Tier are revealed to you for1 second.Survivors affected byMadnesssuffer from theAffliction of Restraint:Increasesthe duration ofIllusionary Doctorsby+6 seconds.You share into your patients'Madnessand can see theIllusionary Doctors.",
+            "photo_addon": "DLC4/iconAddon_restraintClassII.png",
+            "rang_addon": 3
+          },
+          {
+            "id": 153,
+            "name_addon_ru": "Порядок - класс II",
+            "name_addon_en": "Order - Class II",
+            "description_addon_ru": "Эта электрошоковая терапия с мощным импульсом - одна из ежедневных процедур пациентов Мемориального института Лэри. Может вызвать у пациента довольно сильный приступ замешательства.Ускоряет восстановление Статического разряда на 2.5 сек.Выжившие с эффектом Безумие страдают от психического расстройства Порядок:Сломанные доски могут быть заменены иллюзией целых досок. Эффект сохраняется до тех пор, пока выживший не приблизится к ним.Новая иллюзорная доска случайным образом появляется на месте одной из сломанных каждые 20 сек.Доктор при этом видит ауры иллюзорных досок.Побочные эффекты крайне маловероятны. - Мемориальный институт Лэри",
+            "description_addon_en": "A high stimulus ECT procedure, part of a patient's daily routine at the Léry's Memorial Institute.Can cause a state of moderate confusion in the patient.Reducesthe Cool-down duration ofStatic Blastby-2.5 seconds.Survivors affected byMadnesssuffer from theAffliction of Order:Broken Palletsare randomly replaced by dropped or uprightIllusionary Pallets, which persist until approached by Survivors.NewIllusionary Palletsare generated every20 seconds.You share into your patients'Madnessand can see theIllusionary Pallets.Side effects are very rare. — Léry's Memorial Institute",
+            "photo_addon": "DLC4/iconAddon_orderClassII.png",
+            "rang_addon": 3
+          },
+          {
+            "id": 154,
+            "name_addon_ru": "Дисциплина - класс II",
+            "name_addon_en": "Discipline - Class II",
+            "description_addon_ru": "Электрошоковая процедура проекта Пробуждение, применявшаяся в качестве наказания. Использует дозированный, но крайне мощный разряд тока. Может вызвать у пациента умеренную паранойю.Уменьшает задержку срабатывания Шоковой терапии на 10%.Выжившие с эффектом Безумием страдают от психического расстройства Дисциплина:Безумие II: во время погони выжившие видят иллюзорное красное свечение и чувствуют радиус террора Доктора так, будто он находится прямо у них за спиной. После окончания погони эффект действует еще 6 сек.Безумие III: иллюзорное красное свечение и радиус террора присутствуют все время.При этом Доктор сам видит иллюзорное красное свечение.Мы перевоспитываем наших пациентов с всевозможной мягкостью - Мемориальный Институ Лэри",
+            "description_addon_en": "Project AwakeningECT procedure for disciplinary action which uses a fixed dose at high voltage.Can cause a state of moderate paranoia in the patient.Reducesthe Detonation delay of theShock Therapy Attackby-0.1 seconds.Survivors affected byMadnesssuffer from theAffliction of Discipline:Madness II: During a Chase, Survivors perceive anIllusionary Red Stain and Terror Radius, as if you were constantly right behind them.This effect lingers for6 secondsafter the Chase ends.Madness III: In any situation, Survivors perceive anIllusionary Red Stain and Terror Radius, as if you were constantly right behind them.You share into your patients'Madnessand can see theIllusionary Red Stain.We re-educate our patients with the greatest care. — Léry's Memorial Institute",
+            "photo_addon": "DLC4/iconAddon_diciplineClassII.png",
+            "rang_addon": 3
+          },
+          {
+            "id": 155,
+            "name_addon_ru": "Спокойствие - класс II",
+            "name_addon_en": "Calm - Class II",
+            "description_addon_ru": "Рискованная электрошоковая процедура с глубоко проникающими волнами, используемая дляоблегчения симптомов различных психических заболеваний. Подпитываемая искрой Картера, может \nвызывать у пациента умеренную тревожность.Увеличиваетрадиус террора на 6 м, пока Статический разряд готов.Уменьшаетрадиус террора на 6 м, пока Статический разряд восстанавливается.Выжившие с эффектом Безумие страдают от психического расстройства Спокойствие:Безумие II: выжившие периодически ощущают отдаленный иллюзорный радиус террора.Безумие III: выжившие постоянно ощущают отдаленный иллюзорный радиус террора.Шоковая терапия - одна из самых безопасных медицинских процедур. - Мемориальный Институт Лэри",
+            "description_addon_en": "A risky ECT procedure using a deep wavelength that soothes various mental illnesses.WithCarter's Sparkas its source, this procedure can cause moderate anxiety in the patient.IncreasesyourTerror Radiusby+6 metreswhileStatic Blastis ready to be used.Reducesyour Terror Radius by-6 metreswhileStatic Blastis on cool-down.Survivors affected byMadnesssuffer from theAffliction of Calm:Madness II: Survivors intermittently hear a distantIllusionary Terror Radius.Madness III: Survivors constantly hear a distantIllusionary Terror Radius.",
+            "photo_addon": "DLC4/iconAddon_calmClassII.png",
+            "rang_addon": 3
+          },
+          {
+            "id": 156,
+            "name_addon_ru": "Заплесневелый электрод",
+            "name_addon_en": "Mouldy Electrode",
+            "description_addon_ru": "Заплесневелый электрод все еще пропускающий слабый ток.Увеличивает дальность Шоковой терапии на 2 м.",
+            "description_addon_en": "A mouldy electrode which can nevertheless conduct a weak electrical current.ExtendstheArea of Effectof theShock Therapy Attackby+2 metres.",
+            "photo_addon": "DLC4/iconAddon_moldyElectrode.png",
+            "rang_addon": 4
+          },
+          {
+            "id": 157,
+            "name_addon_ru": "Кленовый конь",
+            "name_addon_en": "Maple Knight",
+            "description_addon_ru": "Белая шахматная фигура коня из кленовой древесины. Этот подаренный стариком предмет пробуждает давние воспоминания Доктора и делает его крайне сосредоточенным.Делает видимым радиус эффекта Шоковой терапии.",
+            "description_addon_en": "A white knight chess piece made of maple.This gift from an old man brings back distant memories and imbues The Doctor with devastating focus.Grants the ability to see theArea of Effectof theShock Therapy Attack.",
+            "photo_addon": "DLC4/iconAddon_mapleKnight.png",
+            "rang_addon": 4
+          },
+          {
+            "id": 158,
+            "name_addon_ru": "Порядок - класс I",
+            "name_addon_en": "Order - Class I",
+            "description_addon_ru": "Стандартная электрошоковая терапия, одна из ежедневных процедур пациентов Мемориального института Лэри. Может вызывать у пациента слабый приступ замешательства.Ускоряет восстановление Статического разряда на 2 сек.Выжившие с эффектом Безумие страдают от психического расстройства Порядок:Сломанные доски могут быть заменены иллюзией целых досок. Эффект сохраняется до тех пор, пока выживший не приблизится к ним.Новая иллюзорная доска случайным образом появляется на месте одной из сломанных каждые 20 сек.Доктор при этом видит ауры иллюзорных досок.",
+            "description_addon_en": "A conventional ECT procedure, part of a patient's daily routine at the Léry's Memorial Institute.Can cause a state of mild confusion in the patient.Reducesthe Cool-down duration ofStatic Blastby-2 seconds.Survivors affected byMadnesssuffer from theAffliction of Order:Broken Palletsare randomly replaced by dropped or uprightIllusionary Pallets, which persist until approached by Survivors.NewIllusionary Palletsare generated every20 seconds.You share into your patients'Madnessand can see theIllusionary Pallets.",
+            "photo_addon": "DLC4/iconAddon_orderClassI.png",
+            "rang_addon": 4
+          },
+          {
+            "id": 159,
+            "name_addon_ru": "Спокойствие - класс I",
+            "name_addon_en": "Calm - Class I",
+            "description_addon_ru": "Электрошоковая процедура с глубоко проникающими волнами, используемая для облегчения симптомов различных психических заболеваний. Подпитываемая искрой Картера, может вызывать у пациента легкую тревожность.Увеличиваетрадиус террора на 4 м, когда Статический разряд готов.Уменьшаетрадиус террора на 4 м, когда Статический разряд восстанавливается.Выжившие с эффектом Безумие страдают от психического расстройства Спокойствие:Безумие II: выжившие периодически ощущают отдаленный иллюзорный радиус террора.Безумие III: выжившие постоянно ощущают отдаленный иллюзорный радиус террора.",
+            "description_addon_en": "An ECT procedure using a deep wavelength that soothes various mental illnesses.WithCarter's Sparkas its source, this procedure can cause mild anxiety in the patient.IncreasesyourTerror Radiusby+4 metreswhileStatic Blastis ready to be used.Reducesyour Terror Radius by-4 metreswhileStatic Blastis on cool-down.Survivors affected byMadnesssuffer from theAffliction of Calm:Madness II: Survivors intermittently hear a distantIllusionary Terror Radius.Madness III: Survivors constantly hear a distantIllusionary Terror Radius.",
+            "photo_addon": "DLC4/iconAddon_calmClassI.png",
+            "rang_addon": 4
           },{
             "id":10000,
             "name_addon_ru":"Пусто",
@@ -1548,178 +1567,197 @@
           }
         ]
       } ,{
-        "number": 3,
-        "name_ru": "Медсестра",
-        "name_en": "The Nurse",
-        "skills_ru": "Последний вздох Спенсера",
-        "skills_description_ru": "Сильный и яростный последний вздох, вырванный у смотрителя психлечебницы \"Кротус Пренн\" Патрика Спенсера. Направляя его энергию, Медсестра может прыгнуть сквозь мир духов, используя Скачок несколько раз подряд. После этого она сильно устает.\nОткрывает способность Скачка:\n- Добавляет 1 прыжок к цепочке Скачков\n- Атаки после Скачка (но до истощения) становятся особыми\n- После Скачка (но до истощения) Медсестра может хватать выживших и прерывать их действия",
+        "number": 8,
+        "name_ru": "Каннибал",
+        "name_en": "The Cannibal",
+        "skills_ru": "Бензопила Буббы",
+        "skills_description_ru": "Каннибал начинает испытание с тремя зарядами. Удерживайте кнопку силы, чтобы израсходовать один заряд и начать размахивать бензопилой с возможностью поразить несколько целей за раз. Выжившие, задетые во время размахивания бензопилой, сразу оказываются при смерти. Используйте больше зарядов, чтобы продлить размахивание бензопилой; время восстановления при этом немного увеличится. Заряды бензопилы восстанавливаются, когда вы не используете ее. Когда вы поддерживаете завод бензопилы, постепенно заполняется шкала ярости. При заполнении шкалы или при столкновении с препятствием во время размахивания бензопилой Каннибал впадает в ярость. Во время ярости вы смертельно раните всех выживших вокруг себя.  Продолжительность ярости будет тем больше, чем больше зарядов бензопилы вы потратили во время размахивания бензопилой. Все оставшиеся заряды при этом будут утрачены. Во время ярости скорость передвижения уменьшается. Шкала ярости постепенно пустеет, когда вы не используете бензопилу, и полностью опустошается во время размахивания бензопилой",
         "skills_en": "тест",
         "skills_description_en": "тест",
-        "photo_main": "storeBackground_NR.png",
-        "photo_skills": "iconHelpLoading_nurse.png",
+        "photo_main": "storeBackground_CA.png",
+        "photo_skills": "iconHelpLoading_cannibal.png",
         "DLC": 1,
         "DLC_name": "",
         "addons":[
           {
-            "id":60,
-            "name_addon_ru":"Порванная закладка",
-            "name_addon_en":"Torn Bookmark",
-            "description_addon_ru":"Белый и до сих пор чистый кусок тесьмы. Когда-то крепился к священной книге и считался символом спора. Добавляет 1 заряд скачка. Увеличивает время восстановления скачка на 30%",
-            "description_addon_en":"A white and pristine piece of ribbon once attached to a sacred book. Serves as the symbol of a dispute. Increases the number of available Power Tokens by +1. Extends the Power Recharge duration to 130 %.",
-            "photo_addon":"Nurse/iconAddon_tornBookmark.png",
-            "rang_addon":0
-          },{
-            "id":61,
-            "name_addon_ru":"Спичечный коробок",
-            "name_addon_en":"Matchbox",
-            "description_addon_ru":"Спичечный коробок, в который сложили странную коллекцию всевозможных пуговиц. Напоминает владельцу об одном жутком месте. У владельца всего 1 скачок. Повышает базовую скорость передвижения Медсестры до 4.4 м/c",
-            "description_addon_en":"A matchbox containing an odd collection of mismatched buttons. Serves as a reminder of a horrible place. Increases your Movement speed to 4.4 m/s for the entire Trial. Restricts your Power to just 1 Blink. This cannot be altered by other Add-ons.",
-            "photo_addon":"Nurse/iconAddon_matchBox.png",
-            "rang_addon":0
-          },{
-            "id":62,
-            "name_addon_ru":"Последний вздох Кавана",
-            "name_addon_en":"Kavanagh's Last Breath",
-            "description_addon_ru":"Сильный последний вздох, украденный у Харви Кавана, санитара психбольницы \"Кротус Пренн\". Напряженно пульсирует в руках Медсестры. При истощении любые выжившие в радиусе 8 м от Медсестры на 60 сек. получают \"Слепоту\"",
-            "description_addon_en":"A powerful last breath snatched from the asylum orderly Harvey Kavanagh, also known as the \"Fat Orderly\". In the hands of The Nurse, it wobbles with intensity. When succumbing to Fatigue, all Survivors within 8 metres of your location suffer from the Blindness IconStatusEffects vision Status Effect for 60 seconds.",
-            "photo_addon":"Nurse/iconAddon_kavanaghsLastBreath.png",
-            "rang_addon":1
-          },{
-            "id":63,
-            "name_addon_ru":"Последний вздох Дженнер",
-            "name_addon_en":"Jenner's Last Breath",
-            "description_addon_ru":"Сильный последний вздох, украденный у Мэри Дженнер, пациентки психиатрической лечебницы \"Кротус Пренн\". Судорожно трепещет в руках Медсестры. Как только Медсестра использует все скачки, позволяет ей мгновенно вернуться в изначальное место после скачка нажатием кнопки активной способности. Необходимо использовать прежде, чем начнет действовать истощение. Когда Медсестра вернется на изначальную позицию, все заряды скачка будут восстановлены.",
-            "description_addon_en":"A powerful last breath snatched from the asylum patient Mary Jenner, also known as the \"Anxious Girl\". In the hands of The Nurse, it trembles with intensity. After exhausting all of your Blinks, but before succumbing to Fatigue, press the Active Ability button to immediately Blink back to your starting location. Recharges your Power by +1 Charge.",
-            "photo_addon":"Nurse/iconAddon_jennersLastBreath.png",
-            "rang_addon":1
-          },{
-            "id":64,
-            "name_addon_ru":"Последний вздох Кемпбелла",
-            "name_addon_en":"Campbell's Last Breath",
-            "description_addon_ru":"Сильный последний вздох, вырванный у отца Кэмпбелла, священника психиатрической больницы \"Кротус Пренн\". В руках Медсестры он напряженно хрипит. После полностью заряженного скачка Медсестра тут же делает еще один полностью заряженный скачок в сторону, в которую смотрит. Работает, если у Медсестры есть заряд для скачка.",
-            "description_addon_en":"A powerful last breath snatched from the asylum priest Father Campbell. In the hand of The Nurse, it crackles with intensity. Reappearing from a fully charged Blink, you automatically Blink at full charge in the direction you are facing. This requires that you have at least 1 Charge left after the initial Blink.",
-            "photo_addon":"Nurse/iconAddon_campbellsLastBreath.png",
-            "rang_addon":1
-          },{
-            "id":65,
-            "name_addon_ru":"Последний вздох \"Плохиша\"",
-            "name_addon_en":"\"Bad Man's\" Last Breath",
-            "description_addon_ru":"Сильный последний вздох, отнятый у Плохиша - пациента психиатрической лечебницы \"Кротус Пренн\". Неудержимо мечется в руках Медсестры. Успешная атака выжившего скачком дает Медсестре эффект \"Незаметность\" на 25 сек. Может сработать только раз в 45 сек.",
-            "description_addon_en":"A powerful last breath snatched from the asylum patient known as the \"Bad Man\". In the hands of The Nurse, it jolts with intensity. Hitting Survivors with a Special Attack grants the Undetectable IconStatusEffects undetectable Status Effect for 25 seconds. \"Bad Man's\" Last Breath\" has a cool-down of 45 seconds.",
-            "photo_addon":"Nurse/iconAddon_badMansLastBreath.png",
-            "rang_addon":1
-          },{
-            "id":66,
-            "name_addon_ru":"Судорожный вздох",
-            "name_addon_en":"Spasmodic Breath",
-            "description_addon_ru":"Судорожное и трепетное дыхание, отнятое у Плохиша. Оно агрессивно бьется и дергается от прикосновения Медсестры. Успешная атака выжившего скачком не дает снова сделать скачок, но повышает скорость передвижения Медсестры до 4.6 м/с на 60 сек.",
-            "description_addon_en":"The twitchy and tremulous breath stolen from the \"Bad Man\". Aggressively pulses and jumps at The Nurse's touch. Hitting a Survivor with a Special Attack causes the following effects for 60 seconds: Increases your Movement speed to 4.6 m/s. Disables your Power.",
-            "photo_addon":"Nurse/iconAddon_spasmodicBreath.png",
-            "rang_addon":2
-          },{
-            "id":67,
-            "name_addon_ru":"Тяжелая одышка",
-            "name_addon_en":"Heavy Panting",
-            "description_addon_ru":"Медленное и сиплое дыхание, украденное у жирного санитара. Слабо колеблется от прикосновения Медсестры. Увеличивает продолжительность выпада после двух и более скачков на 30%.",
-            "description_addon_en":"The slow and bulging breath stolen from Harvey Kavanagh, the asylum's \"Fat Orderly\". Dimly oscillates at The Nurse's touch. Extends the Lunge duration of Special Attacks to 130 %, which increases your Attack range by +30 %. This effect only applies after the second or third Blink.",
-            "photo_addon":"Nurse/iconAddon_heavyPanting.png",
-            "rang_addon":2
-          },{
-            "id":68,
-            "name_addon_ru":"Тихий хрип",
-            "name_addon_en":"Fragile Wheeze",
-            "description_addon_ru":"Свистящее и хриплое дыхание, украденное у отца Кэмпбелла. Тихо завивается и закручивается при прикосновении Медсестры. Скачок вызывает эффект \"Травма\" на 70 сек. \"Травма\" увеличивает время лечения на 25% и действует в течение указанного срока или до полного исцеления.",
-            "description_addon_en":"The whistling and rattling breath stolen from Father Campbell. Silently curves and bends at The Nurse's touch. Survivors hit with a Special Attack suffer from the Mangled IconStatusEffects mangled Status Effect for 70 seconds.",
-            "photo_addon":"Nurse/iconAddon_fragileWheeze.png",
-            "rang_addon":2
-          },{
-            "id":69,
-            "name_addon_ru":"Атактическое дыхание",
-            "name_addon_en":"Ataxic Respiration",
-            "description_addon_ru":"Неровное и угасающее дыхание мальчика с кататоническим синдромом. Обычно спокойное, в руках Медсестры оно тревожно учащается. Снижает базовое время истощения после скачка на 7%.",
-            "description_addon_en":"The irregular and deteriorating breath collected from the asylum patient known as the \"Catatonic Boy\". Normally stable and calm, it becomes incredibly agitated at The Nurse's touch. Reduces the duration of Fatigue by -7 %.",
-            "photo_addon":"Nurse/iconAddon_ataxicRespiration.png",
-            "rang_addon":2
-          },{
-            "id":70,
-            "name_addon_ru":"Тревожный вздох",
-            "name_addon_en":"Anxious Gasp",
-            "description_addon_ru":"Вздох удивления, забранный у беспокойной девочки, которая нравилась Медсестре. Живо дергается при ее прикосновении. Совершая скачок сквозь выжившего, вы заставляете его вскрикнуть и получаете 200 очков крови в категории \"Хитрость\" за испуг.",
-            "description_addon_en":"The gasp of surprise collected from the asylum patient Mary Jenner, also known as the \"Anxious Girl\" that The Nurse was fond of. Twitches vigorously at The Nurse's touch. Coming within 1 metre of Survivors while teleporting causes them to scream and reveal their location. Grants 200 Bloodpoints in the Deviousness DailyRitualIcon deviousness Category.",
-            "photo_addon":"Nurse/iconAddon_anxiousGasp.png",
-            "rang_addon":2
-          },{
-            "id":71,
-            "name_addon_ru":"Карманные часы",
-            "name_addon_en":"Pocket Watch",
-            "description_addon_ru":"Обгоревшие и разбитые карманные часы с бренчащими внутри деталями. Забраны с тела медсестры Морис. Увеличивают время до наступления истощения после скачка у Медсестры на 20%.",
-            "description_addon_en":"A charred and broken pocket watch with rattling pieces. Taken from Nurse Moris' body. Increases the duration of the Chain Blink Window by +0.2 seconds.",
-            "photo_addon":"Nurse/iconAddon_pocketWatch.png",
-            "rang_addon":3
-          },{
-            "id":72,
-            "name_addon_ru":"Потертый браслет",
-            "name_addon_en":"Dull Bracelet",
-            "description_addon_ru":"Возможно, это грошовое украшение кому-то было дорого. Снято с тела беспокойной девушки. Снижает максимальную дальность скачка на 20%. Повышает количество очков крови, получаемых за точные скачки, на 100%.",
-            "description_addon_en":"A worthless piece of jewellery that might have an important significance to someone. Taken from the \"Anxious Girl's\" body. Grants +100 % bonus Bloodpoints for Precise Blink Score Events. Reduces the maximum range of the Blink by -20 %.",
-            "photo_addon":"Nurse/iconAddon_dullBracelet.png",
-            "rang_addon":3
-          },{
-            "id":73,
-            "name_addon_ru":"Темный веревочный пояс",
-            "name_addon_en":"Dark Cincture",
-            "description_addon_ru":"Черная веревка, служившая поясом в скорбные времена. Взята с тела отца Кэмпбелла. Увеличивает скорость передвижения после скачка до последующего истощения на 30%.",
-            "description_addon_en":"A black rope used as a belt in times of mourning. Taken from Father Campbell's body. Increases your Movement speed during the Chain Blink Window by +30 %.",
-            "photo_addon":"Nurse/iconAddon_darkCincture.png",
-            "rang_addon":3
-          },{
-            "id":74,
-            "name_addon_ru":"Сокровище мальчика-кататоника",
-            "name_addon_en":"Catatonic Boy's Treasure",
-            "description_addon_ru":"Эта сосновая шишка отчего-то успокаивала пациента, и тот переставал нервно дергаться. Забрана с тела мальчика с кататоническим синдромом. Снижает дополнительное истощение после цепочки скачков на 65%.",
-            "description_addon_en":"A pine-cone which unexpectedly calmed a patient's repetitive movement. Taken from the \"Catatonic Boy's\" body. Reduces the additional Fatigue applied by Chain Blinks by -65 %.",
-            "photo_addon":"Nurse/iconAddon_catatonicTreasure.png",
-            "rang_addon":3
-          },{
-            "id":75,
-            "name_addon_ru":"Памятный сувенир плохиша",
-            "name_addon_en":"Bad Man Keepsake",
-            "description_addon_ru":"Гнилой коренной зуб, вырванный из холодной руки мертвого \"Плохиша\". Успешная атака-скачок на 60 сек. показывает вам ауру выживших, когда те лечатся сами или с чьей-то помощью и находятся в пределах 28 м.",
-            "description_addon_en":"A rotten molar ripped from the \"Cataontic Boy's\" cold dead hand. Normally stable and calm, it becomes incredibly agitated at The Nurse's touch. Survivors hit with a Special Attack have their Auras IconHelp auras revealed to you, if they are healing or being healed within 28 metres of your location for 60 seconds.",
-            "photo_addon":"Nurse/iconAddon_badManKeepsake.png",
-            "rang_addon":3
-          },{
-            "id":76,
-            "name_addon_ru":"Деревянная лошадь",
-            "name_addon_en":"Wooden Horse",
-            "description_addon_ru":"Бесцветная резная игрушка из дешевого дерева, формой напоминающая лошадку. Когда-то она была символом глубокой связи между пациентом-кататоником и медсестрой. Снижает дополнительное истощение после неудачных атак скачком на 50%.",
-            "description_addon_en":"An unpainted toy carved out of cheap wood to resemble a horse. Once the symbol of a deep connection between a catatonic patient and his nurse. Reduces the additional Fatigue applied by missed Special Attacks by -0.5 seconds.",
-            "photo_addon":"Nurse/iconAddon_woodenHorse.png",
-            "rang_addon":4
-          },{
-            "id":77,
-            "name_addon_ru":"Белый гребень от паразитов",
-            "name_addon_en":"White Nit Comb",
-            "description_addon_ru":"Гребень для вычесывания вшей, взятый из клиники. Некогда служил символом тесной связи между тревожной пациенткой и медсестрой. Снижает дальность атак с выпадом после скачка на 50%. Увеличивает количество очков крови, получаемых за атаки скачком, на 100%.",
-            "description_addon_en":"A parasitic nit comb taken from the clinic. Once the symbol of a deep connection between an anxious patient and her nurse. Grants +100 % bonus Bloodpoints for Blink Attack Score Events. Reduces the Lunge duration of Special Attacks by -0.15 seconds, which reduces your Attack range by -50 %.",
-            "photo_addon":"Nurse/iconAddon_whiteNitComb.png",
-            "rang_addon":4
-          },{
-            "id":78,
-            "name_addon_ru":"Клетчатая фланель",
-            "name_addon_en":"Plaid Flannel",
-            "description_addon_ru":"Оторванный кусок красно-черной клетчатой фланели. Клочок ткани наделяет Медсестру губительной концентрацией. Позволяет Медсестре видеть, в каком месте она окажется после скачка.",
-            "description_addon_en":"A torn piece of red and black plaid flannel. The scrap of fabric imbues The Nurse with devastating focus. Unlocks the ability to see the Landing zone of the Blink.",
-            "photo_addon":"Nurse/iconAddon_plaidFlannel.png",
-            "rang_addon":4
-          },{
-            "id":79,
-            "name_addon_ru":"Металлическая ложка",
-            "name_addon_en":"Metal Spoon",
-            "description_addon_ru":"Тусклая, местами ржавая и запачканная металлическая ложка. Изъята у Плохиша, пациента из палаты №202. После успешного попадания скачком по выжившему громкость его стонов повышается на 50% на 60 сек.",
-            "description_addon_en":"A dull, partially rusted and stained metallic spoon. Confiscated from Room 202's patient, the \"Bad Man\". Survivors hit by a Special Attack have the volume of their Grunts of Pain increased by +50 % for the next 60 seconds.",
-            "photo_addon":"Nurse/iconAddon_metalSpoon.png",
-            "rang_addon":4
+            "id": 160,
+            "name_addon_ru": "Переливчатая плоть",
+            "name_addon_en": "Iridescent Flesh",
+            "description_addon_ru": "Тонкий и гладкий ломтик свежего мяса. Кровеносные сосуды переливаются и сияют, словно в них еще течет жизнь.Удар по выжившему бензопилой восстанавливает заряды.Ограничивает максимальную продолжительность ярости до 3 сек.\"Порой бывает сложно поверить, что все происходящее - правда. Ущипни себя и убедись, что это так\" — Пэм Джонс",
+            "description_addon_en": "A thin slice of smooth, young flesh.The veins shimmer with luminescent glow, as if life still flows within.Instantly recharges all Power Tokens after hitting a Survivor withBubba's Chainsaw.Reducesthe maximum duration of aTantrumto3 seconds.\"There are moments when we cannot believe that what is happening is really true.Pinch yourself and you may find out that it is.\" — Pam Jones",
+            "photo_addon": "Cannibal/iconAddon_iridescentFlesh.png",
+            "rang_addon": 0
+          },
+          {
+            "id": 161,
+            "name_addon_ru": "Руководство по настройке карбюратора",
+            "name_addon_en": "Carburettor Tuning Guide",
+            "description_addon_ru": "Небрежно нацарапанная инструкция для правильной настройки и регулировки карбюратора бензопилы.Размах бензопилой автоматически расходует все зарядыПродлевает размах бензопилой на 0.5 секУменьшает максимальную скорость передвижения во время размаха бензопилой на 2%",
+            "description_addon_en": "A crudely drawn guide to properly adjust and tune a Chainsaw carburettor.Starting aChainsaw Dashautomatically consumes all available Power Tokens, combining their durations:Increasesthe duration of theChainsaw Dashby+0.5 secondsper Token.Reducesthe Movement speed during theChainsaw Dashby-2 %.",
+            "photo_addon": "Cannibal/IconAddon_carburettorTuningGuide.webp",
+            "rang_addon": 0
+          },
+          {
+            "id": 162,
+            "name_addon_ru": "Ржавая цепь",
+            "name_addon_en": "Rusted Chains",
+            "description_addon_ru": "Цепь покрыта пятнами ржавчины, поэтому нанесенные ей раны особенно трудно вылечить.Удар бензопилой накладывает на выживших эффект \"Ослабление\" на90 сек.\"Ослабление\" делает лечение неэффективным",
+            "description_addon_en": "This chain is covered with crusty and volatile rust spots that make injuries particularly difficult to heal.Survivors hit byBubba's Chainsawsuffer from theBrokenStatus Effectfor90 seconds.",
+            "photo_addon": "Cannibal/IconAddon_rustedChains.webp",
+            "rang_addon": 1
+          },
+          {
+            "id": 163,
+            "name_addon_ru": "Облегченное шасси",
+            "name_addon_en": "Light Chassis",
+            "description_addon_ru": "Легкая и прочная рама бензопилы с короткой направляющей планкой. Облегчает использование бензопилы.Поддерживая завод бензопилы, вы видите ауры выживших в радиусе 8м.",
+            "description_addon_en": "A light and durable Chainsaw chassis with a shorter guide bar.Makes the Chainsaw easier to handle.TheAurasof Survivors within8 metresare revealed to you while revvingBubba's Chainsaw.",
+            "photo_addon": "Cannibal/IconAddon_lightChassis.png",
+            "rang_addon": 1
+          },
+          {
+            "id": 164,
+            "name_addon_ru": "Ограничитель для заточки цепи",
+            "name_addon_en": "Depth Gauge Rake",
+            "description_addon_ru": "Инструмент, позволяющий заточить зубья бензопилы так, чтобы та съедала больше \"дерева\".Дает 1 дополнительный заряд бензопилыУвеличивает время завода бензопилы на 22%.Уменьшает максимальную скорость передвижения во время размаха бензопилой на 2%.",
+            "description_addon_en": "A tool that increases the angle of the depth gauge, making the chain eat more \"wood\".Increasesthe Power Tokens by+1.Reducesthe Power Charge speed by-18 %.Reducesthe Movement speed during aChainsaw Dashby-2 %.",
+            "photo_addon": "Cannibal/IconAddon_depthGaugeRake.webp",
+            "rang_addon": 1
+          },
+          {
+            "id": 165,
+            "name_addon_ru": "Чили-победитель состязания",
+            "name_addon_en": "Award-winning Chilli",
+            "description_addon_ru": "Большая миска острого чили, знаменитого благодаря исключительному мясу.Увеличивает максимальную длительность размаха бензопилой на 0.2 сек. за каждый использованный заряд\"Весь секрет в мясе\" - Дрейтон Сойер",
+            "description_addon_en": "A big bowl of spicy Chilli made famous thanks to prime meat.Increasesthe duration of theChainsaw Dashby+0.2 secondsper consumed Token.Increasesthe duration of theChainsaw Dash Windowby+0.2 seconds.\"The secret's in the meat\" — Drayton Sawyer",
+            "photo_addon": "Cannibal/iconAddon_awardwinningChili.png",
+            "rang_addon": 1
+          },
+          {
+            "id": 166,
+            "name_addon_ru": "Смазка",
+            "name_addon_en": "The Grease",
+            "description_addon_ru": "Густая смесь желтоватого цвета, созданная Сойерами. Используется как универсальная домашняя смазка.Увеличивает время завода бензопилы до вспышки ярости на 3 сек.",
+            "description_addon_en": "A thick yellowish ooze, concocted by the Sawyers.Used for all-purpose lubrication around their house.Increasesthe threshold before Revving triggers aTantrumby+3 seconds.",
+            "photo_addon": "Cannibal/iconAddon_theGrease.png",
+            "rang_addon": 2
+          },
+          {
+            "id": 167,
+            "name_addon_ru": "Метки зверя",
+            "name_addon_en": "The Beast's Marks",
+            "description_addon_ru": "Отметины зубов или когтей на бензопиле - наказание от зверя, живущего в тумане. Воспоминания о взбучках держат хозяина бензопилы в постоянном страхе перед неудачей.Увеличивает скорость передвижения во время размаха бензопилой на 2%.Увеличивает время завода бензопилы на 12%.",
+            "description_addon_en": "Jagged marks cover the Chainsaw's body, punishment from the dark beast that lives in The Fog.Memories of violent reprimands fill its holder with the fear of failure.Increasesthe Movement speed during aChainsaw Dashby+2 %.Increasesthe Power Charge time by+12 %.",
+            "photo_addon": "Cannibal/iconAddon_theBeastsMark.png",
+            "rang_addon": 2
+          },
+          {
+            "id": 168,
+            "name_addon_ru": "Производственная смазка",
+            "name_addon_en": "Shop Lubricant",
+            "description_addon_ru": "Масло, специально разработанное для бензопил. Особая добавка предотвращает выброс масла.Если вы смертельно раните выжившего бензопилой, когда в пределах радиуса террора нет других выживших, аура раненого выжившего не будет видна его товарищам в течение20 сек.",
+            "description_addon_en": "An oil specifically formulated for Chainsaws.A special additive prevents oil throw off.TheAurasof Survivors downed byBubba's Chainsaw, if no other Survivors were within theTerror Radius, are hidden to other Survivors for20 seconds.",
+            "photo_addon": "Cannibal/IconAddon_shopLubricant.webp",
+            "rang_addon": 2
+          },
+          {
+            "id": 169,
+            "name_addon_ru": "Ужасная цепь",
+            "name_addon_en": "Grisly Chains",
+            "description_addon_ru": "Цепь с необыкновенно большими зубьями, оставляющая у жертв увечья даже после лечения.Выжившие, раненные бензопилой, получают \"Травму\" на 70 сек.\"Травма\" увеличивает время лечения на 25% и действует в течение указанного срока или до полного исцеления",
+            "description_addon_en": "A chain with unusually hefty cutter teeth that leaves victims crippled even after being healed.Survivors hit byBubba's Chainsawsuffer from theMangledStatus Effectfor70 seconds.",
+            "photo_addon": "Cannibal/IconAddon_grislyChains.webp",
+            "rang_addon": 2
+          },
+          {
+            "id": 170,
+            "name_addon_ru": "Грязные цепи",
+            "name_addon_en": "Begrimed Chains",
+            "description_addon_ru": "Эта цепь измазана мерзким веществом, изнуряющим любого, кто к нему прикоснется.Удары бензопилой заставляют выживших ронять предметы.",
+            "description_addon_en": "This chain is stained with a foul substance that debilitates anyone it touches.Causes Survivors hit byBubba's Chainsawto drop any carriedItem.",
+            "photo_addon": "Cannibal/IconAddon_begrimedChains.webp",
+            "rang_addon": 2
+          },
+          {
+            "id": 171,
+            "name_addon_ru": "Сжимной насос",
+            "name_addon_en": "Primer Bulb",
+            "description_addon_ru": "Закачивает больше бензина в систему зажигания, позволяя быстро и резко завести пилу.Ускоряет время на восстановление заряда на 1 сек.",
+            "description_addon_en": "Pumps more gas in the ignition system to ensure a quick and powerful start.Reducesthe Power Recharge time by-1 second.",
+            "photo_addon": "Cannibal/IconAddon_primerBulb.webp",
+            "rang_addon": 3
+          },
+          {
+            "id": 172,
+            "name_addon_ru": "Длинное реле для бензопилы",
+            "name_addon_en": "Long Guide Bar",
+            "description_addon_ru": "Прочная сменная шина для длинной цепи бензопилы.Увеличивает время завода бензопилы до вспышки ярости на 2 сек.",
+            "description_addon_en": "A sturdy iron replacement bar for long chains.Increasesthe threshold before Revving triggers aTantrumby+2 seconds.",
+            "photo_addon": "Cannibal/IconAddon_longGuideBar.webp",
+            "rang_addon": 3
+          },
+          {
+            "id": 173,
+            "name_addon_ru": "Метки ножом",
+            "name_addon_en": "Knife Scratches",
+            "description_addon_ru": "Бензопила покрыта царапинами, оставленными раскаленным клинком. Воспоминания о взбучках держат хозяина Бензопилы в постоянном страхе перед неудачей.Увеличивает скорость передвижения во время размаха бензопилой на 1.5%Увеличивает время завода бензопилы на 10%.",
+            "description_addon_en": "Scratches cover the Chainsaw's body, caused by a searing blade.Memories of reprimands fill its holder with the fear of failure.Increasesthe Movement speed during aChainsaw Dashby+1.5 %.Increasesthe Power Charge time by+10 %.",
+            "photo_addon": "Cannibal/iconAddon_knifeScratches.png",
+            "rang_addon": 3
+          },
+          {
+            "id": 174,
+            "name_addon_ru": "Самодельный глушитель",
+            "name_addon_en": "Homemade Muffler",
+            "description_addon_ru": "Самодельная выхлопная система из черных газовых труб.Уменьшает продолжительность ярости на 0.5 сек.",
+            "description_addon_en": "A makeshift exhaust system made of black gas pipes.Reducesthe duration of aTantrumby-0.5 seconds.",
+            "photo_addon": "Cannibal/IconAddon_homemadeMuffler.webp",
+            "rang_addon": 3
+          },
+          {
+            "id": 175,
+            "name_addon_ru": "Чили",
+            "name_addon_en": "Chilli",
+            "description_addon_ru": "Большая миска горячего чили утоляет голод и придает сил.Увеличивает максимальную длительность размаха бензопилой на 0.15 сек за каждый использованный заряд\"У меня есть отличное барбекю!\" — Дрейтон Сойер",
+            "description_addon_en": "A big bowl of steaming Chilli to keep you fresh and strong.Increasesthe duration of theChainsaw Dashby+0.15 secondsper consumed Token.Increasesthe duration of theChainsaw Dash Windowby+0.15 seconds.\"I got some good barbecue here!\" — Drayton Sawyer",
+            "photo_addon": "Cannibal/iconAddon_chili.png",
+            "rang_addon": 3
+          },
+          {
+            "id": 176,
+            "name_addon_ru": "Растительное масло",
+            "name_addon_en": "Vegetable Oil",
+            "description_addon_ru": "Прогорклое масло, используемое в качестве смазки низкого качества.Ускоряет перезарядку бензопилы на 0.3 сек.",
+            "description_addon_en": "A rancid oil used as a poor quality lubricant.Reducesthe Cool-down duration ofBubba's Chainsawby-0.3 seconds.",
+            "photo_addon": "Cannibal/IconAddon_vegetableOil.webp",
+            "rang_addon": 4
+          },
+          {
+            "id": 177,
+            "name_addon_ru": "Ограничитель скорости",
+            "name_addon_en": "Speed Limiter",
+            "description_addon_ru": "Механическое устройство, ограничивающее единовременную подачу топлива в малые двигатели, тем самым обеспечивая постоянную и безопасную скорость.Атаки бензопилой не гарантируют ввод выживших в предсмертное состояние.Вы получаете на 100% больше очков крови за действия с бензопилой.",
+            "description_addon_en": "A mechanical device that limits the amount of fuel small engines can intake at one time, forcing a constant and safe speed.Grants+100 %bonus Bloodpoints forChainsaw HitScore Events in theDeviousnessCategory.Survivors hit withBubba's Chainsaware only damaged for a singleHealth State.",
+            "photo_addon": "Cannibal/IconAddon_speedLimiter.webp",
+            "rang_addon": 4
+          },
+          {
+            "id": 178,
+            "name_addon_ru": "Свеча зажигания",
+            "name_addon_en": "Spark Plug",
+            "description_addon_ru": "Чистая свеча зажигания для бензопилы.Ускоряет время на восстановление заряда на 0.5 сек.",
+            "description_addon_en": "A clean spark plug fitted for a Chainsaw.Reducesthe Power Recharge time by-0.5 seconds.",
+            "photo_addon": "Cannibal/IconAddon_sparkPlug.webp",
+            "rang_addon": 4
+          },
+          {
+            "id": 179,
+            "name_addon_ru": "Напильник для бензопилы",
+            "name_addon_en": "Chainsaw File",
+            "description_addon_ru": "Напильник, служащий для заточки зубьев бензопилы.Уменьшает продолжительность ярости на 0.25 сек.",
+            "description_addon_en": "A file whose purpose is to hone Chainsaw chains.Reducesthe duration of aTantrumby-0.25 seconds.",
+            "photo_addon": "Cannibal/IconAddon_chainsawFile.webp",
+            "rang_addon": 4
           },{
             "id":10000,
             "name_addon_ru":"Пусто",

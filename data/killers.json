@@ -773,7 +773,7 @@
         "skills_en": "тест",
         "skills_description_en": "тест",
         "photo_main": "storeBackground_BE.png",
-        "photo_skills": "iconPowers_huntingHatchets.png",
+        "photo_skills": "iconHelpLoading_huntress.png",
         "DLC": 0,
         "DLC_name": "",
         "addons":[
@@ -847,7 +847,7 @@
             "name_addon_en":"Rose Root",
             "description_addon_ru":"Чай из этих сушеных лепестков облегчает симптомы усталости и перенапряжения. Повышает скорость полета топора на 20%",
             "description_addon_en":"Dried petals that relieve symptoms of fatigue and overexertion when brewed in a tea. Increases the Projectile speed of Hatchets by +20 %.",
-            "photo_addon":"Nurse/iconAddon_roseRoot.png",
+            "photo_addon":"DLC5/iconAddon_roseRoot.png",
             "rang_addon":3
           },{
             "id":89,
@@ -855,7 +855,7 @@
             "name_addon_en":"Flower Babushka",
             "description_addon_ru":"Чистый и яркий платок, украшенный рисунками цветов. Память о потере малышей наполняет Охотницу яростью и делает её сосредоточенной. Уменьшает время, необходимое для заряда броска топоров, на 12%.",
             "description_addon_en":"A clean and colourful handkerchief adorned with a flower pattern. This memory of a lost little one fills The Huntress with rage and focus. Reduces the Wind-up time of Hatchets by -0.1 seconds.",
-            "photo_addon":"Nurse/iconAddon_flowerBabushka.png",
+            "photo_addon":"DLC5/iconAddon_flowerBabushka.png",
             "rang_addon":3
           },{
             "id":90,
@@ -863,7 +863,7 @@
             "name_addon_en":"Deerskin Gloves",
             "description_addon_ru":"Пара кожаных перчаток, которые защищают руки и обеспечивают крепкую хватку. Уменьшают время подбора топоров из шкафчика на 20%.",
             "description_addon_en":"Cured leather gloves that protect the hands and give a sure grip. Reduces the Reload time of Hatchets at Lockers IconHelp lockers to 80 % of its default value.",
-            "photo_addon":"Nurse/iconAddon_deerskinGloves.png",
+            "photo_addon":"DLC5/iconAddon_deerskinGloves.png",
             "rang_addon":3
           },{
             "id":91,
@@ -871,7 +871,7 @@
             "name_addon_en":"Weighted Head",
             "description_addon_ru":"Топор с необычным балансом для нанесения тяжелых ударов. Требует твердой руки и недюжинной силы. При попадании цель получает эффект \"Обездвиживание\" на 10 сек. При \"Обездвиживании\" выживший не может использовать предметы, лечиться, чинить, ломать, благословлять, очищать или латать",
             "description_addon_en":"An oddly weighted Hatchet head, crafted to deliver a hard blow to its target. It requires a wielder with a strong arm. Survivors hit by Hatchets suffer from the Incapacitated IconStatusEffects incapacitated  Status Effect for 10 seconds.",
-            "photo_addon":"Nurse/iconAddon_weightedHead.png",
+            "photo_addon":"DLC5/iconAddon_weightedHead.png",
             "rang_addon":4
           },{
             "id":92,
@@ -879,7 +879,7 @@
             "name_addon_en":"Shiny Pin",
             "description_addon_ru":"Медная брошь, потерявшая былой рисунок, но тем не менее до блеска отполированная. Взята с трупа одной особенно трудной добычи. Увеличивает скорость передвижения Охотницы на 5% во время прицеливания или броска топора.",
             "description_addon_en":"A copper pin defaced beyond recognition yet polished to a high sheen. Pillaged from a particularly difficult prey. Increases the Movement speed while winding Hatchets up by +5 %.",
-            "photo_addon":"Nurse/iconAddon_shinyPin.png",
+            "photo_addon":"DLC5/iconAddon_shinyPin.png",
             "rang_addon":4
           },{
             "id":93,
@@ -887,7 +887,7 @@
             "name_addon_en":"Oak Haft",
             "description_addon_ru":"Отполированная рукоять позволяет более искусно обращаться с оружием убийства. Уменьшает время между повторными бросками топоров на 20%.",
             "description_addon_en":"A polished haft which allows for a quick and sly manipulation of the deadly tool. Reduces the Cool-down duration between successive Hatchet throws by -20 %.",
-            "photo_addon":"Nurse/iconAddon_oakHaft.png",
+            "photo_addon":"DLC5/iconAddon_oakHaft.png",
             "rang_addon":4
           },{
             "id":94,
@@ -895,7 +895,7 @@
             "name_addon_en":"Manna Grass Braid",
             "description_addon_ru":"Венок, сотканный из травы манника. Память о потере малышей наполняет Охотницу яростью и делает её сосредоточенной. Уменьшает время, необходимое для заряда броска топоров на 8%.",
             "description_addon_en":"A circular decorative braid made from manna grass. This memory of a lost little one fills The Huntress with rage and focus. Reduces the Wind-up time of Hatchets by -8 %.",
-            "photo_addon":"Nurse/iconAddon_mannaGrassBraid.png",
+            "photo_addon":"DLC5/iconAddon_mannaGrassBraid.png",
             "rang_addon":4
           },{
             "id":95,
@@ -903,7 +903,7 @@
             "name_addon_en":"Leather Loop",
             "description_addon_ru":"Эту кожаную петлю можно прикрепить к ремню и использовать для переноса инструментов. Вы начинаете матч с 1 дополнительным топором. Увеличивает максимальное количество носимых одновременно топоров на 1",
             "description_addon_en":"The right tool in the right hands is key to a successful hunt. Successfully hitting a Survivor with a Hatchet grants a +2 % Haste IconStatusEffects haste  Status Effect for 5 seconds.",
-            "photo_addon":"Nurse/iconAddon_leatherLoop.png",
+            "photo_addon":"DLC5/iconAddon_leatherLoop.png",
             "rang_addon":4
           },{
             "id":96,
@@ -964,7 +964,7 @@
         "skills_en": "тест",
         "skills_description_en": "тест",
         "photo_main": "storeBackground_SH.png",
-        "photo_skills": "iconPowers_stalker1.png",
+        "photo_skills": "iconHelpLoading_shape.png",
         "DLC": 1,
         "DLC_name": "",
         "addons":[
@@ -1154,8 +1154,8 @@
         "skills_description_ru": "Источник силы Ведьмы — почерневший палец, используется как проводник ее страшной силы. Ведьма может контролировать и придавать форму грязи силой мысли. С помощью простых ритуальных рисунков она создает коварные копии самой себя из грязи и гнили, и использует их для разных целей. Наделяет способностью создавать и контролировать 10 ловушек-фантомов. Дает возможность мгновенно перемещаться к потревоженным ловушкам-фантомам, если те находятся в радиусе 48 м",
         "skills_en": "тест",
         "skills_description_en": "тест",
-        "photo_main": "storeBackground_NR.png",
-        "photo_skills": "iconPowers_blackenedCatalyst.png",
+        "photo_main": "storeBackground_HA.png",
+        "photo_skills": "iconHelpLoading_hag.png",
         "DLC": 2,
         "DLC_name": "",
         "addons":[

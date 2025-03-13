@@ -773,7 +773,7 @@
         "skills_en": "тест",
         "skills_description_en": "тест",
         "photo_main": "storeBackground_BE.png",
-        "photo_skills": "iconPowers_huntingHatchets.png",
+        "photo_skills": "iconHelpLoading_huntress.png",
         "DLC": 0,
         "DLC_name": "",
         "addons":[
@@ -964,7 +964,7 @@
         "skills_en": "тест",
         "skills_description_en": "тест",
         "photo_main": "storeBackground_SH.png",
-        "photo_skills": "iconPowers_stalker1.png",
+        "photo_skills": "iconHelpLoading_shape.png",
         "DLC": 1,
         "DLC_name": "",
         "addons":[
@@ -1155,7 +1155,7 @@
         "skills_en": "тест",
         "skills_description_en": "тест",
         "photo_main": "storeBackground_HA.png",
-        "photo_skills": "iconPowers_blackenedCatalyst.png",
+        "photo_skills": "iconHelpLoading_hag.png",
         "DLC": 2,
         "DLC_name": "",
         "addons":[

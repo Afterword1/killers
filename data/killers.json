@@ -1994,7 +1994,7 @@
             "name_addon_en": "Video Tape",
             "description_addon_ru": "Запись Пилы, объясняющего правила игры Аманде. Воспоминания о своей прошлой жизни наполняют Аманду решимостью.Выжившие начинают матч в обратных капканах",
             "description_addon_en": "A recording of Jigsaw, explaining the game's rules to Amanda.Reminiscing about her past-self hardens her determination.All Survivors start the Trial with aReverse Bear Trapattached to them.",
-            "photo_addon": "England/iconAddon_videoTape.png",
+            "photo_addon": "Finland/iconAddon_videoTape.png",
             "rang_addon": 0
           },
           {
@@ -2003,7 +2003,7 @@
             "name_addon_en": "Amanda's Letter",
             "description_addon_ru": "Письмо, шантажирующее Аманду. Наполняет читающего яростью и заставляет сосредоточиться.Пригнувшись, вы видите ауры выживших в радиусе 16 м.Уменьшаетчисло доступных обратных капканов на2.\"Аманда, ты была с Сесилом в ту ночь, когда Джилл потеряла Гидеона. Ты убила их ребенка. Ты это знаешь, и я тоже.\" - письмо Аманды",
             "description_addon_en": "A blackmailing Letter for the attention of Amanda.Fills the reader with rage and focus.TheAurasof Survivors within16 metresare revealed to you whenCrouched.Reducesthe number of carriedReverse Bear Trapsby-2.\"Amanda, you were with Cecil the night Jill lost Gideon. You killed their child. You know it and I know it.\" — Detective Hoffman",
-            "photo_addon": "England/iconAddon_amandasLetter.png",
+            "photo_addon": "Finland/iconAddon_amandasLetter.png",
             "rang_addon": 0
           },
           {
@@ -2012,7 +2012,7 @@
             "name_addon_en": "Tampered Timer",
             "description_addon_ru": "Модифицированный таймер. Пружина в механизме заставляет шестеренки вращаться быстрее.Уменьшает время таймера обратного отсчета у обратных капканов на 20 сек.",
             "description_addon_en": "A timer that has been fiddled with.A spring in the mechanism forces the gears to turn faster.Reducesthe Death timer ofReverse Bear Trapsby-20 seconds.",
-            "photo_addon": "England/iconAddon_tamperedTimer.png",
+            "photo_addon": "Finland/iconAddon_tamperedTimer.png",
             "rang_addon": 1
           },
           {
@@ -2021,7 +2021,7 @@
             "name_addon_en": "Jigsaw's Sketch",
             "description_addon_ru": "Гениальный, но ужасающий дизайн ловушки, набросанный в деталях на бумаге, и подписанный Пилой.Увеличиваетчисло доступных обратных капканов на 1Когда выживший с обратным капканом чинит генератор, вы видите yellow ауру этого генератора",
             "description_addon_en": "A disturbing, yet brilliant, trap design sketched in detail on a sheet of paper.Increasesthe number of carriedReverse Bear Trapsby+1.TheAurasof Generators being repaired by Survivors wearing aReverse Bear Trapsare highlighted to you inyellow.",
-            "photo_addon": "England/iconAddon_jigsawsSketch.png",
+            "photo_addon": "Finland/iconAddon_jigsawsSketch.png",
             "rang_addon": 1
           },
           {
@@ -2030,7 +2030,7 @@
             "name_addon_en": "Crate of Gears",
             "description_addon_ru": "Коллекция металлических деталей, которые позволяют создавать особо хитроумные коробки Пилы и упрощают установку обратных капканов.Увеличивает время, необходимое для установки обратных капканов на 50%.Увеличивает время поиска в коробках Пилы на 33%.",
             "description_addon_en": "This collection of mechanical parts allows the creation of extra-challenging Jigsaw Boxes and Reverse Bear Traps that are easier to install.Increasesthe Attach speed ofReverse Bear Trapsby+50 %.Reducesthe Search speed ofJigsaw Boxesby-25 %.",
-            "photo_addon": "England/iconAddon_crateOfGears.png",
+            "photo_addon": "Finland/iconAddon_crateOfGears.png",
             "rang_addon": 1
           },
           {
@@ -2039,7 +2039,7 @@
             "name_addon_en": "Amanda's Secret",
             "description_addon_ru": "Черная металлическая коробка, внутри которой лежат нож, различные медицинские препараты, повязки и бинты. Глубокие порезы ослабляют стресс и обостряют чувства.Вы получаете уведомление, когда выживший освобождается от обратного капкана.Ауры выживших, которые освобождаются от капкана, раскрываются вам на6 секунд.",
             "description_addon_en": "A black metal box containing a knife and various medical supplies, such as bandages and compresses.Deep cuts reduce stress and awaken the senses.Survivors removing theirReverse Bear Traptrigger aLoud Noise Notificationand have theirAurasrevealed to you for6 seconds.",
-            "photo_addon": "England/iconAddon_amandasSecret.png",
+            "photo_addon": "Finland/iconAddon_amandasSecret.png",
             "rang_addon": 1
           },
           {
@@ -2048,7 +2048,7 @@
             "name_addon_en": "Slow-Release Toxin",
             "description_addon_ru": "Модификация для обратного капкана - несмертельный яд, который сильно ослабляет жертву, из-за чего та никак не может перевести дух.Обратный капкан накладывает эффект \"Усталость\" до снятия.\"Усталость\" не дает выжившим активировать утомляющие навыки.",
             "description_addon_en": "A modification to the Reverse Bear Trap:A poison that is not fatal, but weakens the body and makes it nearly impossible to recover fully from any effort.Survivors caught in aReverse Bear Trapsuffer permanently from theExhaustedStatus Effect.",
-            "photo_addon": "England/iconAddon_slowReleaseToxin.png",
+            "photo_addon": "Finland/iconAddon_slowReleaseToxin.png",
             "rang_addon": 2
           },
           {
@@ -2057,7 +2057,7 @@
             "name_addon_en": "Rusty Attachments",
             "description_addon_ru": "Модификация для обратного капкана - дополнительные клыки, покрытые коркой ржавчины. С ними лечение ран становится сложной задачей.Обратный капкан накладывает эффект \"Травма\" на 70 сек.\"Травма\" увеличивает время лечения на 25% и действует до полного исцеления",
             "description_addon_en": "A modification to the Reverse Bear Trap:Mouth spikes, covered with crusty and volatile rust spots that make injuries particularly difficult to heal.Survivors caught in aReverse Bear Trapsuffer from theMangledStatus Effectfor70 seconds.",
-            "photo_addon": "England/iconAddon_rustyAttachments.png",
+            "photo_addon": "Finland/iconAddon_rustyAttachments.png",
             "rang_addon": 2
           },
           {
@@ -2066,7 +2066,7 @@
             "name_addon_en": "Rules Set No.2",
             "description_addon_ru": "Не у всех игр должны быть одинаковые правила.Убираету выживших способность видеть ауры коробок Пилы до момента активации таймера обратного капкана.\"Слушайте правила игры\" - Пила",
             "description_addon_en": "Not all games need to have the same rules.Disablesthe ability of Survivors to see theAurasofJigsaw Boxes, until theirReverse Bear Trapbecomesactive.\"Listen, there are rules.\" — Jigsaw",
-            "photo_addon": "England/iconAddon_rulesSetN2.png",
+            "photo_addon": "Finland/iconAddon_rulesSetN2.png",
             "rang_addon": 2
           },
           {
@@ -2075,7 +2075,7 @@
             "name_addon_en": "Jigsaw's Annotated Plan",
             "description_addon_ru": "Гениальный, но ужасающий дизайн ловушки, перенесенный на бумагу и подписанный самим Пилой.Увеличиваетчисло доступных обратных капканов на 1.Увеличивает время таймера обратного отсчета у обратных капканов на 10 сек.Когда заканчивается ремонт генератора, с таймера обратного отсчета всех активных обратных капканов снимается по 10 сек.",
             "description_addon_en": "A disturbing, yet brilliant, trap design laid down on paper and annotated by Jigsaw.Increasesthe number of carriedReverse Bear Trapsby+1.Increasesthe Death timer ofReverse Bear Trapsby+10 seconds.Reducesthe Death timer of allActive Reverse Bear Trapsby-10 secondseach time a Generator is completed.",
-            "photo_addon": "England/iconAddon_jigsawsAnnotatedPlan.png",
+            "photo_addon": "Finland/iconAddon_jigsawsAnnotatedPlan.png",
             "rang_addon": 2
           },
           {
@@ -2084,7 +2084,7 @@
             "name_addon_en": "Bag of Gears",
             "description_addon_ru": "Несколько металлических деталей, позволяющих создавать хитроумные коробки Пилы, а также ускоряющих установку обратных капканов.Увеличивает время, необходимое для установки обратных капканов на 50%.Увеличивает время поиска в коробках Пилы на 17%.",
             "description_addon_en": "A few mechanical parts that allow the creation of challenging Jigsaw Boxes and easier to install Reverse Bear Traps.Increasesthe Attachment speed ofReverse Bear Trapsby+50 %.Reducesthe Search speed ofJigsaw Boxesby-14 %.",
-            "photo_addon": "England/iconAddon_bagOfGears.png",
+            "photo_addon": "Finland/iconAddon_bagOfGears.png",
             "rang_addon": 2
           },
           {
@@ -2093,7 +2093,7 @@
             "name_addon_en": "Workshop Grease",
             "description_addon_ru": "Модификация для коробки Пилы - скользкие внутренности коробки затрудняют поиск ключа.Увеличивает скорость заряда атаки из засады на 50%Уменьшает штрафное время после неудачной атаки из засады на 10%",
             "description_addon_en": "A simple tube of grease, used to lubricate the mechanisms of the hidden blade.Reducesthe Cool-down duration of missedAmbush Dash Attacksby-10 %.Increasesthe Charge speed of theAmbush Dash Attackby+50 %.",
-            "photo_addon": "England/iconAddon_workshopGrease.png",
+            "photo_addon": "Finland/iconAddon_workshopGrease.png",
             "rang_addon": 3
           },
           {
@@ -2102,7 +2102,7 @@
             "name_addon_en": "Utility Blades",
             "description_addon_ru": "Модификация для обратного капкана - острые лезвия внутри ловушки ранят жертву при каждом ее движении.Обратный капкан вызывает \"Кровотечение\" каждый раз, когда выживший получает ранение.\"Кровотечение\" обращает вспять прогресс лечения, если лечения не происходит, и увеличивает следы крови от раненых выживших. Действует в течение указанного срока или до полного исцеления.",
             "description_addon_en": "A modification to the Reverse Bear Trap:Sharp blades attached to the Trap's interior lacerate the victim with every movement.Survivors caught in aReverse Bear Trapsuffer from theHaemorrhageStatus Effectwhenever they are injured by any means.",
-            "photo_addon": "England/iconAddon_utilityBlades.png",
+            "photo_addon": "Finland/iconAddon_utilityBlades.png",
             "rang_addon": 3
           },
           {
@@ -2111,7 +2111,7 @@
             "name_addon_en": "Razor Wires",
             "description_addon_ru": "Модификация для коробки Пилы - колючая проволока внутри сильно затрудняет процесс поиска ключа в коробке.Зоны успеха проверок реакции во время поиска в коробке Пилы уменьшаютсяПри неудаче во время проверки не имеющий ран выживший будет ранен.",
             "description_addon_en": "A modification to the Reverse Bear Trap:The addition of razor sharp wires makes it extra difficult and potentially painful to search them.While healthy, Survivors failing aSkill Checkat aJigsaw Boxbecome injured.Increasesthe Skill Check difficulty by+20 %.",
-            "photo_addon": "England/iconAddon_razerWire.png",
+            "photo_addon": "Finland/iconAddon_razerWire.png",
             "rang_addon": 3
           },
           {
@@ -2120,7 +2120,7 @@
             "name_addon_en": "Last Will",
             "description_addon_ru": "Деревянный ящик, обшитый шелком внутри. Является частью завещания.Увеличивает скорость передвижения при атаке из засады на 6%Увеличивает время зарядки атаки из засады на 33%",
             "description_addon_en": "A latched wooden box with a satin lining, offered as part of a last will.Increasesyour Movement speed during theAmbush Dash Attackby+6 %.Increasesthe Charge time of theAmbush Dash Attackby+33 %.",
-            "photo_addon": "England/iconAddon_lastWill.png",
+            "photo_addon": "Finland/iconAddon_lastWill.png",
             "rang_addon": 3
           },
           {
@@ -2129,7 +2129,7 @@
             "name_addon_en": "Face Mask",
             "description_addon_ru": "Модификация для обратного капкана - лицевая маска, пропитанная снотворным. Частично удушает жертву, и ей становится тяжелее сконцентрироваться.Обратный капкан вызывает \"Слепоту\" до снятия.Не влияет на ауру коробок Пилы.\"Слепота\" не дает выжившим видеть ауры.",
             "description_addon_en": "A modification to the Reverse Bear Trap:The heavy cloth face mask, laced with a sedative, partially suffocates the target, making it hard to concentrate.Survivors caught in aReverse Bear Trapsuffer permanently from theBlindnessStatus Effect.",
-            "photo_addon": "England/iconAddon_faceMask.png",
+            "photo_addon": "Finland/iconAddon_faceMask.png",
             "rang_addon": 3
           },
           {
@@ -2138,7 +2138,7 @@
             "name_addon_en": "Shattered Syringe",
             "description_addon_ru": "Символ саморазрушения. Воспоминания о своей прошлой жизни наполняют Аманду решимостью.Уменьшает штрафное время после неудачной атаки из засады на 10%",
             "description_addon_en": "Symbol of a broken way of life.Reminiscing about her past-self hardens her determination.Reducesthe Cool-down duration of missedAmbush Dash Attacksby-10 %.",
-            "photo_addon": "England/iconAddon_shatteredSyringe.png",
+            "photo_addon": "Finland/iconAddon_shatteredSyringe.png",
             "rang_addon": 4
           },
           {
@@ -2147,7 +2147,7 @@
             "name_addon_en": "John's Medical File",
             "description_addon_ru": "Медицинская карта больного раком мужчины. Наполняет читающего страхом и заставляет действовать безрассудно.Повышает скорость передвижения пригнувшись на 10%",
             "description_addon_en": "The medical file of a cancerous man.Fills the reader with dread and recklessness.Increasesyour Movement speed by+10 %whenCrouched.",
-            "photo_addon": "England/iconAddon_johnsMedicalFile.png",
+            "photo_addon": "Finland/iconAddon_johnsMedicalFile.png",
             "rang_addon": 4
           },
           {
@@ -2156,7 +2156,7 @@
             "name_addon_en": "Interlocking Razor",
             "description_addon_ru": "Модификация для коробки Пилы - лезвия-ловушки не позволяют выжившим быстро обыскать коробку без вреда для себя.При неудачной проверке реакции во время поиска в коробке Пилы раненый выживший получит эффект \"Глубокая рана\"С \"Глубокой раной\" выживший окажется при смерти, если его не подлатают, пока не истекло время",
             "description_addon_en": "A modification to the Reverse Bear Trap:The addition of interlocking razor blades makes it impossible to move suddenly in the Jigsaw Box without slitting one's wrists.While injured, Survivors failing aSkill Checkat aJigsaw Boxbecome afflicted by theDeep WoundStatus Effect.",
-            "photo_addon": "England/iconAddon_interlockingRazor.png",
+            "photo_addon": "Finland/iconAddon_interlockingRazor.png",
             "rang_addon": 4
           },
           {
@@ -2165,7 +2165,7 @@
             "name_addon_en": "Combat Straps",
             "description_addon_ru": "Кожаные ремни, опоясывают мешающие движению детали одежды.Увеличивают скорость приседания и вставания на 10%",
             "description_addon_en": "Leather straps that hold fabric in place for nimbler movement.Increasesthe Transition speed into theCrouched Stateby+10 %.",
-            "photo_addon": "England/iconAddon_combatStraps.png",
+            "photo_addon": "Finland/iconAddon_combatStraps.png",
             "rang_addon": 4
           },{
             "id":10000,
@@ -2404,7 +2404,7 @@
             "name_addon_en": "Mother-Daughter Ring",
             "description_addon_ru": "Серебряное кольцо с гравировкой \"Моей дорогой дочери\".Увеличивает скорость передвижения во время Преследования Ямаоки на 25%.Следы-трещины больше не видны во время использования Преследования Ямаоки.",
             "description_addon_en": "A silver ring engraved with \"for my precious daughter\".Increasesyour Movement speed during aPhase-Walkby+25 %.Scratch Marksare no longer visible to you during aPhase-Walk.",
-            "photo_addon": "Haiti/F:\\YandexDisk\\ДЕНИС\\проекты\\bot tg\\1\\ItemAddons\\Haiti\\iconAddon_motherDaughterRing.png",
+            "photo_addon": "Haiti/iconAddon_motherDaughterRing.png",
             "rang_addon": 0
           },
           {
@@ -2413,7 +2413,7 @@
             "name_addon_en": "Kintsugi Teacup",
             "description_addon_ru": "Чашка, склеенная и украшенная золотым напылением. В ней соединилось разрушение и восстановление.Мгновенно восстанавливает \"Преследование Ямаоки\" после ломания доски или стены",
             "description_addon_en": "A cup mended and lacquered with powdered gold.Both the breakage and repair are part the cup.Instantly rechargesYamaoka's Hauntingafter breaking aBreakable Wallor aPallet.",
-            "photo_addon": "Haiti/F:\\YandexDisk\\ДЕНИС\\проекты\\bot tg\\1\\ItemAddons\\Haiti\\IconAddon_kintsugiTeacup.webp",
+            "photo_addon": "Haiti/IconAddon_kintsugiTeacup.webp",
             "rang_addon": 0
           },
           {
@@ -2422,7 +2422,7 @@
             "name_addon_en": "Yakuyoke Amulet",
             "description_addon_ru": "Мощный талисман, защищающий от подозрительных происшествий.Увеличивает продолжительность Преследования Ямаоки на 70%.Снижает скорость передвижения во время Преследования Ямаоки на 15%.",
             "description_addon_en": "A powerful talisman to protect your endeavours from being hindered by suspicious circumstances.Increasesthe Duration of aPhase-Walkby+3.5 seconds.Reducesyour Movement speed during aPhase-Walkby-15 %.",
-            "photo_addon": "Haiti/F:\\YandexDisk\\ДЕНИС\\проекты\\bot tg\\1\\ItemAddons\\Haiti\\iconAddon_yakuyokeAmulet.png",
+            "photo_addon": "Haiti/iconAddon_yakuyokeAmulet.png",
             "rang_addon": 1
           },
           {
@@ -2431,7 +2431,7 @@
             "name_addon_en": "Wakizashi Saya",
             "description_addon_ru": "Ножны для родового клинка. Когда-то были изготовлены для семьи Ямаока.Используйте кнопку активной способности во время Преследования Ямаоки, чтобы вернуться к оболочке и закончить преследование",
             "description_addon_en": "The scabbard of an ancestral blade.Once crafted for the Yamaoka family.Press theActive Ability buttonduring aPhase-Walkto instantly reappear at the location of theHusk.",
-            "photo_addon": "Haiti/F:\\YandexDisk\\ДЕНИС\\проекты\\bot tg\\1\\ItemAddons\\Haiti\\iconAddon_wakizashiSaya.png",
+            "photo_addon": "Haiti/iconAddon_wakizashiSaya.png",
             "rang_addon": 1
           },
           {
@@ -2440,7 +2440,7 @@
             "name_addon_en": "Furin",
             "description_addon_ru": "Теплый летний ветерок заставляет звенеть маленький колокольчик, свисающий с потолка балкона.Все выжившие слышат звук мерцания.",
             "description_addon_en": "A warm summer breeze chimes the little bell hanging from the balcony ceiling.Causes all Survivors to hear the audio cue of thePhase-Walk.",
-            "photo_addon": "Haiti/F:\\YandexDisk\\ДЕНИС\\проекты\\bot tg\\1\\ItemAddons\\Haiti\\IconAddon_furin.webp",
+            "photo_addon": "Haiti/IconAddon_furin.webp",
             "rang_addon": 1
           },
           {
@@ -2449,7 +2449,7 @@
             "name_addon_en": "Dried Cherry Blossom",
             "description_addon_ru": "Рассыпающийся на части сухой цветок вишни. Когда-то был символом смертности.Выжившие активируют Инстинкт убийцы, когда оказываются в радиусе 3 м от Духа во время мерцанияВо время \"Преследования Ямаоки\" следы-трещины не видны",
             "description_addon_en": "A crumbling, dried cherry flower.Once the symbol of mortality.Coming within3 metresof a Survivor during aPhase-WalktriggersKiller Instinct.Scratch Marksare no longer visible to you during aPhase-Walk.",
-            "photo_addon": "Haiti/F:\\YandexDisk\\ДЕНИС\\проекты\\bot tg\\1\\ItemAddons\\Haiti\\iconAddon_driedCherryBlossom.png",
+            "photo_addon": "Haiti/iconAddon_driedCherryBlossom.png",
             "rang_addon": 1
           },
           {
@@ -2458,7 +2458,7 @@
             "name_addon_en": "Uchiwa",
             "description_addon_ru": "Веер с изображениями кои. Создает приятные дуновения ветерка в жаркий летний день.Мгновенно восстанавливает \"преследование Ямаоки\" при оглушении доской",
             "description_addon_en": "A handheld fan with a koi motif to create a nice breeze on a hot summer day.Instantly rechargesYamaoka's Hauntingafter being stunned by aPallet.",
-            "photo_addon": "Haiti/F:\\YandexDisk\\ДЕНИС\\проекты\\bot tg\\1\\ItemAddons\\Haiti\\IconAddon_uchiwa.webp",
+            "photo_addon": "Haiti/IconAddon_uchiwa.webp",
             "rang_addon": 2
           },
           {
@@ -2467,7 +2467,7 @@
             "name_addon_en": "Senko Hanabi",
             "description_addon_ru": "Тонкие палочки, яркими искрами освещающие летние ночи и проливающие свет на красоту мимолетных моментов в жизниКогда заканчивается \"Преследование Ямаоки\", оболочка Духа взрывается, а все места для прыжков в радиусе 4 м блокируются на 5 сек.",
             "description_addon_en": "Thin sparklers that light up summer nights and display the beauty of ephemeral moments in life.Causes theHuskto explode after ending aPhase-Walk, blocking all Vault locations within4 metresof its location for5 seconds.",
-            "photo_addon": "Haiti/F:\\YandexDisk\\ДЕНИС\\проекты\\bot tg\\1\\ItemAddons\\Haiti\\IconAddon_senkoHanabi.webp",
+            "photo_addon": "Haiti/IconAddon_senkoHanabi.webp",
             "rang_addon": 2
           },
           {
@@ -2476,7 +2476,7 @@
             "name_addon_en": "Rusty Flute",
             "description_addon_ru": "Ржавый инструмент, издающий потусторонние звуки.Ускоряет восстановление Преследования Ямаоки на 40%.",
             "description_addon_en": "A rusty transverse flute with a haunting sound.Increasesthe Recharge rate ofYamaoka's Hauntingby+40 %.",
-            "photo_addon": "Haiti/F:\\YandexDisk\\ДЕНИС\\проекты\\bot tg\\1\\ItemAddons\\Haiti\\iconAddon_rustyFlute.png",
+            "photo_addon": "Haiti/iconAddon_rustyFlute.png",
             "rang_addon": 2
           },
           {
@@ -2485,7 +2485,7 @@
             "name_addon_en": "Mother's Glasses",
             "description_addon_ru": "Очки, принадлежавшие любящей матери с хронической болезнью.Выжившие активируют \"Инстинкт убийцы\", когда оказываются на расстоянии 2 м от оболочки",
             "description_addon_en": "A pair of glasses belonging to a loving mother afflicted with a chronic disease.Survivors coming within2 metresof theHuskduring aPhase-WalktriggersKiller Instinct.",
-            "photo_addon": "Haiti/F:\\YandexDisk\\ДЕНИС\\проекты\\bot tg\\1\\ItemAddons\\Haiti\\IconAddon_mothersGlasses.webp",
+            "photo_addon": "Haiti/IconAddon_mothersGlasses.webp",
             "rang_addon": 2
           },
           {
@@ -2494,7 +2494,7 @@
             "name_addon_en": "Katana Tsuba",
             "description_addon_ru": "Гарда родового клинка. Изготовлена для семьи Ямаока.Увеличивает время появления после использования Преследования Ямаоки на 20%.Увеличивает скорость передвижения во время появления после использования Преследования Ямаоки на 5%.",
             "description_addon_en": "The hand-guard of an ancestral blade.Crafted for the Yamaoka family.Extendsthe Invisibility duration while reappearing from aPhase-Walkby+0.2 seconds.Increasesyour Movement speed while reappearing from aPhase-Walkby+5 %.",
-            "photo_addon": "Haiti/F:\\YandexDisk\\ДЕНИС\\проекты\\bot tg\\1\\ItemAddons\\Haiti\\iconAddon_katanaTsuba.png",
+            "photo_addon": "Haiti/iconAddon_katanaTsuba.png",
             "rang_addon": 2
           },
           {
@@ -2503,7 +2503,7 @@
             "name_addon_en": "White Hair Ribbon",
             "description_addon_ru": "Шелковый бант, призванный укротить разбушевавшиеся волосы.Ускоряет заряд Преследования Ямаоки на 20%.",
             "description_addon_en": "A silken bow to tame wild hair.Increasesthe Charge speed ofYamaoka's Hauntingby+20 %.",
-            "photo_addon": "Haiti/F:\\YandexDisk\\ДЕНИС\\проекты\\bot tg\\1\\ItemAddons\\Haiti\\iconAddon_whiteHairRibbon.png",
+            "photo_addon": "Haiti/iconAddon_whiteHairRibbon.png",
             "rang_addon": 3
           },
           {
@@ -2512,7 +2512,7 @@
             "name_addon_en": "Rin's Broken Watch",
             "description_addon_ru": "Наручные часы с разбитым циферблатом. Имя \"Рин\" нацарапано на ремешке.Ускоряют восстановление Преследования Ямаоки на 15%.",
             "description_addon_en": "A wristwatch with a shattered glass.The name \"Rin\" is scribbled on the wristband.Increasesthe Recharge rate ofYamaoka's Hauntingby+30 %.",
-            "photo_addon": "Haiti/F:\\YandexDisk\\ДЕНИС\\проекты\\bot tg\\1\\ItemAddons\\Haiti\\iconAddon_rinsBrokenWatch.png",
+            "photo_addon": "Haiti/iconAddon_rinsBrokenWatch.png",
             "rang_addon": 3
           },
           {
@@ -2521,7 +2521,7 @@
             "name_addon_en": "Muddy Sports Day Cap",
             "description_addon_ru": "Замызганная кепка с логотипом школы. Внутри пришита бирка хозяйки: \"Рин\".Увеличивает скорость передвижения во время Преследования Ямаоки на 10%.",
             "description_addon_en": "A muddy sport cap with a High School logo.Identified with a sewn name tag to \"Rin\".Increasesyour Movement speed during aPhase-Walkby+10 %.",
-            "photo_addon": "Haiti/F:\\YandexDisk\\ДЕНИС\\проекты\\bot tg\\1\\ItemAddons\\Haiti\\iconAddon_muddySportCap.png",
+            "photo_addon": "Haiti/iconAddon_muddySportCap.png",
             "rang_addon": 3
           },
           {
@@ -2530,7 +2530,7 @@
             "name_addon_en": "Kaiun Talisman",
             "description_addon_ru": "Талисман удачи.Увеличивает продолжительность Преследования Ямаоки на 25%.",
             "description_addon_en": "A talisman to get luck on your side.Increasesthe Duration of aPhase-Walkby+1 second.",
-            "photo_addon": "Haiti/F:\\YandexDisk\\ДЕНИС\\проекты\\bot tg\\1\\ItemAddons\\Haiti\\iconAddon_kaiunTalisman.png",
+            "photo_addon": "Haiti/iconAddon_kaiunTalisman.png",
             "rang_addon": 3
           },
           {
@@ -2539,7 +2539,7 @@
             "name_addon_en": "Juniper Bonsai",
             "description_addon_ru": "Деревце бонсай с темной сине-зеленой кроной. Когда-то было символом традиций семьи Ямаока.Увеличивает частоту пассивного мерцания на 20%Увеличивает продолжительность пассивного мерцания на 50%",
             "description_addon_en": "Dark blue-green foliage bonsai tree.Once the symbol of Yamaoka family tradition.Reducesthe Cool-down of yourPassive Phasingby-1 second.Increasesthe Duration of yourPassive Phasingby+50 %.",
-            "photo_addon": "Haiti/F:\\YandexDisk\\ДЕНИС\\проекты\\bot tg\\1\\ItemAddons\\Haiti\\iconAddon_juniperBonzai.png",
+            "photo_addon": "Haiti/iconAddon_juniperBonzai.png",
             "rang_addon": 3
           },
           {
@@ -2548,7 +2548,7 @@
             "name_addon_en": "Zōri",
             "description_addon_ru": "Удобные плоские сандали, которые можно быстро снимать и надевать.Увеличивают скорость передвижения во время Преследования Ямаоки на 5%.",
             "description_addon_en": "A comfortable pair of flat sandals that can easily be slipped on and off.Increasesyour Movement speed during aPhase-Walkby+5 %.",
-            "photo_addon": "Haiti/F:\\YandexDisk\\ДЕНИС\\проекты\\bot tg\\1\\ItemAddons\\Haiti\\iconAddon_zori.png",
+            "photo_addon": "Haiti/iconAddon_zori.png",
             "rang_addon": 4
           },
           {
@@ -2557,7 +2557,7 @@
             "name_addon_en": "Shiawase Amulet",
             "description_addon_ru": "Талисман счастья и хорошего настроения.Увеличивает продолжительность Преследования Ямаоки на 15%.",
             "description_addon_en": "A talisman that makes one happy and enthusiastic.Increasesthe Duration of aPhase-Walkby+0.5 seconds.",
-            "photo_addon": "Haiti/F:\\YandexDisk\\ДЕНИС\\проекты\\bot tg\\1\\ItemAddons\\Haiti\\iconAddon_ShiawaseAmulet.png",
+            "photo_addon": "Haiti/iconAddon_ShiawaseAmulet.png",
             "rang_addon": 4
           },
           {
@@ -2566,7 +2566,7 @@
             "name_addon_en": "Origami Crane",
             "description_addon_ru": "Один из тысячи оридзуру. Загадай желание.Ускоряет восстановление Преследования Ямаоки на 20%.",
             "description_addon_en": "One of the one thousand Orizuru for your wish to come true.Increasesthe Recharge rate ofYamaoka's Hauntingby+20 %.",
-            "photo_addon": "Haiti/F:\\YandexDisk\\ДЕНИС\\проекты\\bot tg\\1\\ItemAddons\\Haiti\\iconAddon_origamiCrane.png",
+            "photo_addon": "Haiti/iconAddon_origamiCrane.png",
             "rang_addon": 4
           },
           {
@@ -2575,7 +2575,7 @@
             "name_addon_en": "Gifted Bamboo Comb",
             "description_addon_ru": "Бамбуковая расческа с частыми зубьями. Аккуратно распутывает взъерошенные волосы.Ускоряет заряд Преследования Ямаоки на 15%.",
             "description_addon_en": "A narrow tooth bamboo comb to gently untangle dishevelled hair.Increasesthe Charge speed ofYamaoka's Hauntingby+15 %.",
-            "photo_addon": "Haiti/F:\\YandexDisk\\ДЕНИС\\проекты\\bot tg\\1\\ItemAddons\\Haiti\\iconAddon_giftedBambooComb.png",
+            "photo_addon": "Haiti/iconAddon_giftedBambooComb.png",
             "rang_addon": 4
           },{
             "id":10000,
@@ -3449,7 +3449,7 @@
             "name_addon_en": "Renjiro's Bloody Glove",
             "description_addon_ru": "Эту перчатку Рендзиро прижимал к груди, когда сын нанес ему удар.Все выжившие могут видеть шарики крови на том же расстоянии, что и вы.Когда выживший прикасается к шарику крови, его аура подсвечивается на 3 сек.\"Когда все утекает сквозь пальцы, держись за свою честь\" - \"Учение Рендзиро\" 14:12",
             "description_addon_en": "The glove Renjiro held to his sternum following the strike dealt by his son Kazan.TheAurasof Survivors coming into contact with aBlood Orbare revealed to you for2 seconds.This effect stacks perBlood Orb.CausesBlood Orbsto be visible to Survivors and to be absorbed when they come into contact with them.\"When all else spills out, cling only to your honour.\" — Renjiro's Doctrine 14:12",
-            "photo_addon": "Oni/IconAddon renjirosBloodyGlove.png",
+            "photo_addon": "Oni/IconAddon_lionFang.webp",
             "rang_addon": 0
           },
           {

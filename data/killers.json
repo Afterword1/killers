@@ -7849,6 +7849,22 @@
             "description_addon_en":"Empty",
             "photo_addon":"empty.png",
             "rang_addon":5
+          },{
+            "id":10000,
+            "name_addon_ru":"Пусто",
+            "name_addon_en":"Empty",
+            "description_addon_ru":"Пусто",
+            "description_addon_en":"Empty",
+            "photo_addon":"empty.png",
+            "rang_addon":5
+          },{
+            "id":10000,
+            "name_addon_ru":"Пусто",
+            "name_addon_en":"Empty",
+            "description_addon_ru":"Пусто",
+            "description_addon_en":"Empty",
+            "photo_addon":"empty.png",
+            "rang_addon":5
           }
         ]
       }     

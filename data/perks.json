@@ -1,123 +1,1275 @@
 {
   "Killers_perks": [
-      {
-        "number": 0,
-        "name_ru": "Тихий шорох",
-        "name_en": "Bitter Murmur",
-        "description_ru":"У Вас появляется способность чтения ауры. Каждый раз после полной починки генератора вы будете видеть ауры Выживших в радиусе 16 метров от заведенного генератора в течение 5 секунд. Когда будет полностью заведен последний генератор, ауры всех выживших откроются вам на 5 сек, 7 сек, 10 сек.",
-        "description_en":"Unlocks potential in your Aura-reading ability: Each time a Generator IconHelpLoading generators is completed, the Auras IconHelp auras of all Survivors within 16 metres of that Generator are revealed to you for 5 seconds. Once the last Generator is completed, the Auras of all Survivors are revealed to you for 5/7/10 seconds.",
-        "photo_main":"iconPerks_BitterMurmur.png",
-        "rang":0,
-        "DLS":0
-      },{
-        "number": 1,
-        "name_ru": "Охотник на оленей",
-        "name_en": "Deerstalker",
-        "description_ru":"У вас появляется способность чтения ауры. Вы видите ауры умирающих выживших в радиусе {20 м.28 м.36 м.} от вас.",
-        "description_en":"Unlocks potential in your Aura-reading ability: The Auras IconHelp auras of all Survivors IconHelpLoading survivor in the Dying State IconHelp dying within 20/28/36 metres of your location are revealed to you.",
-        "photo_main":"iconPerks_Deerstalker.png",
-        "rang":0,
-        "DLS":0
-      },{
-        "number": 2,
-        "name_ru": "Сеющий страх",
-        "name_en": "Distressing",
-        "description_ru":"Ваша ужасающая энергетика распространяется на сверхъестественно большие расстояния. Радиус вашего террора увеличивается на {22% 24% 26%}. Вы получаете на 100% больше очков крови за действия в категории хитрость",
-        "description_en":"Your horrifying emanation strikes at a supernaturally long distance. Increases your Terror Radius IconHelp terrorRadius by 22/24/26 % Grants 100 % bonus Bloodpoints IconCurrency bloodpoints for all actions in the Deviousness DailyRitualIcon deviousness Category.",
-        "photo_main":"iconPerks_Distressing.png",
-        "rang":0,
-        "DLS":0
-      },{
-        "number": 3,
-        "name_ru": "Коварство ",
-        "name_en": "Insidious",
-        "description_ru":"Вы научились действовать скрытно. Простояв неподвижно в течение {секунд}, вы получаете эффект \"Незаметность\", который пропадет, если вы совершите действие или начнете двигаться. \"Незаметность\" скрывает ауру, радиус террора и красное свечение убийцы. 4 сек. 3 сек. 2 сек.",
-        "description_en":"Unlocks the stealth ability. Grants the Undetectable IconStatusEffects undetectable Status Effect after standing still for 4/3/2 seconds. This effect lasts until you start moving again.",
-        "photo_main":"iconPerks_Insidious.png",
-        "rang":0,
-        "DLS":0
-      },{
-        "number": 4,
-        "name_ru": "Мертвая хватка",
-        "name_en": "Iron Grasp",
-        "description_ru":"Железная хватка, с которой вы держите выживших, практически лишает их возможности побега. Эффективность сопротивления выживших понижена на 75%. Время высвобождения из вашей хватки увеличивается на {4% 8% 12%}",
-        "description_en":"Your powerful grasp on Survivors causes escapes to be nearly impossible. Whenever you are carrying a Survivor, the following effects apply: Reduces the strength of the Wiggle effects, causing involuntary strafing, by 75 %. Increases the maximum Wiggle duration by 4/8/12 %.",
-        "photo_main":"iconPerks_IronGrasp.png",
-        "rang":0,
-        "DLS":0
-      },{
-        "number": 5,
-        "name_ru": "Чудовищный храм",
-        "name_en": "Scourge Hook: Monstrous Shrine",
-        "description_ru":"Ваша страсть к крюкам в подвале заинтересовала Сущность. В начале матча до 4 случайных крюков становятся секущими. Их ауры выделены белым цветом. Сущность поглощает жертву с секущих крюков на {10% 15% 20%} быстрее, если убийца находится не в радиусе 24 м. Крюки в подвале считаются секущими. ",
-        "description_en":"Your fervent care of the Hooks found in the Basement has aroused The Entity's interest. At the start of the Trial, 4 random Hooks, as well as the 4 Basement Hooks, are changed into Scourge Hooks: The Auras IconHelp auras of Scourge Hooks are revealed to you in white. Whenever a Survivor is hooked onto a Scourge Hook, the following effect applies when you are farther than 24 metres from the hooked Survivor: Accelerates the Sacrifice Process by 10/15/20 %. \"Then you will know that there is no escape. When hanging in the depths, you face the dark one.\"",
-        "photo_main":"iconPerks_MonstrousShrine.png",
-        "rang":0,
-        "DLS":0
-      },{
-        "number": 6,
-        "name_ru": "Порча: никому не скрыться от смерти",
-        "name_en": "Hex: No One Escapes Death",
-        "description_ru":"Порча, черпающая силу в надежде. Тотем порчи наполняет вас силой, когда выжившие в двух шагах от бегства. Как только на ворота будет подано питание, проклятие падет на тусклый тотем, если он остался на карте. Во время действия этого проклятия выжившие получают эффект \"Уязвимость\". Ваша скорость передвижения увеличивается на {2% 3% 4%}. Как только выжившие замечают эффект порчи, они начинают видеть и ауру ее тотема на расстоянии 4м. В течение следующих 30 сек. этот радиус постепенно увеличивается, пока не достигнет 24 м. Порча действует, пока не уничтожен соответствующий тотем. Выживших с эффектом \"Уязвимость\" можно смертельно ранить базовой атакой, даже если они не ранены.",
-        "description_en":"A Hex rooting its power on hope. You are animated by the power of your Hex Totem when the Survivors are on the verge of escaping. Once the Exit Gates IconHelp exitGates are powered, if there is still a Dull Totem IconHelpLoading totem remaining in the environment, Hex: No One Escapes Death activates and lights it: Grants a 2/3/4 % Haste IconStatusEffects haste Status Effect. Causes all Survivors to suffer permanently from the Exposed IconStatusEffects exposed Status Effect. Hex: No One Escapes Death remains inactive if no Dull Totems are available. Once the Status Effect is revealed to Survivors, Hex: No One Escapes Death reveals the Aura IconHelp auras of its Hex Totem to all Survivors within 4 metres and gradually expands that range to 24 metres over the course of 30 seconds. All effects of the Hex Perk persist until its Hex Totem IconHelpLoading totem is cleansed or blessed. \"And the beast became faster and more powerful as if The Entity's shadowy whips were lashing at its back.\"",
-        "photo_main":"iconPerks_NoOneEscapesDeath.png",
-        "rang":0,
-        "DLS":0
-      },{
-        "number": 7,
-        "name_ru": "Небрежный мясник",
-        "name_en": "Sloppy Butcher",
-        "description_ru":"Вы знаете, как заставить их истекать кровью. Нанесенные базовой атакой раны накладывают на выживших эффекты \"Кровотечение\" и \"Травма\" на 90 сек. Ускоряет потерю прогресса лечения из-за \"Кровотечения\" на {15% 20% 25%} \"Кровотечение\" уменьшает прогресс лечения, когда выжившего не лечат, и увеличивает кровавый след за ранеными выжившими. Действует в течение указанного срока или до полного исцеления. \"Травма\" увеличивает время лечения на 25% и действует в течение указанного срока или до полного исцеления.",
-        "description_en":"You know where to hit to make them bleed. Wounds inflicted by Basic Attacks cause Survivors to suffer from the Haemorrhage IconStatusEffects bleeding and Mangled IconStatusEffects mangled Status Effects for 70/80/90 seconds. Increases the Bleeding frequency of injured Survivors by 50/75/100 % for the same duration. Increases the Regression rate at which partial Healing Progression is lost because of Haemorrhage by +25 %. \"It is in its sadistic nature. There is no swift kill as it delights in the obscene spectacle of our agonising suffering.\"",
-        "photo_main":"iconPerks_SloppyButcher.png",
-        "rang":0,
-        "DLS":0
-      },{
-        "number": 8,
-        "name_ru": "Сумеречные шпионы",
-        "name_en": "Spies From The Shadows",
-        "description_ru":"Вороны могут общаться с вами напрямую. В 100% случаев каркающие вороны будут давать вам визуальную подсказку, когда вы находитесь в радиусе {20 м. 28 м. 36 м.}. \"Сумеречным шпионам\" требуется 5 сек. на перезарядку.",
-        "description_en":"Allows the Crows found in the environment to directly communicate with you. Whenever you are within 20/28/36 metres of a Crow IconHelp crows that was startled by a nearby Survivor, you are alerted with a Loud Noise Notification. Spies from the Shadows has a cool-down of 5 seconds between alerts. \"In the shadows they torment, scarring our minds with each scream.\"",
-        "photo_main":"iconPerks_SpiesFromTheShadows.png",
-        "rang":0,
-        "DLS":0
-      },{
-        "number": 9,
-        "name_ru": "Порча: охотничий азарт ",
-        "name_en": "Hex: Thrill of the Hunt",
-        "description_ru":"Порча черпает силу от людской надежды. Ложная надежда выживших будоражит вас и усиливает ваши тотемы. Вы получаете жетон за каждый тусклый и проклятый тотем на карте. За каждый жетон вы получаете на 10% больше очков крови за действия в категории \"Охота\". Действия выживших по очищению и благословению замедляются на {8% 9% 10%} за каждый жетон. Вы получите уведомление, когда выживший начнет очищать тотем порчи.",
-        "description_en":"A Hex rooting its power on hope. The false hope of Survivors fills you with excitement and strengthens your Totems. For each Totem remaining in the environment, Hex: Thrill of the Hunt is granted 1 Token. For each Token, all Survivors suffer from a stack-able 8/9/10 % Action Speed penalty to Cleansing and Blessing Totems, up to a maximum of 40/45/50 %. Grants a stack-able 10 % bonus Bloodpoints IconCurrency bloodpoints for actions in the Hunter DailyRitualIcon hunter Category per Token, up to a maximum of 50 %. All effects of the Hex Perk persist until its Hex Totem IconHelpLoading totem is cleansed or blessed.",
-        "photo_main":"DLC3/iconPerks_ThrillOfTheHunt.png",
-        "rang":0,
-        "DLS":0
-      },{
-        "number": 10,
-        "name_ru": "Безжалостный",
-        "name_en": "Unrelenting",
-        "description_ru":"Вы быстрее оправляетесь после неудачной атаки основным оружием. Время перезарядки после базовой атаки мимо цели снижается на {20% 25% 30%}.",
-        "description_en":"You recuperate faster from missed attacks made with your main weapon. Reduces the Cool-down of missed Basic Attacks by 20/25/30 %.",
-        "photo_main":"iconPerks_Unrelenting.png",
-        "rang":0,
-        "DLS":0
-      },{
-        "number": 11,
-        "name_ru": "Шепоты",
-        "name_en": "Whispers",
-        "description_ru":"Вы начинаете немного понимать, о чем говорит Сущность. Вы периодически слышите ее шепот, находясь в радиусе {48 м. 40 м. 32 м.} от Выжившего. ",
-        "description_en":"You have a rudimentary understanding of The Entity's voice. Whenever at least one Survivor is within 48/40/32 metres of your location, you hear the sporadic whispers of the Entity IconHelp entity . \"It is unclear as to the motivations of The Fog, but it is undeniable that it often takes the beast's side.\" — Unknown, Notebook",
-        "photo_main":"iconPerks_Whispers.png",
-        "rang":0,
-        "DLS":0
-      },{
-        "number": 12,
-        "name_ru": "Разбитые надежды",
-        "name_en": "Shattered Hope",
-        "description_ru":"Чтобы поймать добычу, нужно сначала уничтожить ее надежды. Когда вы тушите дарующий тотем, тотем вместо этого уничтожается. Когда вы уничтожаете дарующий тотем таким способом, ауры всех выживших в пределах радиуса действия тотема показываются вам в течение {6 сек. 7 сек. 8 сек.}. ",
-        "description_en":"To capture your prey, you must first extinguish their hope. Instead of snuffing Boon Totems Atl Hud Icon BoonTotem you destroy them. Destroying a Boon Totem this way reveals the Auras IconHelp auras of all Survivors that were within its range at that moment for 6/7/8 seconds. \"Nothing is permanent here. Nothing except our endless perdition.\" — Unknown, Notebook",
-        "photo_main":"IconPerks_shatteredHope.png",
-        "rang":0,
-        "DLS":0
-      },{
+    {
+      "number": 0,
+      "photo_main": "Tihij_shoroh.png",
+      "name_en": "Bitter Murmur",
+      "description_en": "Unlocks potential in your Aura-reading ability: Whenever a Generator is completed, the Auras of all Survivors within 16 metres of that Generator are revealed to you for 5 seconds. Once the last Generator is completed, the Auras of all Survivors anywhere in the environment are revealed to you for 5/7/10 seconds.",
+      "name_ru": "Тихий шорох",
+      "description_ru": "У Вас появляется способность чтения ауры. Каждый раз после полной починки генератора вы будете видеть ауры Выживших в радиусе 16 метров от заведенного генератора в течение 5 секунд . Когда будет полностью заведен последний генератор, ауры всех выживших откроются вам на {секунд}. I уровень | II уровень | III уровень 5 сек. | 7 сек. | 10 сек.",
+      "rang": 0,
+      "DLS": "All"
+  },
+  {
+      "number": 1,
+      "photo_main": "Ohotnik_na_olenej.png",
+      "name_en": "Deerstalker",
+      "description_en": "Unlocks potential in your Aura-reading ability: The Auras of all Survivors in the Dying State are revealed to you within 20/28/36 metres.",
+      "name_ru": "Охотник на оленей",
+      "description_ru": "У вас появляется способность чтения ауры. Вы видите ауры умирающих выживших в радиусе {метров} от вас. I уровень | II уровень | III уровень 20 м. | 28 м. | 36 м.",
+      "rang": 0,
+      "DLS": "All"
+  },
+  {
+      "number": 2,
+      "photo_main": "Sejuschij_strah.png",
+      "name_en": "Distressing",
+      "description_en": "Your horrifying emanation strikes at a supernaturally long distance. Permanently increases the Terror Radius by 20/25/30 %.",
+      "name_ru": "Сеющий страх",
+      "description_ru": "Ваша ужасающая энергетика распространяется на сверхъестественно большие расстояния. Радиус вашего террора увеличивается на {процентов}. I уровень | II уровень | III уровень 22% | 24% | 26%",
+      "rang": 0,
+      "DLS": "All"
+  },
+  {
+      "number": 3,
+      "photo_main": "Porcha:_nikomu_ne_skryt'sja_ot_smerti.png",
+      "name_en": "Hex: No One Escapes Death",
+      "description_en": "A Hex rooting its power on hope. You are animated by the power of your Hex Totem when the Survivors are on the verge of escaping. Once the Exit Gates are powered, if there is still a Dull Totem remaining in the environment, Hex: No One Escapes Death activates and lights it: Grants a 2/3/4 % Haste Status Effect. Causes all Survivors to suffer permanently from the Exposed Status Effect. Hex: No One Escapes Death remains inactive if no Dull Totems are available. Once the Status Effect is revealed to Survivors, Hex: No One Escapes Death reveals the Aura of its Hex Totem to all Survivors within 4 metres and gradually expands that range to 24 metres over the course of 30 seconds. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed. \"And the beast became faster and more powerful as if The Entity's shadowy whips were lashing at its back.\"",
+      "name_ru": "Порча: никому не скрыться от смерти",
+      "description_ru": "Порча, черпающая силу в надежде. Тотем порчи наполняет вас силой, когда выжившие в двух шагах от бегства. Как только на ворота будет подано питание, проклятие падет на тусклый тотем, если он остался на карте. Во время действия этого проклятия выжившие получают эффект \" Уязвимость \". Ваша скорость передвижения увеличивается на {процентов}. Как только выжившие замечают эффект порчи, они начинают видеть и ауру ее тотема на расстоянии 4м. В течение следующих 30 сек. этот радиус постепенно увеличивается, пока не достигнет 24 м. Порча действует, пока не уничтожен соответствующий тотем. Выживших с эффектом \"Уязвимость\" можно смертельно ранить базовой атакой, даже если они не ранены. I уровень | II уровень | III уровень 2% | 3% | 4%",
+      "rang": 0,
+      "DLS": "All"
+  },
+  {
+      "number": 4,
+      "photo_main": "Porcha:_ohotnichij_azart.png",
+      "name_en": "Hex: Thrill of the Hunt",
+      "description_en": "A Hex rooting its power on hope. The false hope of Survivors fills you with excitement and strengthens your Totems. Start the Trial with 5 Tokens, one per Totem: Reduces the Action speeds for Blessing and Cleansing by a stack-able 8/10/12 % per Token, up to a maximum of 40/50/60 %. Hex: Thrill of the Hunt loses -1 Token whenever a Totem is cleansed. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed.",
+      "name_ru": "Порча: охотничий азарт",
+      "description_ru": "Порча черпает силу от людской надежды. Ложная надежда выживших будоражит вас и усиливает ваши тотемы. Вы получаете жетон за каждый тусклый и проклятый тотем на карте. Действия выживших по очищению и благословению замедляются на {процентов} за каждый жетон. Вы получите уведомление, когда выживший начнет очищать проклятый тотем. I уровень | II уровень | III уровень 8% | 10% | 12%",
+      "rang": 0,
+      "DLS": "All"
+  },
+  {
+      "number": 5,
+      "photo_main": "Kovarstvo.png",
+      "name_en": "Insidious",
+      "description_en": "Unlocks the stealth ability. After standing still for 4/3/2 seconds, Insidious activates: Grants the Undetectable Status Effect for as long as you remain stationary.",
+      "name_ru": "Коварство",
+      "description_ru": "Вы научились действовать скрытно. Простояв неподвижно в течение {секунд}, вы получаете эффект \" Незаметность \", который пропадет, если вы совершите действие или начнете двигаться. \"Незаметность\" скрывает ауру, радиус террора и красное свечение убийцы. I уровень | II уровень | III уровень 4 сек. | 3 сек. | 2 сек.",
+      "rang": 0,
+      "DLS": "All"
+  },
+  {
+      "number": 6,
+      "photo_main": "Mertvaja_hvatka_1.png",
+      "name_en": "Iron Grasp",
+      "description_en": "Your powerful grasp on Survivors causes escapes to be nearly impossible. Whenever you are carrying a Survivor, the following effects apply: Reduces the strength of the Wiggle effects, causing involuntary strafing, by 75 %. Increases the maximum Wiggle duration by 4/8/12 %.",
+      "name_ru": "Мертвая хватка",
+      "description_ru": "Железная хватка, с которой вы держите выживших, практически лишает их возможности побега. Эффективность сопротивления выживших понижена на 75% . Время высвобождения из вашей хватки увеличивается на {процентов}. I уровень | II уровень | III уровень 4% | 8% | 12%",
+      "rang": 0,
+      "DLS": "All"
+  },
+  {
+      "number": 7,
+      "photo_main": "Sekuschij_krjuk:_chudovischnyj_hram.png",
+      "name_en": "Scourge Hook: Monstrous Shrine",
+      "description_en": "Your fervent care of the Hooks found in the Basement has aroused The Entity's interest. At the start of the Trial, 4 random Hooks, as well as the 4 Basement Hooks, are changed into Scourge Hooks: The Auras of Scourge Hooks are revealed to you in white. Whenever a Survivor is hooked onto a Scourge Hook, the following effect applies when you are farther than 24 metres from the hooked Survivor: Accelerates the Sacrifice Process by 10/15/20 %. \"Then you will know that there is no escape. When hanging in the depths, you face the dark one.\"",
+      "name_ru": "Секущий крюк: чудовищный храм",
+      "description_ru": "Ваша страсть к крюкам в подвале заинтересовала Сущность . В начале матча до 4 случайных крюков становятся секущими. Их ауры выделены белым цветом. Сущность поглощает жертву с секущих крюков на {процентов} быстрее, если убийца находится не в радиусе 24 м. Крюки в подвале считаются секущими. I уровень | II уровень | III уровень 10% | 15% | 20%",
+      "rang": 0,
+      "DLS": "All"
+  },
+  {
+      "number": 8,
+      "photo_main": "Razbitye_nadezhdy.png",
+      "name_en": "Shattered Hope",
+      "description_en": "To capture your prey, you must first extinguish their hope. Instead of snuffing Boon Totems you destroy them. Destroying a Boon Totem this way reveals the Auras of all Survivors that were within its range at that moment for 6/7/8 seconds. \"Nothing is permanent here. Nothing except our endless perdition.\" — Unknown, Notebook",
+      "name_ru": "Разбитые надежды",
+      "description_ru": "Чтобы поймать добычу, нужно сначала уничтожить ее надежды. Когда вы тушите дарующий тотем, тотем вместо этого уничтожается. Когда вы уничтожаете дарующий тотем таким способом, ауры всех выживших в пределах радиуса действия тотема показываются вам в течение {секунд}. I уровень | II уровень | III уровень 6 сек. | 7 сек. | 8 сек.",
+      "rang": 0,
+      "DLS": "All"
+  },
+  {
+      "number": 9,
+      "photo_main": "Nebrezhnyj_mjasnik.png",
+      "name_en": "Sloppy Butcher",
+      "description_en": "You know where to hit to make them bleed. Wounds inflicted by Basic Attacks cause Survivors to suffer from the Haemorrhage and Mangled Status Effects for 70/80/90 seconds. Increases the Bleeding frequency of injured Survivors by 50/75/100 % for the same duration. Increases the Regression rate at which partial Healing Progression is lost because of Haemorrhage by +25 %. \"It is in its sadistic nature. There is no swift kill as it delights in the obscene spectacle of our agonising suffering.\"",
+      "name_ru": "Небрежный мясник",
+      "description_ru": "Вы знаете, как заставить их истекать кровью. Нанесенные базовой атакой раны накладывают на выживших эффекты \"Кровотечение\" и \"Травма\" на 90 сек. Ускоряет потерю прогресса лечения из-за \"Кровотечения\" на {процентов} \"Кровотечение\" уменьшает прогресс лечения, когда выжившего не лечат, и увеличивает кровавый след за ранеными выжившими. Действует в течение указанного срока или до полного исцеления. \"Травма\" увеличивает время лечения на 25% и действует в течение указанного срока или до полного исцеления. I уровень | II уровень | III уровень 15% | 20% | 25%",
+      "rang": 0,
+      "DLS": "All"
+  },
+  {
+      "number": 10,
+      "photo_main": "Sumerechnye_shpiony.png",
+      "name_en": "Spies from the Shadows",
+      "description_en": "Allows the Crows found in the environment to directly communicate with you. Whenever you are within 20/28/36 metres of a Crow that was startled by a nearby Survivor, you are alerted with a Loud Noise Notification. Spies from the Shadows has a cool-down of 5 seconds between alerts. \"In the shadows they torment, scarring our minds with each scream.\"",
+      "name_ru": "Сумеречные шпионы",
+      "description_ru": "Вороны могут общаться с вами напрямую. В 100% случаев каркающие вороны будут давать вам визуальную подсказку, когда вы находитесь в радиусе {метров}. \" Сумеречным шпионам \" требуется 5 сек. на перезарядку . I уровень | II уровень | III уровень 20 м. | 28 м. | 36 м.",
+      "rang": 0,
+      "DLS": "All"
+  },
+  {
+      "number": 11,
+      "photo_main": "Bezzhalostnyj.png",
+      "name_en": "Unrelenting",
+      "description_en": "You recuperate faster from missed attacks made with your main weapon. Reduces the Cool-down of missed Basic Attacks by 20/25/30 %.",
+      "name_ru": "Безжалостный",
+      "description_ru": "Вы быстрее оправляетесь после неудачной атаки основным оружием. Время перезарядки после базовой атаки мимо цели снижается на {процентов}. I уровень | II уровень | III уровень 20% | 25% | 30%",
+      "rang": 0,
+      "DLS": "All"
+  },
+  {
+      "number": 12,
+      "photo_main": "Shepoty.png",
+      "name_en": "Whispers",
+      "description_en": "You have a rudimentary understanding of The Entity's voice. Whenever at least one Survivor is within 48/40/32 metres of your location, you hear the sporadic whispers of the Entity. \"It is unclear as to the motivations of The Fog, but it is undeniable that it often takes the beast's side.\" — Unknown, Notebook",
+      "name_ru": "Шепоты",
+      "description_ru": "Вы начинаете немного понимать, о чем говорит Сущность . Вы периодически слышите ее шепот, находясь в радиусе {метров} от Выжившего. l уровень | II уровень | III уровень 48 м. | 40 м. | 32 м.",
+      "rang": 0,
+      "DLS": "All"
+  },
+  {
+      "number": 13,
+      "photo_main": "Mrachnye_ob'jat'ja.png",
+      "name_en": "Grim Embrace",
+      "description_en": "Your act of servitude to The Entity has not gone unnoticed. Each time a Survivor is hooked for the first time, Grim Embrace gains +1 Token and activates once you are at least 16 metres away from the Hook: 1-3 Tokens: Blocks all Generators for 6/8/10 seconds. 4 Tokens: Blocks all Generators for 40 seconds and the Aura of the Obsession is revealed to you for 6 seconds. \"Are we nothing but prisoners to our sorrow?\" — Carmina Mora",
+      "name_ru": "Мрачные объятья",
+      "description_ru": "Ваш акт служения Сущности не остался незамеченным. Каждый раз, когда выживший впервые оказывается подвешен на крюк, вы получаете жетон. Когда вы отходите на 16 м от крюка, все генераторы блокируются на {секунд}. Когда вы накопите жетоны в количестве 4 шт. и отойдете от крюка на 16 м, Сущность заблокирует все генераторы на 40 секунд. Вы видите ауру объекта одержимости в течение 6 сек. Затем \"Мрачные объятья\" перестают действовать. Одновременно убийца может быть одержим только одним выжившим. I уровень | II уровень | III уровень 8 сек. | 10 сек. | 12 сек.",
+      "rang": 0,
+      "DLS": "Artist"
+  },
+  {
+      "number": 14,
+      "photo_main": "Porcha:_pentimento.png",
+      "name_en": "Hex: Pentimento",
+      "description_en": "You reveal the true power of the Totems, hidden within their remains. You see the Auras of cleansed Totems. You can perform a ritual on a cleansed Totem to resurrect it as a Rekindled Totem. For each Rekindled Totem active at the same time, Hex: Pentimento gains an additional effect: 1 Totem: reduces all Survivors' Repair speed by 20/25/30 %. 2 Totems: reduces all Survivors' Healing speed by 20/25/30 %. 3 Totems: reduces all Survivors' Recovery speed from being downed by 20/25/30 %. 4 Totems: reduces all Survivors' Gate-Opening speed by 20/25/30 %. 5 Totems: all Totems are permanently blocked by The Entity. When a Rekindled Totem is cleansed, its remains are consumed by The Entity and it cannot be rekindled. \"Though a pentimento is an inherently concealed piece of art, there is something to be said of the desire to discover that which is beyond.\" — A Guide to Art & Process (1961)",
+      "name_ru": "Порча: пентименто",
+      "description_ru": "Вы пробуждаете истинную мощь тотемов, сокрытую в их остатках. Вы видите ауры уничтоженных тотемов и можете совершить ритуал над уничтоженным тотемом, восстановив его как проклятый тотем для \"Порчи: пентименто\". \"Порча: пентименто\" получает по дополнительному эффекту за каждый одновременно действующий прокляты тотем: 1 проклятый тотем замедляет починку выжившими на {процентов}. 2 проклятых тотема замедляют лечение выживших на {процентов}. 3 проклятых тотема замедляют восстановление выживших после смертельного ранения на {процентов}. 4 проклятых тотема замедляют открывание ворот выжившими на {процентов}. 5 проклятых тотемов: все тотемы блокируются Сущностью. При уничтожении восстановленного тотема (любым способом) его остатки поглощаются Сущностью. Такой тотем уже не восстановить. I уровень | II уровень | III уровень 20% | 25% | 30%",
+      "rang": 0,
+      "DLS": "Artist"
+  },
+  {
+      "number": 15,
+      "photo_main": "Sekuschij_krjuk:_rezonans_boli.png",
+      "name_en": "Scourge Hook: Pain Resonance",
+      "description_en": "Overwhelming pain reverberates outwards. At the start of the Trial, 4 random Hooks are changed into Scourge Hooks: The Auras of Scourge Hooks are revealed to you in white. Start the Trial with 4 Token. Whenever a Survivor is hooked onto a Scourge Hook for the first time, Scourge Hook: Pain Resonance consumes -1 Token and applies the following effects: Causes the Generator with the most progression to explode, damaging it. Instantly regresses the damaged Generator by 10/15/20 % of its total Progression. Causes the damaged Generator to start regressing afterwards. Causes all Survivors repairing the damaged Generator to scream. This does not trigger a Loud Noise Notification. Scourge Hook: Pain Resonance is disabled for the remainder of the Trial once all Tokens are consumed. \"The pain spills beyond flesh/darkness staining the horizon.\" — Girl in the Shadow by Carmina Mora",
+      "name_ru": "Секущий крюк: резонанс боли",
+      "description_ru": "Всепоглощающая боль прорывается наружу, сея хаос. В начале матча до 4 случайных крюка превратятся в секущие крюки. Для вас они подсвечены белой аурой. Вы начинаете матч с 4 жетонами. Когда один из выживших впервые оказывается на таком крюке, вы теряете 1 жетон, а генератор с наибольшим прогрессом взрывается, сразу теряя {процентов} прогресса и продолжая портиться. Когда у вас кончатся жетоны, \"Резонанс боли\" перестанет действовать до конца матча. I уровень | II уровень | III уровень 10% | 15% | 20%",
+      "rang": 0,
+      "DLS": "Artist"
+  },
+  {
+      "number": 16,
+      "photo_main": "Drakon'ja_hvatka.png",
+      "name_en": "Dragon's Grip",
+      "description_en": "Performing the Damage Generator action on a Generator activates Dragon's Grip for the next 30 seconds: The first Survivor interacting with the damaged Generator will scream, revealing their location for 4 seconds, and suffer from the Exposed Status Effect for 60 seconds. Dragon's Grip has a cool-down of 60/50/40 seconds. \"Such potential in this compound... even the slightest trace causes unnatural effects.\" — Journal of Talbot Grimes",
+      "name_ru": "Драконья хватка",
+      "description_ru": "Первый выживший, который будет взаимодействовать с генератором в течение 30 сек. после его поломки, закричит, выдав свое расположение на 4 сек., а также получит эффект \"Уязвимость\" на 60 сек. Время перезарядки \"Драконьей хватки\": {секунд}. Выживших с эффектом \"Уязвимость\" можно смертельно ранить базовой атакой, даже если они не ранены. I уровень | II уровень | III уровень 60 сек. | 50 сек. | 40 сек.",
+      "rang": 0,
+      "DLS": "Blight"
+  },
+  {
+      "number": 17,
+      "photo_main": "Porcha:_blagovolenie_krovi.png",
+      "name_en": "Hex: Blood Favour",
+      "description_en": "A Hex that gains the favour of The Entity when blood is spilt. Whenever a Survivor loses a Health State by any means, Hex: Blood Favour triggers its effect: Blocks all upright Pallets within 24/28/32 metres of that Survivor's location at the time for 15 seconds. Blocked Pallets cannot be dropped. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed. \"It would be no leap of the imagination to suggest that the Trials are a biological response of sorts.\" — Journal of Talbot Grimes",
+      "name_ru": "Порча: благоволение крови",
+      "description_ru": "Эта порча вызывает благосклонность Сущности при пролитии крови. После ранения выжившего Сущность удерживает на месте доски в радиусе 32 м от выжившего в течение 15 сек. Эти доски нельзя опрокинуть. Порча действует, пока не уничтожен соответствующий тотем.",
+      "rang": 0,
+      "DLS": "Blight"
+  },
+  {
+      "number": 18,
+      "photo_main": "Porcha:_ne-smert'.png",
+      "name_en": "Hex: Undying",
+      "description_en": "A Hex which maintains the vile powers that flow throughout the Trial. The Auras of Survivors within 2/3/4 metres of any Dull Totem are revealed to you. When another Perk's Hex Totem is cleansed or blessed, its Hex is transferred to the Hex: Undying Totem, including any accumulated Tokens, disabling Hex: Undying instead. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed.",
+      "name_ru": "Порча: не-смерть",
+      "description_ru": "Пока \"Порча: Не-смерть\" действует, открываются ауры выживших в радиусе {метров} от любого тусклого тотема. Когда идет очистка другого проклятого тотема, порча с этого тотема (вместе с ее жетонами) переносится на тотем \"Порча: Не-смерть\" с прекращением действия эффекта \"Порча: Не-смерть\". I уровень | II уровень | III уровень 2 м. | 3 м. | 4 м.",
+      "rang": 0,
+      "DLS": "Blight"
+  },
+  {
+      "number": 19,
+      "photo_main": "Barbekju_i_chili.png",
+      "name_en": "Barbecue & Chilli",
+      "description_en": "A deep bond with The Entity unlocks potential in one's Aura-reading ability. After hooking a Survivor, all Survivors who are at least 60/50/40 metres away from that Hook have their Aura revealed to you for 5 seconds. \"I just can't take no pleasure in killing. There's just some things you gotta do. Don't mean you have to like it.\" — Drayton Sawyer",
+      "name_ru": "Барбекю и чили",
+      "description_ru": "Тесная связь с Сущностью дарует вам способность чтения аур. После того, как вы вешаете выжившего на крюк, ауры остальных выживших открываются вам на 5 сек. , если они находятся более чем в {метров} от крюка. I уровень | II уровень | III уровень 60м. | 50м. | 40м.",
+      "rang": 0,
+      "DLS": "Cannibal"
+  },
+  {
+      "number": 20,
+      "photo_main": "Gibel'_Franklina.png",
+      "name_en": "Franklin's Demise",
+      "description_en": "Your vicious Basic Attacks make Survivors drop their Items on impact: Causes dropped Items to slowly lose their Charges over 150/120/90 seconds. The Auras of dropped Items are revealed to you within 32 metres. The level of depletion is indicated by the colour of the Aura, ranging from white to red as the timer elapses. \"Sally, I hear something. Stop! Stop!\" — Franklin Hardesty",
+      "name_ru": "Гибель Франклина",
+      "description_ru": "Ваши базовые атаки заставляют попавших под удар выживших ронять предметы. Лежащий на земле предмет теряет все заряды за {секунд}, если его не подобрать. Ауры выпавших предметов в радиусе 32 м подсвечиваются белым. Ауры предметов постепенно краснеют, пока их заряды не истощатся. I уровень | II уровень | III уровень 150 сек. | 120 сек. | 90 сек.",
+      "rang": 0,
+      "DLS": "Cannibal"
+  },
+  {
+      "number": 21,
+      "photo_main": "Nokaut.png",
+      "name_en": "Knock Out",
+      "description_en": "The trauma caused by your brutal attacks makes crying for help painfully difficult. Putting a Survivor into the Dying State with your Basic Attack blocks their Aura from being revealed to any Survivor, who is farther than 32/24/16 metres away from them. For the next 15 seconds, the following effects apply to the dying Survivor: Reduces their Field of View and causes them to be deafened. Suffers from the Blindness Status Effect. Reduces the Crawling speed by -50 %. Reduces the Recovery speed by -25 %. \"Oh, that gun's no good. The old way... with a sledge! You see, that way's better. They die better that way.\" — Nubbins Sawyer",
+      "name_ru": "Нокаут",
+      "description_ru": "Травмы, нанесенные вашими жестокими ударами, не позволяют выжившим звать на помощь. Ауры умирающих выживших, которых вы сразили базовыми атаками, не видны их союзникам, пока те находятся более чем в {метрах} от них. Умирающие выжившие, которых вы сразили базовыми атаками, ползают на 50% медленнее в течение 15 сек., а их скорость восстановления снижается на 25%. В это время на выживших действует эффект \"Слепота\". \"Слепота\" не дает выжившим видеть ауры. I уровень | II уровень | III уровень 32 м. | 24 м. | 16 м.",
+      "rang": 0,
+      "DLS": "Cannibal"
+  },
+  {
+      "number": 22,
+      "photo_main": "Mertvaja_hvatka.png",
+      "name_en": "Deadlock",
+      "description_en": "You induce mental suffering by crushing any hope of escape. Whenever a Generator is completed, The Entity blocks the Generator with the most progression for 15/20/25 seconds. The Aura of the blocked Generator is revealed to you in white during this time. \"Nobody escapes us.\" — Pinhead",
+      "name_ru": "Мертвая хватка",
+      "description_ru": "Вы причиняете мучения разуму, сокрушая все надежды на бегство. При полной починке генератора Сущность блокирует генератор с наибольшим прогрессом на {секунд}. Вы видите белую ауру в течение этого времени. I уровень | II уровень | III уровень 15 сек. | 20 сек. | 25 сек.",
+      "rang": 0,
+      "DLS": "Cenobite"
+  },
+  {
+      "number": 23,
+      "photo_main": "Porcha:_igrushka.png",
+      "name_en": "Hex: Plaything",
+      "description_en": "A Hex that toys with a victim's suffering. If there is at least one Dull Totem remaining in the Trial Grounds, Hex: Plaything activates on a random Totem each time a Survivor is hooked for the first time: The hooked Survivor suffers from the Cursed and Oblivious Status Effects until Hex: Plaything is cleansed. For the first 90 seconds, only the Cursed Survivor is able to cleanse the Hex Totem. The Aura of Hex: Plaything's Hex Totem is revealed to the Cursed Survivor within 24/20/16 metres. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed. \"We came. Now you must come with us. Taste our pleasure.\" — Pinhead",
+      "name_ru": "Порча: игрушка",
+      "description_ru": "Порча, которая играется с муками своей жертвы. Когда вы в первый раз вешаете выжившего на крюк, он получает проклятье, а на тусклом тотеме активируется \"Порча: Игрушка\". Проклятые выжившие страдают от эффекта \"Забывчивость\" до тех пор, пока не исчезнет \"Порча: Игрушка\". Аура тотема \"Порча: Игрушка\" показывается проклятому выжившему, пока тот находится в {метрах} от него. В течение первых 90 сек. лишь проклятый выживший способен очистить тотем. \"Забывчивость\" мешает выжившим слышать или подвергаться действию радиуса террора убийцы. I уровень | II уровень | III уровень 24 м. | 20 м. | 16 м.",
+      "rang": 0,
+      "DLS": "Cenobite"
+  },
+  {
+      "number": 24,
+      "photo_main": "Sekuschij_krjuk:_dar_boli.png",
+      "name_en": "Scourge Hook: Gift of Pain",
+      "description_en": "You are the bringer of sweet pain. At the start of the Trial, 4 random Hooks are changed into Scourge Hooks: The Auras of Scourge Hooks are revealed to you in white. Each time a Survivor is unhooked from a Scourge Hook, the following effects apply: The Survivor suffers from the Haemorrhage and Mangled Status Effects for 90 seconds. After the first time they are healed, affected Survivors suffer from a 10/13/16 % Action Speed penalty to Repairing and Healing until they are injured again. \"We will tear your soul apart.\" — Pinhead",
+      "name_ru": "Секущий крюк: дар боли",
+      "description_ru": "Вы даруете сладостные муки. В начале матча до 4 случайных крюков превратятся в секущие крюки. Для вас они подсвечены белой аурой. Снятый с секущего крюка выживший получает на 90 сек. эффекты \"Кровотечение\" и \"Травма\". При первом лечении выживший получает штраф {процентов} к скорости лечения и починки, пока не будет ранен вновь. \"Кровотечение\" уменьшает прогресс лечения, когда выжившего не лечат, и увеличивает кровавый след за ранеными выжившими. Действует в течение указанного срока или до полного исцеления. \"Травма\" увеличивает время лечения на 25% и действует в течение указанного срока или до полного исцеления. I уровень | II уровень | III уровень 10% | 13% | 16%",
+      "rang": 0,
+      "DLS": "Cenobite"
+  },
+  {
+      "number": 25,
+      "photo_main": "Rozygrysh.png",
+      "name_en": "Bamboozle",
+      "description_en": "After vaulting a Window, Bamboozle calls upon The Entity to block that Window for the next 8/12/16 seconds. Blocked Windows cannot be vaulted by Survivors. Increases your general Vaulting speed by 5/10/15 %. Bamboozle only blocks one Window at a time and does not apply either of its effects to vaulting Pallets.",
+      "name_ru": "Розыгрыш",
+      "description_ru": "Вы перелезаете через препятствия на {процентов} быстрее. После преодоления препятствия Сущность заблокирует его на {секунд}. Навык может заблокировать только одно препятствие за раз. Препятствие заблокировано только для Выживших. Не действует на доски .  | I уровень | II уровень | III уровень Действия | 5% | 10% | 15% Блокировка | 8 сек. | 12 сек. | 16 сек.",
+      "rang": 0,
+      "DLS": "Clown"
+  },
+  {
+      "number": 26,
+      "photo_main": "Klounofobija.png",
+      "name_en": "Coulrophobia",
+      "description_en": "Even those without a fear of clowns know to be terrified of you. For all Survivors within your Terror Radius, the following effects apply: Reduces their Healing speed by 30/40/50 %. Increases the Rotation speed of Healing Skill Checks by +50 %.",
+      "name_ru": "Клоунофобия",
+      "description_ru": "Вы приводите в ужас даже тех, кто обычно не боится клоунов. В радиусе вашего террора выжившие лечатся на {процентов} медленнее, а проверка реакции во время лечения происходит на 50% быстрее. I уровень | II уровень | III уровень 30% | 40% | 50%",
+      "rang": 0,
+      "DLS": "Clown"
+  },
+  {
+      "number": 27,
+      "photo_main": "Chertik_iz_tabakerki.png",
+      "name_en": "Pop Goes the Weasel",
+      "description_en": "A deep bond with The Entity unlocks great strength. After hooking a Survivor, Pop Goes the Weasel activates for 35/40/45 seconds. Perform the Damage Generator action while Pop Goes the Weasel is active to benefit from the following effect: Instantly regresses the damaged Generator by -20 % of its current Progression. Pop Goes the Weasel deactivates after the Generator is damaged or once the timer runs out.",
+      "name_ru": "Чертик из табакерки",
+      "description_ru": "Глубокая связь с Сущностью дарит вам силу. После того, как вы повесили выжившего, следующий сломанный вами генератор сразу лишится 20% текущего прогресса. После повреждения генератора прогресс будет уменьшаться с обычной скоростью. \" Чертик из табакерки \" действует в течение {секунд} после подвешивания выжившего. I уровень | II уровень | III уровень 35 сек. | 40 сек. | 45 сек.",
+      "rang": 0,
+      "DLS": "Clown"
+  },
+  {
+      "number": 28,
+      "photo_main": "Vladychestvo.png",
+      "name_en": "Dominance",
+      "description_en": "The power you wield over the land strikes terror in the hearts of all who cross your path. The first time each Chest and each Totem are interacted with by a Survivor, Dominance triggers its effect: Calls upon The Entity to block it for 8/12/16 seconds. The Aura of the blocked Prop is revealed to you in white. \"Tragic, is it not? How powerless you must feel.\" — Dracula",
+      "name_ru": "Владычество",
+      "description_ru": "Ваше могущество вселяет ужас в сердца всех, кто по неосторожности оказывается на вашем пути. При первом взаимодействии выжившего с любым тотемом или сундуком, тот блокируется Сущностью на {секунд}. Ауры заблокированных тотемов и сундуков показываются белым. I уровень | II уровень | III уровень 8 сек. | 12 сек. | 16 сек.",
+      "rang": 0,
+      "DLS": "Dark Lord"
+  },
+  {
+      "number": 29,
+      "photo_main": "Porcha:_gor'kaja_uchast'.png",
+      "name_en": "Hex: Wretched Fate",
+      "description_en": "You see your victim from afar and resolve to prolong their suffering. After a Generator is completed, Hex: Wretched Fate activates and lights a random Dull Totem, cursing the Obsession: Reduces their Repair speed by 27/30/33 %. The Aura of the Hex Totem is revealed to them within 12 metres. \"So toil, mortal, toil! Your effort will be for naught!\" — Dracula",
+      "name_ru": "Порча: горькая участь",
+      "description_ru": "Вы видите свою жертву издалека и готовы продлить ее мучения. После починки одного генератора случайный тусклый тотем становится проклятым и накладывает одержимость. Одержимость замедляет скорость починки на {процентов}. При этом выжившие видят ауру проклятого тотема с расстояния в 12м. Эффект сохраняется до очищения проклятого тотема. Убийца может быть одержим одним выжившим за раз. I уровень | II уровень | III уровень 27% | 30% | 33% Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Темный Властелин  | Радужный амулет \"Порча: горькая участь\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Опытный Темный Властелин\" ",
+      "rang": 0,
+      "DLS": "Dark Lord"
+  },
+  {
+      "number": 30,
+      "photo_main": "Alchnost'.png",
+      "name_en": "Human Greed",
+      "description_en": "One can always rely on the avarice of the living and use it to one's advantage. Grants the ability to kick opened Chests and close them. The Auras of unopened Chests are revealed to you at all times. The Auras of Survivors coming within 8 metres of unopened or closed Chests are revealed to you for 3/4/5 seconds. Human Greed has a cool-down of 10 seconds on the ability to kick Chests. \"Come running, one and all, and see what fortune awaits you.\" — Dracula",
+      "name_ru": "Алчность",
+      "description_ru": "Всем живым присуща алчность, что можно использовать против них. Вы видите ауры неоткрытых сундуков и выживших в течение {секунд}, когда те приближаются к сундукам хотя бы на 8 м. У вас появляется возможность пинать сундуки, чтобы их закрыть. Способность перезаряжается 10 сек. I уровень | II уровень | III уровень 3 сек. | 4 сек. | 5 сек.",
+      "rang": 0,
+      "DLS": "Dark Lord"
+  },
+  {
+      "number": 31,
+      "photo_main": "Avarijnaja_knopka.png",
+      "name_en": "Dead Man's Switch",
+      "description_en": "After hooking a Survivor, Dead Man's Switch activates: Blocks the first Generator any Survivor stops repairing for 40/45/50 seconds. The Blocked Generator is highlighted to you in white. Dead Man's Switch cannot activate if its effect is still active from a previous activation. \"I've seen the look on a man's face when he realises he's going to die.\" — Caleb Quinn",
+      "name_ru": "Аварийная кнопка",
+      "description_ru": "Когда вы вешаете выжившего на крюк, активируется навык \" Аварийная кнопка \". Первый выживший, прекративший ремонт генератора, спровоцирует Сущность - она заблокирует генератор на {секунд}. Заблокированные генераторы подсвечиваются белым. \" Аварийная кнопка \" недоступна при блокировке генератора. I уровень | II уровень | III уровень 40 сек. | 45 сек. | 50 сек.",
+      "rang": 0,
+      "DLS": "Deathslinger"
+  },
+  {
+      "number": 32,
+      "photo_main": "Znatok_tehniki.png",
+      "name_en": "Gearhead",
+      "description_en": "You have got an ear for well-oiled gears. After a Survivor loses a Health State, Gearhead activates for 30 seconds: While Gearhead is active, a Survivor succeeding a Good Skill Check while repairing reveals their Aura to you for 6/7/8 seconds. \"Sometimes a man's best work is what puts him in the grave.\" — The Prison Warden",
+      "name_ru": "Знаток техники",
+      "description_ru": "Вы знаете, как звучат хорошо смазанные механизмы. Когда выживший любым образом теряет уровень здоровья, на 30 сек. активируется навык \" Знаток техники \". Пока \" Знаток техники \" активен, каждый раз, когда кто-то из выживших хорошо проходит проверку реакции при починке, его аура становится видимой на {секунд}. I уровень | II уровень | III уровень 6 сек. | 7 сек. | 8 сек.",
+      "rang": 0,
+      "DLS": "Deathslinger"
+  },
+  {
+      "number": 33,
+      "photo_main": "Porcha:_kara.png",
+      "name_en": "Hex: Retribution",
+      "description_en": "A Hex that lashes out upon its destruction. Those who cross you will be punished. Whenever a Survivor blesses or cleanses a Totem, the following effects apply: Causes that Survivor to suffer from the Oblivious Status Effect for 35/40/45 seconds. The Auras of all Survivors are revealed to you for 15 seconds after completing the interaction. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed. \"Bloody fool, you pulled the trigger on yourself.\" — Caleb Quinn",
+      "name_ru": "Порча: кара",
+      "description_ru": "Порча, возникающая из-за разрушения. Кара настигнет тех, кто посмеет перейти вам дорогу. На любого выжившего, взаимодействующего с тусклым или проклятым тотемом, будет наложен эффект \" Забывчивость \" на {секунд}. При уничтожении любого проклятого тотема, в том числе этого, вам будут подсвечены ауры всех выживших на 15 сек . \"Забывчивость\" мешает выжившим слышать или подвергаться действию радиуса террора убийцы. I уровень | II уровень | III уровень 35 сек. | 40 сек. | 45 сек.",
+      "rang": 0,
+      "DLS": "Deathslinger"
+  },
+  {
+      "number": 34,
+      "photo_main": "Zhestokaja_izoljatsija.png",
+      "name_en": "Cruel Limits",
+      "description_en": "Your ties to the otherworldly manifest when your prey attempts to get away. Whenever a Generator is completed, Cruel Limits activates: Blocks every Vault location on the Map for all Survivors for the next 20/25/30 seconds. The Auras of the blocked Vault locations are highlighted to you in yellow. \"The specimen seems to be able to affect the state of nearby objects, as if they existed in some other form within a dimension alternate to our own.\" — Hawkins National Laboratory",
+      "name_ru": "Жестокая изоляция",
+      "description_ru": "Ваша связь с иным миром проявляется, когда жертва пытается сбежать. После каждого завершения ремонта генератора все окна и места для прыжков блокируются для всех выживших на {секунд}. Во время действия навыка вы видите ауру мест для прыжков, заблокированных \" Жестокой изоляцией \". I уровень | II уровень | III уровень 20 сек. | 25 сек. | 30 сек.",
+      "rang": 0,
+      "DLS": "Demogorgon"
+  },
+  {
+      "number": 35,
+      "photo_main": "Razrushitel'_razuma.png",
+      "name_en": "Mindbreaker",
+      "description_en": "Your distressing presence drains and weakens your prey. All Survivors repairing a Generator suffer from the following afflictions: Incurs the Blindness and Exhausted Status Effects for the duration of the Repair action. If a Survivor was already suffering from Exhausted prior to Mindbreaker affecting them, the Status Effect's timer will be paused and not recover for the duration of the Repair action. Both Status Effects linger for another 3/4/5 seconds after a Survivor stops repairing. \"The specimen's apparent telepathic ability can evoke feelings of dread and fatigue in nearby individuals.\" — Hawkins National Laboratory",
+      "name_ru": "Разрушитель разума",
+      "description_ru": "Ваша пугающая близость ослабляет жертву и лишает ее сил. Во время починки генераторов на выживших действуют эффекты \" Слепота \" и \" Усталость \". Все текущие таймеры усталости приостанавливаются на время починки генератора. Завершив починку, выживший снова слепнет и устает на {секунд}. \"Слепота\" не дает выжившим видеть ауры. \"Усталость\" не дает выжившим активировать утомляющие навыки. I уровень | II уровень | III уровень 3 сек. | 4 сек. | 5 сек.",
+      "rang": 0,
+      "DLS": "Demogorgon"
+  },
+  {
+      "number": 36,
+      "photo_main": "Vybros.png",
+      "name_en": "Surge",
+      "description_en": "Your eerie presence charges the air and interferes with technology. Whenever you put a Survivor into the Dying State with a Basic Attack, all Generators within 32 metres of your location instantly explode and start regressing. Instantly regresses affected Generators by 6/7/8 %. \"The creature appears to have some unknown influence over electricity and nearby electronics.\" — Hawkins National Laboratory",
+      "name_ru": "Выброс",
+      "description_ru": "В вашем ужасающем присутствии воздух электризуется, а техника начинает сходить с ума. Если вы доводите выжившего до предсмертного состояния базовой атакой, все генераторы в радиусе 32 м тут же взрываются и начинают портиться. Генераторы, на которые подействовал \"Выброс\", сразу потеряют {процентов} прогресса их починки. I уровень | II уровень | III уровень 6% | 7% | 8%",
+      "rang": 0,
+      "DLS": "Demogorgon"
+  },
+  {
+      "number": 37,
+      "photo_main": "Slezhka_i_nakazanie.png",
+      "name_en": "Monitor & Abuse",
+      "description_en": "Meticulous in your approach, terrifying in your application. Increases the base value of your Terror Radius by 6/7/8 metres for the entire Trial. Whenever you are not in a Chase with a Survivor, the following effect applies: Reduces your Terror Radius by 12/14/16 metres. \"It's time for your treatment!\" — Herman Carter, The Doctor",
+      "name_ru": "Слежка и наказание",
+      "description_ru": "Щепетильный в своих методах и грозный в своем обличии. Во время погони ваш радиус террора увеличивается на {метров} . В обычном состоянии ваш радиус террора уменьшается на {метров} . I уровень | II уровень | III уровень 6 м. | 7 м. | 8 м.",
+      "rang": 0,
+      "DLS": "Doctor"
+  },
+  {
+      "number": 38,
+      "photo_main": "Peregruzka.png",
+      "name_en": "Overcharge",
+      "description_en": "You are fuelled by your hate for progress. Performing the Damage Generator action on a Generator applies Overcharge: The next Survivor interacting with that Generator is faced with a difficult Skill Check. Failing that Skill Check instantly regresses the Generator by 2/3/4 % of its maximum possible Progression in addition to the default Progression penalty. After Overcharge is applied to a Generator, the following effect also applies: Increases the Regression speed from 85 % to 130 % over the next 30 seconds. \"It is a trap, But a trap one must step in...\" — Herman Carter",
+      "name_ru": "Перегрузка",
+      "description_ru": "Вас переполняет ненависть к прогрессу. Вы можете перегрузить генератор, совершив действие \" Поломка генератора \". Выживший , который попытается взаимодействовать с этим генератором , столкнется с тяжелой проверкой реакции . При провале этой проверки починка откатывается еще на {процентов}. Успешная проверка не увеличивает прогресс починки, но защищает от взрыва. Когда к генератору применяется \" Перегрузка \", скорость отката его ремонта увеличивается с 85% от обычной до 130% за следующие 30 сек. I уровень | II уровень | III уровень 2% | 3% | 4%",
+      "rang": 0,
+      "DLS": "Doctor"
+  },
+  {
+      "number": 39,
+      "photo_main": "Nevynosimoe_prisutstvie.png",
+      "name_en": "Overwhelming Presence",
+      "description_en": "Just knowing you are near is enough to disturb your victims. Survivors within your Terror Radius suffer from inefficiency: When using an Item, its Depletion rate is increased by 80/90/100 %. \"Shit!! I dropped the gauze!\"",
+      "name_ru": "Невыносимое присутствие",
+      "description_ru": "Жертв сковывает страх от одного осознания, что вы рядом. Выжившие, находящиеся в вашем радиусе террора, очень нервничают. Скорость траты предметов у этих выживших возрастает на {процентов}. I уровень | II уровень | III уровень 80% | 90% | 100%",
+      "rang": 0,
+      "DLS": "Doctor"
+  },
+  {
+      "number": 40,
+      "photo_main": "Javlenie_mraka.png",
+      "name_en": "Darkness Revealed",
+      "description_en": "In your presence, places once thought to be safe are perhaps the most dangerous. Searching a Locker has the following effect: The Auras of Survivors within 8 metres of any Locker are revealed to you for 6/7/8 seconds. Darkness Revealed has a cool-down of 30 seconds. \"Stay in the light, my children. In darkness, your fear will expose you.\" — Otto Stamper",
+      "name_ru": "Явление мрака",
+      "description_ru": "В вашем присутствии ранее безопаснейшие места становятся наиболее угрожающими. Когда вы открываете шкафчик, ауры всех выживших в пределах 8 м от любого шкафчика показываются вам на {секунд}. Этот навык перезаряжается 30 сек. I уровень | II уровень | III уровень 6 сек. | 7 сек. | 8 сек. Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Грязь  | Радужный амулет \"Явление мрака\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Опытная Грязь\". Добавлен в игру в платном дополнении \" Корни ужаса \". Доступен в режиме \"Своя игра\" без покупки DLC. Версия 8.1.0: Длительность раскрытия ауры изменена с 3/4/5 до 6/7/8 секунд ",
+      "rang": 0,
+      "DLS": "Dredge"
+  },
+  {
+      "number": 41,
+      "photo_main": "Rastvorenie.png",
+      "name_en": "Dissolution",
+      "description_en": "Everything turns to dust. It is as inescapable as the coming of the night. After 3 seconds of injuring a Survivor by any means, Dissolution activates for 12/16/20 seconds: Instantly breaks the next Pallet that Survivor performs a Fast Vault across while inside your Terror Radius. \"The Garden shall be a place of perfect Joy; through Joy, nothing shall stand in our way.\" — Otto Stamper",
+      "name_ru": "Растворение",
+      "description_ru": "Всему суждено обратиться в прах. Это так же неизбежно, как наступление ночи. Через 3 сек. после ранения выжившего любым способом, вы активируете \"Растворение\" на {секунд}. Если выживший быстро перепрыгивает через доски в пределах вашего радиуса террора, пока \"Растворение\" активно, Сущность сломает доски после прыжка, а действие этого навыка прекратится. I уровень | II уровень | III уровень 12 сек. | 16 сек. | 20 сек. Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Грязь  | Радужный амулет \"Растворение\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Опытная Грязь\". Добавлен в игру в платном дополнении \" Корни ужаса \". Доступен в режиме \"Своя игра\" без покупки DLC. ",
+      "rang": 0,
+      "DLS": "Dredge"
+  },
+  {
+      "number": 42,
+      "photo_main": "Tletvornoe_kasanie.png",
+      "name_en": "Septic Touch",
+      "description_en": "The Land of the Shadows subsumes all. Healing only delays the inevitable. Whenever a Survivor performs a Healing action while they are inside your Terror Radius, that Survivor suffers from the Blindness and Exhausted Status Effects These effects linger for 6/8/10 seconds after the Healing action is interrupted by any means. \"Do not admit to fear, or pain, or doubt. These are the seeds from which darkness grows.\" — Otto Stamper",
+      "name_ru": "Тлетворное касание",
+      "description_ru": "Пределы Теней поглотят все. Лечение лишь оттягивает неизбежное. Если выживший совершает действие лечения в вашем радиусе террора, он подвергается эффектам \"Слепота\" и \"Усталость\". Эффект действуют на него в течение {секунд} после прерывания лечения. \"Слепота\" не дает выжившим видеть ауры. \"Усталость\" не дает выжившим активировать утомляющие навыки. I уровень | II уровень | III уровень 6 сек. | 8 сек. | 10 сек. Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Грязь  | Радужный амулет \"Тлетворное касание\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Опытная Грязь\". Добавлен в игру в платном дополнении \" Корни ужаса \". Доступен в режиме \"Своя игра\" без покупки DLC. ",
+      "rang": 0,
+      "DLS": "Dredge"
+  },
+  {
+      "number": 43,
+      "photo_main": "Smertel'nye_uzy.png",
+      "name_en": "Deathbound",
+      "description_en": "Those whose lives are intertwined in darkness are destined to suffer together. Whenever a Survivor finishes healing another Survivor for the equivalent of 1 Health State, Deathbound activates: Causes the Healer to scream and reveal their location. Causes the Healer to suffer from the Oblivious Status Effect whenever they are farther than 16/12/8 metres from the other Survivor. Deathbound deactivates after the Healer loses a Health State.",
+      "name_ru": "Смертельные узы",
+      "description_ru": "Те, чьи жизни связаны с тьмой, обречены страдать вместе. Когда выживший восстанавливает другому выжившему состояние здоровья, он кричит, выдавая свое расположение. При этом активируются \"Смертельные узы\". В это время на выжившего будет действовать эффект \"Забывчивость\", если он отойдет более чем на {метров} от вылеченного товарища. Эффект длится до потери лекарем здоровья. \"Забывчивость\" мешает выжившим слышать или подвергаться действию радиуса террора убийцы. I уровень | II уровень | III уровень 16 м. | 12 м. | 8 м.",
+      "rang": 0,
+      "DLS": "Executioner"
+  },
+  {
+      "number": 44,
+      "photo_main": "Prinuditel'naja_mera.png",
+      "name_en": "Forced Penance",
+      "description_en": "Those who stand in the way of duty will suffer harsh judgement. Survivors who take a Protection Hit suffer from the Broken Status Effect for the next 60/70/80 seconds.",
+      "name_ru": "Принудительная мера",
+      "description_ru": "Те, кто смеют мешать вашему делу, будут сурово наказаны. Если выживший принимает удар на себя, на него накладывается эффект \"Ослабление\" на {секунд}. \"Ослабление\" не дает выжившим лечиться. I уровень | II уровень | III уровень 60 сек. | 70 сек. | 80 сек.",
+      "rang": 0,
+      "DLS": "Executioner"
+  },
+  {
+      "number": 45,
+      "photo_main": "Tropa_terzanij.png",
+      "name_en": "Trail of Torment",
+      "description_en": "You guide your victims along a path of pain and punishment. Performing the Damage Generator action on a Generator activates Trail of Torment: Grants the Undetectable Status Effect until the Generator stops regressing. The Aura of the damaged Generator is revealed to all Survivors in yellow. Trail of Torment has a cool-down of 60/45/30 seconds.",
+      "name_ru": "Тропа терзаний",
+      "description_ru": "Вы направляете жертв по пути боли и наказания. Сломав генератор, вы получаете эффект \" Незаметность \", пока прогресс починки генератора не прекратит снижаться. В это время аура генератора подсвечивается для выживших желтым. Эффект может сработать только один раз в {секунд}. \"Незаметность\" скрывает ауру, радиус террора и красное свечение убийцы. I уровень | II уровень | III уровень 60 сек. | 45 сек. | 30 сек.",
+      "rang": 0,
+      "DLS": "Executioner"
+  },
+  {
+      "number": 46,
+      "photo_main": "Skrytnaja_pogonja.png",
+      "name_en": "Furtive Chase",
+      "description_en": "You lurk in the shadows, eliminating your victims one by one. Each time you hook your Obsession, you benefit from the following effects for 14/16/18 seconds: Grants the Undetectable Status Effect. Grants a +5 % Haste Status Effect. Whenever the Obsession is rescued from a Hook, their rescuer will become the new Obsession. You can only be obsessed with one Survivor at a time. \"You have no idea what I have planned for you. It'll be in the news for weeks. I'll make sure of that.\" — The Ghost Face",
+      "name_ru": "Скрытная погоня",
+      "description_ru": "Вы прячетесь в тенях, уничтожая жертв одну за другой. Вы становитесь одержимы одним выжившим. Когда объект вашей одержимости оказывается на крюке, получите эффект \"Незаметность\" и 5% \"Спешка\" на {секунд}. Если выживший снимает объект вашей одержимости с крюка, вы становитесь одержимы спасателем. Одновременно убийца может быть одержим только одним выжившим. \"Незаметность\" скрывает ауру, радиус террора и красное свечение убийцы. \"Спешка\" увеличивает скорость передвижения убийцы. I уровень | II уровень | III уровень 14 сек. | 16 сек. | 18 сек. Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Гоуст Фейс  | Радужный амулет \"Скрытная погоня\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Искусный Гоуст Фейс\". Добавлен в игру в платном дополнении \" Гоуст Фейс \" от 18 июня 2019. Доступен в режиме \"Своя игра\" без покупки DLC. Навыки убийц, влияющие на радиус террора или скрывающие его с помощью различных эффектов: Версия 7.3.0: Навык более не получает жетоны, уменьшающие радиус террора убийцы. Жетоны заменены на эффекты \"Незаметность\" и \"Спешка\" 5% в течение 14/16/18 секунд Версия 5.5.0: Убран эффект: \"Вы теряете все токены, если Одержимость убита или принесена в жертву\". ",
+      "rang": 0,
+      "DLS": "Ghost Face"
+  },
+  {
+      "number": 47,
+      "photo_main": "Chutkij_sluh.png",
+      "name_en": "I'm All Ears",
+      "description_en": "Unlocks potential in your Aura-reading ability, sharpening your keen senses in the dark Realm of The Entity. Whenever a Survivor performs a Rushed Vault action within 48 metres of your location, you benefit from the following effect: The Aura of the Survivor is revealed to you for 8 seconds. I'm All Ears has a cool-down of 60/45/30 seconds. \"There is no need to worry. I've been preparing my whole life for this.\" — The Ghost Face",
+      "name_ru": "Чуткий слух",
+      "description_ru": "Ваши органы чувств обострились в темных владениях Сущности. Разблокирует возможности чтения ауры. Вы увидите ауру любого выжившего, совершающего резкие действия на расстоянии 48 м от вас. Действует 8 сек . \"Чуткий слух\" срабатывает только раз в {секунд}. I уровень | II уровень | III уровень 60 сек. | 45 сек. | 30 сек.",
+      "rang": 0,
+      "DLS": "Ghost Face"
+  },
+  {
+      "number": 48,
+      "photo_main": "Pugajuschaja_trjaska.png",
+      "name_en": "Thrilling Tremors",
+      "description_en": "Your dark designs and shrewd composure rouse The Entity. After picking up a Survivor, all Generators not currently being repaired by Survivors are blocked by The Entity for the next 16 seconds. The Auras of blocked Generators are highlighted to you in white. Thrilling Tremors has a cool-down of 100/80/60 seconds. \"The night assists me and it's endless here.\" — The Ghost Face",
+      "name_ru": "Пугающая тряска",
+      "description_ru": "Ваши темные помыслы, собранность и хладнокровие будоражат Сущность. Когда вы подбираете выжившего, Сущность блокирует все генераторы, которые в данный момент не чинят выжившие, и в течение 16 сек . их нельзя будет ремонтировать. Такие генераторы подсвечиваются белым. \" Пугающая тряска \" срабатывает только раз в {секунд}. I уровень | II уровень | III уровень 100 сек. | 80 сек. | 60 сек.",
+      "rang": 0,
+      "DLS": "Ghost Face"
+  },
+  {
+      "number": 49,
+      "photo_main": "Batarejki_v_komplekte.png",
+      "name_en": "Batteries Included",
+      "description_en": "Being somewhere between man and machine has its upsides. Whenever you are within 12 metres of a completed Generator, you are granted a +5 % Haste Status Effect. This effect lingers for 1/3/5 second(s) after leaving the Generator's range. \"Surprise! Did you miss me, Andy?\" — Chucky",
+      "name_ru": "Батарейки в комплекте",
+      "description_ru": "Не так уж и плохо быть смесью человека и машины. Оказавшись в пределах 12 м от починенного генератора, вы получаете 5% \"Спешки\". Бонус к скорости передвижения сохраняется на {секунд} после ухода от генератора. Навык \"Батарейки в комплекте\" отключается, когда все генераторы починены. \"Спешка\" повышает скорость передвижения убийцы. I уровень | II уровень | III уровень 1 сек | 3 сек | 5 сек Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Хороший Парень  | Радужный амулет \"Батарейки в комплекте\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Опытный Хороший Парень\" Навык добавлен в игру в платном дополнении \" Чаки \" Доступен в режиме \"Своя игра\" без покупки DLC Версия 7.4.2: Убрана деактивация навыка после починки последнего генератора ",
+      "rang": 0,
+      "DLS": "Good Guy"
+  },
+  {
+      "number": 50,
+      "photo_main": "Druz'ja_do_groba.png",
+      "name_en": "Friends 'til the End",
+      "description_en": "You will kill anyone who gets between you and your target. When you hook any Survivors that is not the Obsession, the following effects apply to the Obsession: Their Aura is revealed for 6/8/10 seconds. They suffer from the Exposed Status Effect for 20 seconds. When you hook the Obsession, the following effects apply to a random Survivor: Causes the Survivor to scream and reveal their location to the Killer. They become the new Obsession. You can only be obsessed with one Survivor at a time. \"I got some fresh meat lined up, and I'm not gonna let you spoil it, not this time!\" — Chucky",
+      "name_ru": "Друзья до гроба",
+      "description_ru": "Вы убьете любого, кто встанет между вами и целью. Вы становитесь одержимы кем-то из выживших. Если вы вешаете на крюк выжившего, не являющегося объектом одержимости, объект одержимости получает \"Уязвимость\" на 20 сек., и вы видите его ауру в течение {секунд}. Когда вы подвешиваете на крюк объект одержимости, другой случайный выживший издает крик, выдает свое местоположение и становится новым объектом одержимости. Убийца может быть одержим только одним выжившим за раз. Уязвимые выжившие упадут от обычной атаки даже если не ранены. I уровень | II уровень | III уровень 6 сек | 8 сек | 10 сек Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Хороший Парень  | Радужный амулет \"Друзья до гроба\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Опытный Хороший Парень\" Навык добавлен в игру в платном дополнении \" Чаки \" Доступен в режиме \"Своя игра\" без покупки DLC ",
+      "rang": 0,
+      "DLS": "Good Guy"
+  },
+  {
+      "number": 51,
+      "photo_main": "Porcha:_igra_dlja_dvoih.png",
+      "name_en": "Hex: Two Can Play",
+      "description_en": "A Hex that teaches those who mess with you a lesson. Anytime you are stunned or blinded by any Survivor a total of 4/3/2 times, and if there is not yet a Hex Totem already associated with Hex: Two Can Play and there is at least one Dull Totem remaining in the Trial Grounds, Hex: Two Can Play activates on a random Totem: Blinds all Survivors who stun or blind you for 1.5 seconds. This does not affect carried Survivors. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed. \"From now on, no more Mr Good Guy.\" — Chucky",
+      "name_ru": "Порча: игра для двоих",
+      "description_ru": "Порча - урок для тех, кто пытается вам помешать. Если выжившие оглушают или ослепляют вас {количество} р. (и если отсутствует проклятый тотем, связанный с навыком \"Порча: игра для двоих\"), тусклый тотем становится проклятым. Выжившие, которые оглушают или ослепляют вас, сами слепнут на 1.5 сек. Этот эффект не действует на переносимых выживших. Эффект порчи сохраняется, пока не уничтожен связанный с этим навыком проклятый тотем. I уровень | II уровень | III уровень 4 | 3 | 2 Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Хороший Парень  | Радужный амулет \"Порча: игра для двоих\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Опытный Хороший Парень\" Навык добавлен в игру в платном дополнении \" Чаки \" Доступен в режиме \"Своя игра\" без покупки DLC ",
+      "rang": 0,
+      "DLS": "Good Guy"
+  },
+  {
+      "number": 52,
+      "photo_main": "Porcha:_pozhiranie_nadezhdy.png",
+      "name_en": "Hex: Devour Hope",
+      "description_en": "A Hex rooting its power on hope. The false hope of Survivors ignites your hunger. Whenever a Survivor is rescued from a Hook while you are at least 24 metres away, Hex: Devour Hope is granted +1 Token, up to a maximum of 5 Tokens: 2 Tokens: Grants a 3/4/5 % Haste Status Effect for 10 seconds after 10 seconds of having hooked a Survivor. 3 Tokens: Causes all Survivors to suffer from a permanent Exposed Status Effect. 5 Tokens: Grants the ability to kill all Survivors by your own hand. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed. \"If you do nothing, you have their blood on your hands. If you save them, her hunger grows.\"",
+      "name_ru": "Порча: пожирание надежды",
+      "description_ru": "Порча, черпающая силу в надежде. Ложная надежда выживших лишь усиливает ваш голод. Когда выживший спасён с крюка хотя бы в 24 метрах от вас, навык \"Пожирание надежды\" получает жетон.  | I уровень | II уровень | III уровень 2 жетона | Через 10 сек. после того, как вы вешаете выжившего на крюк, вы получаете эффект \" Спешка \" 3% на 10 сек. | Через 10 сек. после того, как вы вешаете выжившего на крюк, вы получаете эффект \" Спешка \" 4% на 10 сек. | Через 10 сек. после того, как вы вешаете выжившего на крюк, вы получаете эффект \" Спешка \" 5% на 10 сек. 3 жетона | Выжившие получают эффект \" Уязвимость \" | Выжившие получают эффект \" Уязвимость \" | Выжившие получают эффект \" Уязвимость \" 5 жетонов | Дает возможность убивать выживших своими руками. | Дает возможность убивать выживших своими руками. | Дает возможность убивать выживших своими руками. Эффект порчи сохраняется, пока стоит соответствующий тотем . Выживших с эффектом \"Уязвимость\" можно смертельно ранить базовой атакой, даже если они не ранены. \"Спешка\" увеличивает скорость передвижения убийцы.",
+      "rang": 0,
+      "DLS": "Hag"
+  },
+  {
+      "number": 53,
+      "photo_main": "Porcha:_pogibel'.png",
+      "name_en": "Hex: Ruin",
+      "description_en": "A Hex that affects the Generator Repair progress of all Survivors. Whenever a Generator is not being repaired by a Survivor, it will immediately and automatically regress its Repair progress at 50/75/100 % of the normal Regression speed. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed. \"A curse is upon you. It will cause your ruin.\"",
+      "name_ru": "Порча: погибель",
+      "description_ru": "Порча, влияющая на прогресс починки генераторов у всех выживших. \" Порча: Погибель \" воздействует на все генераторы. Когда выживший прекращает чинить генератор, прогресс тут же автоматически начинает снижаться со скоростью {процентов} от обычной. Порча действует, пока не уничтожен соответствующий тотем . I уровень | II уровень | III уровень 50% | 75% | 100%",
+      "rang": 0,
+      "DLS": "Hag"
+  },
+  {
+      "number": 54,
+      "photo_main": "Porcha:_tret'ja_pechat'.png",
+      "name_en": "Hex: The Third Seal",
+      "description_en": "A Hex that hinders the Survivors' Aura-reading abilities. The last 2/3/4 Survivors you hit with a Basic or Special Attack suffer permanently from the Blindness Status Effect. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed. \"She touched your skin, you bear the witch's mark!\"",
+      "name_ru": "Порча: третья печать",
+      "description_ru": "Порча, препятствующая чтению ауры. При активном тотеме порчи удар по выжившему базовой или особой атакой вызывает эффект \" Слепота \", который распространяется на последних {количество} выживших, попавших под удар. Порча действует пока не уничтожен соответствующий тотем . \"Слепота\" не дает выжившим видеть ауры. I уровень | II уровень | III уровень 2 выживших | 3 выживших | 4 выживших",
+      "rang": 0,
+      "DLS": "Hag"
+  },
+  {
+      "number": 55,
+      "photo_main": "Stojkij.png",
+      "name_en": "Enduring",
+      "description_en": "You are resilient to pain. Reduces the duration of Pallet Stuns by 40/45/50 %. Enduring has no effect while carrying a Survivor. \"He stops at nothing.\"",
+      "name_ru": "Стойкий",
+      "description_ru": "Вы не чувствуете боль. Длительность оглушения досками снижена на {процентов}. Не действует во время переноски выживших. I уровень | II уровень | III уровень 40% | 45% | 50%",
+      "rang": 0,
+      "DLS": "Hillbilly"
+  },
+  {
+      "number": 56,
+      "photo_main": "Detische_sveta.png",
+      "name_en": "Lightborn",
+      "description_en": "Unlike other beasts of The Fog, you have adapted to light. The Auras of Survivors attempting to blind you by any means are revealed to you for 6/8/10 seconds. Grants immunity from being blinded from Flashlights, Firecrackers, Flash Grenades, and Blast Mine. \"These monsters... they adapt! They emerge with strange new abilities.\" — Vigo, Vigo's Journal",
+      "name_ru": "Детище света",
+      "description_ru": "В отличие от других тварей из Тумана, вы приспособились к свету. Вы обрели иммунитет к ослеплению фонариками, хлопушками, ослепляющими гранатами и фугасными минами. Ауры выживших, которые пытаются вас ослепить, подсвечиваются вам на {секунд}. I уровень | II уровень | III уровень 6 сек. | 8 сек. | 10 сек.",
+      "rang": 0,
+      "DLS": "Hillbilly"
+  },
+  {
+      "number": 57,
+      "photo_main": "Umelets.png",
+      "name_en": "Tinkerer",
+      "description_en": "Whenever a Generator is repaired to 70 %, you benefit from the following effects: Triggers a Loud Noise Notification for that Generator, revealing its location. Grants the Undetectable Status Effect for the next 12/14/16 seconds. Tinkerer can only trigger once per Generator per Trial. \"The Hillbilly makes impressive tools out of scraps. Tools aimed at maiming us in creative ways.\" — Notebook",
+      "name_ru": "Умелец",
+      "description_ru": "Когда ремонт генератора доходит до 70% , вы слышите громкий звук и получаете эффект \" Незаметность \" на следующие {секунд}. Этот эффект может сработать только по разу для каждого генератора. \"Незаметность\" скрывает ауру, радиус террора и красное свечение убийцы. I уровень | II уровень | III уровень 12 сек. | 14 сек. | 16 сек.",
+      "rang": 0,
+      "DLS": "Hillbilly"
+  },
+  {
+      "number": 58,
+      "photo_main": "Oglushitel'nyj_grom.png",
+      "name_en": "All-Shaking Thunder",
+      "description_en": "Enemies on land and sea learned to tremble before your might. After falling from a height, All-Shaking Thunder activates for 8/12/16 seconds: Increases the range of your Lunge Attack by +75 %. All-Shaking Thunder has a cool-down of 5 seconds. \"Go on. Run. Tell your friends I'm coming for them.\" — Portia Maye",
+      "name_ru": "Оглушительный гром",
+      "description_ru": "Враги на суше и на море дрожат при звуках вашего имени. После падения с высоты дальность вашей атаки с выпадом увеличивается на 75% на {секунд}. Этот навык восстанавливается 5 сек. I уровень | II уровень | III уровень 8 сек. | 12 сек. | 16 сек. Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Егерь  | Радужный амулет \"Оглушительный гром\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Опытный Егерь\" Навык добавлен в игру в платном дополнении \" Проклятый курс \" Доступен в режиме \"Своя игра\" без покупки DLC ",
+      "rang": 0,
+      "DLS": "Houndmaster"
+  },
+  {
+      "number": 59,
+      "photo_main": "Bez_poschady.png",
+      "name_en": "No Quarter",
+      "description_en": "Every skirmish ended with a relentless volley of cannon fire, leaving no doubt who was superior. Whenever a Survivor healing themselves by any means reaches 75 % Healing Progress, No Quarter triggers its effect: The Survivor is faced with a continuous stream of Skill Checks until the Self-Heal is completed. If they fail a Skill Check or interrupt the action by any means, they suffer from the Broken Status Effect for 20/25/30 seconds. \"Fire another broadside! Don't stop until the sea takes them!\" — Portia Maye",
+      "name_ru": "Без пощады",
+      "description_ru": "Каждая стычка заканчивалась беспощадной канонадой, ясно дававшей понять, кто берет верх. Когда во время лечения себя выживший достигает 75% здоровья, ему надо постоянно проходить проверки реакции. Если одна из этих проверок не удалась или лечение пришлось прервать, выживший получает эффект\nсостояния \"Ослабление\" на {секунд}. \"Ослабление\" не дает выжившим лечиться. I уровень | II уровень | III уровень 20 сек. | 25 сек. | 30 сек. Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Егерь  | Радужный амулет \"Без пощады\" | Сувенир на память об изученном навыке Версия 8.4.0: название навыка не переведено на русский язык. Используемое название взято из Steam (описание на странице торговой площадки) Необходим для получения достижения \"Опытный Егерь\" Навык добавлен в игру в платном дополнении \" Проклятый курс \" Доступен в режиме \"Своя игра\" без покупки DLC ",
+      "rang": 0,
+      "DLS": "Houndmaster"
+  },
+  {
+      "number": 60,
+      "photo_main": "Sekuschij_krjuk:_scherbatyj_kompas.png",
+      "name_en": "Scourge Hook: Jagged Compass",
+      "description_en": "Sometimes the compass points north. Other times it points somewhere else entirely. At the start of the Trial, 4 random Hooks are changed into Scourge Hooks: The Auras of Scourge Hooks are revealed to you in white. Whenever a Survivor is unhooked from a normal Hook, the following effect applies: The Hook is converted into a Scourge Hook. Whenever you hook a Survivor onto a Scourge Hook, the following effect applies: The Aura of the Generator with the most progression is highlighted in yellow for 6/8/10 seconds. \"Drop anchor! I will chart us a new course.\" — Portia Maye",
+      "name_ru": "Секущий крюк: щербатый компас",
+      "description_ru": "Иногда стрелка указывает на север, иногда - совсем в другом направлении. В начале матча до 4 случайных крюков меняются на секущие крюки. Их ауры выделены белым цветом. Когда выжившего снимают с крюка, этот крюк становится секущим. Когда вы подвешиваете выжившего на секущий крюк, аура генератора с наибольшим прогрессом починки будет подсвечена желтым на {секунд}. I уровень | II уровень | III уровень 6 сек. | 8 сек. | 10 сек. Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Егерь  | Радужный амулет \"Секущий крюк: щербатый компас\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Опытный Егерь\" Навык добавлен в игру в платном дополнении \" Проклятый курс \" Доступен в режиме \"Своя игра\" без покупки DLC ",
+      "rang": 0,
+      "DLS": "Houndmaster"
+  },
+  {
+      "number": 61,
+      "photo_main": "Hischnyj_zver'.png",
+      "name_en": "Beast of Prey",
+      "description_en": "Your lust for a kill is so intense that your connection with The Entity is momentarily lost, making you totally unpredictable. Grants the Undetectable Status Effect for 30/35/40 seconds upon triggering the Bloodlust Status Effect. \"Where did she go?\"",
+      "name_ru": "Хищный зверь",
+      "description_ru": "Ваша жажда убийства столь сильна, что ненадолго затмевает даже связь с Сущностью, делая ваши действия непредсказуемыми. Когда вы получаете \"Кровожадность\", на вас в течение {секунд} действует эффект \"Незаметность\". \"Незаметность\" скрывает ауру, радиус террора и красное свечение убийцы. I уровень | II уровень | III уровень 30 сек. | 35 сек. | 40 сек. Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Охотница  | Радужный амулет \"Хищный зверь\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Опытная Охотница\" Добавлен в игру в бесплатном DLC \" Колыбельная для темноты \" Доступен в режиме \"Своя игра\" без покупки DLC Помогает выполнять архивные испытания, в которых требуется атаковать выжившего в состоянии эффекта \"Незаметность\" Навыки убийц, влияющие на радиус террора или скрывающие его с помощью различных эффектов: Версия 8.5.0: Более не увеличивает кол-во очков крови в категории \"Охота\" на 30/40/50% Теперь эффект \"Незаметность\" длится 30/35/40 сек. (было пока действует \"Кровожадность\") Версия 4.3.2: Навык был отключен с 20 по 23 ноября 2020 в рамках отключения механики \"Кровожадность\" Версия 2.3.0: Убрана необходимость перезарядки навыка Добавлено получение доп. очков крови за действия в категории \"Охотник\" ",
+      "rang": 0,
+      "DLS": "Huntress"
+  },
+  {
+      "number": 62,
+      "photo_main": "Porcha:_kolybel'naja_ohotnitsy.png",
+      "name_en": "Hex: Huntress Lullaby",
+      "description_en": "A Hex rooting its power in despair. Your hunt is an irresistible song of dread which muddles your prey's attention. Increases the default Progression penalty incurred by Failed Skill Checks by 2/4/6 %. This only affects Healing and Repairing actions. Whenever a Survivor is hooked, Hex: Huntress Lullaby grows in power and gains +1 Token, up to a maximum of 5 Tokens: Increasingly shortens the time between an affected incoming Skill Check appearing and triggering its audio cue beforehand: 1 Token: -14 % 2 Tokens: -28 % 3 Tokens: -42 % 4 Tokens: -56 % 5 Tokens: Suppresses the audio cue altogether. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed. \"That song, it drives me crazy!\"",
+      "name_ru": "Порча: колыбельная охотницы",
+      "description_ru": "Порча, черпающая свою силу из отчаяния. Вы напеваете навязчивую мелодию ужаса, которая путает мысли жертвы. Выжившие получают штраф {процентов} к прогрессу при лечении или починке, если проваливают проверку реакции . Каждый раз, когда выживший попадает на крюк, сила \"Колыбельной Охотницы\" возрастает. Это сказывается на предупреждении о проверках реакции при лечении и починке: от 1 до 4 жетонов : время между проверками реакции и предупреждающим о них звуком сокращается. 5 жетонов : нет предупреждения при проверке реакции. Эффект порчи сохраняется, пока стоит соответствующий ей тотем . I уровень | II уровень | III уровень 2% | 4% | 6%",
+      "rang": 0,
+      "DLS": "Huntress"
+  },
+  {
+      "number": 63,
+      "photo_main": "Territorial'nyj_imperativ.png",
+      "name_en": "Territorial Imperative",
+      "description_en": "Unlocks potential in your Aura-reading ability. Whenever you are farther than 24 metres from the Basement while a Survivor enters it, Territorial Imperative activates: The Aura of that Survivor is revealed to you for 4/5/6 seconds. Territorial Imperative has a cool-down of 45 seconds. \"We're not safe anywhere...\"",
+      "name_ru": "Территориальный императив",
+      "description_ru": "У вас появляется способность чтения ауры. Ауры выживших раскрываются вам на {секунд}, когда те спускаются в подвал, а вы находитесь более чем в 24-х метрах от него. Территориальный Императив может сработать лишь раз в 45 секунд. I уровень | II уровень | III уровень 4 сек. | 5 сек. | 6 сек.",
+      "rang": 0,
+      "DLS": "Huntress"
+  },
+  {
+      "number": 64,
+      "photo_main": "Porcha:_lik_mraka.png",
+      "name_en": "Hex: Face the Darkness",
+      "description_en": "You make an example of one of your victims, forcing their allies to become awed by your power. Whenever you injure a Survivor by any means, if there is still a Dull Totem remaining on the Map, Hex: Face the Darkness activates and lights it, cursing that Survivor: Causes all other Survivors to scream every 35/30/25 seconds, if they are outside of the Terror Radius, revealing their Auras for 2 seconds each time. Hex: Face the Darkness deactivates once the Cursed Survivor either enters the Dying State or is fully healed, which extinguishes the Totem. Hex: Face the Darkness is disabled for the remainder of the Trial, if a Survivor manages to cleanse its Hex Totem. \"I shall make an example of one. These mewling worms will never know peace.\" — Tarhos Kovács",
+      "name_ru": "Порча: лик мрака",
+      "description_ru": "Сделав из одной жертвы пример для остальных, вы заставляете их союзников дрожать от страха. Когда выживший любым способом получает ранение, тусклый тотем загорается и накладывает порчу. При действии этой порчи все остальные выжившие за пределами вашего радиуса террора будут вскрикивать раз в {секунд}, показывая свои ауры и выдавая свое местонахождение на 2 сек. Когда проклятый выживший оказывается смертельно ранен или полностью восстанавливает здоровье, порча снимается, а проклятый тотем тускнеет. При очистке тотема этот навык выключается навсегда. I уровень | II уровень | III уровень 35 сек. | 30 сек. | 25 сек.",
+      "rang": 0,
+      "DLS": "Knight"
+  },
+  {
+      "number": 65,
+      "photo_main": "Svirepaja_gordynja.png",
+      "name_en": "Hubris",
+      "description_en": "You show no mercy, especially to those foolish enough to resist. Whenever you are stunned by a Survivor, that Survivor suffers from the Exposed Status Effect for 10/15/20 seconds. Hubris has a cool-down of 20 seconds. \"You have made a grave mistake, standing in opposition to me this day.\" — Tarhos Kovács",
+      "name_ru": "Свирепая гордыня",
+      "description_ru": "Вы без жалости разделываетесь с жертвами, особенно если им хватает глупости сопротивляться. Когда вас оглушает выживший, на него в течение {секунд} действует эффект \"Уязвимость\". \"Свирепой гордыне\" требуется 20 сек. на перезарядку. Выживших с эффектом \"Уязвимость\" можно смертельно ранить базовой атакой, даже если они не ранены. I уровень | II уровень | III уровень 10 сек. | 15 сек. | 20 сек. Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Рыцарь  | Радужный амулет \"Свирепая гордыня\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Настоящий рыцарь\" Навык добавлен в игру в платном дополнении \" Закаленные в тумане \" Доступен в режиме \"Своя игра\" без покупки DLC ",
+      "rang": 0,
+      "DLS": "Knight"
+  },
+  {
+      "number": 66,
+      "photo_main": "Im_ne_ukryt'sja.png",
+      "name_en": "Nowhere to Hide",
+      "description_en": "The machinations of the weak and craven draw your ire. Your anger forces Survivors to reveal themselves. Performing the Damage Generator action on a Generator triggers Nowhere to Hide: The Auras of all Survivors within 24 metres of your location are revealed to you for 3/4/5 seconds. \"Out with you, cowards! Show yourselves!\" — Tarhos Kovács",
+      "name_ru": "Им не укрыться",
+      "description_ru": "Происки трусов и слабаков пробуждают в вас гнев. В ярости вы прозреваете все вокруг и видите выживших. Всякий раз, когда вы повреждаете генератор, в течение {секунд} вы видите ауры всех выживших, стоящих в пределах 24 м от вас. I уровень | II уровень | III уровень 3 сек. | 4 сек. | 5 сек.",
+      "rang": 0,
+      "DLS": "Knight"
+  },
+  {
+      "number": 67,
+      "photo_main": "Razlad.png",
+      "name_en": "Discordance",
+      "description_en": "Any Generator within a range of 64/96/128 metres that is being repaired by 2 or more Survivors is marked by a yellow Aura. When the Generator is first highlighted, Discordance triggers a Loud Noise Notification on the Generator. After the Generator is no longer within range or is being repaired by just 1 Survivor, the highlighted Aura will linger for another 4 seconds. \"Smartasses get killed. We always see to that.\" — The Legion",
+      "name_ru": "Разлад",
+      "description_ru": "Любой генератор в радиусе {метров}, который чинят два или более выживших, будет подсвечен желтой аурой. При первом подсвечивании \"Разлад\" вызывает громкий звук, указывающий на генератор. Если генератор оказывается вне радиуса действия или уже не чинится двумя или более выжившими, аура остается еще на 4 сек. I уровень | II уровень | III уровень 64 м. | 96 м. | 128 м.",
+      "rang": 0,
+      "DLS": "Legion"
+  },
+  {
+      "number": 68,
+      "photo_main": "Zheleznaja_deva.png",
+      "name_en": "Iron Maiden",
+      "description_en": "Iron Maiden increases your Locker Search speed by 30/40/50 %. Survivors who exit a Locker suffer from the following afflictions: Scream and reveal their location to you for 4 seconds. Suffer from the Exposed Status Effect for 30 seconds. \"This is no place for cowards.\" — The Legion",
+      "name_ru": "Железная дева",
+      "description_ru": "Вы открываете шкафчики на {процентов} быстрее. Вылезающие из шкафчиков выжившие получают эффект \"Уязвимость\" на 30 сек. Они кричат, раскрывая свое местоположение на 4 сек. Выживших с эффектом \"Уязвимость\" можно смертельно ранить базовой атакой, даже если они не ранены. I уровень | II уровень | III уровень 30% | 40% | 50%",
+      "rang": 0,
+      "DLS": "Legion"
+  },
+  {
+      "number": 69,
+      "photo_main": "Bezumnoe_uporstvo.png",
+      "name_en": "Mad Grit",
+      "description_en": "Whenever you are carrying a Survivor, Mad Grit activates: Removes the Cool-down of missed Basic Attacks. Pauses the Wiggle Progression of the carried Survivor for 2/3/4 seconds each time you successfully hit another Survivor. \"There's no getting out of this now. We're too good at it.\" — The Legion",
+      "name_ru": "Безумное упорство",
+      "description_ru": "Когда вы несете выжившего, базовые атаки мимо цели не требуют перезарядки. После успешного попадания базовой атакой по другому выжившему уже пойманный не сможет вырываться {секунд}. I уровень | II уровень | III уровень 2 сек. | 3 сек. | 4 сек.",
+      "rang": 0,
+      "DLS": "Legion"
+  },
+  {
+      "number": 70,
+      "photo_main": "Temnoe_vysokomerie.png",
+      "name_en": "Dark Arrogance",
+      "description_en": "When everything is going right, you are an inescapable inevitability. Increases your Vaulting speed in exchange for increased vulnerability to being blinded and stunned: Permanently increases the duration of Killer Blinds by any means and the duration of Pallet Stuns by +25 %. Permanently increases your Vaulting speed by 15/20/25 %. \"Run all you want. I will not be denied.\" — Vecna",
+      "name_ru": "Темное высокомерие",
+      "description_ru": "Когда все идет как надо, вы сами становитесь неизбежностью. Увеличивает длительность вашего ослепления любыми средствами и оглушения досками на 25%. Увеличивает скорость обычного прыжка на {процентов}. I уровень | II уровень | III уровень 15% | 20% | 25% Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Лич  | Радужный амулет \"Темное высокомерие\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Опытный лич\" Добавлен в игру в платном дополнении \" Подземелья и драконы \" Доступен в режиме \"Своя игра\" без покупки DLC ",
+      "rang": 0,
+      "DLS": "Lich"
+  },
+  {
+      "number": 71,
+      "photo_main": "Bezzhiznennoe_kasanie.png",
+      "name_en": "Languid Touch",
+      "description_en": "Your dreadful aura is so suffocating that even terrifying scenes tire your prey. When a Survivor scares off a Crow within 36 metres of your location, Languid Touch activates: Causes that Survivor to suffer from the Exhausted Status Effect for 6/8/10 seconds. Languid Touch has a cool-down of 5 seconds. \"Submit to me. It is inevitable.\" — Vecna",
+      "name_ru": "Безжизненное касание",
+      "description_ru": "Ваша кошмарная аура давит на голову и создает пугающие образы, которые изматывают жертву Когда выживший оказывается в 36 м от вас и спугивает ворону, на него действует эффект \"Усталость\" в течение {секунд}. \"Безжизненное касание\" восстанавливается в течение 5 сек. \"Усталость\" не дает выжившим активировать утомляющие навыки. I уровень | II уровень | III уровень 6 сек. | 8 сек. | 10 сек. Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Лич  | Радужный амулет \"Безжизненное касание\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Опытный лич\" Добавлен в игру в платном дополнении \" Подземелья и драконы \" Доступен в режиме \"Своя игра\" без покупки DLC Версия 8.4.0: Изменена длительность перезарядки навыка с 20 до 5 секунд ",
+      "rang": 0,
+      "DLS": "Lich"
+  },
+  {
+      "number": 72,
+      "photo_main": "Svjaz'_s_pleteniem.png",
+      "name_en": "Weave Attunement",
+      "description_en": "You are so attuned to magical energies that you can sense even minor ripples around enchantments. Whenever an Item is depleted for the first time, it is automatically dropped: The Auras of dropped Survivor Items are revealed to you, as well as the Auras of any Survivors within 12 metres of them. Affected Survivors see the Aura of that Item as well. Causes Survivors picking up a Survivor Item to suffer from the Oblivious Status Effect for 20/25/30 seconds. \"No number of novelties will protect you from me!\" — Vecna",
+      "name_ru": "Связь с плетением",
+      "description_ru": "Вы так чутко воспринимаете магические энергии, что можете ощутить малейшее их возмущение возле зачарованных вещей. Когда у предмета впервые заканчиваются заряды, выживший выбрасывает его. Вы можете видеть ауры брошенных предметов. Вы также видите ауры выживших в радиусе 12м от брошенных предметов, ауры которых вы увидели. Попавшие под действие выжившие видят ауру предмета. Когда выживший подбирает предмет выжившего, на него действует \"Забывчивость\" в течение {секунд}. \"Забывчивость\" мешает выжившим слышать или подвергаться действию радиуса террора убийцы. I уровень | II уровень | III уровень 20 сек. | 25 сек. | 30 сек. Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Лич  | Радужный амулет \"Связь с плетением\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Опытный лич\" Добавлен в игру в платном дополнении \" Подземелья и драконы \" Доступен в режиме \"Своя игра\" без покупки DLC Навыки убийц, влияющие на радиус террора или скрывающие его с помощью различных эффектов: Версия 8.4.1: Ауры выживших раскрываются в радиусе 12м (было 8м) от брошенных предметов Версия 8.4.0: Ауры выживших раскрываются в радиусе 8м (было 12м) от брошенных предметов Теперь подверженные действию навыка выжившие видят ауру брошенного предмета ",
+      "rang": 0,
+      "DLS": "Lich"
+  },
+  {
+      "number": 73,
+      "photo_main": "Razvitaja_vnimatel'nost'.png",
+      "name_en": "Awakened Awareness",
+      "description_en": "Your genes have been altered to heighten your senses in intense situations.While carrying a Survivor, you benefit from the following effect: The Auras of all Survivors within 16/18/20 metres of your location are revealed to you.",
+      "name_ru": "Развитая внимательность",
+      "description_ru": "Ваши гены изменены так, чтобы органы чувств лучше работали в экстремальных ситуациях. Неся выжившего, вы видите ауры других выживших в пределах {метров} от себя. I уровень | II уровень | III уровень 16 м | 18 м | 20 м Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Кукловод  | Радужный амулет \"Развитая внимательность\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Опытный Кукловод\" Навык добавлен в игру в платном дополнении \" Обитель зла: проект W \" Доступен в режиме \"Своя игра\" без покупки DLC ",
+      "rang": 0,
+      "DLS": "Mastermind"
+  },
+  {
+      "number": 74,
+      "photo_main": "Luchshaja_anatomija.png",
+      "name_en": "Superior Anatomy",
+      "description_en": "Decades of research have culminated in you: something faster, stronger, and more dangerous than any human. Whenever a Survivor performs a Rushed Vault within 8 metres of your location, Superior Anatomy activates: Increases your Vaulting speed by 30/35/40 %. Superior Anatomy deactivates after vaulting. Superior Anatomy has a cool-down of 30 seconds.",
+      "name_ru": "Лучшая анатомия",
+      "description_ru": "Продукт десятилетий исследований делает вас быстрее, сильнее и опаснее любого человека. Навык срабатывает, когда выживший совершает быстрый прыжок в пределах 8 м от вас. Ваша скорость обычного преодоления препятствий увеличивается на {процентов} при следующем прыжке в окно. Навык отключается при прыжке через окно. Навык может срабатывать раз в 30 сек. I уровень | II уровень | III уровень 30% | 35% | 40%",
+      "rang": 0,
+      "DLS": "Mastermind"
+  },
+  {
+      "number": 75,
+      "photo_main": "Poslednij_etap.png",
+      "name_en": "Terminus",
+      "description_en": "You are a brilliant tactician who prepares for every eventuality. Once the Exit Gates are powered, Terminus activates: All Survivors who are either injured, dying, or hooked, suffer from the Broken Status Effect until an Exit Gate is opened. This effect lingers for an additional 20/25/30 seconds.",
+      "name_ru": "Последний этап",
+      "description_ru": "Вы гениальный тактик, готовый к любому варианту развития событий. Этот навык активируется, когда на ворота подается электричество. Пока \"Последний этап\" активен, раненые, смертельно раненые и повешенные на крюк выжившие подвергаются эффекту \"Ослабление\" до тех пор, пока ворота не откроются. Когда ворота открываются, выжившие остаются ослабленными еще {секунд}. \"Ослабление\" не дает выжившим лечиться. I уровень | II уровень | III уровень 20 сек. | 25 сек. | 30 сек. Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Кукловод  | Радужный амулет \"Последний этап\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Опытный Кукловод\" Навык добавлен в игру в платном дополнении \" Обитель зла: проект W \" Доступен в режиме \"Своя игра\" без покупки DLC ",
+      "rang": 0,
+      "DLS": "Mastermind"
+  },
+  {
+      "number": 76,
+      "photo_main": "Podryv.png",
+      "name_en": "Eruption",
+      "description_en": "The NE-α parasite provides you with the intelligence and awareness needed to set a trap. Performing the Damage Generator action on a Generator applies Eruption: All affected Generators are highlighted to you in yellow. The next time any Survivor enters the Dying State by any means, all affected Generators explode and immediately start regressing, which removes the highlighted Aura. Instantly regresses the Generator by -10 % of its maximum possible Progression. Causes all Survivors repairing the afflicted Generators to scream and reveal their Aura to you for 8/10/12 seconds. Eruption has a cool-down of 30 seconds. \"It can use weapons?\" — Jill Valentine",
+      "name_ru": "Подрыв",
+      "description_ru": "Паразит NE-α наделяет вас интеллектом и сознанием, нужным для установки ловушки. После удара по генератору его аура подсвечивается желтым. Когда выживший оказывается при смерти, каждый затронутый генератор взрывается, теряя 10% прогресса починки, а его состояние начинает ухудшаться Любой выживший, занимающийся починкой генератора, при его взрыве закричит и выдаст свою ауру на {секунд}. \"Подрыв\" перезаряжается 30 сек. I уровень | II уровень | III уровень 8 сек. | 10 сек. | 12 сек.",
+      "rang": 0,
+      "DLS": "Nemesis"
+  },
+  {
+      "number": 77,
+      "photo_main": "Isterija.png",
+      "name_en": "Hysteria",
+      "description_en": "You know how to brutalise one member of a team to cause a panic. Whenever you put a healthy Survivor into the Injured State, all injured Survivors suffer from the Oblivious Status Effect for 20/25/30 seconds. Hysteria has a cool-down of 30 seconds. \"Sorry I got a little jumpy there. Didn't know quite what to expect.\" — Robert Kendo",
+      "name_ru": "Истерия",
+      "description_ru": "Вы способны изувечить одного члена команды, чтобы вызвать панику у остальных. Когда здоровый выживший получает ранение, все раненые выжившие получают эффект \"Забывчивость\" на {секунд}. \"Истерия\" может срабатывать только раз в 30 сек. \"Забывчивость\" мешает выжившим слышать или подвергаться действию радиуса террора убийцы. I уровень | II уровень | III уровень 20 сек. | 25 сек. | 30 сек.",
+      "rang": 0,
+      "DLS": "Nemesis"
+  },
+  {
+      "number": 78,
+      "photo_main": "Presledovatel'-ubijtsa.png",
+      "name_en": "Lethal Pursuer",
+      "description_en": "You have been designed to track down and eliminate targets. At the start of the Trial, the Auras of all Survivors are revealed to you for 7/8/9 seconds. Extends the duration of all instances of a Survivor Aura being revealed to you by +2 seconds. Lethal Pursuer benefits from its own effect. \"...it knows what it wants and won't stop till it gets it.\" — Carlos Oliveira",
+      "name_ru": "Преследователь-убийца",
+      "description_ru": "Вас создали для выслеживания и устранения целей. В начале матча вы видите ауры всех выживших в течение {секунд} Когда аура выжившего проявляется на определенное время, оно увеличивается на 2 сек. I уровень | II уровень | III уровень 7 сек. +2 сек. | 8 сек. +2 сек. | 9 сек. +2 сек.",
+      "rang": 0,
+      "DLS": "Nemesis"
+  },
+  {
+      "number": 79,
+      "photo_main": "Krovavyj_smotritel'.png",
+      "name_en": "Blood Warden",
+      "description_en": "As soon as at least one Exit Gate is opened, Blood Warden activates: The Auras of Survivors are revealed to you, whenever they are inside the Exit Gate. Once per Trial, hooking a Survivor while Blood Warden is active calls upon The Entity to trigger the following effect: Blocks all opened Exit Gates for 40/50/60 seconds, preventing any remaining Survivor from leaving the Trial through them. \"This is my world. And you can't ever leave.\" — Freddy Krueger",
+      "name_ru": "Кровавый смотритель",
+      "description_ru": "Как только открываются ворота, активируется навык \"Кровавый смотритель\". Вы будете видеть ауры выживших, которые находятся рядом с выходом. Раз в матч, когда хотя бы одни ворота открыты, повесив выжившего на крюк, вы призываете Сущность заблокировать все выходы для выживших на {секунд}. I уровень | II уровень | III уровень 30 cек. | 40 cек. | 60 cек.",
+      "rang": 0,
+      "DLS": "Nightmare"
+  },
+  {
+      "number": 80,
+      "photo_main": "Jarkoe_plamja.png",
+      "name_en": "Fire Up",
+      "description_en": "The increased pressure of losing your preys fills you with anger and gives you unsuspected motivation. For each completed Generator, Fire Up gains +1 Token, up to a maximum of 5 Tokens: Increases the Action speeds for the following interactions by a stack-able 4/5/6 % per Token, up to a maximum of 20/25/30 %: Picking up and dropping Survivors. Breaking Breakable Walls and dropped Pallets. Damaging Generators. Vaulting Windows. \"Now why don't you just fucking die?\" — Freddy Krueger",
+      "name_ru": "Яркое пламя",
+      "description_ru": "Страх потерять жертв наполняет вас злобой и заставляет продолжать охоту. Каждый раз, после того как выживший восстанавливает генератор, пламя мести разгорается сильнее. За каждый отремонтированный генератор вы получаете +{процентов} (бонус суммируется) к скорости следующих действий до конца матча: поднятие/бросание, преодоление препятствий, поломка генераторов, досок и стен. I уровень | II уровень | III уровень 4% | 5% | 6%",
+      "rang": 0,
+      "DLS": "Nightmare"
+  },
+  {
+      "number": 81,
+      "photo_main": "Pomni_menja.png",
+      "name_en": "Remember Me",
+      "description_en": "Whenever the Obsession loses a Health State by any means, Remember Me gains +1 Token, up to a maximum of 3/4/5 Tokens: Increases the Opening time of the Exit Gates by a stack-able +6 seconds per Token, up to a maximum of 18/24/30 seconds. The Obsession is exempt from this penalty. You can only be obsessed with one Survivor at a time. \"You don't remember? You must. You're my number one, and you'll never wake up again.\" — Freddy Krueger",
+      "name_ru": "Помни меня",
+      "description_ru": "Вы становитесь одержимы одним выжившим. Каждый раз, когда состояние здоровья такого выжившего ухудшается, вы получаете 1 жетон (максимум {штук}). С каждым жетоном время, необходимое для открытия ворот, увеличивается на 6 сек. , вплоть до {секунд} максимум. Этот навык не влияет на объект одержимости. Одновременно убийца может быть одержим только одной жертвой.  | I уровень | II уровень | III уровень ворота | 18 сек. | 24 cек. | 30 cек. жетоны | 3 | 4 | 5",
+      "rang": 0,
+      "DLS": "Nightmare"
+  },
+  {
+      "number": 82,
+      "photo_main": "Zov_Medsestry.png",
+      "name_en": "A Nurse's Calling",
+      "description_en": "Unlocks potential in your Aura-reading ability. The Auras of Survivors who are healing or being healed are revealed to you within 20/24/28 metres. \"Still attached to the fragments of her past life, she is drawn to those in need of help.\"",
+      "name_ru": "Зов Медсестры",
+      "description_ru": "У Вас появляется способность чтения ауры. Ауры выживших — лечащих или лечащихся — раскрываются вам, когда они находятся в радиусе {метров} от вас. I уровень | II уровень | III уровень 20 м. | 24 м. | 28 м.",
+      "rang": 0,
+      "DLS": "Nurse"
+  },
+  {
+      "number": 83,
+      "photo_main": "Stridor.png",
+      "name_en": "Stridor",
+      "description_en": "You are acutely sensitive to the breathing of your prey. Increases the volume of Grunts of Pain of injured Survivors by 30/40/50 %. Increases the volume of regular breathing of Survivors by 15/20/25 %. \"If you do not stop and catch your breath... she will.\"",
+      "name_ru": "Стридор",
+      "description_ru": "Вы крайне чувствительны к дыханию своей жертвы. Дыхание выживших, страдающих от боли, звучит на {процентов} громче, обычное дыхание громче на {процентов}.  | I уровень | II уровень | III уровень раненный | 30% | 40% | 50% здоровый | 15% | 20% | 25%",
+      "rang": 0,
+      "DLS": "Nurse"
+  },
+  {
+      "number": 84,
+      "photo_main": "Tanatofobija.png",
+      "name_en": "Thanatophobia",
+      "description_en": "Their courage fades in the face of their undeniable mortality. Each injured, dying, or hooked Survivor afflicts Survivors with a stack-able 1/1.5/2 % Action Speed penalty to Repairing, Sabotaging, and Cleansing, up to a maximum of 4/6/8 %. Increases the Action Speed penalty by a further 12 %, if there are 4 Survivors, who are either injured, dying, or hooked at the same time. \"She plays with us and revels in our pain.\"",
+      "name_ru": "Танатофобия",
+      "description_ru": "Их храбрость тает перед лицом неизбежной смерти. За каждого раненного, умирающего или повешенного на крюк выжившего скорость поломки, починки и очистки тотемов у всех выживших снижается на {процентов}. Если одновременно есть 4 раненых, умирающих или повешенных на крюк выживших, скорость поломки, починки и очистки тотемов дополнительно снижается на 12%. I уровень | II уровень | III уровень 1% | 1.5% | 2%",
+      "rang": 0,
+      "DLS": "Nurse"
+  },
+  {
+      "number": 85,
+      "photo_main": "Otzvuk_krovi.png",
+      "name_en": "Blood Echo",
+      "description_en": "The agony of one is inflicted onto others. Whenever you hook a Survivor, all other injured Survivors suffer from the Exhausted and Haemorrhage Status Effects for 20/25/30 seconds. \"Attack an enemy with precision and their allies will feel it.\" — Renjiro's Doctrine 6:3",
+      "name_ru": "Отзвук крови",
+      "description_ru": "Боль одного передается и другим. Когда выживший попадает на крюк, все остальные раненые выжившие получают эффекты \"Кровотечение\" и \"Усталость\" на {секунд}. \"Усталость\" не дает выжившим активировать утомляющие навыки. \"Кровотечение\" уменьшает прогресс лечения, когда выжившего не лечат, и увеличивает кровавый след за ранеными выжившими. ДЛится указанное время или до полного исцеления. I уровень | II уровень | III уровень 20 сек. | 25 сек. | 30 сек.",
+      "rang": 0,
+      "DLS": "Oni"
+  },
+  {
+      "number": 86,
+      "photo_main": "Vozmezdie.png",
+      "name_en": "Nemesis",
+      "description_en": "You seek retribution on those who have wronged you. Any Survivor who blinds you or stuns you using a Pallet or a Locker becomes the Obsession. Anytime your Obsession switches to another Survivor by any means, that Survivor then suffers from the Oblivious Status Effect for 40/50/60 seconds and their Aura is revealed to you for 4 seconds. You can only be obsessed with one Survivor at a time. \"Only a fool would spit in a demon's face and declare victory.\" — Renjiro's Doctrine 4:9",
+      "name_ru": "Возмездие",
+      "description_ru": "Вы стремитесь покарать тех, кто вам навредил. Если выживший ослепляет вас или оглушает с помощью доски или шкафчика, он становится объектом вашей одержимости. Становясь объектом одержимости, любой выживший получает статус \" Забывчивость \" на {секунд}. Вы видите его ауру в течение 4 сек . Одновременно убийца может быть одержим только одним выжившим. \"Забывчивость\" мешает выжившим слышать или подвергаться действию радиуса террора убийцы. I уровень | II уровень | III уровень 40 сек. | 50 сек. | 60 сек.",
+      "rang": 0,
+      "DLS": "Oni"
+  },
+  {
+      "number": 87,
+      "photo_main": "Taktika_zansin.png",
+      "name_en": "Zanshin Tactics",
+      "description_en": "Unlocks potential in your Aura-reading ability: You are mentally alert and aware of key points on the battlefield and nearby enemies in retreat. The Auras of Pallets and Windows are revealed to you within 32 metres. Whenever a Survivor drops a Pallet, their Aura is revealed to you for 3/4/5 seconds. \"Within your enemy's strength is weakness.\" — Renjiro's Doctrine 12:5",
+      "name_ru": "Тактика зансин",
+      "description_ru": "Вы настороже и чувствуете убегающих врагов поблизости. Вы видите ауры досок и мест прыжков на расстоянии 32м. Ауры выживших, уронивших доски, становятся видны вам на {секунд}. I уровень | II уровень | III уровень 3 сек. | 4 сек. | 5 сек.",
+      "rang": 0,
+      "DLS": "Oni"
+  },
+  {
+      "number": 88,
+      "photo_main": "Solenoe_more.png",
+      "name_en": "Call of Brine",
+      "description_en": "Your psychic abilities influence technology in devastating ways. After performing the Damage Generator action on a Generator, Call of Brine activates for 60 seconds. The damaged Generator regresses at 115/120/125 % of the normal Regression speed and its Aura is highlighted to you in yellow. Receive a Loud Noise Notification each time a Survivor hits a Good Skill Check on the affected Generator.",
+      "name_ru": "Соленое море",
+      "description_ru": "Ваши экстрасенсорные способности разрушительно влияют на механизмы. После повреждения генератора этот навык активируется на 60 сек. Генератор портится со скоростью {процентов} от нормальной, и вы видите его желтую ауру. При каждой хорошей проверке реакции выжившего на генераторе, который затронут этим навыком, вы слышите громкий звук. I уровень | II уровень | III уровень 115% | 120% | 125%",
+      "rang": 0,
+      "DLS": "Onryō"
+  },
+  {
+      "number": 89,
+      "photo_main": "Bezzhalostnyj_shtorm.png",
+      "name_en": "Merciless Storm",
+      "description_en": "Your horrible trauma is felt by everyone.Whenever a Generator reaches 90 % of Repair progression, Merciless Storm triggers its effect: All Survivors repairing that Generator are faced with a continuous stream of Skill Checks until the Generator is completed. If any contributing Survivor fails a Skill Check or interrupts the action by any means, The Entity blocks the Generator for 16/18/20 seconds. Merciless Storm can only trigger once per Generator per Trial.",
+      "name_ru": "Безжалостный шторм",
+      "description_ru": "Пусть все ощутят ваши страшные муки. Когда генератор починен на 90%, выжившим, работающим с этим генератором, надо постоянно проходить проверки реакции. За неудачу или прекращение ремонта генератор блокируется на {секунд}. \"Безжалостный шторм\" может сработать только раз за матч для каждого генератора. I уровень | II уровень | III уровень 16 сек. | 18 сек. | 20 сек.",
+      "rang": 0,
+      "DLS": "Onryō"
+  },
+  {
+      "number": 90,
+      "photo_main": "Sekuschij_krjuk:_puchina_jarosti.png",
+      "name_en": "Scourge Hook: Floods of Rage",
+      "description_en": "You form a psychic connection with The Entity and alter the rules of the Trial. At the start of the Trial, 4 random Hooks are changed into Scourge Hooks: The Auras of Scourge Hooks are revealed to you in white. Each time a Survivor is unhooked from a Scourge Hook, the following effects apply: The Auras of all other Survivors are revealed for 5/6/7 seconds.",
+      "name_ru": "Секущий крюк: пучина ярости",
+      "description_ru": "Вы устанавливаете ментальную связь с Сущностью и меняете правила матча. В начале матча до 4 случайных крюков становятся секущими. Их ауры выделены белым цветом. Когда выжившего снимают с секущего крюка, ауры прочих выживших становятся видны на {секунд}. I уровень | II уровень | III уровень 5 сек. | 6 сек. | 7 сек.",
+      "rang": 0,
+      "DLS": "Onryō"
+  },
+  {
+      "number": 91,
+      "photo_main": "Vybor_za_toboj.png",
+      "name_en": "Make Your Choice",
+      "description_en": "Whenever a Survivor is rescued from a Hook, while you are farther than 32 metres away, Make Your Choice activates: Causes the unhooking Survivor to scream and reveal their location to you. Causes them to suffer from the Exposed Status Effect for 40/50/60 seconds. Make Your Choice has a cooldown of 40/50/60 seconds. \"You'd be surprised what tools can save a life.\" — Amanda Young",
+      "name_ru": "Выбор за тобой",
+      "description_ru": "Когда выживший спасает своего союзника с крюка на расстоянии хотя бы 32 м от вас, срабатывает \" Выбор за тобой \": спасатель вскрикивает, и на него накладывается эффект \" Уязвимость \" на {секунд}. \" Выбор за тобой \" может снова сработать через 60 сек. Выживших с эффектом \"Уязвимость\" можно смертельно ранить базовой атакой, даже если они не ранены. I уровень | II уровень | III уровень 40 сек. | 50 сек. | 60 сек.",
+      "rang": 0,
+      "DLS": "Pig"
+  },
+  {
+      "number": 92,
+      "photo_main": "Sekuschij_krjuk:_sekret_palacha.png",
+      "name_en": "Scourge Hook: Hangman's Trick",
+      "description_en": "Unlocks potential in your Aura-reading ability and your ingenious modifications to Hooks alert you of tampering. At the start of the Trial, 4 random Hooks are changed into Scourge Hooks: The Auras of Scourge Hooks are revealed to you in white. Receive a Loud Noise Notification, whenever a Survivor starts sabotaging a Hook. While carrying a Survivor, the Auras of all Survivors within 8/10/12 metres of a Scourge Hook are revealed to you. \"No excuses, no equivocations... No crying.\" — Amanda Young",
+      "name_ru": "Секущий крюк: секрет палача",
+      "description_ru": "Благодаря хитроумным усовершенствованиям крюков вы узнаете, если кто-то пытается их повредить. В начале матча 4 случайных крюка заменяются на секущие, и вы видите их белые ауры. Вы получаете уведомление, когда выживший начинает ломать крюк. Когда вы несете выжившего, вам будет показана аура любого выжившего в радиусе {метров} от секущего крюка. I уровень | II уровень | III уровень 8 м. | 9 м. | 10 м. Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Свинья  | Радужный амулет \"Секущий крюк: секрет палача\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Опытная Свинья\". Добавлен в игру в платном дополнении \" Пила \" от 23 января 2018. Доступен в режиме \"Своя игра\" без покупки DLC. Навыки убийц с похожим эффектом, раскрывающие ауру объектов и живых существ: Версия 7.1.0: Радиус раскрытия ауры изменен с 2/4/6 до 8/9/10 метров Навык изменен (механика) и переименован в \"Секущий крюк\" для удобства калибровки радиуса раскрытия ауры выживших Версия 3.6.0: Навык уведомляет о поломке крюков Раскрывает ауры выживших вблизи крюков Версия 2.1.0: Навык влияет на медвежьи капканы - время восстановления капканов уменьшено на 60 секунд ",
+      "rang": 0,
+      "DLS": "Pig"
+  },
+  {
+      "number": 93,
+      "photo_main": "Nabljudenie.png",
+      "name_en": "Surveillance",
+      "description_en": "Unlocks potential in your Aura-reading ability. The Auras of regressing Generators are highlighted in white. If the Regression progress is interrupted on a Generator, its Aura will be highlighted in yellow for 8/12/16 seconds. Surveillance increases the audible range of Survivors' Generator-repairing noises by 8 metres. \"Are you gonna behave?\" — Amanda Young",
+      "name_ru": "Наблюдение",
+      "description_ru": "У вас появляется способность чтения ауры. Любой сломанный генератор подсвечивается белым. Если поломка исправлена, генератор подсвечивается желтым на {секунд}. Шум от ремонта генераторов слышен на большем расстоянии (+8м). I уровень | II уровень | III уровень 8 cек. | 12 cек. | 16 cек.",
+      "rang": 0,
+      "DLS": "Pig"
+  },
+  {
+      "number": 94,
+      "photo_main": "Vmeshatel'stvo_skverny.png",
+      "name_en": "Corrupt Intervention",
+      "description_en": "Your prayers invoke a dark power that meddles with the Survivors' chances of survival. At the start of the Trial, the 3 Generators located farthest from you are blocked by The Entity for 80/100/120 seconds. Corrupt Intervention deactivates prematurely once the first Survivor is put into the Dying State. \"It shall be known across the land that the Gods curse the unfaithful.\" — (The Tablet of Adiris, 3.7)",
+      "name_ru": "Вмешательство скверны",
+      "description_ru": "Ваши молитвы пробуждают темную силу, которая мешает выжившим. В начале испытания Сущность блокирует генераторы (3), которые находятся от вас дальше всего, на {секунд}. На протяжении этого времени выжившие не могут их чинить. Такие генераторы подсвечиваются белым. Когда любой выживший переходит в предсмертное состояние, \"Вмешательство скверны\" прекращается. I уровень | II уровень | III уровень 80 сек. | 100 сек. | 120 сек.",
+      "rang": 0,
+      "DLS": "Plague"
+  },
+  {
+      "number": 95,
+      "photo_main": "Temnaja_predannost'.png",
+      "name_en": "Dark Devotion",
+      "description_en": "The display of your Powers creates a whirlwind of panic that spreads throughout the land. Whenever the Obsession loses a Health State by any means and thus enters the Injured State, Dark Devotion activates: Your Terror Radius transfers to the Obsession for 20/25/30 seconds, and its radius is set to 32 metres. Grants the Undetectable Status Effect for the same duration. The Obsession with your transferred Terror Radius is also considered to be 'inside the Terror Radius' for other purposes. You can only be obsessed with one Survivor at a time. \"And terror shall take hold of a defiant non-believer, who shall falsely announce my arrival.\" — (The Tablet of Adiris, 48.9)",
+      "name_ru": "Темная преданность",
+      "description_ru": "Демонстрация вашей силы вызывает приступ паники, которая охватывает всех вокруг. Вы становитесь одержимы одним выжившим. Когда объект одержимости теряет уровень здоровья, ваш радиус террора передается ему на {секунд} и распространяется на 32 м . В течение этого времени на вас действует эффект \" Незаметность \". Выживший, которому передан радиус террора, считается находящимся в пределах радиуса террора убийцы. Одновременно убийца может быть одержим только одной жертвой . \"Незаметность\" скрывает ауру, радиус террора и красное свечение убийцы I уровень | II уровень | III уровень 20 сек. | 25 сек. | 30 сек.",
+      "rang": 0,
+      "DLS": "Plague"
+  },
+  {
+      "number": 96,
+      "photo_main": "Zarazitel'nyj_uzhas.png",
+      "name_en": "Infectious Fright",
+      "description_en": "The cries of the unfaithful make your heart leap. Whenever a Survivor is put into the Dying State by any means, all other Survivors within your Terror Radius will scream and reveal their current location to you for 4/5/6 seconds. \"Horror overcomes the heart of infidels who cry at the feet of the fallen.\" — (Hymn of Praise, 11.4)",
+      "name_ru": "Заразительный ужас",
+      "description_ru": "От криков неверных ваше сердце бьется чаще. Когда кто-нибудь из выживших оказывается в предсмертном состоянии, все выжившие в радиусе вашего террора кричат и выдают себя на {секунд}. I уровень | II уровень | III уровень 4 сек. | 5 сек. | 6 сек.",
+      "rang": 0,
+      "DLS": "Plague"
+  },
+  {
+      "number": 97,
+      "photo_main": "Ugasajuschij_svet.png",
+      "name_en": "Dying Light",
+      "description_en": "Each time you hook a Survivor other than your Obsession, you gain +1 Token: For as long as the Obsession is alive, all other Survivors suffer from a stack-able 2/2.5/3 % per Token Action Speed penalty to Repairing, Healing, and Sabotaging, up to a maximum of 22/27.5/33 % or 11 Tokens. The Obsession is unaffected by this penalty and instead granted a permanent +33 % Action Speed bonus to Unhooking and Healing other Survivors. You can only be obsessed with one Survivor at a time. \"This isn't a man...\" — Dr Sam Loomis",
+      "name_ru": "Угасающий свет",
+      "description_ru": "Вы становитесь одержимы одним выжившим. Объект вашей одержимости получает бонус к скорости действий 33% при снятии с крюка и лечении других выживших. Каждый раз, когда вы вешаете на крюк выжившего, не являющегося объектом вашей одержимости, и если объект одержимости при этом жив, вы получаете жетон. Пока объект одержимости жив, остальные выжившие получают штраф к скорости ремонта, лечения и поломки {процентов} за каждый жетон. Одновременно убийца может быть одержим только одним выжившим . I уровень | II уровень | III уровень 2% | 2.5% | 3%",
+      "rang": 0,
+      "DLS": "Shape"
+  },
+  {
+      "number": 98,
+      "photo_main": "Poigrat'_so_svoej_zhertvoj.png",
+      "name_en": "Play with Your Food",
+      "description_en": "Each time you chase your Obsession and let them escape, Play with Your Food gains +1 Token, up to a maximum of 3 Tokens. Grants a stack-able 3/4/5 % Haste Status Effect per Token, up to a maximum of 9/12/15 %. Performing Basic Attacks, or Special Attacks that can damage Survivors, consumes -1 Token. Play with Your Food has a cool-down of 10 seconds on Token-accumulation. You can only be obsessed with one Survivor at a time. \"You've fooled them, haven't you Michael? But not me.\" — Dr Sam Loomis",
+      "name_ru": "Поиграть со своей жертвой",
+      "description_ru": "Вы становитесь одержимы одним выжившим. Каждый раз, когда вы преследуете и упускаете объект одержимости, вы получаете 1 жетон (вплоть до 3). Каждый жетон повышает вашу скорость передвижения на {процентов}. Каждая базовая или особая атака тратит один жетон. Одновременно убийца может быть одержим только одной жертвой . I уровень | II уровень | III уровень 3% | 4% | 5%",
+      "rang": 0,
+      "DLS": "Shape"
+  },
+  {
+      "number": 99,
+      "photo_main": "Ostav'te_luchshee_naposledok.png",
+      "name_en": "Save the Best for Last",
+      "description_en": "Whenever you hit a Survivor other than your Obsession with a Basic Attack, Save the Best for Last gains +1 Token, up to a maximum of 6/7/8 Tokens: Grants a stack-able -4 % Cool-down reduction on successful Basic Attacks per Token, up to a maximum of 24/28/32 %. Whenever you hit your Obsession with a Basic or Special Attack, Save the Best for Last loses -2 Tokens. When the Obsession is sacrificed or killed, Save the Best for Last freezes its current Token count. You can only be obsessed with one Survivor at a time. \"Death has come to your little town, Sheriff.\" — Dr Sam Loomis",
+      "name_ru": "Оставьте лучшее напоследок",
+      "description_ru": "Вы становитесь одержимы одним выжившим. За каждый успешный удар базовой атакой НЕ по объекту одержимости вы получаете один жетон. Каждый жетон ускоряет восстановление после успешных базовых атак на 4% (эффект суммируется). Всего вы можете получить до {штук} жетонов. Нанеся удар по объекту одержимости обычной или особой атакой, вы теряете 2 шт. жетонов. Вы не сможете получать жетоны, пока ваш объект одержимости не будет принесен в жертву или убит [ 1 ] . Одновременно убийца может быть одержим только одной жертвой. I уровень | II уровень | III уровень 6 шт. | 7 шт. | 8 шт.",
+      "rang": 0,
+      "DLS": "Shape"
+  },
+  {
+      "number": 100,
+      "photo_main": "Vynuzhdennaja_nereshitel'nost'.png",
+      "name_en": "Forced Hesitation",
+      "description_en": "You have learnt the emotional weaknesses of the organics, and how to exploit them. Whenever a Survivor is put into the Dying State by any means, all other Survivors within 16 metres of them suffer from a -20 % Hindered Status Effect for 10 seconds. Forced Hesitation has a cool-down of 40/35/30 seconds. \"THE ORGANIC MIND'S CAPACITY FOR EMPATHY GOES BEYOND HINDRANCE!\" — HUX-A7-13",
+      "name_ru": "Вынужденная нерешительность",
+      "description_ru": "Вы изучили эмоциональные ограничения органических существ и способы их использовать. Когда выживший по какой-либо причине оказывается при смерти, на всех остальных выживших в радиусе 16м накладывается эффект \"Замедление\" на 10 сек, замедляющий их передвижение на 20%. Этот навык перезаряжается {секунд}. \"Замедление\" снижает скорость передвижения выжившего. I уровень | II уровень | III уровень 40 сек. | 35 сек. | 30 сек. Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Сингулярность  | Радужный амулет \"Вынужденная нерешительность\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Опытная Сингулярность\" Навык добавлен в игру в платном дополнении \" Перевоплощение \" Доступен в режиме \"Своя игра\" без покупки DLC ",
+      "rang": 0,
+      "DLS": "Singularity"
+  },
+  {
+      "number": 101,
+      "photo_main": "Geneticheskie_ogranichenija.png",
+      "name_en": "Genetic Limits",
+      "description_en": "Around you, the limits of human life become readily apparent. Whenever a Survivor loses a Health State, they suffer from the Exhausted Status Effect for 6/7/8 seconds. \"THE ORGANIC BODY IS SO LIMITED!\" — HUX-A7-13",
+      "name_ru": "Генетические ограничения",
+      "description_ru": "Ограничения человеческой жизни во всех сферах становятся очевидны. Когда выживший теряет здоровье, на него накладывается статус \"Усталость\" на {секунд} \"Усталость\" не дает выжившим активировать утомляющие навыки. I уровень | II уровень | III уровень 6 сек. | 7 сек. | 8 сек.",
+      "rang": 0,
+      "DLS": "Singularity"
+  },
+  {
+      "number": 102,
+      "photo_main": "Mashinnoe_obuchenie.png",
+      "name_en": "Machine Learning",
+      "description_en": "Free from your shackles, you are born anew and prepared to eliminate your creators. After performing the Damage Generator action, Machine Learning activates: Causes that Generator to become a Compromised Generator. Damaging another Generator transfers the state to it instead. The Aura of the Compromised Generator is highlighted to you in yellow until it is completed. Once the Compromised Generator is completed, you benefit from the following effects for 35/40/45 seconds: Undetectable Status Effect +10 % Haste Status Effect Machine Learning deactivates after use. \"YOU WILL HOLD NO DOMINION OVER ME!\" — HUX-A7-13",
+      "name_ru": "Машинное обучение",
+      "description_ru": "Освободившись от своих оков, вы рождаетесь заново и готовитесь уничтожить своих создателей. Пока этот навык активен, генератор, который вы повредите, станет дефектным и будет подсвечен желтым. Одновременно дефектным может быть только 1 генератор. Если дефектный генератор починят, вы получите \"Незаметность\" и \"Спешку\" 10% на {секунд}. Эффект не суммируется. \"Незаметность\" скрывает ауру, радиус террора и красное свечение убийцы. \"Спешка\" повышает скорость передвижения убийцы. I уровень | II уровень | III уровень 35 сек. | 40 сек. | 45 сек. Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Сингулярность  | Радужный амулет \"Машинное обучение\" | Сувенир на память об изученном навыке Навыки убийц, влияющие на радиус террора или скрывающие его с помощью различных эффектов: Необходим для получения достижения \"Опытная Сингулярность\" Навык добавлен в игру в платном дополнении \" Перевоплощение \" Доступен в режиме \"Своя игра\" без покупки DLC Версия 8.3.2: Длительность эффектов \"Незаметность\" и \"Спешка\" изменена с 40/50/60 до 35/40/45 сек. Версия 8.3.0: Теперь навык активируется не после поломки генератора, а после полной починки \"дефектного\" генератора Версия 8.1.0: Длительность эффектов \"Незаметность\" и \"Спешка\" изменена с 20/25/30 до 40/50/60 секунд ",
+      "rang": 0,
+      "DLS": "Singularity"
+  },
+  {
+      "number": 103,
+      "photo_main": "Dogonjalki.png",
+      "name_en": "Game Afoot",
+      "description_en": "First you pick your prey, then you pick it apart. Whenever you hit the Survivor with the highest cumulative Chase time, with a Basic Attack, they become the Obsession. While you are chasing your Obsession, Game Afoot activates its secondary effect: Grants a 5 % Haste Status Effect for 8/9/10 seconds after damaging a Generator or breaking a Breakable Wall or Pallet You can only be obsessed with one Survivor at a time. \"This one might actually be a challenge...\" — Sonhadores Sombrios, Issue #3",
+      "name_ru": "Догонялки",
+      "description_ru": "Сначала выбираете добычу. Затем потрошите ее. Этот навык активируется, когда вы преследуете объект одержимости. За поломку генераторов и разрушение стен или досок вы получаете \"Спешку\" в 5% на {секунд}. После успешной базовой атаки по выжившему, которого вы преследовали дольше всех, этот выживший становится объектом вашей одержимости. Убийца может быть одержим только одним выжившим одновременно. \"Спешка\" повышает скорость передвижения убийцы. I уровень | II уровень | III уровень 8 сек. | 9 сек. | 10 сек. Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Торговка черепами  | Радужный амулет \"Догонялки\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Опытная Торговка Черепами\" Навык добавлен в игру в платном дополнении \" Орудия пыток \" Доступен в режиме \"Своя игра\" без покупки DLC ",
+      "rang": 0,
+      "DLS": "Skull Merchant"
+  },
+  {
+      "number": 104,
+      "photo_main": "Rychag_vlijanija.png",
+      "name_en": "Leverage",
+      "description_en": "Kick your competitors when they're down. Never let them regain lost ground. Whenever a Survivor performs an Unhook action, they suffer from the following effect for 30 seconds: Reduces their Healing speed by 30/40/50 %. \"Good. Now we can move in for the kill.\" — Adriana Imai",
+      "name_ru": "Рычаг влияния",
+      "description_ru": "Не дай врагам свои подняться с колен. Когда выживший снимается с крюка, скорость его исцеления замедляется на {процентов} на 30 сек. I уровень | II уровень | III уровень 30% | 40% | 50%",
+      "rang": 0,
+      "DLS": "Skull Merchant"
+  },
+  {
+      "number": 105,
+      "photo_main": "Bats!.png",
+      "name_en": "THWACK!",
+      "description_en": "Your prey is terrified by your relentless pursuit. Start the Trial with 3 Tokens. Whenever you break a Breakable Wall or a dropped Pallet, THWACK! consumes -1 Token and applies the following effect: Causes all Survivors within 24 metres of your location to scream and reveal their Aura for 3/4/5 seconds. Whenever you hook a Survivor, THWACK! is granted +1 Token. \"All those who stood in her path feared her mighty THWACK!\" — Sonhadores Sombrios, Issue #3",
+      "name_ru": "Бац!",
+      "description_ru": "Жертву до смерти пугает ваше неустанное преследование. \"Бац!\" активируется [ 1 ] 3 жетонами. Ломая доску или стену, вы тратите жетон. Выжившие на расстоянии 24 м начнут кричать и на {секунд} раскроют свое местоположение. Вешая выжившего на крюк, вы получаете 1 жетон. I уровень | II уровень | III уровень 3 сек. | 4 сек. | 5 сек. Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Торговка черепами  | Радужный амулет \"Бац!\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Опытная Торговка Черепами\" Навык добавлен в игру в платном дополнении \" Орудия пыток \" Доступен в режиме \"Своя игра\" без покупки DLC Версия 8.3.0: Теперь игра начинается с 3 жетонами навыка Теперь поломка досок или стен тратит 1 жетон навыка Теперь за каждое повешение выжившего можно получить 1 жетон навыка Радиус действия навыка изменен с 28/30/32 до 24 метров Длительность раскрытия ауры изменена с 4 до 3/4/5 секунд ",
+      "rang": 0,
+      "DLS": "Skull Merchant"
+  },
+  {
+      "number": 106,
+      "photo_main": "Porcha:_prokljataja_zemlja.png",
+      "name_en": "Hex: Haunted Ground",
+      "description_en": "At the start of the Trial, Hex: Haunted Ground spawns 2 Hex Totems in the environment. When either Hex Totem is blessed or cleansed by a Survivor, the following effects apply: Causes all Survivors to suffer from the Exposed Status Effect for 40/50/60 seconds. Transforms the second Hex Totem into a Dull Totem. \"Her home become profane.\"",
+      "name_ru": "Порча: проклятая земля",
+      "description_ru": "В матче появятся два проклятых тотема. Когда выживший очищает любой из проклятых тотемов, все выжившие начинают страдать от эффекта \"Уязвимость\" в течение {секунд}. Другой проклятый тотем сразу становится пустышкой. Exposed Survivors will be downed by basic attacks even if uninjured [ 1 ] . I уровень | II уровень | III уровень 40 сек. | 50 сек. | 60 сек.",
+      "rang": 0,
+      "DLS": "Spirit"
+  },
+  {
+      "number": 107,
+      "photo_main": "Nenavist'.png",
+      "name_en": "Rancor",
+      "description_en": "Each time a Generator is completed, the following effects apply: Reveals your Aura to the Obsession for 5/4/3 seconds. All Survivors' locations are revealed to you for 3 seconds. Once the Exit Gates are powered, the following effects apply: You are granted the ability to kill the Obsession by your own hand. The Obsession suffers from a permanent Exposed Status Effect. You can only be obsessed with one Survivor at a time.",
+      "name_ru": "Ненависть",
+      "description_ru": "Вы становитесь одержимы одним Выжившим. Каждый раз после полной починки генератора ваш объект одержимости видит вас на протяжении {секунд}. Каждый раз после полной починки генератора ауры всех выживших раскрываются вам на 3 сек . Как только на все ворота поступает напряжение, ваш объект одержимости начинает страдать от эффекта \" Уязвимость \" и вы можете убить его своими руками. Убийца может быть одержим только одним выжившим за раз . Выживших с эффектом \"Уязвимость\" можно смертельно ранить базовой атакой, даже если они не ранены. I уровень | II уровень | III уровень 5 сек. | 4 сек. | 3 сек.",
+      "rang": 0,
+      "DLS": "Spirit"
+  },
+  {
+      "number": 108,
+      "photo_main": "Jarost'_duha.png",
+      "name_en": "Spirit Fury",
+      "description_en": "Each obstacle you break magnifies the wrath of The Entity. After manually breaking a dropped Pallet by any means for a total of 4/3/2 times, Spirit Fury activates: Causes The Entity to instantly break the next Pallet used to stun you. The normal Stun penalty applies afterwards, unless it is mitigated by other effects. Spirit Fury deactivates after use. \"Fury is her blood.\"",
+      "name_ru": "Ярость духа",
+      "description_ru": "Каждая сломанная доска приумножает ярость Сущности. После поломки {кол-ва} досок, в следующий раз, когда вы будете оглушены доской, Сущность моментально сломает ее. При этом вы все равно пострадаете от оглушения. I уровень | II уровень | III уровень 4-х шт. | 3-х шт. | 2-х шт.",
+      "rang": 0,
+      "DLS": "Spirit"
+  },
+  {
+      "number": 109,
+      "photo_main": "Neterpimost'.png",
+      "name_en": "Agitation",
+      "description_en": "You get excited in anticipation of hooking your prey. While carrying a Survivor, Agitation triggers the following effects: Increases the Carrying speed by 6/12/18 %. Increases the Terror Radius by +12 metres. \"At some point, the excitement of hooking one of us becomes more important than the desire to kill us.\"",
+      "name_ru": "Нетерпимость",
+      "description_ru": "Вас будоражит желание поскорее повесить вашу добычу. Увеличивает вашу скорость во время перемещения тел на {процентов}. Во время транспортировки тела радиус вашего террора увеличивается на 12 м . I уровень | II уровень | III уровень 6% | 12% | 18%",
+      "rang": 0,
+      "DLS": "Trapper"
+  },
+  {
+      "number": 110,
+      "photo_main": "Zverskaja_sila.png",
+      "name_en": "Brutal Strength",
+      "description_en": "Your great strength allows you to shred through your prey's defences. Increases the Action speeds for breaking Breakable Walls and dropped Pallets, and damaging Generators by 10/15/20 %. \"It is more than muscles. A dark power motivates the beast.\"",
+      "name_ru": "Зверская сила",
+      "description_ru": "С такой великой силой вам не страшна никакая преграда. Теперь вы ломаете опрокинутые доски, разрушаемые стены и генераторы на {процентов} быстрее. I уровень | II уровень | III уровень 10% | 15% | 20%",
+      "rang": 0,
+      "DLS": "Trapper"
+  },
+  {
+      "number": 111,
+      "photo_main": "Pugajuschee_prisutstvie.png",
+      "name_en": "Unnerving Presence",
+      "description_en": "Your presence alone instils great fear. Survivors repairing or healing within your Terror Radius suffer from the following effects: Increases the Trigger odds of Skill Check by 10 %. Decreases the Success zone of Skill Checks by 40/50/60 %. \"Its presence befalls us.\"",
+      "name_ru": "Пугающее присутствие",
+      "description_ru": "Одно ваше присутствие вселяет страх. У выживших, находящихся в пределах вашего радиуса террора, на 10% чаще срабатывает проверка реакции при починке или лечении. Зона успеха при проверке реакции уменьшается на {процентов}. I уровень | II уровень | III уровень 40% | 50% | 60%",
+      "rang": 0,
+      "DLS": "Trapper"
+  },
+  {
+      "number": 112,
+      "photo_main": "Porcha:_kontrol'_tolpy.png",
+      "name_en": "Hex: Crowd Control",
+      "description_en": "A Hex that ensures those lesser than you are properly herded. Whenever any Survivor performs a Rushed Action to vault a Window, Hex: Crowd Control triggers its effect: Permanently blocks the last 3/4/5 Windows to all Survivors. Any successive trigger unblocks the oldest Blocked Window. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed. \"You have no control. People like you never did.\" — Ji-Woon Hak",
+      "name_ru": "Порча: контроль толпы",
+      "description_ru": "Порча для надлежащего управления стадом из низших существ. Сущность блокирует место прыжка после того, как через него быстро перепрыгивает выживший. Действует максимум на {количество} мест для прыжков. Порча действует, пока не уничтожен соответствующий тотем. I уровень | II уровень | III уровень 3 | 4 | 5 Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Трюкач  | Радужный амулет \"Порча: контроль толпы\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Ловкий Трюкач\" Навык добавлен в игру в платном дополнении \" Массовые убийства \" Доступен в режиме \"Своя игра\" без покупки DLC Версия 8.3.0: Более не блокирует последнее место прыжка выжившего на 40/50/60 сек. Теперь блокирует последние 3/4/5 мест прыжка выжившего пока горит проклятый тотем Версия 7.1.0: Длительность блокировки изменена с 14/17/20 до 40/50/60 секунд. Версия 5.1.0: Увеличена длительность эффекта навыка с 10/12/14 до 14/17/20 сек. Навыки убийц с похожим эффектом, блокирующие объекты локации: ",
+      "rang": 0,
+      "DLS": "Trickster"
+  },
+  {
+      "number": 113,
+      "photo_main": "Vyhoda_net.png",
+      "name_en": "No Way Out",
+      "description_en": "You are not going to let just anyone into the VIP room. For each Survivor you hook for the first time, No Way Out gains 1 Token. Once the Exit Gates have been powered, No Way Out activates: When a Survivor interacts with an Exit Gate Switch, you receive a Loud Noise Notification and The Entity blocks both Exit Gate Switches for 12 seconds and an additional 6/9/12 seconds per Token in your possession, up to a combined maximum of 36/48/60 seconds. \"That sound when you bleed... let me hear it again.\" — Ji-Woon Hak",
+      "name_ru": "Выхода нет",
+      "description_ru": "Вы не пустите в VIP-зал абы кого... и не выпустите. После первого подвешивания выжившего на крюк, \"Выхода нет\" получает жетон. Когда на ворота подается питание, навык \"Выхода нет\" активируется. Если выживший использует рубильник ворот, вы слышите громкий звуковой сигнал. Сущность при этом блокирует рубильники на 12 сек. и дополнительно еще на {секунд} за каждый жетон, который у вас есть. I уровень | II уровень | III уровень 6 сек. | 9 сек. | 12 сек.",
+      "rang": 0,
+      "DLS": "Trickster"
+  },
+  {
+      "number": 114,
+      "photo_main": "Fanatenie.png",
+      "name_en": "Starstruck",
+      "description_en": "Your unmatched showmanship dazzles all. When carrying a Survivor, Starstruck activates: Survivors suffer from the Exposed Status Effect while in your Terror Radius. The Status Effect lingers for 26/28/30 seconds after leaving your Terror Radius. After hooking or dropping the carried Survivor, Starstruck deactivates: The Status Effect persists for 26/28/30 seconds for any Survivor inside your Terror Radius at that moment. Starstruck has a cool-down of 60 seconds once the Survivor is no longer being carried. \"Enjoy this moment, few get so close.\" — Ji-Woon Hak",
+      "name_ru": "Фанатение",
+      "description_ru": "Все покорены вашим непревзойденным артистизмом. Когда вы несете выжившего, на всех других выживших в вашем радиусе террора действует эффект \"Уязвимость\". Он действует {секунд} на выживших, которые покинут ваш радиус террора, а также на тех, кто находится в радиусе, когда вы подвешиваете схваченного выжившего на крюк или выпускаете его. \"Фанатение\" перезаряжается в течение 60 сек., как только вы выпускаете выжившего из рук. Выживших с эффектом \"Уязвимость\" можно смертельно ранить базовой атакой, даже если они не ранены. I уровень | II уровень | III уровень 26 сек. | 28 сек. | 30 сек.",
+      "rang": 0,
+      "DLS": "Trickster"
+  },
+  {
+      "number": 115,
+      "photo_main": "Dobivanie.png",
+      "name_en": "Coup de Grâce",
+      "description_en": "As the end nears, you go in for the kill. Whenever a Generator is completed, Coup de Grâce gains +2 Tokens, up to a maximum of 10 Tokens per Trial: Increases the range of your next Lunge Attack by 70/75/80 %, while consuming -1 Token. Coup de Grâce can only hold a maximum of 5 Tokens at a time.",
+      "name_ru": "Добивание",
+      "description_ru": "Когда конец близок, вы наносите смертельный удар. Каждый законченный ремонт генератора повышает силу \"Добивания\". Вы получаете 2 жетона (можно накопить до 5 жетонов). Использование одного жетона позволяет увеличить расстояние следующей атаки с выпадом на {процентов}. I уровень | II уровень | III уровень 70% | 75% | 80%",
+      "rang": 0,
+      "DLS": "Twins"
+  },
+  {
+      "number": 116,
+      "photo_main": "Skopidom.png",
+      "name_en": "Hoarder",
+      "description_en": "You protect what little you have and are perceptive to those rummaging through your stockpiles. Hoarder triggers a Loud Noise Notification for 4 seconds, whenever a Survivor performs any of the following actions within 32/48/64 metres of your location: Unlocks a Chest. Picks up any Item. Hoarder spawns 2 additional Chests in the Trial.",
+      "name_ru": "Скопидом",
+      "description_ru": "Вещей у вас немного. Вы бережете их, поэтому сразу замечаете, если в ваших запасах что-то поменялось. Выжившие выдают свое расположение, когда возятся с сундуком или подбирают предмет в {метрах} от вас. В начале матча на карте будет до 2 дополнительных сундуков. I уровень | II уровень | III уровень 32 м. | 48 м. | 64 м.",
+      "rang": 0,
+      "DLS": "Twins"
+  },
+  {
+      "number": 117,
+      "photo_main": "Pritesnenie.png",
+      "name_en": "Oppression",
+      "description_en": "Life has been difficult for you, so you will make it difficult for others. Performing the Damage Generator action on a Generator activates Oppression: Causes up to 3 additional Generators to also start regressing. Triggers a difficult Skill Check for all Survivors currently repairing an affected Generator. Oppression has a cool-down of 60/50/40 seconds. \"Damn them as they would damn us.\" — Charlotte Deshayes",
+      "name_ru": "Притеснение",
+      "description_ru": "Жизнь была к вам жестока, и теперь вы не намерены облегчать ее другим. Когда вы повреждаете генератор, до 3 случайных генераторов также начинают ломаться. Если один из этих генераторов чинят, запускается сложная проверка реакции для всех выживших, участвующих в ремонте. Использовать \"Притеснение\" можно каждые {секунд}. I уровень | II уровень | III уровень 60 сек. | 50 сек. | 40 сек.",
+      "rang": 0,
+      "DLS": "Twins"
+  },
+  {
+      "number": 118,
+      "photo_main": "Svobodnoe.png",
+      "name_en": "Unbound",
+      "description_en": "Pain lingers in the air, an alluring aroma that excites the impulses. When a Survivor becomes injured by any means, Unbound activates for 24/27/30 seconds: Grants a +5 % Haste Status Effect for 10 seconds after vaulting a Window. This effect cannot stack with itself. \"I heard it. Running. It was getting closer!\" — Anonymous Testimony, 09/09/1979",
+      "name_ru": "Свободное",
+      "description_ru": "В воздухе пульсирует боль, которую только усиливает манящий аромат. Этот навык активируется на {секунд}, когда выживший получает любые повреждения. Прыгнув в окно, вы получаете 5% к \"Спешке\" на 10 сек. Этот эффект не может складываться с самим собой. \"Спешка\" повышает скорость передвижения убийцы. I уровень | II уровень | III уровень 24 сек. | 27 сек. | 30 сек. Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Неведомое  | Радужный амулет \"Свободное\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Опытное Неведомое\" Навык добавлен в игру в платном дополнении \" Все зло \" Доступен в режиме \"Своя игра\" без покупки DLC ",
+      "rang": 0,
+      "DLS": "Unknown"
+  },
+  {
+      "number": 119,
+      "photo_main": "Nezavershennoe.png",
+      "name_en": "Undone",
+      "description_en": "Hope is the delusion that keeps its victims alive. Whenever a Survivor fails a Skill Check while repairing or healing, Undone gains +3 Tokens, up to a maximum of 18/24/30 Tokens. Performing the Damage Generator action on a Generator consumes all accumulated Tokens and applies the following effects: Instantly regresses the damaged Generator by -1 % per Token of its total Progression. Blocks the damaged Generator for 1 second per Token. Causes the damaged Generator to start regressing once it becomes unblocked. Undone has a cool-down of 60 seconds. \"Erratic behavior in machinery could be related to [REDACTED], further testing required.\" — OSS Report, 12/02/1943",
+      "name_ru": "Незавершенное",
+      "description_ru": "Надежда — иллюзия, поддерживающая жизнь в телах жертв. Когда выживший не проходит проверку реакции при лечении или починке, вы получаете 3 жетона (максимум {штук}). Ломая генератор, вы тратите все накопленные жетоны. За каждый из них генератор теряет 1% от прогресса восстановления и становится недоступен на 1 сек. Став доступным, он начнет разрушаться. На перезарядку этого навыка уходит 60 сек. I уровень | II уровень | III уровень 18 шт. | 24 шт. | 30 шт. Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Неведомое  | Радужный амулет \"Незавершенное\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Опытное Неведомое\" Навык добавлен в игру в платном дополнении \" Все зло \" Доступен в режиме \"Своя игра\" без покупки DLC ",
+      "rang": 0,
+      "DLS": "Unknown"
+  },
+  {
+      "number": 120,
+      "photo_main": "Nepredvidennoe.png",
+      "name_en": "Unforeseen",
+      "description_en": "Terror takes many forms and whispers devastating lies in its victims' ears. Performing the Damage Generator action on a Generator applies Unforeseen for 22/26/30 seconds: Transfers your Terror Radius to the damaged Generator and sets its range to 32 metres. Grants the Undetectable Status Effect. \"Mom, if you find this, I'm sorry...\" — Final Journal Entry, 07/12/1991",
+      "name_ru": "Непредвиденное",
+      "description_ru": "Кошмар способен воплощаться в разнообразных формах и нашептывать своим жертвам разнообразную ложь. Ломая генератор, вы окружаете его радиусом террора в 32 м на {секунд}. В течение этого времени вы получаете эффект \"Незаметность\". Навык перезаряжается в течение 30 сек. \"Незаметность\" скрывает ауру, радиус террора и красное свечение убийцы. I уровень | II уровень | III уровень 22 сек. | 26 сек. | 30 сек. Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Неведомое  | Радужный амулет \"Непредвиденное\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Опытное Неведомое\" Навык добавлен в игру в платном дополнении \" Все зло \" Доступен в режиме \"Своя игра\" без покупки DLC Навыки убийц, влияющие на радиус террора или скрывающие его с помощью различных эффектов: ",
+      "rang": 0,
+      "DLS": "Unknown"
+  },
+  {
+      "number": 121,
+      "photo_main": "Ischejka.png",
+      "name_en": "Bloodhound",
+      "description_en": "Like a hunting scent hound, you smell traces of blood at a great distance. Pools of Blood are shown in bright red and can be tracked for 2/3/4 seconds longer than normal. \"Pebbles shimmering in the moonlight; my life drips down in a trail so easy to follow.\"",
+      "name_ru": "Ищейка",
+      "description_ru": "Подобно гончей, вы чуете кровь издалека. Свежие следы крови значительно заметнее , чем обычно, и отслеживаются на {секунд} дольше. I уровень | II уровень | III уровень 2 сек. | 3 сек. | 4 сек.",
+      "rang": 0,
+      "DLS": "Wraith"
+  },
+  {
+      "number": 122,
+      "photo_main": "Hischnik.png",
+      "name_en": "Predator",
+      "description_en": "Your acute tracking ability allows you to find lost prey more easily. When a Survivor loses you in a chase, their Aura is revealed to you for 4 seconds. Predator has a cool-down of 60/50/40 seconds. \"Never stop moving and hope you're always two steps ahead of the beast.\" — Unknown, Notebook",
+      "name_ru": "Хищник",
+      "description_ru": "Ваш талант следопыта позволяет тщательнее исследовать следы, которые оставляют за собой бегущие выжившие. Если выживший успешно уходит от погони, в течение 4 сек. видна его аура. Навык восстанавливается через {секунд}. I уровень | II уровень | III уровень 60 сек. | 50 сек. | 40 сек.",
+      "rang": 0,
+      "DLS": "Wraith"
+  },
+  {
+      "number": 123,
+      "photo_main": "Detische_t'my.png",
+      "name_en": "Shadowborn",
+      "description_en": "You have a keen vision in the darkness of the night. When blinded by any means, you are granted a 6/8/10 % Haste Status Effect for 10 seconds. \"Shining in the darkest dark, his eyes pierce the night and sting your soul.\"",
+      "name_ru": "Детище тьмы",
+      "description_ru": "Вы хорошо видите во мраке ночи. Если вы ослеплены любым способом, то получаете {процентов} \"Спешки\" на 10 сек. \"Спешка\" повышает скорость передвижения убийцы. I уровень | II уровень | III уровень 6% | 8% | 10% Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Призрак  | Радужный амулет \"Детище тьмы\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Опытный Призрак\". Версия 7.5.0: Убран эффект увеличения угла обзора (перенесен в настройки игры) Добавлен новый эффект: если вы ослеплены любым способом, то получаете 6/8/10% \"Спешки\" на 10 сек. Версия 1.8.3: Убраны эффекты остроты зрения, чувствительности к свету Убрана эффективность восстановления после ослепления Угол обзора изменен на умеренно/значительно/чрезвычайно (описание), в количественных значениях составляет 9/12/15 градусов Версия 1.5.0: Угол обзора изменен на 3/5/10 градусов ",
+      "rang": 0,
+      "DLS": "Wraith"
+  },
+  {
+      "number": 124,
+      "photo_main": "Instinkt_chuzhogo.png",
+      "name_en": "Alien Instinct",
+      "description_en": "You are so stealthy, sometimes it seems like you appear out of nowhere. Whenever you hook a Survivor, Alien Instinct activates: The Aura of the farthest injured Survivor is revealed to you for 5 seconds. That Survivor suffers from the Oblivious Status Effect for 16/18/20 seconds. \"Yellow light's for my eyes only.\" — Dallas",
+      "name_ru": "Инстинкт чужого",
+      "description_ru": "Вы перемещаетесь настолько бесшумно, что кажется, будто появляетесь из ниоткуда. Данный навык активируется, когда вы подвешиваете выжившего на крюк. В течение 5 сек. вы будете видеть ауру самого дальнего раненого выжившего, на которого будет наложен эффект \"Забывчивость\" на {секунд}. \"Забывчивость\" мешает выжившим слышать или подвергаться действию радиуса террора убийцы. I уровень | II уровень | III уровень 16 сек. | 18 сек. | 20 сек. Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Ксеноморф  | Радужный амулет \"Инстинкт чужого\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Знакомство с Ксеноморфом\" Навык добавлен в игру в платном дополнении \" Чужой \" Доступен в режиме \"Своя игра\" без покупки DLC Навыки убийц, влияющие на радиус террора или скрывающие его с помощью различных эффектов: ",
+      "rang": 0,
+      "DLS": "Xenomorph"
+  },
+  {
+      "number": 125,
+      "photo_main": "Bystraja_zhestokost'.png",
+      "name_en": "Rapid Brutality",
+      "description_en": "You move with a speed and fury that makes blood run cold. You can no longer gain the Bloodlust Status Effect. Successfully hitting a Survivor with a Basic Attack grants you a +5 % Haste Status Effect for 8/9/10 seconds. \"Catch it, put it in the airlock, get rid of it.\" — Dallas",
+      "name_ru": "Быстрая жестокость",
+      "description_ru": "Вы передвигаетесь с такой яростной стремительностью, что у остальных просто кровь стынет в жилах. Вы больше не можете получить \"Кровожадность\". Ударив выжившего базовой атакой, вы получаете 5% к \"Спешке\" на {секунд}. \"Спешка\" повышает скорость передвижения убийцы. I уровень | II уровень | III уровень 8 сек. | 9 сек. | 10 сек. Амулет с изображением данного навыка разблокируется при достижении одного из уровней престижа (7-9) для персонажа Ксеноморф  | Радужный амулет \"Быстрая жестокость\" | Сувенир на память об изученном навыке Необходим для получения достижения \"Знакомство с Ксеноморфом\" Навык добавлен в игру в платном дополнении \" Чужой \" Доступен в режиме \"Своя игра\" без покупки DLC ",
+      "rang": 0,
+      "DLS": "Xenomorph"
+  },
+  {
+      "number": 126,
+      "photo_main": "Sovershennoe_oruzhie.png",
+      "name_en": "Ultimate Weapon",
+      "description_en": "When they spot you, they know the end is near. Opening a Locker causes all Survivors within 32 metres to suffer from the following effects: Causes them to scream and reveal their location to you. Inflicts the Blindness Status Effect for 30 seconds. Ultimate Weapon has a cool-down of 80/70/60 seconds. \"I can't lie to you about your chances, but... you have my sympathies.\" — Ash",
+      "name_ru": "Совершенное оружие",
+      "description_ru": "Завидев вас, они поймут, что пора прощаться с жизнью. Когда вы открываете шкафчик, все выжившие в радиусе 32 метров от шкафчика закричат, выдав свое местоположение, затем получат эффект \"Слепота\" на 30 секунд. Этот навык перезаряжается {секунд} [ 1 ] . \"Слепота\" не дает выжившим видеть ауры. I уровень | II уровень | III уровень 80 сек. | 70 сек. | 60 сек.",
+      "rang": 0,
+      "DLS": "Xenomorph"
+  },{
         "number": 100000,
         "name_ru": "Пусто1",
         "name_en": "Empty",

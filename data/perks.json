@@ -32,7 +32,7 @@
   },
   {
       "number": 3,
-      "photo_main": "Porcha:_nikomu_ne_skryt'sja_ot_smerti.png",
+      "photo_main": "IconPerks_noOneEscapesDeath.webp",
       "name_en": "Hex: No One Escapes Death",
       "description_en": "A Hex rooting its power on hope. You are animated by the power of your Hex Totem when the Survivors are on the verge of escaping. Once the Exit Gates are powered, if there is still a Dull Totem remaining in the environment, Hex: No One Escapes Death activates and lights it: Grants a 2/3/4 % Haste Status Effect. Causes all Survivors to suffer permanently from the Exposed Status Effect. Hex: No One Escapes Death remains inactive if no Dull Totems are available. Once the Status Effect is revealed to Survivors, Hex: No One Escapes Death reveals the Aura of its Hex Totem to all Survivors within 4 metres and gradually expands that range to 24 metres over the course of 30 seconds. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed. \"And the beast became faster and more powerful as if The Entity's shadowy whips were lashing at its back.\"",
       "name_ru": "Порча: никому не скрыться от смерти",
@@ -42,7 +42,7 @@
   },
   {
       "number": 4,
-      "photo_main": "Porcha:_ohotnichij_azart.png",
+      "photo_main": "IconPerks_thrillOfTheHunt.webp",
       "name_en": "Hex: Thrill of the Hunt",
       "description_en": "A Hex rooting its power on hope. The false hope of Survivors fills you with excitement and strengthens your Totems. Start the Trial with 5 Tokens, one per Totem: Reduces the Action speeds for Blessing and Cleansing by a stack-able 8/10/12 % per Token, up to a maximum of 40/50/60 %. Hex: Thrill of the Hunt loses -1 Token whenever a Totem is cleansed. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed.",
       "name_ru": "Порча: охотничий азарт",
@@ -72,7 +72,7 @@
   },
   {
       "number": 7,
-      "photo_main": "Sekuschij_krjuk:_chudovischnyj_hram.png",
+      "photo_main": "IconPerks_monstrousShrine.webp",
       "name_en": "Scourge Hook: Monstrous Shrine",
       "description_en": "Your fervent care of the Hooks found in the Basement has aroused The Entity's interest. At the start of the Trial, 4 random Hooks, as well as the 4 Basement Hooks, are changed into Scourge Hooks: The Auras of Scourge Hooks are revealed to you in white. Whenever a Survivor is hooked onto a Scourge Hook, the following effect applies when you are farther than 24 metres from the hooked Survivor: Accelerates the Sacrifice Process by 10/15/20 %. \"Then you will know that there is no escape. When hanging in the depths, you face the dark one.\"",
       "name_ru": "Секущий крюк: чудовищный храм",
@@ -142,7 +142,7 @@
   },
   {
       "number": 14,
-      "photo_main": "Porcha:_pentimento.png",
+      "photo_main": "IconPerks_hexPentimento.webp",
       "name_en": "Hex: Pentimento",
       "description_en": "You reveal the true power of the Totems, hidden within their remains. You see the Auras of cleansed Totems. You can perform a ritual on a cleansed Totem to resurrect it as a Rekindled Totem. For each Rekindled Totem active at the same time, Hex: Pentimento gains an additional effect: 1 Totem: reduces all Survivors' Repair speed by 20/25/30 %. 2 Totems: reduces all Survivors' Healing speed by 20/25/30 %. 3 Totems: reduces all Survivors' Recovery speed from being downed by 20/25/30 %. 4 Totems: reduces all Survivors' Gate-Opening speed by 20/25/30 %. 5 Totems: all Totems are permanently blocked by The Entity. When a Rekindled Totem is cleansed, its remains are consumed by The Entity and it cannot be rekindled. \"Though a pentimento is an inherently concealed piece of art, there is something to be said of the desire to discover that which is beyond.\" — A Guide to Art & Process (1961)",
       "name_ru": "Порча: пентименто",
@@ -152,7 +152,7 @@
   },
   {
       "number": 15,
-      "photo_main": "Sekuschij_krjuk:_rezonans_boli.png",
+      "photo_main": "IconPerks_painResonance.webp",
       "name_en": "Scourge Hook: Pain Resonance",
       "description_en": "Overwhelming pain reverberates outwards. At the start of the Trial, 4 random Hooks are changed into Scourge Hooks: The Auras of Scourge Hooks are revealed to you in white. Start the Trial with 4 Token. Whenever a Survivor is hooked onto a Scourge Hook for the first time, Scourge Hook: Pain Resonance consumes -1 Token and applies the following effects: Causes the Generator with the most progression to explode, damaging it. Instantly regresses the damaged Generator by 10/15/20 % of its total Progression. Causes the damaged Generator to start regressing afterwards. Causes all Survivors repairing the damaged Generator to scream. This does not trigger a Loud Noise Notification. Scourge Hook: Pain Resonance is disabled for the remainder of the Trial once all Tokens are consumed. \"The pain spills beyond flesh/darkness staining the horizon.\" — Girl in the Shadow by Carmina Mora",
       "name_ru": "Секущий крюк: резонанс боли",
@@ -172,7 +172,7 @@
   },
   {
       "number": 17,
-      "photo_main": "Porcha:_blagovolenie_krovi.png",
+      "photo_main": "IconPerks_hexBloodFavor.webp",
       "name_en": "Hex: Blood Favour",
       "description_en": "A Hex that gains the favour of The Entity when blood is spilt. Whenever a Survivor loses a Health State by any means, Hex: Blood Favour triggers its effect: Blocks all upright Pallets within 24/28/32 metres of that Survivor's location at the time for 15 seconds. Blocked Pallets cannot be dropped. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed. \"It would be no leap of the imagination to suggest that the Trials are a biological response of sorts.\" — Journal of Talbot Grimes",
       "name_ru": "Порча: благоволение крови",
@@ -182,7 +182,7 @@
   },
   {
       "number": 18,
-      "photo_main": "Porcha:_ne-smert'.png",
+      "photo_main": "IconPerks_hexUndying.webp",
       "name_en": "Hex: Undying",
       "description_en": "A Hex which maintains the vile powers that flow throughout the Trial. The Auras of Survivors within 2/3/4 metres of any Dull Totem are revealed to you. When another Perk's Hex Totem is cleansed or blessed, its Hex is transferred to the Hex: Undying Totem, including any accumulated Tokens, disabling Hex: Undying instead. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed.",
       "name_ru": "Порча: не-смерть",
@@ -232,7 +232,7 @@
   },
   {
       "number": 23,
-      "photo_main": "Porcha:_igrushka.png",
+      "photo_main": "IconPerks_HexPlaything.webp",
       "name_en": "Hex: Plaything",
       "description_en": "A Hex that toys with a victim's suffering. If there is at least one Dull Totem remaining in the Trial Grounds, Hex: Plaything activates on a random Totem each time a Survivor is hooked for the first time: The hooked Survivor suffers from the Cursed and Oblivious Status Effects until Hex: Plaything is cleansed. For the first 90 seconds, only the Cursed Survivor is able to cleanse the Hex Totem. The Aura of Hex: Plaything's Hex Totem is revealed to the Cursed Survivor within 24/20/16 metres. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed. \"We came. Now you must come with us. Taste our pleasure.\" — Pinhead",
       "name_ru": "Порча: игрушка",
@@ -242,7 +242,7 @@
   },
   {
       "number": 24,
-      "photo_main": "Sekuschij_krjuk:_dar_boli.png",
+      "photo_main": "IconPerks_ScourgeHookGiftOfPain.webp",
       "name_en": "Scourge Hook: Gift of Pain",
       "description_en": "You are the bringer of sweet pain. At the start of the Trial, 4 random Hooks are changed into Scourge Hooks: The Auras of Scourge Hooks are revealed to you in white. Each time a Survivor is unhooked from a Scourge Hook, the following effects apply: The Survivor suffers from the Haemorrhage and Mangled Status Effects for 90 seconds. After the first time they are healed, affected Survivors suffer from a 10/13/16 % Action Speed penalty to Repairing and Healing until they are injured again. \"We will tear your soul apart.\" — Pinhead",
       "name_ru": "Секущий крюк: дар боли",
@@ -292,7 +292,7 @@
   },
   {
       "number": 29,
-      "photo_main": "Porcha:_gor'kaja_uchast'.png",
+      "photo_main": "IconPerks_HexWretchedFate.webp",
       "name_en": "Hex: Wretched Fate",
       "description_en": "You see your victim from afar and resolve to prolong their suffering. After a Generator is completed, Hex: Wretched Fate activates and lights a random Dull Totem, cursing the Obsession: Reduces their Repair speed by 27/30/33 %. The Aura of the Hex Totem is revealed to them within 12 metres. \"So toil, mortal, toil! Your effort will be for naught!\" — Dracula",
       "name_ru": "Порча: горькая участь",
@@ -332,7 +332,7 @@
   },
   {
       "number": 33,
-      "photo_main": "Porcha:_kara.png",
+      "photo_main": "IconPerks_hexRetribution.webp",
       "name_en": "Hex: Retribution",
       "description_en": "A Hex that lashes out upon its destruction. Those who cross you will be punished. Whenever a Survivor blesses or cleanses a Totem, the following effects apply: Causes that Survivor to suffer from the Oblivious Status Effect for 35/40/45 seconds. The Auras of all Survivors are revealed to you for 15 seconds after completing the interaction. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed. \"Bloody fool, you pulled the trigger on yourself.\" — Caleb Quinn",
       "name_ru": "Порча: кара",
@@ -512,7 +512,7 @@
   },
   {
       "number": 51,
-      "photo_main": "Porcha:_igra_dlja_dvoih.png",
+      "photo_main": "IconPerks_twoCanPlay.webp",
       "name_en": "Hex: Two Can Play",
       "description_en": "A Hex that teaches those who mess with you a lesson. Anytime you are stunned or blinded by any Survivor a total of 4/3/2 times, and if there is not yet a Hex Totem already associated with Hex: Two Can Play and there is at least one Dull Totem remaining in the Trial Grounds, Hex: Two Can Play activates on a random Totem: Blinds all Survivors who stun or blind you for 1.5 seconds. This does not affect carried Survivors. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed. \"From now on, no more Mr Good Guy.\" — Chucky",
       "name_ru": "Порча: игра для двоих",
@@ -522,7 +522,7 @@
   },
   {
       "number": 52,
-      "photo_main": "Porcha:_pozhiranie_nadezhdy.png",
+      "photo_main": "IconPerks_devourHope.webp",
       "name_en": "Hex: Devour Hope",
       "description_en": "A Hex rooting its power on hope. The false hope of Survivors ignites your hunger. Whenever a Survivor is rescued from a Hook while you are at least 24 metres away, Hex: Devour Hope is granted +1 Token, up to a maximum of 5 Tokens: 2 Tokens: Grants a 3/4/5 % Haste Status Effect for 10 seconds after 10 seconds of having hooked a Survivor. 3 Tokens: Causes all Survivors to suffer from a permanent Exposed Status Effect. 5 Tokens: Grants the ability to kill all Survivors by your own hand. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed. \"If you do nothing, you have their blood on your hands. If you save them, her hunger grows.\"",
       "name_ru": "Порча: пожирание надежды",
@@ -532,7 +532,7 @@
   },
   {
       "number": 53,
-      "photo_main": "Porcha:_pogibel'.png",
+      "photo_main": "IconPerks_ruin.webp",
       "name_en": "Hex: Ruin",
       "description_en": "A Hex that affects the Generator Repair progress of all Survivors. Whenever a Generator is not being repaired by a Survivor, it will immediately and automatically regress its Repair progress at 50/75/100 % of the normal Regression speed. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed. \"A curse is upon you. It will cause your ruin.\"",
       "name_ru": "Порча: погибель",
@@ -542,7 +542,7 @@
   },
   {
       "number": 54,
-      "photo_main": "Porcha:_tret'ja_pechat'.png",
+      "photo_main": "IconPerks_theThirdSeal.webp",
       "name_en": "Hex: The Third Seal",
       "description_en": "A Hex that hinders the Survivors' Aura-reading abilities. The last 2/3/4 Survivors you hit with a Basic or Special Attack suffer permanently from the Blindness Status Effect. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed. \"She touched your skin, you bear the witch's mark!\"",
       "name_ru": "Порча: третья печать",
@@ -602,7 +602,7 @@
   },
   {
       "number": 60,
-      "photo_main": "Sekuschij_krjuk:_scherbatyj_kompas.png",
+      "photo_main": "IconPerks_ScourgeHookJaggedCompass.webp",
       "name_en": "Scourge Hook: Jagged Compass",
       "description_en": "Sometimes the compass points north. Other times it points somewhere else entirely. At the start of the Trial, 4 random Hooks are changed into Scourge Hooks: The Auras of Scourge Hooks are revealed to you in white. Whenever a Survivor is unhooked from a normal Hook, the following effect applies: The Hook is converted into a Scourge Hook. Whenever you hook a Survivor onto a Scourge Hook, the following effect applies: The Aura of the Generator with the most progression is highlighted in yellow for 6/8/10 seconds. \"Drop anchor! I will chart us a new course.\" — Portia Maye",
       "name_ru": "Секущий крюк: щербатый компас",
@@ -622,7 +622,7 @@
   },
   {
       "number": 62,
-      "photo_main": "Porcha:_kolybel'naja_ohotnitsy.png",
+      "photo_main": "IconPerks_HuntressLullaby.webp",
       "name_en": "Hex: Huntress Lullaby",
       "description_en": "A Hex rooting its power in despair. Your hunt is an irresistible song of dread which muddles your prey's attention. Increases the default Progression penalty incurred by Failed Skill Checks by 2/4/6 %. This only affects Healing and Repairing actions. Whenever a Survivor is hooked, Hex: Huntress Lullaby grows in power and gains +1 Token, up to a maximum of 5 Tokens: Increasingly shortens the time between an affected incoming Skill Check appearing and triggering its audio cue beforehand: 1 Token: -14 % 2 Tokens: -28 % 3 Tokens: -42 % 4 Tokens: -56 % 5 Tokens: Suppresses the audio cue altogether. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed. \"That song, it drives me crazy!\"",
       "name_ru": "Порча: колыбельная охотницы",
@@ -642,7 +642,7 @@
   },
   {
       "number": 64,
-      "photo_main": "Porcha:_lik_mraka.png",
+      "photo_main": "IconPerks_HexFaceTheDarkness.webp",
       "name_en": "Hex: Face the Darkness",
       "description_en": "You make an example of one of your victims, forcing their allies to become awed by your power. Whenever you injure a Survivor by any means, if there is still a Dull Totem remaining on the Map, Hex: Face the Darkness activates and lights it, cursing that Survivor: Causes all other Survivors to scream every 35/30/25 seconds, if they are outside of the Terror Radius, revealing their Auras for 2 seconds each time. Hex: Face the Darkness deactivates once the Cursed Survivor either enters the Dying State or is fully healed, which extinguishes the Totem. Hex: Face the Darkness is disabled for the remainder of the Trial, if a Survivor manages to cleanse its Hex Totem. \"I shall make an example of one. These mewling worms will never know peace.\" — Tarhos Kovács",
       "name_ru": "Порча: лик мрака",
@@ -902,7 +902,7 @@
   },
   {
       "number": 90,
-      "photo_main": "Sekuschij_krjuk:_puchina_jarosti.png",
+      "photo_main": "IconPerks_floodOfRage.webp",
       "name_en": "Scourge Hook: Floods of Rage",
       "description_en": "You form a psychic connection with The Entity and alter the rules of the Trial. At the start of the Trial, 4 random Hooks are changed into Scourge Hooks: The Auras of Scourge Hooks are revealed to you in white. Each time a Survivor is unhooked from a Scourge Hook, the following effects apply: The Auras of all other Survivors are revealed for 5/6/7 seconds.",
       "name_ru": "Секущий крюк: пучина ярости",
@@ -922,7 +922,7 @@
   },
   {
       "number": 92,
-      "photo_main": "Sekuschij_krjuk:_sekret_palacha.png",
+      "photo_main": "IconPerks_hangmansTrick.webp",
       "name_en": "Scourge Hook: Hangman's Trick",
       "description_en": "Unlocks potential in your Aura-reading ability and your ingenious modifications to Hooks alert you of tampering. At the start of the Trial, 4 random Hooks are changed into Scourge Hooks: The Auras of Scourge Hooks are revealed to you in white. Receive a Loud Noise Notification, whenever a Survivor starts sabotaging a Hook. While carrying a Survivor, the Auras of all Survivors within 8/10/12 metres of a Scourge Hook are revealed to you. \"No excuses, no equivocations... No crying.\" — Amanda Young",
       "name_ru": "Секущий крюк: секрет палача",
@@ -1062,7 +1062,7 @@
   },
   {
       "number": 106,
-      "photo_main": "Porcha:_prokljataja_zemlja.png",
+      "photo_main": "IconPerks_hauntedGround.webp",
       "name_en": "Hex: Haunted Ground",
       "description_en": "At the start of the Trial, Hex: Haunted Ground spawns 2 Hex Totems in the environment. When either Hex Totem is blessed or cleansed by a Survivor, the following effects apply: Causes all Survivors to suffer from the Exposed Status Effect for 40/50/60 seconds. Transforms the second Hex Totem into a Dull Totem. \"Her home become profane.\"",
       "name_ru": "Порча: проклятая земля",
@@ -1122,7 +1122,7 @@
   },
   {
       "number": 112,
-      "photo_main": "Porcha:_kontrol'_tolpy.png",
+      "photo_main": "IconPerks_HexCrowdControl.webp",
       "name_en": "Hex: Crowd Control",
       "description_en": "A Hex that ensures those lesser than you are properly herded. Whenever any Survivor performs a Rushed Action to vault a Window, Hex: Crowd Control triggers its effect: Permanently blocks the last 3/4/5 Windows to all Survivors. Any successive trigger unblocks the oldest Blocked Window. All effects of the Hex Perk persist until its Hex Totem is cleansed or blessed. \"You have no control. People like you never did.\" — Ji-Woon Hak",
       "name_ru": "Порча: контроль толпы",

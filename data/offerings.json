@@ -296,7 +296,7 @@
         "name_en": "Airlock Doors",
         "description_ru": "",
         "description_en": "Increasesthe likelihood of being sent to theNostromo WreckageMap in theDvarka DeepwoodRealm.Modifies the Realm Selector Logic by a value of9999.\"You know the quarantine procedure.24 hours for decontamination.\" — Ellen Ripley",
-        "photo_main": "Dveri_shljuza.jpg",
+        "photo_main": "iconFavors_airlockDoors.png",
         "rang": 0,
         "syrv_killer": 0
     },

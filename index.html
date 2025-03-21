@@ -353,7 +353,28 @@
     </div>
 
     <script>
-                    
+        // Словарь с переводами
+        const translations = {
+            ru: {
+                emptyAddons: "Включить пустые аддоны",
+                emptyPerks: "Включить пустые перки",
+                emptyOfferings: "Включить пустые подношения",
+                allKillers: "Все убийцы",
+            },
+            en: {
+                emptyAddons: "Enable empty addons",
+                emptyPerks: "Enable empty perks",
+                emptyOfferings: "Enable empty offerings",
+                allKillers: "All killers",
+            },
+            es: {
+                emptyAddons: "Habilitar addons vacíos",
+                emptyPerks: "Habilitar perks vacíos",
+                emptyOfferings: "Habilitar ofrendas vacías",
+                allKillers: "Todos los asesinos",
+            }
+        };
+
         const centeredPhoto = document.querySelector('.centered-photo');
         const textOverlay = document.querySelector('.text-overlay');
         const nonSquarePhotoImg = document.getElementById('non-square-photo-img');
@@ -384,27 +405,7 @@
         let perkText = '';
         let PodnoshenieText = '';
 
-        // Словарь с переводами
-        const translations = {
-            ru: {
-                emptyAddons: "Включить пустые аддоны",
-                emptyPerks: "Включить пустые перки",
-                emptyOfferings: "Включить пустые подношения",
-                allKillers: "Все убийцы",
-            },
-            en: {
-                emptyAddons: "Enable empty addons",
-                emptyPerks: "Enable empty perks",
-                emptyOfferings: "Enable empty offerings",
-                allKillers: "All killers",
-            },
-            es: {
-                emptyAddons: "Habilitar addons vacíos",
-                emptyPerks: "Habilitar perks vacíos",
-                emptyOfferings: "Habilitar ofrendas vacías",
-                allKillers: "Todos los asesinos",
-            }
-        };
+
 
         // Функция для получения параметра из URL
         function getParameterFromUrl(name) {

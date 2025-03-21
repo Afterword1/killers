@@ -420,16 +420,23 @@
 
 
             if (emptyAddonsLabel) {
-                emptyAddonsLabel.textContent = translations[lang].emptyAddons;
+                // Находим текстовый узел внутри <label> и обновляем его
+                const textNode = Array.from(emptyAddonsLabel.childNodes).find(node => node.nodeType === Node.TEXT_NODE);
+                if (textNode) {
+                    textNode.textContent = translations[lang].emptyAddons;
+                }
             }
             if (emptyPerksLabel) {
-                emptyPerksLabel.textContent = translations[lang].emptyPerks;
+                const textNode = Array.from(emptyPerksLabel.childNodes).find(node => node.nodeType === Node.TEXT_NODE);
+                if (textNode) {
+                    textNode.textContent = translations[lang].emptyPerks;
+                }
             }
             if (emptyOfferingsLabel) {
-                emptyOfferingsLabel.textContent = translations[lang].emptyOfferings;
-            }
-            if (allKillersOption) {
-                allKillersOption.textContent = translations[lang].allKillers;
+                const textNode = Array.from(emptyOfferingsLabel.childNodes).find(node => node.nodeType === Node.TEXT_NODE);
+                if (textNode) {
+                    textNode.textContent = translations[lang].emptyOfferings;
+                }
             }
         }
 

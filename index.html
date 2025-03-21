@@ -405,8 +405,6 @@
         let perkText = '';
         let PodnoshenieText = '';
 
-
-
         // Функция для получения параметра из URL
         function getParameterFromUrl(name) {
             const urlParams = new URLSearchParams(window.location.search);
@@ -418,7 +416,6 @@
 
         // Обновляем текст чекбоксов и выпадающего списка
         if (translations[lang]) {
-
 
             if (emptyAddonsLabel) {
                 // Находим текстовый узел внутри <label> и обновляем его
@@ -474,7 +471,18 @@
             // Функция для получения случайного элемента
             function getRandomKiller(killers) {
                 const randomIndex = Math.floor(Math.random() * killers.length);
-                killerText += killers[randomIndex].name_ru +" / ";
+                
+                if (lang === 'ru') {
+                    killerText += killer.name_ru + " / ";
+                } else if (lang === 'en') {
+                    killerText += killer.name_en + " / ";
+                } else if (lang === 'es') {
+                    killerText += killer.name_es + " / ";
+                } else {
+                    // По умолчанию используем русский язык
+                    killerText += killer.name_ru + " / ";
+                }
+                
                 return killers[randomIndex];
             }
 
@@ -486,8 +494,22 @@
                     addons.splice(-2);
                 }
                 const shuffledAddons = [...addons].sort(() => 0.5 - Math.random());
-                killerText += shuffledAddons[0].name_addon_ru +" / " + shuffledAddons[1].name_addon_ru;
-                textDown.textContent += killerText;
+                // Выбираем имена аддонов в зависимости от языка
+                
+                if (lang === 'ru') {
+                    killerText += shuffledAddons[0].name_addon_ru + " / " + shuffledAddons[1].name_addon_ru;
+                } else if (lang === 'en') {
+                    killerText += shuffledAddons[0].name_addon_en + " / " + shuffledAddons[1].name_addon_en;
+                } else if (lang === 'es') {
+                    killerText += shuffledAddons[0].name_addon_es + " / " + shuffledAddons[1].name_addon_es;
+                } else {
+                    // По умолчанию используем русский язык
+                    killerText += shuffledAddons[0].name_addon_ru + " / " + shuffledAddons[1].name_addon_ru;
+                }
+
+                // Обновляем текстовое поле
+                textDown.textContent += killerText;    
+
                 console.log(killerText);
                 return [shuffledAddons[0], shuffledAddons[1]];
             }
@@ -501,6 +523,33 @@
                     perks.splice(-4);
                 }
                 const shuffledAddons = [...perks].sort(() => 0.5 - Math.random());
+                
+                // Выбираем имена перков в зависимости от языка
+                if (lang === 'ru') {
+                    perkText = shuffledPerks[0].name_ru + " / " +
+                            shuffledPerks[1].name_ru + " / " +
+                            shuffledPerks[2].name_ru + " / " +
+                            shuffledPerks[3].name_ru;
+                } else if (lang === 'en') {
+                    perkText = shuffledPerks[0].name_en + " / " +
+                            shuffledPerks[1].name_en + " / " +
+                            shuffledPerks[2].name_en + " / " +
+                            shuffledPerks[3].name_en;
+                } else if (lang === 'es') {
+                    perkText = shuffledPerks[0].name_es + " / " +
+                            shuffledPerks[1].name_es + " / " +
+                            shuffledPerks[2].name_es + " / " +
+                            shuffledPerks[3].name_es;
+                } else {
+                    // По умолчанию используем русский язык
+                    perkText = shuffledPerks[0].name_ru + " / " +
+                            shuffledPerks[1].name_ru + " / " +
+                            shuffledPerks[2].name_ru + " / " +
+                            shuffledPerks[3].name_ru;
+                }
+                // Обновляем текстовое поле
+                textDownPerks.textContent = perkText;    
+
                 return [shuffledAddons[0], shuffledAddons[1],shuffledAddons[2],shuffledAddons[3]];
             }
 

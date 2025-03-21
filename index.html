@@ -353,6 +353,37 @@
     </div>
 
     <script>
+                    
+        const centeredPhoto = document.querySelector('.centered-photo');
+        const textOverlay = document.querySelector('.text-overlay');
+        const nonSquarePhotoImg = document.getElementById('non-square-photo-img');
+        const photoPlaceholderImg = document.getElementById('photo-placeholder-img');
+        const photoAddonPlaceholderImg1 = document.getElementById('photo-addonplaceholder1-img');
+        const photoAddonPlaceholderImg2 = document.getElementById('photo-addonplaceholder2-img');
+        const photoAddonPlaceholderImg11 = document.getElementById('photo-addonplaceholder11-img');
+        const photoAddonPlaceholderImg22 = document.getElementById('photo-addonplaceholder22-img');
+        const photoPerks0 = document.getElementById('perks-photo-img0');
+        const photoPerks1 = document.getElementById('perks-photo-img1');
+        const photoPerks2 = document.getElementById('perks-photo-img2');
+        const photoPerks3 = document.getElementById('perks-photo-img3');
+        const photoPerks00 = document.getElementById('perks-photo-img00');
+        const photoPerks11 = document.getElementById('perks-photo-img11');
+        const photoPerks22 = document.getElementById('perks-photo-img22');
+        const photoPerks33 = document.getElementById('perks-photo-img33');
+        const photoPodnosheniePlaceholder = document.getElementById('photo-podnoshenie-placeholder');
+        const photoPodnosheniePlaceholder22 = document.getElementById('photo-podnoshenie-placeholder22');
+        const textDown = document.querySelector('.text-down');
+        const textDownPerks = document.querySelector('.text-down-perks');
+            
+        const emptyAddonsLabel = document.querySelector('empty-addons');
+        const emptyPerksLabel = document.querySelector('empty-perks');
+        const emptyOfferingsLabel = document.querySelector('empty-offerings');
+        const allKillersOption = document.querySelector('killer-select');
+        
+        let killerText = '';
+        let perkText = '';
+        let PodnoshenieText = '';
+
         // Словарь с переводами
         const translations = {
             ru: {
@@ -386,10 +417,7 @@
 
         // Обновляем текст чекбоксов и выпадающего списка
         if (translations[lang]) {
-            const emptyAddonsLabel = document.querySelector('label[for="empty-addons"]');
-            const emptyPerksLabel = document.querySelector('label[for="empty-perks"]');
-            const emptyOfferingsLabel = document.querySelector('label[for="empty-offerings"]');
-            const allKillersOption = document.querySelector('#killer-select option[value="all"]');
+
 
             if (emptyAddonsLabel) {
                 emptyAddonsLabel.textContent = translations[lang].emptyAddons;
@@ -433,32 +461,7 @@
                 .catch((error) => {
                     console.error("Ошибка загрузки изображения:", error);
                 });
-            
-            const centeredPhoto = document.querySelector('.centered-photo');
-            const textOverlay = document.querySelector('.text-overlay');
-            const nonSquarePhotoImg = document.getElementById('non-square-photo-img');
-            const photoPlaceholderImg = document.getElementById('photo-placeholder-img');
-            const photoAddonPlaceholderImg1 = document.getElementById('photo-addonplaceholder1-img');
-            const photoAddonPlaceholderImg2 = document.getElementById('photo-addonplaceholder2-img');
-            const photoAddonPlaceholderImg11 = document.getElementById('photo-addonplaceholder11-img');
-            const photoAddonPlaceholderImg22 = document.getElementById('photo-addonplaceholder22-img');
-            const photoPerks0 = document.getElementById('perks-photo-img0');
-            const photoPerks1 = document.getElementById('perks-photo-img1');
-            const photoPerks2 = document.getElementById('perks-photo-img2');
-            const photoPerks3 = document.getElementById('perks-photo-img3');
-            const photoPerks00 = document.getElementById('perks-photo-img00');
-            const photoPerks11 = document.getElementById('perks-photo-img11');
-            const photoPerks22 = document.getElementById('perks-photo-img22');
-            const photoPerks33 = document.getElementById('perks-photo-img33');
-            const photoPodnosheniePlaceholder = document.getElementById('photo-podnoshenie-placeholder');
-            const photoPodnosheniePlaceholder22 = document.getElementById('photo-podnoshenie-placeholder22');
-            const textDown = document.querySelector('.text-down');
-            const textDownPerks = document.querySelector('.text-down-perks');
 
-            
-            let killerText = '';
-            let perkText = '';
-            let PodnoshenieText = '';
 
             // Функция для получения случайного элемента
             function getRandomKiller(killers) {

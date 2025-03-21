@@ -253,7 +253,14 @@
             font-size: 16px;
             background-color: #000000; /* Цвет фона для текста */
         }
-        
+        .text-down-offering {
+            width: 100%; /* Для выравнивания по ширине */
+            text-align: center; /* Выравнивание текста по центру */
+            padding: 10px;
+            color: #ffffff;
+            font-size: 16px;
+            background-color: #000000; /* Цвет фона для текста */
+        }
 
     </style>
 </head>
@@ -350,6 +357,9 @@
         <div class="text-container">
             <div class="text-down-perks"> </div>
         </div>
+        <div class="text-container">
+            <div class="text-down-offering"> </div>
+        </div>
     </div>
 
     <script>
@@ -395,7 +405,8 @@
         const photoPodnosheniePlaceholder22 = document.getElementById('photo-podnoshenie-placeholder22');
         const textDown = document.querySelector('.text-down');
         const textDownPerks = document.querySelector('.text-down-perks');
-            
+        const textDownOffering = document.querySelector('.text-down-offering');
+    
         const emptyAddonsLabel = document.querySelector('label:has(input#empty-addons)');
         const emptyPerksLabel = document.querySelector('label:has(input#empty-perks)');
         const emptyOfferingsLabel = document.querySelector('label:has(input#empty-offerings)');
@@ -561,10 +572,22 @@
                     Offerings.splice(-1);
                 }
                 const shuffledAddons = [...Offerings].sort(() => 0.5 - Math.random());
+                // Выбираем имена перков в зависимости от языка
+                if (lang === 'ru') {
+                    PodnoshenieText = shuffledAddons.name_ru 
+                } else if (lang === 'en') {
+                    PodnoshenieText = shuffledAddons.name_en
+                } else if (lang === 'es') {
+                    PodnoshenieText = shuffledAddons.name_es
+                } else {
+                    // По умолчанию используем русский язык
+                    PodnoshenieText = shuffledAddons.name_ru
+                }
+                // Обновляем текстовое поле
+                textDownOffering.textContent = PodnoshenieText;  
+                console.log(PodnoshenieText);
                 return [shuffledAddons[0]];
             }
-
-            
 
 
             fetch('data/killers.json')  // Замените на фактический путь к вашему JSON

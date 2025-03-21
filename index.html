@@ -335,9 +335,9 @@
             </div>
         </div>
         <div class="checkbox-container">
-            <label><input type="checkbox" id="empty-addons"></label>
-            <label><input type="checkbox" id="empty-perks"></label>
-            <label><input type="checkbox" id="empty-offerings"></label>
+            <label><input type="checkbox" id="empty-addons"> Включить пустые аддоны</label>
+            <label><input type="checkbox" id="empty-perks"> Включить пустые перки</label>
+            <label><input type="checkbox" id="empty-offerings"> Включить пустые подношения</label>
 
                 <!-- Выпадающий список с киллерами -->
             <select id="killer-select" class="killer-dropdown">
@@ -375,10 +375,10 @@
         const textDown = document.querySelector('.text-down');
         const textDownPerks = document.querySelector('.text-down-perks');
             
-        const emptyAddonsLabel = document.querySelector('empty-addons');
-        const emptyPerksLabel = document.querySelector('empty-perks');
-        const emptyOfferingsLabel = document.querySelector('empty-offerings');
-        const allKillersOption = document.querySelector('killer-select');
+        const emptyAddonsLabel = document.querySelector('label[for="empty-addons"]');
+        const emptyPerksLabel = document.querySelector('label[for="empty-perks"]');
+        const emptyOfferingsLabel = document.querySelector('label[for="empty-offerings"]');
+        const allKillersOption = document.querySelector('#killer-select option[value="all"]');
         
         let killerText = '';
         let perkText = '';

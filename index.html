@@ -415,7 +415,7 @@
 
         // Получаем язык из URL
         const lang = getParameterFromUrl('lang') || 'ru'; // По умолчанию 'ru', если параметр не указан
-        
+
         const emptyAddonsLabel = document.querySelector('label:has(input#empty-addons)');
         const emptyPerksLabel = document.querySelector('label:has(input#empty-perks)');
         const emptyOfferingsLabel = document.querySelector('label:has(input#empty-offerings)');
@@ -447,6 +447,12 @@
                 if (textNode) {
                     textNode.textContent = translations[lang].emptyOfferings;
                 }
+            }
+
+                // Обновляем текст опции "Все убийцы" в выпадающем списке
+            const allKillersOption = document.querySelector('#killer-select option[value="all"]');
+            if (allKillersOption) {
+                allKillersOption.textContent = translations[lang].allKillers;
             }
         }
 

@@ -459,7 +459,7 @@
             Promise.all(imagePromises)
                 .then(() => {
                     // Все изображения загружены
-                    console.log("Все изображения успешно загружены");
+                    //console.log("Все изображения успешно загружены");
                     content.style.height = `${bgImage.clientHeight}px`;
                     container.style.visibility = 'visible'; // Показываем контейнер
                 })
@@ -473,14 +473,14 @@
                 const randomIndex = Math.floor(Math.random() * killers.length);
                 
                 if (lang === 'ru') {
-                    killerText += killer.name_ru + " / ";
+                    killerText += killers[randomIndex].name_ru + " / ";
                 } else if (lang === 'en') {
-                    killerText += killer.name_en + " / ";
+                    killerText += killers[randomIndex].name_en + " / ";
                 } else if (lang === 'es') {
-                    killerText += killer.name_es + " / ";
+                    killerText += killers[randomIndex].name_es + " / ";
                 } else {
                     // По умолчанию используем русский язык
-                    killerText += killer.name_ru + " / ";
+                    killerText += killers[randomIndex].name_ru + " / ";
                 }
                 
                 return killers[randomIndex];
@@ -526,26 +526,26 @@
                 
                 // Выбираем имена перков в зависимости от языка
                 if (lang === 'ru') {
-                    perkText = shuffledPerks[0].name_ru + " / " +
-                            shuffledPerks[1].name_ru + " / " +
-                            shuffledPerks[2].name_ru + " / " +
-                            shuffledPerks[3].name_ru;
+                    perkText = shuffledAddons[0].name_ru + " / " +
+                    shuffledAddons[1].name_ru + " / " +
+                    shuffledAddons[2].name_ru + " / " +
+                    shuffledAddons[3].name_ru;
                 } else if (lang === 'en') {
-                    perkText = shuffledPerks[0].name_en + " / " +
-                            shuffledPerks[1].name_en + " / " +
-                            shuffledPerks[2].name_en + " / " +
-                            shuffledPerks[3].name_en;
+                    perkText = shuffledAddons[0].name_en + " / " +
+                    shuffledAddons[1].name_en + " / " +
+                    shuffledAddons[2].name_en + " / " +
+                    shuffledAddons[3].name_en;
                 } else if (lang === 'es') {
-                    perkText = shuffledPerks[0].name_es + " / " +
-                            shuffledPerks[1].name_es + " / " +
-                            shuffledPerks[2].name_es + " / " +
-                            shuffledPerks[3].name_es;
+                    perkText = shuffledAddons[0].name_es + " / " +
+                    shuffledAddons[1].name_es + " / " +
+                    shuffledAddons[2].name_es + " / " +
+                    shuffledAddons[3].name_es;
                 } else {
                     // По умолчанию используем русский язык
-                    perkText = shuffledPerks[0].name_ru + " / " +
-                            shuffledPerks[1].name_ru + " / " +
-                            shuffledPerks[2].name_ru + " / " +
-                            shuffledPerks[3].name_ru;
+                    perkText = shuffledAddons[0].name_ru + " / " +
+                    shuffledAddons[1].name_ru + " / " +
+                    shuffledAddons[2].name_ru + " / " +
+                    shuffledAddons[3].name_ru;
                 }
                 // Обновляем текстовое поле
                 textDownPerks.textContent = perkText;    

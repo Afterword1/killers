@@ -254,15 +254,6 @@
             background-color: #000000; /* Цвет фона для текста */
         }
         
-        .text-down-podnoshenie {
-            width: 100%; /* Для выравнивания по ширине */
-            text-align: center; /* Выравнивание текста по центру */
-            padding: 10px;
-            color: #ffffff;
-            font-size: 16px;
-            background-color: #000000; /* Цвет фона для текста */
-        }
-        
 
     </style>
 </head>
@@ -359,9 +350,6 @@
         <div class="text-container">
             <div class="text-down-perks"> </div>
         </div>
-        <div class="text-container">
-            <div class="text-down-podnoshenie"> </div>
-        </div>
     </div>
 
     <script>
@@ -414,7 +402,6 @@
             const photoPodnosheniePlaceholder22 = document.getElementById('photo-podnoshenie-placeholder22');
             const textDown = document.querySelector('.text-down');
             const textDownPerks = document.querySelector('.text-down-perks');
-            const textDownPodnoshenie = document.querySelector('.text-down-podnoshenie');
 
             
             let killerText = '';
@@ -437,7 +424,7 @@
                 }
                 const shuffledAddons = [...addons].sort(() => 0.5 - Math.random());
                 killerText += shuffledAddons[0].name_addon_ru +" / " + shuffledAddons[1].name_addon_ru;
-                textDown.textContent = killerText;
+                textDown.textContent += killerText;
                 console.log(killerText);
                 return [shuffledAddons[0], shuffledAddons[1]];
             }
@@ -451,9 +438,6 @@
                     perks.splice(-4);
                 }
                 const shuffledAddons = [...perks].sort(() => 0.5 - Math.random());
-                perkText += shuffledAddons[0].name_ru +" / " + shuffledAddons[1].name_ru +" / " + shuffledAddons[2].name_ru +" / " + shuffledAddons[3].name_ru;
-                textDownPerks.textContent = perkText;
-                console.log(perkText);
                 return [shuffledAddons[0], shuffledAddons[1],shuffledAddons[2],shuffledAddons[3]];
             }
 
@@ -464,14 +448,12 @@
                     // Удаляем последние 4 перка
                     Offerings.splice(-1);
                 }
-
                 const shuffledAddons = [...Offerings].sort(() => 0.5 - Math.random());
-                PodnoshenieText = shuffledAddons[0].name_ru;
-                textDownPodnoshenie.textContent = PodnoshenieText;
-                console.log(PodnoshenieText);
-                
                 return [shuffledAddons[0]];
             }
+
+            
+
 
             fetch('data/killers.json')  // Замените на фактический путь к вашему JSON
                 .then(response => response.json())
@@ -495,13 +477,29 @@
                 
             // Обработчик события для клика по centered-photo
             centeredPhoto.addEventListener('click', function() {
+                
+                //
+                // Функция для получения параметра из URL
+            function getParameterFromUrl(name) {
+                const urlParams = new URLSearchParams(window.location.search);
+                return urlParams.get(name);
+            }
+
+            // Получаем язык из URL
+            const lang = getParameterFromUrl('lang') || 'ru'; // По умолчанию 'ru', если параметр не указан
+
+            // Обновляем текстовое поле
+            if (textOverlay) {
+                textOverlay.textContent = `Выбранный язык: ${lang}`;
+            }
+                //
+
+
                     // Очистка всех изображений перед загрузкой новых
                 const killerSelect = document.getElementById('killer-select');
                 const selectedKiller = killerSelect.value; // Получаем выбранного киллера
                 textDown.textContent = '';
                 killerText = '';
-                perkText = '';
-                PodnoshenieText = '';
 
                 fetch('data/killers.json')  // Замените на фактический путь к вашему JSON
                     .then(response => response.json())

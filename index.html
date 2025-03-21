@@ -574,14 +574,14 @@
                 const shuffledAddons = [...Offerings].sort(() => 0.5 - Math.random());
                 // Выбираем имена перков в зависимости от языка
                 if (lang === 'ru') {
-                    PodnoshenieText = shuffledAddons.name_ru 
+                    PodnoshenieText = shuffledAddons[0].name_ru 
                 } else if (lang === 'en') {
-                    PodnoshenieText = shuffledAddons.name_en
+                    PodnoshenieText = shuffledAddons[0].name_en
                 } else if (lang === 'es') {
-                    PodnoshenieText = shuffledAddons.name_es
+                    PodnoshenieText = shuffledAddons[0].name_es
                 } else {
                     // По умолчанию используем русский язык
-                    PodnoshenieText = shuffledAddons.name_ru
+                    PodnoshenieText = shuffledAddons[0].name_ru
                 }
                 // Обновляем текстовое поле
                 textDownOffering.textContent = PodnoshenieText;  

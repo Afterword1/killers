@@ -407,6 +407,15 @@
         const textDownPerks = document.querySelector('.text-down-perks');
         const textDownOffering = document.querySelector('.text-down-offering');
     
+        // Функция для получения параметра из URL
+        function getParameterFromUrl(name) {
+            const urlParams = new URLSearchParams(window.location.search);
+            return urlParams.get(name);
+        }
+
+        // Получаем язык из URL
+        const lang = getParameterFromUrl('lang') || 'ru'; // По умолчанию 'ru', если параметр не указан
+        
         const emptyAddonsLabel = document.querySelector('label:has(input#empty-addons)');
         const emptyPerksLabel = document.querySelector('label:has(input#empty-perks)');
         const emptyOfferingsLabel = document.querySelector('label:has(input#empty-offerings)');
@@ -416,14 +425,6 @@
         let perkText = '';
         let PodnoshenieText = '';
 
-        // Функция для получения параметра из URL
-        function getParameterFromUrl(name) {
-            const urlParams = new URLSearchParams(window.location.search);
-            return urlParams.get(name);
-        }
-
-        // Получаем язык из URL
-        const lang = getParameterFromUrl('lang') || 'ru'; // По умолчанию 'ru', если параметр не указан
 
         // Обновляем текст чекбоксов и выпадающего списка
         if (translations[lang]) {

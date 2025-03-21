@@ -375,9 +375,9 @@
         const textDown = document.querySelector('.text-down');
         const textDownPerks = document.querySelector('.text-down-perks');
             
-        const emptyAddonsLabel = document.querySelector('label[for="empty-addons"]');
-        const emptyPerksLabel = document.querySelector('label[for="empty-perks"]');
-        const emptyOfferingsLabel = document.querySelector('label[for="empty-offerings"]');
+        const emptyAddonsLabel = document.querySelector('label:has(input#empty-addons)');
+        const emptyPerksLabel = document.querySelector('label:has(input#empty-perks)');
+        const emptyOfferingsLabel = document.querySelector('label:has(input#empty-offerings)');
         const allKillersOption = document.querySelector('#killer-select option[value="all"]');
         
         let killerText = '';

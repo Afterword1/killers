@@ -440,27 +440,6 @@
                 let text4 = '';
 
                 if(currentWindow===1){
-                    if (randomItems.photo_main) {
-                        text1 = `ItemAddons/addon${randomItems.rang}.png`;
-                        text2 = `Items/${randomItems.photo_main}`;
-                        
-                    } else {
-                        photoPlaceholderImg.src = 'default/image/path.png';
-                    } 
-
-                    if (lang === 'ru') {
-                        text3 = randomItems.name_ru;
-                        text4 = randomItems.description_ru;
-                    } else if (lang === 'en') {
-                        text3 = randomItems.name_en;
-                        text4 = randomItems.description_en;
-                    } else if (lang === 'es') {
-                        text3 = randomItems.name_es;
-                        text4 = randomItems.description_es;
-                    } else {
-                        text3 = randomItems.name_ru;
-                        text4 = randomItems.description_ru;
-                    }
 
 
                 }else if (currentWindow===2) {
@@ -634,8 +613,6 @@
                 
                 document.querySelector('.popup-title').textContent = text3;
                 document.querySelector('.popup-description').textContent = text4;
-
-                console.log(randomItems.tipe);
 
                 //document.querySelector('.popup-content').textContent = `Текущее окно: ${currentWindow}`;
                 popup.style.display = 'block';

@@ -965,7 +965,8 @@
                 
             // Обработчик события для клика по centered-photo
             centeredPhoto.addEventListener('click', function() {
-                
+                isRandomized = true;
+
                 // Очистка всех изображений перед загрузкой новых
                 const killerSelect = document.getElementById('killer-select');
                 const selectedKiller = killerSelect.value; // Получаем выбранного киллера

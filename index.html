@@ -36,6 +36,8 @@
             pointer-events: auto;
         }
 
+        
+
         .photo-placeholder,
         .addon00-placeholder,
         .addon11-placeholder,
@@ -262,6 +264,49 @@
             background-color: #000000; /* Цвет фона для текста */
         }
 
+        /* Стили для всплывающего окна */
+        .popup {
+            display: none;
+            position: fixed;
+            top: 25%;
+            left: 5%;
+            width: 90%;
+            min-height: 25%; /* Минимальная высота */
+            height: auto; /* Высота увеличивается по контенту */
+            background-color: rgba(0, 0, 0, 0.9);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+            border-radius: 10px;
+            z-index: 1000;
+            overflow-y: auto; /* Добавляем прокрутку, если контент не помещается */
+        }
+        
+        .popup-text {
+            width: 100%; /* Ширина контейнера с текстом */
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            margin-left: auto; /* Прижимаем контейнер с текстом к правому краю */
+        }
+        
+        .popup-title {
+            font-size: 24px;
+            font-weight: bold;
+            color: white;
+            margin-bottom: 5%; /* Отступ между заголовком и описанием */
+        }
+        
+        .popup-description {
+            font-size: 18px;
+            color: white;
+            align-self: center; /* Выравниваем описание по центру по высоте */
+            margin-top: 5%; /* Отступ сверху 5% от заголовка */
+
+        }
+
     </style>
 </head>
 <body>
@@ -360,9 +405,255 @@
         <div class="text-container">
             <div class="text-down-offering"> </div>
         </div>
+
+        <!-- Всплывающее окно -->
+        <div class="popup" id="popup">
+            <div class="popup-text">
+                <div class="popup-title">Пример заголовка</div>
+                <div class="popup-description">Это пример описания, которое находится по центру по высоте.</div>
+            </div>
+        </div>
     </div>
 
     <script>
+
+        // Переменная для отслеживания состояния рандомизации
+        let isRandomized = false;
+
+        let randomAddons = null;
+        
+
+        let randomPerks = null;
+        let randomOfferings = null;
+
+
+        // Получаем элементы для всплывающего окна
+        const popup = document.getElementById('popup');
+
+        function showPopup() {
+            console.log("Popup shown");
+            if (isRandomized) {
+                // Обновляем содержимое всплывающего окна
+                let text1 = '';
+                let text2 = '';
+                let text3 = '';
+                let text4 = '';
+
+                if(currentWindow===1){
+                    if (randomItems.photo_main) {
+                        text1 = `ItemAddons/addon${randomItems.rang}.png`;
+                        text2 = `Items/${randomItems.photo_main}`;
+                        
+                    } else {
+                        photoPlaceholderImg.src = 'default/image/path.png';
+                    } 
+
+                    if (lang === 'ru') {
+                        text3 = randomItems.name_ru;
+                        text4 = randomItems.description_ru;
+                    } else if (lang === 'en') {
+                        text3 = randomItems.name_en;
+                        text4 = randomItems.description_en;
+                    } else if (lang === 'es') {
+                        text3 = randomItems.name_es;
+                        text4 = randomItems.description_es;
+                    } else {
+                        text3 = randomItems.name_ru;
+                        text4 = randomItems.description_ru;
+                    }
+
+
+                }else if (currentWindow===2) {
+                    if(randomAddons[0].number === 100000){
+                        text2 = `Items/empty.png`;
+                        text1 `ItemAddons/addon${randomAddons[0].rang}.png`;
+                    }else{
+                        text2 = `ItemAddons/${randomAddons[0].photo_main}`;
+                        text1 = `ItemAddons/addon${randomAddons[0].rang}.png`;
+                    }
+                    
+
+                    if (lang === 'ru') {
+                        text3 = randomAddons[0].name_ru;
+                        text4 = randomAddons[0].description_ru;
+                    } else if (lang === 'en') {
+                        text3 = randomAddons[0].name_en;
+                        text4 = randomAddons[0].description_en;
+                    } else if (lang === 'es') {
+                        text3 = randomAddons[0].name_es;
+                        text4 = randomAddons[0].description_es;
+                    } else {
+                        text3 = randomAddons[0].name_ru;
+                        text4 = randomAddons[0].description_ru;
+                    }
+
+                }else if (currentWindow===3) {
+                    if(randomAddons[1].number === 100000){
+                        text2 = `Items/empty.png`;
+                        text1 `ItemAddons/addon${randomAddons[1].rang}.png`;
+                    }else{
+                        text2 = `ItemAddons/${randomAddons[1].photo_main}`;
+                        text1 = `ItemAddons/addon${randomAddons[1].rang}.png`;
+                    }
+
+                    
+                    if (lang === 'ru') {
+                        text3 = randomAddons[1].name_ru;
+                        text4 = randomAddons[1].description_ru;
+                    } else if (lang === 'en') {
+                        text3 = randomAddons[1].name_en;
+                        text4 = randomAddons[1].description_en;
+                    } else if (lang === 'es') {
+                        text3 = randomAddons[1].name_es;
+                        text4 = randomAddons[1].description_es;
+                    } else {
+                        text3 = randomAddons[1].name_ru;
+                        text4 = randomAddons[1].description_ru;
+                    }
+
+                }else if (currentWindow===4) {
+
+                    text2 =  `Perks/${randomPerks[0].photo_main}`;
+                                
+                    if(randomPerks[0].number == 100000){
+                        text1 = `Perks/1.png`;
+                    }else{
+                        text1 = `Perks/perk1.png`;
+                    }
+                                        
+                    if (lang === 'ru') {
+                        text3 = randomPerks[0].name_ru;
+                        text4 = randomPerks[0].description_ru;
+                    } else if (lang === 'en') {
+                        text3 = randomPerks[0].name_en;
+                        text4 = randomPerks[0].description_en;
+                    } else if (lang === 'es') {
+                        text3 = randomPerks[0].name_es;
+                        text4 = randomPerks[0].description_es;
+                    } else {
+                        text3 = randomPerks[0].name_ru;
+                        text4 = randomPerks[0].description_ru;
+                    }
+
+                }else if (currentWindow===5) {
+                    
+                    text2 =  `Perks/${randomPerks[1].photo_main}`;
+                                
+                    if(randomPerks[1].number == 100000){
+                        text1 = `Perks/1.png`;
+                    }else{
+                        text1 = `Perks/perk1.png`;
+                    }
+
+                    if (lang === 'ru') {
+                        text3 = randomPerks[1].name_ru;
+                        text4 = randomPerks[1].description_ru;
+                    } else if (lang === 'en') {
+                        text3 = randomPerks[1].name_en;
+                        text4 = randomPerks[1].description_en;
+                    } else if (lang === 'es') {
+                        text3 = randomPerks[1].name_es;
+                        text4 = randomPerks[1].description_es;
+                    } else {
+                        text3 = randomPerks[1].name_ru;
+                        text4 = randomPerks[1].description_ru;
+                    }
+                }else if (currentWindow===6) {
+                    
+                    text2 =  `Perks/${randomPerks[2].photo_main}`;
+                                
+                    if(randomPerks[2].number == 100000){
+                        text1 = `Perks/1.png`;
+                    }else{
+                        text1 = `Perks/perk1.png`;
+                    }
+
+                    if (lang === 'ru') {
+                        text3 = randomPerks[2].name_ru;
+                        text4 = randomPerks[2].description_ru;
+                    } else if (lang === 'en') {
+                        text3 = randomPerks[2].name_en;
+                        text4 = randomPerks[2].description_en;
+                    } else if (lang === 'es') {
+                        text3 = randomPerks[2].name_es;
+                        text4 = randomPerks[2].description_es;
+                    } else {
+                        text3 = randomPerks[2].name_ru;
+                        text4 = randomPerks[2].description_ru;
+                    }
+
+                }else if (currentWindow===7) {
+                    
+                    text2 =  `Perks/${randomPerks[3].photo_main}`;
+                                
+                    if(randomPerks[3].number == 100000){
+                        text1 = `Perks/1.png`;
+                    }else{
+                        text1 = `Perks/perk1.png`;
+                    }
+
+                    if (lang === 'ru') {
+                        text3 = randomPerks[3].name_ru;
+                        text4 = randomPerks[3].description_ru;
+                    } else if (lang === 'en') {
+                        text3 = randomPerks[3].name_en;
+                        text4 = randomPerks[3].description_en;
+                    } else if (lang === 'es') {
+                        text3 = randomPerks[3].name_es;
+                        text4 = randomPerks[3].description_es;
+                    } else {
+                        text3 = randomPerks[3].name_ru;
+                        text4 = randomPerks[3].description_ru;
+                    }
+
+                }else if (currentWindow===8) {
+
+                    // Обновляем изображения для перков
+                    text2 = `Favors/${randomOfferings[0].photo_main}`;
+                    text1 = `Favors/${randomOfferings[0].rang}.png`;
+
+                    
+                    if (lang === 'ru') {
+                        text3 = randomOfferings[0].name_ru;
+                        text4 = randomOfferings[0].description_ru;
+                    } else if (lang === 'en') {
+                        text3 = randomOfferings[0].name_en;
+                        text4 = randomOfferings[0].description_en;
+                    } else if (lang === 'es') {
+                        text3 = randomOfferings[0].name_es;
+                        text4 = randomOfferings[0].description_es;
+                    } else {
+                        text3 = randomOfferings[0].name_ru;
+                        text4 = randomOfferings[0].description_ru;
+                    }
+
+                }
+
+                //document.getElementById('popup-img1').src = text1;
+                //document.getElementById('popup-img2').src = text2;
+                
+                document.querySelector('.popup-title').textContent = text3;
+                document.querySelector('.popup-description').textContent = text4;
+
+                console.log(randomItems.tipe);
+
+                //document.querySelector('.popup-content').textContent = `Текущее окно: ${currentWindow}`;
+                popup.style.display = 'block';
+            }   
+        }
+        
+        function hidePopup() {
+            console.log("Popup hidden");
+            popup.style.display = 'none';
+        }
+
+
+
+
+
+
+
+
         // Словарь с переводами
         const translations = {
             ru: {
@@ -421,6 +712,50 @@
         const emptyOfferingsLabel = document.querySelector('label:has(input#empty-offerings)');
         const allKillersOption = document.querySelector('#killer-select option[value="all"]');
         
+
+        photoAddonPlaceholderImg1.addEventListener('click', function(event) {
+            event.stopPropagation();
+            currentWindow = 2;
+            showPopup();
+        });
+
+        photoAddonPlaceholderImg2.addEventListener('click', function(event) {
+            event.stopPropagation();
+            currentWindow = 3;
+            showPopup();
+        });
+
+        photoPerks0.addEventListener('click', function(event) {
+            event.stopPropagation();
+            currentWindow = 4;
+            showPopup();
+        });
+
+        photoPerks1.addEventListener('click', function(event) {
+            event.stopPropagation();
+            currentWindow = 5;
+            showPopup();
+        });
+
+        photoPerks2.addEventListener('click', function(event) {
+            event.stopPropagation();
+            currentWindow = 6;
+            showPopup();
+        });
+
+        photoPerks3.addEventListener('click', function(event) {
+            event.stopPropagation();
+            currentWindow = 7;
+            showPopup();
+        });
+
+        photoPodnosheniePlaceholder.addEventListener('click', function(event) {
+            event.stopPropagation();
+            currentWindow = 8;
+            showPopup();
+        });
+
+
         let killerText = '';
         let perkText = '';
         let PodnoshenieText = '';
@@ -674,7 +1009,7 @@
                             // Проверяем, есть ли аддоны у киллера
                             if (randomKiller.addons && randomKiller.addons.length > 1) {
                                 // Получаем два случайных разных аддона
-                                const randomAddons = getTwoRandomAddons(randomKiller.addons, document.getElementById('empty-addons').checked);
+                                randomAddons = getTwoRandomAddons(randomKiller.addons, document.getElementById('empty-addons').checked);
 
                                 // Обновляем изображения для аддонов
                                 if (randomAddons[0].photo_addon) {
@@ -718,7 +1053,7 @@
                     .then(response => response.json())
                     .then(data => {
                         if (data.Killers_perks && data.Killers_perks.length > 0) {
-                            const randomPerks = getForRandomPerks(data.Killers_perks, document.getElementById('empty-perks').checked);
+                            randomPerks = getForRandomPerks(data.Killers_perks, document.getElementById('empty-perks').checked);
 
                             // Обновляем изображения для перков
                             if (randomPerks[0].photo_main) {
@@ -795,7 +1130,7 @@
                     .then(response => response.json())
                     .then(data => {
                         if (data.offerings && data.offerings.length > 0) {
-                            const randomOfferings = getForRandomOfferings(data.offerings, document.getElementById('empty-offerings').checked);
+                            randomOfferings = getForRandomOfferings(data.offerings, document.getElementById('empty-offerings').checked);
 
                             // Обновляем изображения для перков
                             if (randomOfferings[0].photo_main) {
@@ -819,6 +1154,15 @@
                     });
                     
                     
+            });
+
+
+            // Обработчик для закрытия всплывающего окна при клике вне его
+            window.addEventListener('click', function(event) {
+                // Проверяем, был ли клик вне всплывающего окна
+                if (!popup.contains(event.target)) {
+                    hidePopup();
+                }
             });
 
         });
